@@ -6654,7 +6654,7 @@ msgstr "Versão do Banco de Dados"
 #: frappe/public/js/frappe/views/interaction.js:80
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Date"
-msgstr "Data"
+msgstr "Data "
 
 #. Label of a Select field in DocType 'System Settings'
 #. Label of a Data field in DocType 'Country'
@@ -10110,7 +10110,7 @@ msgstr "O tipo de campo não pode ser alterado de {0} para {1}"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:585
 msgid "Fieldtype cannot be changed from {0} to {1} in row {2}"
-msgstr "FieldType não pode ser alterado a partir de {0} a {1} em linha {2}"
+msgstr "O tipo de campo não pode ser alterado de {0} para {1} na linha {2}"
 
 #. Label of a shortcut in the Tools Workspace
 #. Name of a DocType
