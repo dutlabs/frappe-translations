@@ -22252,7 +22252,7 @@ msgstr "Pesquisar ({0})"
 
 #: frappe/public/js/form_builder/components/SearchBox.vue:8
 msgid "Search properties..."
-msgstr "Pesquisar propiedades..."
+msgstr "Pesquisar propriedades..."
 
 #: frappe/templates/includes/search_box.html:8
 msgid "Search results for"
