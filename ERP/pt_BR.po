@@ -40817,7 +40817,7 @@ msgstr "Tipo de Relatório é obrigatório"
 #: erpnext/accounts/report/balance_sheet/balance_sheet.js:13
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:13
 msgid "Report View"
-msgstr "Visualização do Relatório"
+msgstr "Visualização de Relatório"
 
 #. Label of a Tab Break field in DocType 'Accounts Settings'
 #. Label of a Card Break in the Payables Workspace
