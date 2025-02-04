@@ -310,9 +310,9 @@ msgid ""
 msgstr ""
 "# Crie uma Lista de Materiais\n"
 "\n"
-"Uma Lista de Materiais (LDM), mais conhecida como Bill of Materials (BOM), é uma relação de itens e submontagens com as quantidades necessárias para fabricar um Item.\n"
+"Uma Lista de Materiais, mais conhecida como Bill of Materials (BOM), é uma relação de itens e submontagens com as quantidades necessárias para fabricar um Item.\n"
 "\n"
-"A LDM também fornece uma estimativa de custos para a produção do item. Ela considera o custo das matérias-primas com base na arbitragem de valor e os custos das operações com base no roteirização, fornecendo o custo total para uma LDM."
+"A BOM também fornece uma estimativa de custos para a produção do item. Ela considera o custo das matérias-primas com base na arbitragem de valor e os custos das operações com base no roteirização, fornecendo o custo total para uma BOM."
 
 #. Description of the Onboarding Step 'Create a Customer'
 #: erpnext/setup/onboarding_step/create_a_customer/create_a_customer.json
@@ -402,7 +402,7 @@ msgid ""
 msgstr ""
 "# Crie uma Ordem de Serviço\n"
 "\n"
-"Uma Ordem de Serviço, ou Ordem de Serviço, é emitida pelo Gerente de Produção para o chão de fábrica a fim de iniciar a fabricação de uma certa quantidade de um item. A Ordem de Serviço carrega detalhes sobre a produção do Item, sua Lista de Mateirais (LDM), quantidade a ser manufaturadas e operações.\n"
+"Uma Ordem de Serviço, ou Ordem de Serviço, é emitida pelo Gerente de Produção para o chão de fábrica a fim de iniciar a fabricação de uma certa quantidade de um item. A Ordem de Serviço carrega detalhes sobre a produção do Item, sua Lista de Materiais (BOM), quantidade a ser manufaturadas e operações.\n"
 "\n"
 "Por meio da Ordem de Serviço, é possível acompanhar os divesos status da produção, como:\n"
 "\n"
@@ -590,7 +590,7 @@ msgstr ""
 "No Dut ERP, os recursos do módulo de Fabricação são configuráveis conforme as necessidades do seu negócio. As Configurações de Fabricação são o lugar onde você pode definir suas preferências para:\n"
 "\n"
 "- Planejamento de capacidade para alocação de trabalhos a estações\n"
-"- Consumo de matéria-prima com base na LDM ou na realidade\n"
+"- Consumo de matéria-prima com base na BOM ou na realidade\n"
 "- Valores padrão e tolerância para superprodução\n"
 
 #. Description of the Onboarding Step 'Review Stock Settings'
@@ -677,7 +677,7 @@ msgid ""
 msgstr ""
 "# Configurar um Roteiro\n"
 "\n"
-"Um Roteiro armazena todas as Operações, juntamente com a descrição, taxa horária, tempo de operação, tamanho de lote, etc. Clique abaixo para aprender como o modelo de Roteiro pode ser criado, para seleção rápida na LDM."
+"Um Roteiro armazena todas as Operações, juntamente com a descrição, taxa horária, tempo de operação, tamanho de lote, etc. Clique abaixo para aprender como o modelo de Roteiro pode ser criado, para seleção rápida na BOM."
 
 #. Description of the Onboarding Step 'Setup a Warehouse'
 #: erpnext/stock/onboarding_step/create_a_warehouse/create_a_warehouse.json
@@ -4326,7 +4326,7 @@ msgstr "HTML de Todas as Atividades"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:299
 msgid "All BOMs"
-msgstr "Todas as LDMs"
+msgstr "Todas as BOMs"
 
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
@@ -4485,7 +4485,7 @@ msgstr "Todos os Comentários e E-mails serão copiados de um documento para out
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:987
 msgid "All the required items (raw materials) will be fetched from BOM and populated in this table. Here you can also change the Source Warehouse for any item. And during the production, you can track transferred raw materials from this table."
-msgstr "Todos os itens necessários (matérias-primas) serão buscados da LDM e preenchidos nesta tabela. Aqui você também pode alterar o Armazém de Origem de qualquer item. E durante a produção, você pode rastrear as matérias-primas transferidas a partir desta tabela"
+msgstr "Todos os itens necessários (matérias-primas) serão buscados da BOM e preenchidos nesta tabela. Aqui você também pode alterar o Armazém de Origem de qualquer item. E durante a produção, você pode rastrear as matérias-primas transferidas a partir desta tabela"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:962
 msgid "All these items have already been Invoiced/Returned"
@@ -7056,30 +7056,30 @@ msgstr "Qtde BIN"
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "BOM"
-msgstr "LDM"
+msgstr "BOM"
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:21
 msgid "BOM 1"
-msgstr "LDM 1"
+msgstr "BOM 1"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1381
 msgid "BOM 1 {0} and BOM 2 {1} should not be same"
-msgstr "LDM 1 {0} e LDM 2 {1} não devem ser iguais"
+msgstr "BOM 1 {0} e BOM 2 {1} não devem ser iguais"
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:38
 msgid "BOM 2"
-msgstr "LDM 2"
+msgstr "BOM 2"
 
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:4
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Comparison Tool"
-msgstr "Ferramenta de Comparação de LDM"
+msgstr "Ferramenta de Comparação de BOM"
 
 #. Label of a Check field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 msgid "BOM Created"
-msgstr "LDM Criado"
+msgstr "BOM Criada"
 
 #. Label of a Link field in DocType 'BOM'
 #. Name of a DocType
@@ -7088,14 +7088,14 @@ msgstr "LDM Criado"
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Creator"
-msgstr "Criador do LDM"
+msgstr "Criador do BOM"
 
 #. Label of a Data field in DocType 'BOM'
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 msgid "BOM Creator Item"
-msgstr "Item Criador do LDM"
+msgstr "Item de Criador de BOM"
 
 #. Label of a Data field in DocType 'Purchase Order Item Supplied'
 #. Label of a Data field in DocType 'Purchase Receipt Item Supplied'
@@ -7106,37 +7106,37 @@ msgstr "Item Criador do LDM"
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "BOM Detail No"
-msgstr "Nº do Detalhe da LDM"
+msgstr "Nº do Detalhe da BOM"
 
 #. Name of a report
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.json
 msgid "BOM Explorer"
-msgstr "Explorador LDM"
+msgstr "Explorador BOM"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 msgid "BOM Explosion Item"
-msgstr "Item da Explosão da LDM"
+msgstr "Item de Explosão de BOM"
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.js:20
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:101
 msgid "BOM ID"
-msgstr "LDM ID"
+msgstr "BOM ID"
 
 #. Label of a Section Break field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "BOM Info"
-msgstr "Informações da LDM"
+msgstr "Informações da BOM"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "BOM Item"
-msgstr "Item da LDM"
+msgstr "Item da BOM"
 
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:60
 #: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:166
 msgid "BOM Level"
-msgstr "Nível da LDM"
+msgstr "Nível da BOM"
 
 #. Label of a Link field in DocType 'BOM Item'
 #. Label of a Link field in DocType 'Job Card'
@@ -7159,51 +7159,51 @@ msgstr "Nível da LDM"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No"
-msgstr "Nº da LDM"
+msgstr "Nº da BOM"
 
 #. Description of the 'BOM No' (Link) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No. for a Finished Good Item"
-msgstr "Nº da LDM Para Um Item Acabado"
+msgstr "Nº da BOM Para Um Item Acabado"
 
 #. Name of a DocType
 #. Label of a Table field in DocType 'Routing'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 #: erpnext/manufacturing/doctype/routing/routing.json
 msgid "BOM Operation"
-msgstr "Operação da LDM"
+msgstr "Operação De Lista de Materiais (BOM)"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Operations Time"
-msgstr "Tempo de operações LDM"
+msgstr "Tempo de Operações Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:27
 msgid "BOM Qty"
-msgstr "Qtd da LDM"
+msgstr "Qtd da Lista de Materiais (BOM)"
 
 #: erpnext/stock/report/item_prices/item_prices.py:60
 msgid "BOM Rate"
-msgstr "Valor na LDM"
+msgstr "Valor na Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
 msgid "BOM Scrap Item"
-msgstr "Item de Sucata da LDM"
+msgstr "Item de Sucata de Lista de Materiais (BOM)"
 
 #. Label of a Link in the Manufacturing Workspace
 #. Name of a report
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 #: erpnext/stock/report/bom_search/bom_search.json
 msgid "BOM Search"
-msgstr "Pesquisar LDM"
+msgstr "Pesquisar Lista de Materiais (BOM)"
 
 #. Name of a report
 #: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.json
 msgid "BOM Stock Calculated"
-msgstr "Estoque LDM Calculado"
+msgstr "Estoque de Lista de Materiais (BOM) Calculado"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
@@ -7212,120 +7212,120 @@ msgstr "Estoque LDM Calculado"
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Stock Report"
-msgstr "Relatório de Estoque Por LDM"
+msgstr "Relatório de Estoque Por Lista de Materiais (BOM)"
 
 #. Label of a Tab Break field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "BOM Tree"
-msgstr "Árvore LDM"
+msgstr "Árvore Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:28
 msgid "BOM UoM"
-msgstr "Unidade de Medida (UdM) da LDM"
+msgstr "Unidade de Medida (UdM) da Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
 msgid "BOM Update Batch"
-msgstr "Lote de Atualização da LDM"
+msgstr "Lote de Atualização da Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.js:84
 msgid "BOM Update Initiated"
-msgstr "Atualização da LDM Iniciada"
+msgstr "Atualização da Lista de Materiais (BOM) Iniciada"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 msgid "BOM Update Log"
-msgstr "Registro de Atualização da LDM"
+msgstr "Registro de Atualização da Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Update Tool"
-msgstr "Ferramenta de Atualização da LDM"
+msgstr "Ferramenta de Atualização da Lista de Materiais (BOM)"
 
 #. Description of a DocType
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 msgid "BOM Update Tool Log with job status maintained"
-msgstr "Registro da Ferramenta de Atualização da LDM com status do trabalho mantido"
+msgstr "Registro da Ferramenta de Atualização da Lista de Materiais (BOM) com status do trabalho mantido"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:99
 msgid "BOM Updation already in progress. Please wait until {0} is complete."
-msgstr "Atualização da LDM já em andamento. Aguarde até que {0} seja concluído."
+msgstr "Atualização da Lista de Materiais (BOM) já em andamento. Aguarde até que {0} seja concluído."
 
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.js:81
 msgid "BOM Updation is queued and may take a few minutes. Check {0} for progress."
-msgstr "A atualização da LDM está na fila e pode levar alguns minutos. Verifique {0} para o progresso."
+msgstr "A atualização da Lista de Materiais (BOM) está na fila e pode levar alguns minutos. Verifique {0} para o progresso."
 
 #. Name of a report
 #: erpnext/manufacturing/report/bom_variance_report/bom_variance_report.json
 msgid "BOM Variance Report"
-msgstr "Relatório de Variação da LDM"
+msgstr "Relatório de Variação da Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json
 msgid "BOM Website Item"
-msgstr "LDM dos Itens no Website"
+msgstr "Lista de Materiais (BOM) de Itens no Website"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_website_operation/bom_website_operation.json
 msgid "BOM Website Operation"
-msgstr "LDM da Operação do Website"
+msgstr "Lista de Materiais (BOM) de Operação do Website"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:1188
 msgid "BOM and Manufacturing Quantity are required"
-msgstr "A LDM e a Quantidade para Fabricação são necessários"
+msgstr "A Lista de Materiais (BOM) e a Quantidade para Fabricação são necessários"
 
 #. Label of a Tab Break field in DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "BOM and Production"
-msgstr "LDM e Produção"
+msgstr "Lista de Materiais (BOM) e Produção"
 
 #: erpnext/stock/doctype/material_request/material_request.js:335
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:694
 msgid "BOM does not contain any stock item"
-msgstr "LDM não contém nenhum item de estoque"
+msgstr "Lista de Materiais (BOM) não contém nenhum item de estoque"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_updation_utils.py:85
 msgid "BOM recursion: {0} cannot be child of {1}"
-msgstr "Recursão da LDM: {0} não pode ser filho de {1}"
+msgstr "Recursão de BOM: {0} não pode ser filho de {1}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:660
 msgid "BOM recursion: {1} cannot be parent or child of {0}"
-msgstr "Recursão da LDM: {1} não pode ser pai ou filho de {0}."
+msgstr "Recursão de Lista de Materiais (BOM): {1} não pode ser pai ou filho de {0}."
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1252
 msgid "BOM {0} does not belong to Item {1}"
-msgstr "LDM {0} não pertencem ao Item {1}"
+msgstr "Lista de Materiais (BOM) {0} não pertencem ao Item {1}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1234
 msgid "BOM {0} must be active"
-msgstr "LDM {0} deve ser ativa"
+msgstr "BOM {0} deve ser ativa"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1237
 msgid "BOM {0} must be submitted"
-msgstr "LDM {0} deve ser enviada"
+msgstr "Lista de Materiais (BOM) {0} deve ser enviada"
 
 #. Label of a Long Text field in DocType 'BOM Update Batch'
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
 msgid "BOMs Updated"
-msgstr "LDMs Atualizados"
+msgstr "Listas de Materiais (BOM) Atualizadas"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:263
 msgid "BOMs created successfully"
-msgstr "LDMs criados com sucesso"
+msgstr "Listas de Materiais (BOM) criadas com sucesso"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:273
 msgid "BOMs creation failed"
-msgstr "Falha na criação das LDMs"
+msgstr "Falha na criação das Listas de Materiais (BOM)"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:222
 msgid "BOMs creation has been enqueued, kindly check the status after some time"
-msgstr "A criação das LDMs foi colocada na fila, por favor verifique o status após algum tempo"
+msgstr "A criação das listas de materiais (BOM) foi colocada na fila, por favor verifique o status após algum tempo"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:337
 msgid "Backdated Stock Entry"
-msgstr "Entrada de Estoque Retroativa"
+msgstr "Lançamento de Estoque Retroativa"
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:16
 msgid "Backflush Raw Materials"
@@ -8476,7 +8476,7 @@ msgstr "Ajuda do Corpo e do Texto de Fechamento"
 #. Label of a Link field in DocType 'Production Plan Sub Assembly Item'
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 msgid "Bom No"
-msgstr "Nº LDM"
+msgstr "Nº BOM"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:174
 msgid "Book Advance Payments as Liability option is chosen. Paid From account changed from {0} to {1}."
@@ -8681,7 +8681,7 @@ msgstr "Pesquisar Aplicativos"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:102
 msgid "Browse BOM"
-msgstr "Navegar LDM"
+msgstr "Navegar BOM"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -9452,7 +9452,7 @@ msgstr "Não é possível criar lançamentos contábeis vinculadas a contas desa
 
 #: erpnext/manufacturing/doctype/bom/bom.py:976
 msgid "Cannot deactivate or cancel BOM as it is linked with other BOMs"
-msgstr "Não é possível desativar ou cancelar LDM vez que está associada com outras LDMs"
+msgstr "Não é possível desativar ou cancelar BOM, uma vez que está associada com outras BOMs"
 
 #: erpnext/crm/doctype/opportunity/opportunity.py:275
 msgid "Cannot declare as lost, because Quotation has been made."
@@ -10201,7 +10201,7 @@ msgstr "Limpando Dados de Demonstração..."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:584
 msgid "Click on 'Get Finished Goods for Manufacture' to fetch the items from the above Sales Orders. Items only for which a BOM is present will be fetched."
-msgstr "Clique em 'Obter Produtos Acabados para Fabricação' para buscar os itens dos Pedidos de Vendas acima. Serão buscados apenas itens para os quais uma LDM está presente."
+msgstr "Clique em 'Obter Produtos Acabados para Fabricação' para buscar os itens dos Pedidos de Vendas acima. Serão buscados apenas itens para os quais uma BOM está presente."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:70
 msgid "Click on Add to Holidays. This will populate the holidays table with all the dates that fall on the selected weekly off. Repeat the process for populating the dates for all your weekly holidays"
@@ -13698,11 +13698,11 @@ msgstr "Ativos Circulantes"
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "Current BOM"
-msgstr "LDM Atual"
+msgstr "BOM Atual"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:77
 msgid "Current BOM and New BOM can not be same"
-msgstr "A LDM Atual e a Nova LDM não podem ser as mesmas"
+msgstr "A BOM Atual e a Nova BOM não podem ser as mesmas"
 
 #. Label of a Float field in DocType 'Exchange Rate Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
@@ -15018,19 +15018,19 @@ msgstr "Conta de Adiantamento Recebido Padrão"
 #. Label of a Link field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Default BOM"
-msgstr "LDM Padrão"
+msgstr "BOM Padrão"
 
 #: erpnext/stock/doctype/item/item.py:416
 msgid "Default BOM ({0}) must be active for this item or its template"
-msgstr "LDM Padrão ({0}) precisa estar ativo para este item ou o seu modelo"
+msgstr "BOM Padrão ({0}) precisa estar ativa para este item ou o seu modelo"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1287
 msgid "Default BOM for {0} not found"
-msgstr "Não foi encontrado a LDM Padrão para {0}"
+msgstr "Não foi encontrado a BOM Padrão para {0}"
 
 #: erpnext/controllers/accounts_controller.py:3485
 msgid "Default BOM not found for FG Item {0}"
-msgstr "LDM Padrão não encontrado para o Item FG {0}"
+msgstr "BOM Padrão não encontrado para o Item FG {0}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1284
 msgid "Default BOM not found for Item {0} and Project {1}"
@@ -19357,7 +19357,7 @@ msgstr "Buscar Valor De"
 #: erpnext/stock/doctype/material_request/material_request.js:321
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:665
 msgid "Fetch exploded BOM (including sub-assemblies)"
-msgstr "Buscar LDM explodida (incluindo sub-conjuntos )"
+msgstr "Buscar BOM explodida (incluindo sub-conjuntos )"
 
 #. Description of the 'Get Items from Open Material Requests' (Button) field in
 #. DocType 'Purchase Order'
@@ -19615,7 +19615,7 @@ msgstr "Bem Acabado"
 #. Label of a Link field in DocType 'Subcontracting BOM'
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
 msgid "Finished Good BOM"
-msgstr "LDM de Produto Acabado"
+msgstr "BOM de Produto Acabado"
 
 #. Label of a Link field in DocType 'Subcontracting Order Service Item'
 #: erpnext/public/js/utils.js:737
@@ -19667,7 +19667,7 @@ msgstr "UDM de Produto Acabado"
 
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:51
 msgid "Finished Good {0} does not have a default BOM."
-msgstr "Produto Acabado {0} não tem um LDM padrão."
+msgstr "Produto Acabado {0} não tem um BOM padrão."
 
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:46
 msgid "Finished Good {0} is disabled."
@@ -20105,7 +20105,7 @@ msgstr "Para a comodidade dos clientes, estes códigos podem ser usados em forma
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:735
 msgid "For the item {0}, the quantity should be {1} according to the BOM {2}."
-msgstr "Para o item {0}, a quantidade deve ser {1} de acordo com a LDM {2}."
+msgstr "Para o item {0}, a quantidade deve ser {1} de acordo com a BOM {2}."
 
 #: erpnext/controllers/stock_controller.py:291
 msgid "For the {0}, no stock is available for the return in the warehouse {1}."
@@ -20249,7 +20249,7 @@ msgstr "De"
 #. Label of a Check field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "From BOM"
-msgstr "Da LDM"
+msgstr "Da BOM"
 
 #. Label of a Data field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
@@ -20869,7 +20869,7 @@ msgstr "Gráfico de Gantt de todas as tarefas."
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Gender"
-msgstr "Sexo"
+msgstr "Gênero"
 
 #. Option for the 'Type' (Select) field in DocType 'Mode of Payment'
 #: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.json
@@ -21066,7 +21066,7 @@ msgstr "Obter Itens de Recibos de Compra"
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:668
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:681
 msgid "Get Items from BOM"
-msgstr "Obter itens da LDM"
+msgstr "Obter itens da BOM"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:375
 msgid "Get Items from Material Requests against this Supplier"
@@ -22339,7 +22339,7 @@ msgstr "Se subcontratada a um fornecedor"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:982
 msgid "If the BOM results in Scrap material, the Scrap Warehouse needs to be selected."
-msgstr "Se a LDM resultar em material de sucata, o Armazém de Sucata precisa ser selecionado."
+msgstr "Se a BOM resultar em material de sucata, o Armazém de Sucata precisa ser selecionado."
 
 #. Description of the 'Frozen' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -22352,7 +22352,7 @@ msgstr "Se o item estiver sendo negociado como um item de Taxa de avaliação ze
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1001
 msgid "If the selected BOM has Operations mentioned in it, the system will fetch all Operations from BOM, these values can be changed."
-msgstr "Se a LDM selecionada tiver operações mencionadas, o sistema buscará todas as operações da LDM, esses valores podem ser alterados."
+msgstr "Se a BOM selecionada tiver operações mencionadas, o sistema buscará todas as operações da BOM, esses valores podem ser alterados."
 
 #. Description of the 'Catch All' (Link) field in DocType 'Communication
 #. Medium'
@@ -22417,7 +22417,7 @@ msgstr "Se marcado, vários materiais podem ser usados para uma única Ordem de 
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:36
 msgid "If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials."
-msgstr "Se marcado, o custo da LDM será atualizado automaticamente com base na Taxa de avaliação / Taxa de lista de preços / última taxa de compra de matérias-primas."
+msgstr "Se marcado, o custo da BOM será atualizado automaticamente com base na Taxa de avaliação / Taxa de lista de preços / última taxa de compra de matérias-primas."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:14
 msgid "If unlimited expiry for the Loyalty Points, keep the Expiry Duration empty or 0."
@@ -24724,7 +24724,7 @@ msgstr "Saída de Material"
 #: erpnext/support/report/issue_summary/issue_summary.py:67
 #: erpnext/support/workspace/support/support.json
 msgid "Issue Priority"
-msgstr "Prioridade do Incidente"
+msgstr "Prioridade de Incidente"
 
 #. Label of a Link field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
@@ -27136,7 +27136,7 @@ msgstr "Nível"
 #. Label of a Int field in DocType 'Production Plan Sub Assembly Item'
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 msgid "Level (BOM)"
-msgstr "Nível (LDM)"
+msgstr "Nível (BOM)"
 
 #. Label of a Int field in DocType 'Account'
 #. Label of a Int field in DocType 'Company'
@@ -29941,7 +29941,7 @@ msgstr "Novos Ativos (este Ano)"
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "New BOM"
-msgstr "Nova LDM"
+msgstr "Nova BOM"
 
 #. Label of a Currency field in DocType 'Exchange Rate Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
@@ -30293,7 +30293,7 @@ msgstr "Nenhuma entrada de contabilidade para os seguintes armazéns"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:687
 msgid "No active BOM found for item {0}. Delivery by Serial No cannot be ensured"
-msgstr "Nenhuma LDM ativo encontrado para o item {0}. a entrega por número de série não pode ser garantida"
+msgstr "Nenhuma BOM ativo encontrado para o item {0}. a entrega por número de série não pode ser garantida"
 
 #: erpnext/stock/doctype/item_variant_settings/item_variant_settings.js:46
 msgid "No additional fields available"
@@ -31245,7 +31245,7 @@ msgstr "Atividades Abertas HTML"
 
 #: erpnext/manufacturing/doctype/bom/bom_item_preview.html:21
 msgid "Open BOM {0}"
-msgstr "Abrir LDM {0}"
+msgstr "Abrir BOM {0}"
 
 #: erpnext/public/js/templates/call_link.html:11
 msgid "Open Call Log"
@@ -31504,11 +31504,11 @@ msgstr "Custo Operacional (moeda da Empresa)"
 #. Label of a Currency field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Operating Cost Per BOM Quantity"
-msgstr "Custo Operacional por Quantidade da LDM"
+msgstr "Custo Operacional por Quantidade da BOM"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1356
 msgid "Operating Cost as per Work Order / BOM"
-msgstr "Custo Operacional Conforme Ordem de Serviço / LDM"
+msgstr "Custo Operacional Conforme Ordem de Serviço / BOM"
 
 #. Label of a Currency field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
@@ -33231,7 +33231,7 @@ msgstr "Item Específico da Parte"
 #: erpnext/setup/doctype/party_type/party_type.json
 #: erpnext/stock/report/serial_no_ledger/serial_no_ledger.py:79
 msgid "Party Type"
-msgstr "Tipo de Parceiro"
+msgstr "Tipo de Parte"
 
 #: erpnext/accounts/party.py:770
 msgid "Party Type and Party can only be set for Receivable / Payable account<br><br>{0}"
@@ -35043,7 +35043,7 @@ msgstr "O número de visitas é obrigatório"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:70
 msgid "Please mention the Current and New BOM for replacement."
-msgstr "Por favor, mencione a LDM Atual e Novo para substituição."
+msgstr "Por favor, mencione a BOM Atual e Novo para substituição."
 
 #: erpnext/selling/doctype/installation_note/installation_note.py:119
 msgid "Please pull items from Delivery Note"
@@ -35077,15 +35077,15 @@ msgstr "Por favor selecione Aplicar Discount On"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:1534
 msgid "Please select BOM against item {0}"
-msgstr "Selecione LDM em relação ao item {0}"
+msgstr "Por favor, selecione a BOM em relação ao item {0}"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:170
 msgid "Please select BOM for Item in Row {0}"
-msgstr "Por favor selecione LDM para o Item na linha {0}"
+msgstr "Por favor, selecione a BOM para o Item na linha {0}"
 
 #: erpnext/controllers/buying_controller.py:434
 msgid "Please select BOM in BOM field for Item {0}"
-msgstr "Por favor selecione a LDM no campo LDM para o Item {0}"
+msgstr "Por favor selecione a BOM no campo BOM para o Item {0}"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:63
 msgid "Please select Bank Account"
@@ -35147,7 +35147,7 @@ msgstr "Por favor, selecione o Status da Manutenção como Concluído ou remova 
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:63
 #: erpnext/selling/report/address_and_contacts/address_and_contacts.js:27
 msgid "Please select Party Type first"
-msgstr "Por favor, selecione o Tipo de Parceiro primeiro"
+msgstr "Por favor, selecione o Tipo de Parte primeiro"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:505
 msgid "Please select Posting Date before selecting Party"
@@ -35187,7 +35187,7 @@ msgstr "Por favor, selecione uma conta de Lucro/Prejuízo Não Realizado ou adic
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1258
 msgid "Please select a BOM"
-msgstr "Selecione uma LDM"
+msgstr "Por favor, selecione uma BOM"
 
 #: erpnext/accounts/party.py:388
 msgid "Please select a Company"
@@ -35583,7 +35583,7 @@ msgstr "Por favor, defina {0} para o endereço {1}"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:207
 msgid "Please set {0} in BOM Creator {1}"
-msgstr "Por favor, defina {0} no Criador de LDM {1}."
+msgstr "Por favor, defina {0} no Criador de BOM {1}."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1069
 msgid "Please set {0} in Company {1} to account for Exchange Gain / Loss"
@@ -37015,7 +37015,7 @@ msgstr "Produtos, Compras, Análise e mais."
 #. Subtitle of the Module Onboarding 'Manufacturing'
 #: erpnext/manufacturing/module_onboarding/manufacturing/manufacturing.json
 msgid "Products, Raw Materials, BOM, Work Order, and more."
-msgstr "Produtos, Materiais Brutos, LDM, Ordem de Serviço e mais."
+msgstr "Produtos, Materiais Brutos, BOM, Ordem de Serviço e mais."
 
 #. Subtitle of the Module Onboarding 'Selling'
 #: erpnext/selling/module_onboarding/selling/selling.json
@@ -38311,7 +38311,7 @@ msgstr "Qtde Depois da Transação"
 #. Label of a Float field in DocType 'Material Request Plan Item'
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
 msgid "Qty As Per BOM"
-msgstr "Quantidade Conforme LDM"
+msgstr "Quantidade Conforme BOM"
 
 #. Label of a Float field in DocType 'Stock Ledger Entry'
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
@@ -40758,7 +40758,7 @@ msgstr "Substituir"
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "Replace BOM"
-msgstr "Substituir LDM"
+msgstr "Substituir BOM"
 
 #. Description of a DocType
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
@@ -40766,8 +40766,8 @@ msgid ""
 "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate \"BOM Explosion Item\" table as per new BOM.\n"
 "It also updates latest price in all the BOMs."
 msgstr ""
-"Substitua uma Lista de Materiais (BOM) específica em todas as outras listas de materiais onde ela é usada. O link da LDM antiga será substituído, o custo atualizado e tabela de \"Explosão de Itens da LDM\" regenerada conforme a nova LDM.\n"
-"O preço mais recente será atualizado em todas as LDMs."
+"Substitua uma Lista de Materiais (BOM) específica em todas as outras listas de materiais onde ela é usada. O link da BOM antiga será substituído, o custo atualizado e tabela de \"Explosão de Itens da BOM\" regenerada conforme a nova BOM.\n"
+"O preço mais recente será atualizado em todas as BOMs."
 
 #. Option for the 'Status' (Select) field in DocType 'Lead'
 #. Option for the 'Status' (Select) field in DocType 'Opportunity'
@@ -41554,7 +41554,7 @@ msgstr "Entrada de Estoque de Retenção"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:535
 msgid "Retention Stock Entry already created or Sample Quantity not provided"
-msgstr "Entrada de estoque de retenção já criada ou Quantidade de amostra não fornecida"
+msgstr "Lançamento de estoque de retenção já criada ou Quantidade de amostra não fornecida"
 
 #. Label of a Int field in DocType 'Bulk Transaction Log Detail'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
@@ -42139,7 +42139,7 @@ msgstr "Linha #{0}: Ativo {1} não pode ser enviado, já é {2}"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:346
 msgid "Row #{0}: BOM is not specified for subcontracting item {0}"
-msgstr "Linha #{0}: A LDM não está especificado para o item de subcontratação {0}."
+msgstr "Linha #{0}: A BOM não está especificada para o item de subcontratação {0}."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:311
 msgid "Row #{0}: Batch No {1} is already selected."
@@ -42219,7 +42219,7 @@ msgstr "Linha #{0}: As datas estão se sobrepondo com outra linha."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:370
 msgid "Row #{0}: Default BOM not found for FG Item {1}"
-msgstr "Linha #{0}: LDM padrão não foi encontrado para o Item FG {1}."
+msgstr "Linha #{0}: BOM padrão não foi encontrada para o Item FG {1}."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:222
 msgid "Row #{0}: Duplicate entry in References {1} {2}"
@@ -42319,7 +42319,7 @@ msgstr "Linha #{0}: Por favor, selecione o Código do Item nos Itens de Montagem
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:936
 msgid "Row #{0}: Please select the BOM No in Assembly Items"
-msgstr "Linha #{0}: Por favor, selecione o número da LDM nos Itens de Montagem"
+msgstr "Linha #{0}: Por favor, selecione o número da BOM nos Itens de Montagem"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:930
 msgid "Row #{0}: Please select the Sub Assembly Warehouse"
@@ -42679,7 +42679,7 @@ msgstr "Linha {0}: Lançamento de crédito não pode ser relacionado a uma {1}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:462
 msgid "Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2}"
-msgstr "Linha {0}: Moeda da LDM #{1} deve ser igual à moeda selecionada {2}"
+msgstr "Linha {0}: Moeda da BOM #{1} deve ser igual à moeda selecionada {2}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:708
 msgid "Row {0}: Debit entry can not be linked with a {1}"
@@ -42790,7 +42790,7 @@ msgstr "Linha {0}: Parceiro / Conta não coincidem com {1} / {2} em {3} {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:553
 msgid "Row {0}: Party Type and Party is required for Receivable / Payable account {1}"
-msgstr "Linha {0}: Tipo de Parceiro e Parceiro são necessários para receber / pagar contas {1}"
+msgstr "Linha {0}: Tipo de Parte e Parte são necessários para receber / pagar contas {1}"
 
 #: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:45
 msgid "Row {0}: Payment Term is mandatory"
@@ -42810,15 +42810,15 @@ msgstr "Linha {0}: Por favor, forneça uma referência válida de Nota de Entreg
 
 #: erpnext/controllers/subcontracting_controller.py:146
 msgid "Row {0}: Please select a BOM for Item {1}."
-msgstr "Linha {0}: Por favor, selecione uma LDM para o Item {1}."
+msgstr "Linha {0}: Por favor, selecione uma BOM para o Item {1}."
 
 #: erpnext/controllers/subcontracting_controller.py:134
 msgid "Row {0}: Please select an active BOM for Item {1}."
-msgstr "Linha {0}: Por favor, selecione uma LDM ativa para o Item {1}."
+msgstr "Linha {0}: Por favor, selecione uma BOM ativa para o Item {1}."
 
 #: erpnext/controllers/subcontracting_controller.py:140
 msgid "Row {0}: Please select an valid BOM for Item {1}."
-msgstr "Linha {0}: Por favor, selecione uma LDM válida para o Item {1}."
+msgstr "Linha {0}: Por favor, selecione uma BOM válida para o Item {1}."
 
 #: erpnext/regional/italy/utils.py:310
 msgid "Row {0}: Please set at Tax Exemption Reason in Sales Taxes and Charges"
@@ -44360,15 +44360,15 @@ msgstr "Selecione os Valores do Atributo"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:857
 msgid "Select BOM"
-msgstr "Selecionar LDM"
+msgstr "Selecionar BOM"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:844
 msgid "Select BOM and Qty for Production"
-msgstr "Selecionar LDM e Quantidade Para Produção"
+msgstr "Selecionar BOM e Quantidade Para Produção"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:989
 msgid "Select BOM, Qty and For Warehouse"
-msgstr "Selecione LDM, Quantidade e Para Armazém"
+msgstr "Selecione BOM, Quantidade e Para Armazém"
 
 #: erpnext/public/js/utils/sales_common.js:386
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:221
@@ -44609,7 +44609,7 @@ msgstr "Selecione a conta bancária para reconciliar."
 
 #: erpnext/manufacturing/doctype/operation/operation.js:25
 msgid "Select the Default Workstation where the Operation will be performed. This will be fetched in BOMs and Work Orders."
-msgstr "Selecione a Estação de Trabalho Padrão onde a Operação será realizada. Isso será utilizado em LDMs e Ordens de Serviço."
+msgstr "Selecione a Estação de Trabalho Padrão onde a Operação será realizada. Isso será utilizado em BOMs e Ordens de Serviço."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:937
 msgid "Select the Item to be manufactured."
@@ -45559,7 +45559,7 @@ msgstr "Definir Custo Operacional / Itens de Sucata de Submontagens"
 #. Label of a Check field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Set Operating Cost Based On BOM Quantity"
-msgstr "Definir Custo Operacional com Base na Quantidade da Lista de Materiais (LDM)"
+msgstr "Definir Custo Operacional com Base na Quantidade da Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:86
 msgid "Set Parent Row No in Items Table"
@@ -45677,7 +45677,7 @@ msgstr "Definir quantidade do item de perda de processo:"
 #. Label of a Check field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set rate of sub-assembly item based on BOM"
-msgstr "Definir custo de semiacabado baseado na LDM"
+msgstr "Definir custo de semiacabado baseado na BOM"
 
 #. Description of the 'Sales Person Targets' (Section Break) field in DocType
 #. 'Sales Person'
@@ -47372,12 +47372,12 @@ msgstr "Lançamento no Estoque"
 #. Label of a Link field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Stock Entry (Outward GIT)"
-msgstr "Entrada de Estoque (git Externo)"
+msgstr "Lançamento de Estoque (git Externo)"
 
 #. Label of a Data field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Stock Entry Child"
-msgstr "Filho de Entrada de Estoque"
+msgstr "Filho de Lançamento de Estoque"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
@@ -47389,11 +47389,11 @@ msgstr "Detalhe do Lançamento no Estoque"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Stock Entry Type"
-msgstr "Tipo de Entrada de Estoque"
+msgstr "Tipo de Lançamento de Estoque"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1264
 msgid "Stock Entry has been already created against this Pick List"
-msgstr "A entrada de estoque já foi criada para esta lista de separação"
+msgstr "O lançamento de estoque já foi criado para esta lista de separação"
 
 #: erpnext/stock/doctype/batch/batch.js:120
 msgid "Stock Entry {0} created"
@@ -48033,7 +48033,7 @@ msgstr "Subcontratar"
 #. Label of a Section Break field in DocType 'Purchase Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Subcontract BOM"
-msgstr "LDM de Subcontratação"
+msgstr "BOM de Subcontratação"
 
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.js:36
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:128
@@ -48083,7 +48083,7 @@ msgstr "Matérias-primas Subcontratadas a Serem Transferidas"
 #. Name of a DocType
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
 msgid "Subcontracting BOM"
-msgstr "LDM de Subcontratação"
+msgstr "BOM de Subcontratação"
 
 #. Label of a Link field in DocType 'Stock Entry'
 #. Name of a DocType
@@ -50388,7 +50388,7 @@ msgstr "O Módulo de Ativos está todo configurado!"
 #. Description of the 'Current BOM' (Link) field in DocType 'BOM Update Tool'
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "The BOM which will be replaced"
-msgstr "A LDM que será substituída"
+msgstr "A BOM que será substituída"
 
 #. Success message of the Module Onboarding 'Buying'
 #: erpnext/buying/module_onboarding/buying/buying.json
@@ -50459,7 +50459,7 @@ msgstr "O Lote e Série do Pacote {0} não são válidos para esta transação. 
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:17
 msgid "The Stock Entry of type 'Manufacture' is known as backflush. Raw materials being consumed to manufacture finished goods is known as backflushing. <br><br> When creating Manufacture Entry, raw-material items are backflushed based on BOM of production item. If you want raw-material items to be backflushed based on Material Transfer entry made against that Work Order instead, then you can set it under this field."
-msgstr "O Lançamento de Estoque do tipo 'Fabricação' é conhecida como Backflush. A matéria-prima que é consumida na fabricação dos produtos acabados é conhecida como Backflushing.<br><br> Ao lançar uma Entrada de Fabricação, os itens de matéria-prima são backflushed com base na LDM do item de produção. Se deseja que os itens de matéria-prima sejam backflushed com base na Entrada de Transferência de Material feita para a Ordem de Serviço, defina neste campo."
+msgstr "O Lançamento de Estoque do tipo 'Fabricação' é conhecida como Backflush. A matéria-prima que é consumida na fabricação dos produtos acabados é conhecida como Backflushing.<br><br> Ao lançar uma Entrada de Fabricação, os itens de matéria-prima são backflushed com base na BOM do item de produção. Se deseja que os itens de matéria-prima sejam backflushed com base na Entrada de Transferência de Material feita para a Ordem de Serviço, defina neste campo."
 
 #. Success message of the Module Onboarding 'Stock'
 #: erpnext/stock/module_onboarding/stock/stock.json
@@ -50490,7 +50490,7 @@ msgstr "A moeda da fatura {} ({}) é diferente da moeda desta cobrança ({})"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:942
 msgid "The default BOM for that item will be fetched by the system. You can also change the BOM."
-msgstr "A LDM padrão para esse item será buscado automaticamente pelo sistema. Você também pode alterar a LDM."
+msgstr "A BOM padrão para esse item será buscado automaticamente pelo sistema. Você também pode alterar a BOM."
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:69
 msgid "The difference between from time and To Time must be a multiple of Appointment"
@@ -50574,7 +50574,7 @@ msgstr "O peso líquido do pacote. (Calculado automaticamente como soma do peso 
 #. Description of the 'New BOM' (Link) field in DocType 'BOM Update Tool'
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "The new BOM after replacement"
-msgstr "A nova LDM após substituição"
+msgstr "A nova BOM após substituição"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:196
 msgid "The number of shares and the share numbers are inconsistent"
@@ -50638,7 +50638,7 @@ msgstr "A conta raiz {0} deve ser um grupo"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:84
 msgid "The selected BOMs are not for the same item"
-msgstr "As LDMs selecionadas não são para o mesmo item"
+msgstr "As BOMs selecionadas não são para o mesmo item"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:425
 msgid "The selected change account {} doesn't belongs to Company {}."
@@ -50906,7 +50906,7 @@ msgstr "Este filtro será aplicado à Lançamento Contábil."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:171
 msgid "This is a Template BOM and will be used to make the work order for {0} of the item {1}"
-msgstr "Este é uma LDM Modelo e será usado para criar a ordem de serviço para {0} do item {1}."
+msgstr "Este é uma BOM Modelo e será usado para criar a ordem de serviço para {0} do item {1}."
 
 #. Description of the 'Target Warehouse' (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -50991,7 +50991,7 @@ msgstr "Isso está ativado por padrão. Se você deseja planejar materiais para 
 
 #: erpnext/stock/doctype/item/item.js:931
 msgid "This is for raw material Items that'll be used to create finished goods. If the Item is an additional service like 'washing' that'll be used in the BOM, keep this unchecked."
-msgstr "Isso é para Itens de matéria-prima que serão usados para criar produtos acabados. Se o Item for um serviço adicional como 'lavagem' que será usada no LDM, deixe isso desmarcado."
+msgstr "Isso é para Itens de matéria-prima que serão usados para criar produtos acabados. Se o Item for um serviço adicional como 'lavagem' que será usada no BOM, deixe isso desmarcado."
 
 #: erpnext/selling/doctype/party_specific_item/party_specific_item.py:35
 msgid "This item filter has already been applied for the {0}"
@@ -53664,13 +53664,13 @@ msgstr "Atualizar Referência de Repetição Automática"
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:35
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM Cost Automatically"
-msgstr "Atualiza Automaticamente o Custo da LDM"
+msgstr "Atualiza Automaticamente o Custo da BOM"
 
 #. Description of the 'Update BOM Cost Automatically' (Check) field in DocType
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials"
-msgstr "Atualiza o custo do LDM automaticamente por meio do agendador, com base na última Taxa de Avaliação/Taxa de Lista de Preços/Taxa da Última compra de matérias-primas"
+msgstr "Atualiza o custo do BOM automaticamente por meio do agendador, com base na última Taxa de Avaliação/Taxa de Lista de Preços/Taxa da Última compra de matérias-primas"
 
 #. Label of a Check field in DocType 'POS Invoice'
 #. Label of a Check field in DocType 'Sales Invoice'
@@ -54494,7 +54494,7 @@ msgstr "Atributos da Variante"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:128
 msgid "Variant BOM"
-msgstr "LDM da Variante"
+msgstr "BOM da Variante"
 
 #. Label of a Select field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -54654,7 +54654,7 @@ msgstr "Visualização"
 
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.js:25
 msgid "View BOM Update Log"
-msgstr "Ver Log das Atualizações da LDM"
+msgstr "Ver Log das Atualizações da BOM"
 
 #: erpnext/public/js/setup_wizard.js:41
 msgid "View Chart of Accounts"
@@ -56300,7 +56300,7 @@ msgstr "Você não pode resgatar Pontos de Fidelidade com valor maior que o Tota
 
 #: erpnext/manufacturing/doctype/bom/bom.js:577
 msgid "You cannot change the rate if BOM is mentioned against any Item."
-msgstr "Não é possível alterar a taxa se a LDM estiver relacionada para qualquer Item."
+msgstr "Não é possível alterar a taxa se a BOM estiver relacionada para qualquer Item."
 
 #: erpnext/accounts/doctype/accounting_period/accounting_period.py:128
 msgid "You cannot create a {0} within the closed Accounting Period {1}"
@@ -56793,7 +56793,7 @@ msgstr "variância"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_updation_utils.py:41
 msgid "via BOM Update Tool"
-msgstr "via Ferramenta de Atualização de LDM"
+msgstr "via Ferramenta de Atualização de BOM"
 
 #: erpnext/accounts/doctype/budget/budget.py:276
 msgid "will be"
