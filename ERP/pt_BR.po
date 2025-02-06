@@ -19761,7 +19761,7 @@ msgstr "Faraday"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Fathom"
-msgstr "Fato"
+msgstr "Fathom (Braça)"
 
 #. Label of a Data field in DocType 'Lead'
 #. Label of a Data field in DocType 'Prospect'
@@ -22297,7 +22297,7 @@ msgstr "Semestralmente"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Hand"
-msgstr "Mão"
+msgstr "Hand"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:145
 msgid "Handle Employee Advances"
