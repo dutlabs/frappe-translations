@@ -6554,7 +6554,7 @@ msgstr "Origem do Gráfico de Dashboard"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Dashboard Manager"
-msgstr "Dashboard Manager"
+msgstr "Gerente de Dashboard"
 
 #. Label of a Data field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json

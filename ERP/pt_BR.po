@@ -55502,11 +55502,11 @@ msgstr "Usuário {0} está desativado"
 
 #: erpnext/setup/doctype/employee/employee.py:248
 msgid "User {0}: Removed Employee Self Service role as there is no mapped employee."
-msgstr "Usuário {0}: Removido o papel de Autoatendimento do Funcionário, pois não há funcionário mapeado."
+msgstr "Usuário {0}: Removida a função de Autoatendimento do Funcionário, pois não há funcionário mapeado."
 
 #: erpnext/setup/doctype/employee/employee.py:243
 msgid "User {0}: Removed Employee role as there is no mapped employee."
-msgstr "Usuário {0}: Removido o papel de Funcionário, pois não há funcionário mapeado."
+msgstr "Usuário {0}: Removida a função de Colaborador, pois não há colaborador mapeado."
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:50
 msgid "User {} is disabled. Please select valid user/cashier"
@@ -57652,7 +57652,7 @@ msgstr "Data do Início do Ano"
 #. Label of a Int field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
 msgid "Year of Passing"
-msgstr "Ano de Passagem"
+msgstr "Ano de Conclusão"
 
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.py:111
 msgid "Year start date or end date is overlapping with {0}. To avoid please set company"
@@ -58230,7 +58230,7 @@ msgstr "avaliações"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1167
 msgid "received from"
-msgstr "Recebido de"
+msgstr "recebido de"
 
 #. Label of a Int field in DocType 'Cost Center'
 #. Label of a Int field in DocType 'Location'
@@ -58255,7 +58255,7 @@ msgstr "Recebido de"
 #: erpnext/setup/doctype/territory/territory.json
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "rgt"
-msgstr "rgt"
+msgstr "Dir"
 
 #. Option for the 'Plaid Environment' (Select) field in DocType 'Plaid
 #. Settings'
@@ -58814,7 +58814,7 @@ msgstr "{0} {1}: o Centro de Custo {2} não pertence à Empresa {3}"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:268
 msgid "{0} {1}: Cost Center {2} is a group cost center and group cost centers cannot be used in transactions"
-msgstr "{0} {1}: Centro de Custo {2} é um grupo de centros de custo e grupos de centros de custo não podem ser utilizados em transações"
+msgstr "{0} {1}: Centro de Custo {2} é um grupo de centros de custo e grupos não podem ser utilizados em transações"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:136
 msgid "{0} {1}: Customer is required against Receivable account {2}"
