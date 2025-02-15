@@ -6476,13 +6476,13 @@ msgstr "Atribuir A"
 #. Label of a Read Only field in DocType 'Asset Maintenance Task'
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
 msgid "Assign to Name"
-msgstr "Atribuir Ao Nome"
+msgstr "Atribuir ao Nome"
 
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.js:32
 #: erpnext/support/report/issue_analytics/issue_analytics.js:81
 #: erpnext/support/report/issue_summary/issue_summary.js:69
 msgid "Assigned To"
-msgstr "Atribuído A"
+msgstr "Atribuído a"
 
 #: erpnext/templates/pages/projects.html:48
 msgid "Assignment"
@@ -7241,7 +7241,7 @@ msgstr "Nº da BOM"
 #. Description of the 'BOM No' (Link) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No. for a Finished Good Item"
-msgstr "Nº da BOM Para Um Item Acabado"
+msgstr "Nº da BOM para um Item de Produto Acabado"
 
 #. Name of a DocType
 #. Label of a Table field in DocType 'Routing'
@@ -20104,7 +20104,7 @@ msgstr "Item de Produto Acabado"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:37
 msgid "Finished Good Item Code"
-msgstr "Código de Item Acabado"
+msgstr "Código de Item de Produto Acabado"
 
 #: erpnext/public/js/utils.js:811
 msgid "Finished Good Item Qty"
@@ -24223,12 +24223,12 @@ msgstr "Inspeção Obrigatória"
 #. Label of a Check field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Inspection Required before Delivery"
-msgstr "Inspeção Requerida antes da Entrega"
+msgstr "Inspeção necessária antes da entrega"
 
 #. Label of a Check field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Inspection Required before Purchase"
-msgstr "Inspeção Requerida antes da Compra"
+msgstr "Inspeção necessária antes da compra"
 
 #: erpnext/controllers/stock_controller.py:1046
 msgid "Inspection Submission"
@@ -47063,19 +47063,19 @@ msgstr "Define 'Armazém de Reserva' em cada linha da tabela de Itens Fornecidos
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Sets 'Source Warehouse' in each row of the items table."
-msgstr "Define ';Source Warehouse'; em cada linha da tabela de itens."
+msgstr "Define 'Armazém de Origem' em cada linha da tabela de itens."
 
 #. Description of the 'Default Target Warehouse' (Link) field in DocType 'Stock
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Sets 'Target Warehouse' in each row of the items table."
-msgstr "Define ';Armazém de destino'; em cada linha da tabela de itens."
+msgstr "Define 'Armazém de Destino' em cada linha da tabela de itens."
 
 #. Description of the 'Set Target Warehouse' (Link) field in DocType
 #. 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Sets 'Warehouse' in each row of the Items table."
-msgstr "Define ';Warehouse'; em cada linha da tabela de itens."
+msgstr "Define 'Armazém' em cada linha da tabela de itens."
 
 #. Description of the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -47147,7 +47147,7 @@ msgstr "Configurações do Módulo de Vendas"
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting_list.js:11
 msgid "Settled"
-msgstr "Liquidado"
+msgstr "Quitado"
 
 #. Option for the 'Status' (Select) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
@@ -48749,7 +48749,7 @@ msgstr "Entradas de Estoque já criadas para a Ordem de Produção {0}: {1}"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Stock Entry"
-msgstr "Lançamento no Estoque"
+msgstr "Lançamento de Estoque"
 
 #. Label of a Link field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
@@ -48764,7 +48764,7 @@ msgstr "Filho de Lançamento de Estoque"
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Stock Entry Detail"
-msgstr "Detalhe do Lançamento no Estoque"
+msgstr "Detalhe do Lançamento de Estoque"
 
 #. Label of a Link field in DocType 'Stock Entry'
 #. Name of a DocType
@@ -48783,7 +48783,7 @@ msgstr "Lançamento de Estoque {0} criado"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1218
 msgid "Stock Entry {0} is not submitted"
-msgstr "Lançamento no Estoque {0} não é enviado"
+msgstr "Lançamento de Estoque {0} não foi enviado"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:44
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:63

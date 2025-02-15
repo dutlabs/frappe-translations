@@ -407,7 +407,7 @@ msgstr "Atribuir a"
 #: helpdesk/helpdesk/report/ticket_analytics/ticket_analytics.js:68
 #: helpdesk/helpdesk/report/ticket_summary/ticket_summary.js:55
 msgid "Assigned To"
-msgstr "Atribuído A"
+msgstr "Atribuído a"
 
 #: helpdesk/api/doc.py:108
 msgid "Assigned to"
