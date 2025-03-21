@@ -23000,7 +23000,7 @@ msgstr "Se habilitado, o sistema apenas validará a regra de preço e não aplic
 #. Description of the 'Variant Of' (Link) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "If item is a variant of another item then description, image, pricing, taxes etc will be set from the template unless explicitly specified"
-msgstr "Se o item é uma variante de outro item, em seguida, descrição, imagem, preços, impostos etc será definido a partir do modelo, a menos que explicitamente especificado"
+msgstr "Se o item é uma variante de outro, então a descrição, imagem, preços, impostos etc serão definidos a partir do modelo, a menos que seja especificado explicitamente"
 
 #. Description of the 'Role Allowed to Create/Edit Back-dated Transactions'
 #. (Link) field in DocType 'Stock Settings'
