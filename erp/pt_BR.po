@@ -29683,19 +29683,19 @@ msgstr "Informe o Valor de Mercado no cadastro de itens."
 #. Description of the 'Accounts' (Table) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Mention if non-standard Receivable account"
-msgstr "Mencione se for uma conta a receber fora do padrão"
+msgstr "Informe se a conta de Contas a Receber não for a padrão"
 
 #. Description of the 'Accounts' (Table) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Mention if non-standard payable account"
-msgstr "Mencionar se a conta a pagar não padrão"
+msgstr "Informe se a conta de Contas a Pagar não for a padrão"
 
 #. Description of the 'Accounts' (Table) field in DocType 'Customer Group'
 #. Description of the 'Accounts' (Table) field in DocType 'Supplier Group'
 #: erpnext/setup/doctype/customer_group/customer_group.json
 #: erpnext/setup/doctype/supplier_group/supplier_group.json
 msgid "Mention if non-standard receivable account applicable"
-msgstr "Mencione se a conta a receber aplicável não for a conta padrão"
+msgstr "Indique se uma conta de Contas a Receber não padrão for aplicável"
 
 #: erpnext/accounts/doctype/account/account.js:151
 msgid "Merge"
@@ -36213,12 +36213,12 @@ msgstr "Por favor, certifique-se de que você realmente quer apagar todas as ope
 
 #: erpnext/stock/doctype/item/item.js:496
 msgid "Please mention 'Weight UOM' along with Weight."
-msgstr "Por favor, mencione a 'Unidade de Medida (UDM) de Peso' junto com o Peso."
+msgstr "Por favor, informe a 'Unidade de Medida (UDM) de Peso' junto com o Peso."
 
 #: erpnext/accounts/general_ledger.py:591
 #: erpnext/accounts/general_ledger.py:598
 msgid "Please mention '{0}' in Company: {1}"
-msgstr "Por favor, mencione '{0}' na Empresa: {1}"
+msgstr "Por favor, informe '{0}' na Empresa: {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:232
 msgid "Please mention no of visits required"
@@ -36226,7 +36226,7 @@ msgstr "O número de visitas é obrigatório"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:70
 msgid "Please mention the Current and New BOM for replacement."
-msgstr "Por favor, mencione a BOM Atual e Novo para substituição."
+msgstr "Por favor, informe a BOM Atual e Novo para substituição."
 
 #: erpnext/selling/doctype/installation_note/installation_note.py:119
 msgid "Please pull items from Delivery Note"
@@ -56697,7 +56697,7 @@ msgstr "Armazém {0} não pertence à empresa {1}"
 
 #: erpnext/controllers/stock_controller.py:616
 msgid "Warehouse {0} is not linked to any account, please mention the account in the warehouse record or set default inventory account in company {1}."
-msgstr "O Armazém {0} não está vinculado a nenhuma conta, por favor mencione a conta no registro do armazém ou defina uma conta de inventário padrão na empresa {1}."
+msgstr "O Armazém {0} não está vinculado a nenhuma conta, por favor informe a conta no registro do armazém ou defina uma conta de inventário padrão na empresa {1}."
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:136
 msgid "Warehouse's Stock Value has already been booked in the following accounts:"
