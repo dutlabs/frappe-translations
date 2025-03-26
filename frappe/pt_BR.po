@@ -14683,12 +14683,12 @@ msgstr "Configurações de Lista"
 
 #: frappe/public/js/frappe/list/base_list.js:202
 msgid "List View"
-msgstr "Visualização de Lista"
+msgstr "Visualização em Lista"
 
 #. Name of a DocType
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
 msgid "List View Settings"
-msgstr "Configurações de Visualização de Lista"
+msgstr "Configurações de Visualização em Lista"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:161
 msgid "List a document type"
@@ -22649,7 +22649,7 @@ msgstr "Selecionar Idioma"
 #. Label of a Select field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "Select List View"
-msgstr "Selecionar Visualização de Lista"
+msgstr "Selecionar Visualização em Lista"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:158
 msgid "Select Mandatory"
