@@ -8193,7 +8193,7 @@ msgstr "Baixar PDF"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:766
 msgid "Download Report"
-msgstr "Relatório de download"
+msgstr "Baixar Relatório"
 
 #. Label of a Button field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
