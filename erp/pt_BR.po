@@ -18040,12 +18040,12 @@ msgstr "EMU de Corrente"
 #. Name of a Workspace
 #: erpnext/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
 msgid "ERPNext Integrations"
-msgstr "Integrações Dut ERP"
+msgstr "Integrações"
 
 #. Name of a Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
 msgid "ERPNext Settings"
-msgstr "Configurações do Dut ERP"
+msgstr "Configurações"
 
 #. Label of a Data field in DocType 'Employee Group Table'
 #: erpnext/setup/doctype/employee_group_table/employee_group_table.json
