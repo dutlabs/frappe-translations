@@ -1767,7 +1767,7 @@ msgstr "Um cliente deve ter um e-mail de contato principal."
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:55
 msgid "A driver must be set to submit."
-msgstr "Um motorista deve ser definido para enviar."
+msgstr "Um motorista deve ser definido para submeter."
 
 #. Description of a DocType
 #: erpnext/stock/doctype/warehouse/warehouse.json
@@ -2988,17 +2988,17 @@ msgstr "Ação"
 #. Label of a Select field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Action If Quality Inspection Is Not Submitted"
-msgstr "Ação Se a Inspeção de Qualidade Não For Enviada"
+msgstr "Ação Se a Inspeção de Qualidade Não Está Submetida"
 
 #. Label of a Select field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Action If Quality Inspection Is Rejected"
-msgstr "Ação se a Inspeção de Qualidade for Rejeitada"
+msgstr "Ação Se a Inspeção de Qualidade for Rejeitada"
 
 #. Label of a Select field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Action If Same Rate is Not Maintained"
-msgstr "Ação se a Mesma Taxa Não for Mantida"
+msgstr "Ação Se a Mesma Taxa Não for Mantida"
 
 #: erpnext/quality_management/doctype/quality_review/quality_review_list.js:7
 msgid "Action Initialised"
@@ -5903,7 +5903,7 @@ msgstr "Como o campo {0} está habilitado, o valor do campo {1} deve ser maior q
 
 #: erpnext/stock/doctype/item/item.py:978
 msgid "As there are existing submitted transactions against item {0}, you can not change the value of {1}."
-msgstr "Como existem transações enviadas vinculadas ao item {0}, você não pode alterar o valor de {1}."
+msgstr "Como existem transações submetidas vinculadas ao item {0}, você não pode alterar o valor de {1}."
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:210
 msgid "As there are negative stock, you can not enable {0}."
@@ -6098,7 +6098,7 @@ msgstr "Cronograma de depreciação {0} para o Ativo {1} e Livro de Finanças {2
 #: erpnext/assets/doctype/asset/asset.py:146
 #: erpnext/assets/doctype/asset/asset.py:184
 msgid "Asset Depreciation Schedules created:<br>{0}<br><br>Please check, edit if needed, and submit the Asset."
-msgstr "Cronogramas de depreciação de ativos criados:<br>{0}<br><br>Por favor, verifique, edite se necessário e envie o Ativo."
+msgstr "Cronogramas de depreciação de ativos criados:<br>{0}<br><br>Por favor, verifique, edite se necessário e submeta o Ativo."
 
 #. Name of a report
 #. Label of a Link in the Assets Workspace
@@ -6308,7 +6308,7 @@ msgstr "Activo não podem ser canceladas, como já é {0}"
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:637
 msgid "Asset capitalized after Asset Capitalization {0} was submitted"
-msgstr "Ativo capitalizado após a Capitalização do Ativo {0} ser enviada"
+msgstr "Ativo capitalizado após a Capitalização do Ativo {0} ser submetida"
 
 #: erpnext/assets/doctype/asset/asset.py:197
 msgid "Asset created"
@@ -6316,7 +6316,7 @@ msgstr "Ativo criado"
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:586
 msgid "Asset created after Asset Capitalization {0} was submitted"
-msgstr "Ativo criado após a Capitalização do Ativo {0} ser enviada"
+msgstr "Ativo criado após a Capitalização do Ativo {0} ser submetida"
 
 #: erpnext/assets/doctype/asset/asset.py:1230
 msgid "Asset created after being split from Asset {0}"
@@ -6364,7 +6364,7 @@ msgstr "Ativo vendido"
 
 #: erpnext/assets/doctype/asset/asset.py:163
 msgid "Asset submitted"
-msgstr "Ativo enviado"
+msgstr "Ativo submetido"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:173
 msgid "Asset transferred to Location {0}"
@@ -6413,15 +6413,15 @@ msgstr "O Ativo {0} não existe"
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:592
 msgid "Asset {0} has been created. Please set the depreciation details if any and submit it."
-msgstr "O Ativo {0} foi criado. Por favor, defina os detalhes de depreciação, se houver, e envie-o."
+msgstr "O Ativo {0} foi criado. Por favor, defina os detalhes de depreciação, se houver, e submeta-o."
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:611
 msgid "Asset {0} has been updated. Please set the depreciation details if any and submit it."
-msgstr "O Ativo {0} foi atualizado. Por favor, defina os detalhes de depreciação, se houver, e envie-o."
+msgstr "O Ativo {0} foi atualizado. Por favor, defina os detalhes de depreciação, se houver, e submeta-o."
 
 #: erpnext/assets/doctype/asset/depreciation.py:438
 msgid "Asset {0} must be submitted"
-msgstr "O Ativo {0} deve ser enviado"
+msgstr "O Ativo {0} deve ser submetido"
 
 #: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:256
 msgid "Asset's depreciation schedule updated after Asset Shift Allocation {0}"
@@ -7381,7 +7381,7 @@ msgstr "BOM {0} deve ser ativa"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1237
 msgid "BOM {0} must be submitted"
-msgstr "Lista de Materiais (BOM) {0} deve ser enviada"
+msgstr "Lista de Materiais (BOM) {0} deve ser submetida"
 
 #. Label of a Long Text field in DocType 'BOM Update Batch'
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
@@ -9574,7 +9574,7 @@ msgstr "Não Pode Dispensar o Funcionário"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:70
 msgid "Cannot Resubmit Ledger entries for vouchers in Closed fiscal year."
-msgstr "Não é possível reenviar entradas do Livro Razão para comprovantes no ano fiscal fechado."
+msgstr "Não é possível ressubmeter entradas do Livro Razão para comprovantes no ano fiscal fechado."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:96
 msgid "Cannot amend {0} {1}, please create a new one instead."
@@ -9594,7 +9594,7 @@ msgstr "Não é possível cancelar, pois o processamento de documentos cancelado
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:692
 msgid "Cannot cancel because submitted Stock Entry {0} exists"
-msgstr "Não pode cancelar por causa da entrada submetido {0} existe"
+msgstr "Não é possível cancelar pois já existe um Lançamento de Estoque submetido: {0}"
 
 #: erpnext/stock/stock_ledger.py:199
 msgid "Cannot cancel the transaction. Reposting of item valuation on submission is not completed yet."
@@ -13234,12 +13234,12 @@ msgstr "Criar pedidos de vendas para ajudá-lo a planejar seu trabalho e entrega
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:408
 msgid "Create Sample Retention Stock Entry"
-msgstr "Criar Entrada de Estoque de Retenção de Amostra"
+msgstr "Criar Lançamento de Estoque de Retenção de Amostra"
 
 #: erpnext/stock/dashboard/item_dashboard.js:280
 #: erpnext/stock/doctype/material_request/material_request.js:449
 msgid "Create Stock Entry"
-msgstr "Criar Entrada de Estoque"
+msgstr "Criar Lançamento de Estoque"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:163
 msgid "Create Supplier Quotation"
@@ -13490,7 +13490,7 @@ msgstr "Criando Faturas de Vendas ..."
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:111
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:213
 msgid "Creating Stock Entry"
-msgstr "Criando Entrada de Estoque"
+msgstr "Criando Lançamento de Estoque"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:537
 msgid "Creating Subcontracting Order ..."
@@ -20583,7 +20583,7 @@ msgstr "Para o item {0}, a taxa deve ser um número positivo. Para permitir taxa
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:349
 msgid "For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry"
-msgstr "Para a ficha de serviço {0}, você só pode fazer a entrada de estoque do tipo ';Transferência de material para produção';"
+msgstr "Para a ficha de serviço {0}, você só pode fazer o lançamento de estoque do tipo 'Transferência de material para produção'"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1598
 msgid "For operation {0}: Quantity ({1}) can not be greter than pending quantity({2})"
