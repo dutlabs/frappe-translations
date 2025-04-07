@@ -801,7 +801,7 @@ msgstr "<span class=\"h4\"><b>Informes &amp; Datos Maestros</b></span>"
 #: frappe/core/workspace/users/users.json
 #: frappe/website/workspace/website/website.json
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
-msgstr "<span class=\"h4\"><b>Tus accesos directos</b></span>"
+msgstr "<span class=\"h4\"><b>Tus Atajos</b></span>"
 
 #. Header text in the Build Workspace
 #: frappe/core/workspace/build/build.json
