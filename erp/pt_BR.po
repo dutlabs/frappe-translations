@@ -18568,7 +18568,7 @@ msgstr "Habilitar Contabilidade Comum de Partes"
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/item/item.json
 msgid "Enable Deferred Expense"
-msgstr "Ativar Despesa Adiada"
+msgstr "Ativar Despesa Diferida"
 
 #. Label of a Check field in DocType 'POS Invoice Item'
 #. Label of a Check field in DocType 'Sales Invoice Item'
