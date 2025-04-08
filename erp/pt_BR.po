@@ -50161,7 +50161,7 @@ msgstr "A data da nota fiscal do fornecedor não pode ser maior do que data do l
 #: erpnext/accounts/report/general_ledger/general_ledger.py:704
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:210
 msgid "Supplier Invoice No"
-msgstr "Nº da Nota Fiscal de Compra"
+msgstr "Nº da Nota Fiscal do Fornecedor"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1682
 msgid "Supplier Invoice No exists in Purchase Invoice {0}"
