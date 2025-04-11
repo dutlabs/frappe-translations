@@ -54,7 +54,7 @@ msgstr "\"Item Fornecido pelo Cliente\" e \"Item de Compra\" não podem ser o me
 
 #: erpnext/stock/doctype/item/item.py:235
 msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"Item Fornecido pelo Cliente\" não pode ter Valor de Mercado"
+msgstr "\"Item Fornecido pelo Cliente\" não pode ter Custo de Aquisição"
 
 #: erpnext/stock/doctype/item/item.py:311
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
@@ -1040,7 +1040,7 @@ msgstr "(H) Alteração no Valor do Estoque (Fila FIFO)"
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:209
 msgid "(H) Valuation Rate"
-msgstr "(H) Valor de Mercado"
+msgstr "(H) Custo de Aquisição"
 
 #. Description of the 'Actual Operating Cost' (Currency) field in DocType 'Work
 #. Order Operation'
@@ -1051,12 +1051,12 @@ msgstr "(Valor por Hora / 60) * Tempo de operação real"
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:273
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:176
 msgid "(I) Valuation Rate"
-msgstr "(I) Valor de Mercado"
+msgstr "(I) Custo de Aquisição"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:278
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:181
 msgid "(J) Valuation Rate as per FIFO"
-msgstr "(J) Valor de Mercado conforme FIFO"
+msgstr "(J) Custo de Aquisição conforme FIFO"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:288
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:191
@@ -4852,7 +4852,7 @@ msgstr "Permitir Taxa Zero"
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 msgid "Allow Zero Valuation Rate"
-msgstr "Permitir Valor de Mercado Zero"
+msgstr "Permitir Custo de Aquisição Zero"
 
 #. Label of a Check field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
@@ -22977,7 +22977,7 @@ msgstr "Se habilitado, as faturas consolidadas terão o total arredondado desabi
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate."
-msgstr "Se habilitado, o valor do item não será ajustado ao valor de mercado durante as transferências internas, mas a contabilidade ainda usará o valor de mercado."
+msgstr "Se habilitado, o valor do item não será ajustado ao custo de aquisição durante as transferências internas, mas a contabilidade ainda usará o custo de aquisição."
 
 #. Description of the 'Ignore Available Stock' (Check) field in DocType
 #. 'Production Plan'
@@ -22989,7 +22989,7 @@ msgstr "Se habilitado, o sistema criará solicitações de material mesmo que o 
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the system will use the moving average valuation method to calculate the valuation rate for the batched items and will not consider the individual batch-wise incoming rate."
-msgstr "Se habilitado, o sistema usará o método de avaliação de média móvel para calcular o valor de mercado para os itens em lotes e não considerará a taxa de entrada individual por lote."
+msgstr "Se habilitado, o sistema usará o método de avaliação de média móvel para calcular o custo de aquisição para os itens em lotes e não considerará a taxa de entrada individual por lote."
 
 #. Description of the 'Validate Applied Rule' (Check) field in DocType 'Pricing
 #. Rule'
@@ -23040,7 +23040,7 @@ msgstr "Se a conta for congelada, os lançamentos só serão permitidos aos usu�
 
 #: erpnext/stock/stock_ledger.py:1827
 msgid "If the item is transacting as a Zero Valuation Rate item in this entry, please enable 'Allow Zero Valuation Rate' in the {0} Item table."
-msgstr "Se o item estiver sendo negociado como um Item de Valor de Mercado Zero nesta entrada, ative ';Permitir Valor de Mercado Zero'; na {0} tabela de itens."
+msgstr "Se o item estiver sendo negociado como um Item de Custo de Aquisição Zero nesta entrada, ative ';Permitir Custo de Aquisição Zero'; na {0} tabela de itens."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1001
 msgid "If the selected BOM has Operations mentioned in it, the system will fetch all Operations from BOM, these values can be changed."
@@ -23109,7 +23109,7 @@ msgstr "Se marcado, vários materiais podem ser usados para uma única Ordem de 
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:36
 msgid "If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials."
-msgstr "Se marcado, o custo da BOM será atualizado automaticamente com base no Valor de Mercado / Preço da Tabela / último valor de compra de matérias-primas."
+msgstr "Se marcado, o custo da BOM será atualizado automaticamente com base no Custo de Aquisição / Preço da Tabela / último valor de compra de matérias-primas."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:14
 msgid "If unlimited expiry for the Loyalty Points, keep the Expiry Duration empty or 0."
@@ -26859,7 +26859,7 @@ msgstr "Itens Para Solicitação de Matéria-prima"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:827
 msgid "Items rate has been updated to zero as Allow Zero Valuation Rate is checked for the following items: {0}"
-msgstr "O valor dos itens foi atualizado para zero, pois a opção Permitir Valor de Mercado Zero está marcada para os seguintes itens: {0}."
+msgstr "O valor dos itens foi atualizado para zero, pois a opção Permitir Custo de Aquisição Zero está marcada para os seguintes itens: {0}."
 
 #. Label of a Code field in DocType 'Repost Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
@@ -29678,7 +29678,7 @@ msgstr "Megawatt"
 
 #: erpnext/stock/stock_ledger.py:1840
 msgid "Mention Valuation Rate in the Item master."
-msgstr "Informe o Valor de Mercado no cadastro de itens."
+msgstr "Informe o Custo de Aquisição no cadastro de itens."
 
 #. Description of the 'Accounts' (Table) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -30755,7 +30755,7 @@ msgstr "Negativo Quantidade não é permitido"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:572
 msgid "Negative Valuation Rate is not allowed"
-msgstr "Valor de Mercado Negativo não é permitido"
+msgstr "Custo de Aquisição Negativo não é permitido"
 
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:8
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:419
@@ -43801,7 +43801,7 @@ msgstr "Linha #{0}: conflitos Timings com linha {1}"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:97
 msgid "Row #{0}: You cannot use the inventory dimension '{1}' in Stock Reconciliation to modify the quantity or valuation rate. Stock reconciliation with inventory dimensions is intended solely for performing opening entries."
-msgstr "Linha #{0}: Você não pode usar a dimensão de inventário '{1}' na Reconciliação de Estoque para modificar a quantidade ou o valor de mercado. A reconciliação de estoque com dimensões de inventário destina-se exclusivamente à realização de lançamentos iniciais."
+msgstr "Linha #{0}: Você não pode usar a dimensão de inventário '{1}' na Reconciliação de Estoque para modificar a quantidade ou o custo de aquisição. A reconciliação de estoque com dimensões de inventário destina-se exclusivamente à realização de lançamentos iniciais."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1433
 msgid "Row #{0}: You must select an Asset for Item {1}."
@@ -44066,7 +44066,7 @@ msgstr "Linha {0}: Modelo de Imposto do Item atualizado de acordo com a validade
 #: erpnext/controllers/buying_controller.py:378
 #: erpnext/controllers/selling_controller.py:544
 msgid "Row {0}: Item rate has been updated as per valuation rate since its an internal stock transfer"
-msgstr "Linha {0}: A taxa do item foi atualizada de acordo com o valor de mercado, pois se trata de uma transferência interna de estoque"
+msgstr "Linha {0}: A taxa do item foi atualizada de acordo com o custo de aquisição, pois se trata de uma transferência interna de estoque"
 
 #: erpnext/controllers/subcontracting_controller.py:98
 msgid "Row {0}: Item {1} must be a stock item."
@@ -46953,7 +46953,7 @@ msgstr "Configurar uma Empresa"
 #. Label of a Check field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "Set Valuation Rate Based on Source Warehouse"
-msgstr "Definir Valor de Mercado com Base no Armazém de Origem"
+msgstr "Definir Custo de Aquisição com Base no Armazém de Origem"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:237
 msgid "Set Warehouse"
@@ -52096,7 +52096,7 @@ msgstr "As ações não existem com o {0}"
 
 #: erpnext/stock/stock_ledger.py:760
 msgid "The stock for the item {0} in the {1} warehouse was negative on the {2}. You should create a positive entry {3} before the date {4} and time {5} to post the correct valuation rate. For more details, please read the <a href='https://docs.erpnext.com/docs/user/manual/en/stock-adjustment-cogs-with-negative-stock'>documentation<a>."
-msgstr "O estoque do item {0} no armazém {1} estava negativo em {2}. Você deve criar uma entrada positiva {3} antes da data {4} e hora {5} para postar o valor de mercado correto. Para mais detalhes, leia a <a href='https://docs.erpnext.com/docs/user/manual/en/stock-adjustment-cogs-with-negative-stock'>documentação<a>."
+msgstr "O estoque do item {0} no armazém {1} estava negativo em {2}. Você deve criar uma entrada positiva {3} antes da data {4} e hora {5} para postar o custo de aquisição correto. Para mais detalhes, leia a <a href='https://docs.erpnext.com/docs/user/manual/en/stock-adjustment-cogs-with-negative-stock'>documentação<a>."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:657
 msgid "The stock has been reserved for the following Items and Warehouses, un-reserve the same to {0} the Stock Reconciliation: <br /><br /> {1}"
@@ -55126,7 +55126,7 @@ msgstr "Atualiza Automaticamente o Custo da BOM"
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials"
-msgstr "Atualiza o custo do BOM automaticamente por meio do agendador, com base no último Valor de Mercado/Preço da Tabela/Valor da Última compra de matérias-primas"
+msgstr "Atualiza o custo do BOM automaticamente por meio do agendador, com base no último Custo de Aquisição/Preço da Tabela/Valor da Última compra de matérias-primas"
 
 #. Label of a Check field in DocType 'POS Invoice'
 #. Label of a Check field in DocType 'Sales Invoice'
@@ -55678,7 +55678,7 @@ msgstr "Validar Regra de Preço"
 #. Label of a Check field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Validate Selling Price for Item Against Purchase Rate or Valuation Rate"
-msgstr "Validar Preço de Venda Para o Item de Acordo Com o Valor de Compra Ou Valor de Mercado"
+msgstr "Validar Preço de Venda Para o Item de Acordo Com o Valor de Compra Ou Custo de Aquisição"
 
 #. Label of a Check field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -55764,27 +55764,27 @@ msgstr "Método de Avaliação"
 #: erpnext/stock/report/stock_balance/stock_balance.py:471
 #: erpnext/stock/report/stock_ledger/stock_ledger.py:297
 msgid "Valuation Rate"
-msgstr "Valor de Mercado"
+msgstr "Custo de Aquisição"
 
 #: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.py:166
 msgid "Valuation Rate (In / Out)"
-msgstr "Valor de Mercado (Entrada / Saída)"
+msgstr "Custo de Aquisição (Entrada / Saída)"
 
 #: erpnext/stock/stock_ledger.py:1843
 msgid "Valuation Rate Missing"
-msgstr "Valor de Mercado Ausente"
+msgstr "Custo de Aquisição Ausente"
 
 #: erpnext/stock/stock_ledger.py:1821
 msgid "Valuation Rate for the Item {0}, is required to do accounting entries for {1} {2}."
-msgstr "Valor de Mercado para o item {0}, é necessário para fazer lançamentos contábeis para {1} {2}."
+msgstr "Custo de Aquisição para o item {0}, é necessário para fazer lançamentos contábeis para {1} {2}."
 
 #: erpnext/stock/doctype/item/item.py:264
 msgid "Valuation Rate is mandatory if Opening Stock entered"
-msgstr "É obrigatório colocar a Valor de Mercado se foi introduzido o Estoque de Abertura"
+msgstr "É obrigatório colocar a Custo de Aquisição se foi introduzido o Estoque de Abertura"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:709
 msgid "Valuation Rate required for Item {0} at row {1}"
-msgstr "Valor de Mercado necessário para o item {0} na linha {1}"
+msgstr "Custo de Aquisição necessário para o item {0} na linha {1}"
 
 #. Option for the 'Consider Tax or Charge for' (Select) field in DocType
 #. 'Purchase Taxes and Charges'
@@ -55794,7 +55794,7 @@ msgstr "Valorização e Total"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:918
 msgid "Valuation rate for customer provided items has been set to zero."
-msgstr "Valor de Mercado para itens fornecidos pelo cliente foi definido como zero."
+msgstr "Custo de Aquisição para itens fornecidos pelo cliente foi definido como zero."
 
 #. Description of the 'Sales Incoming Rate' (Currency) field in DocType
 #. 'Purchase Invoice Item'
@@ -55802,7 +55802,7 @@ msgstr "Valor de Mercado para itens fornecidos pelo cliente foi definido como ze
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Valuation rate for the item as per Sales Invoice (Only for Internal Transfers)"
-msgstr "Valor de mercado para o item conforme a Fatura de Vendas (Somente para Transferências Internas)"
+msgstr "Custo de Aquisição para o item conforme a Fatura de Vendas (Somente para Transferências Internas)"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2163
 #: erpnext/controllers/accounts_controller.py:2896
