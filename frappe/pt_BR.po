@@ -4053,7 +4053,7 @@ msgstr "Nome do calendário"
 #: frappe/desk/doctype/calendar_view/calendar_view.json
 #: frappe/public/js/frappe/list/base_list.js:207
 msgid "Calendar View"
-msgstr "Vista Calendário"
+msgstr "Visualização Calendário"
 
 #. Option for the 'Event Category' (Select) field in DocType 'Event'
 #: frappe/contacts/doctype/contact/contact.js:55
