@@ -1294,11 +1294,11 @@ msgstr "Adicionar borda na parte superior"
 
 #: frappe/desk/doctype/number_card/number_card.js:36
 msgid "Add Card to Dashboard"
-msgstr "Adicionar cartão ao Dashboard"
+msgstr "Adicionar Cartão ao Painel"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:210
 msgid "Add Chart to Dashboard"
-msgstr "Adicionar gráfico ao Dashboard"
+msgstr "Adicionar Gráfico ao Painel"
 
 #: frappe/public/js/frappe/views/treeview.js:267
 msgid "Add Child"
@@ -1513,7 +1513,7 @@ msgstr "Adicionar aba"
 #: frappe/public/js/frappe/utils/dashboard_utils.js:263
 #: frappe/public/js/frappe/views/reports/query_report.js:252
 msgid "Add to Dashboard"
-msgstr "Adicionar ao Dashboard"
+msgstr "Adicionar ao Painel"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:98
 msgid "Add to ToDo"
@@ -1744,7 +1744,7 @@ msgstr "Função agregada com base em"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:399
 msgid "Aggregate Function field is required to create a dashboard chart"
-msgstr "O campo Função Agregada é necessário para criar um gráfico de dashboard"
+msgstr "O campo Função Agregada é necessário para criar um gráfico de painel"
 
 #. Option for the 'Type' (Select) field in DocType 'Notification Log'
 #: frappe/desk/doctype/notification_log/notification_log.json
@@ -2555,7 +2555,7 @@ msgstr "Tem certeza de que deseja gerar um novo relatório?"
 
 #: frappe/public/js/billing.bundle.js:29
 msgid "Are you sure you want to login to Frappe Cloud dashboard?"
-msgstr "Você tem certeza que deseja fazer login no dashboard do Frappe Cloud?"
+msgstr "Você tem certeza que deseja fazer login no painel do Frappe Cloud?"
 
 #: frappe/public/js/frappe/form/toolbar.js:111
 msgid "Are you sure you want to merge {0} with {1}?"
@@ -6379,7 +6379,7 @@ msgstr "Personalizar tabela filha"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:37
 msgid "Customize Dashboard"
-msgstr "Personalizar Dashboard"
+msgstr "Personalizar Painel"
 
 #. Label of a Link in the Build Workspace
 #. Label of a shortcut in the Build Workspace
@@ -6525,55 +6525,55 @@ msgstr "Tema Escuro"
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:562
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Painel"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
 #: frappe/core/workspace/build/build.json
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "Dashboard Chart"
-msgstr "Gráfico de Dashboard"
+msgstr "Gráfico de Painel"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_field/dashboard_chart_field.json
 msgid "Dashboard Chart Field"
-msgstr "Campo do Gráfico do Dashboard"
+msgstr "Campo do Gráfico do Painel"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_link/dashboard_chart_link.json
 msgid "Dashboard Chart Link"
-msgstr "Link do Gráfico de Dashboard"
+msgstr "Link do Gráfico de Painel"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
 msgid "Dashboard Chart Source"
-msgstr "Origem do Gráfico de Dashboard"
+msgstr "Fonte do Gráfico de Painel"
 
 #. Name of a role
 #: frappe/desk/doctype/dashboard/dashboard.json
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Dashboard Manager"
-msgstr "Gerente de Dashboard"
+msgstr "Administrador de Painel"
 
 #. Label of a Data field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json
 msgid "Dashboard Name"
-msgstr "Nome do Dashboard"
+msgstr "Nome do Painel"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
 msgid "Dashboard Settings"
-msgstr "Configurações do Dashboard"
+msgstr "Configurações do Painel"
 
 #: frappe/public/js/frappe/list/base_list.js:204
 msgid "Dashboard View"
-msgstr "Visualização Dashboard"
+msgstr "Visualização em Painel"
 
 #. Label of a Tab Break field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Dashboards"
-msgstr "Dashboards"
+msgstr "Painéis"
 
 #. Label of a Card Break in the Tools Workspace
 #. Label of a Code field in DocType 'Deleted Document'
@@ -8039,7 +8039,7 @@ msgstr "A renomeação do documento de {0} para {1} foi colocada na fila"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:386
 msgid "Document type is required to create a dashboard chart"
-msgstr "O tipo de documento é necessário para criar um gráfico de dashboard"
+msgstr "O tipo de documento é necessário para criar um gráfico de painel"
 
 #: frappe/core/doctype/deleted_document/deleted_document.py:45
 msgid "Document {0} Already Restored"
@@ -11540,7 +11540,7 @@ msgstr "Agrupar por tipo"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:397
 msgid "Group By field is required to create a dashboard chart"
-msgstr "O campo Agrupar por é necessário para criar um gráfico de dashboard"
+msgstr "O campo Agrupar por é necessário para criar um gráfico de painel"
 
 #: frappe/public/js/frappe/views/treeview.js:384
 msgid "Group Node"
@@ -13478,7 +13478,7 @@ msgstr "É o telefone principal"
 #. Label of a Check field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "Is Private"
-msgstr "É privada"
+msgstr "É privado"
 
 #. Label of a Check field in DocType 'Dashboard Chart'
 #. Label of a Check field in DocType 'Number Card'
@@ -16410,7 +16410,7 @@ msgstr "Novo {0} criado"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:385
 msgid "New {0} {1} added to Dashboard {2}"
-msgstr "Novo {0} {1} adicionado ao Dashboard {2}"
+msgstr "Novo {0} {1} adicionado ao Painel {2}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:390
 msgid "New {0} {1} created"
@@ -16682,7 +16682,7 @@ msgstr "Gráficos não permitidos"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:92
 msgid "No Permitted Charts on this Dashboard"
-msgstr "Gráficos não permitidos neste Dashboard"
+msgstr "Gráficos não permitidos neste Painel"
 
 #: frappe/printing/doctype/print_settings/print_settings.js:13
 msgid "No Preview"
@@ -18311,7 +18311,7 @@ msgstr "Tabela Pai"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:393
 msgid "Parent document type is required to create a dashboard chart"
-msgstr "O tipo de documento pai é obrigatório para criar um gráfico de dashboard"
+msgstr "O tipo de documento pai é obrigatório para criar um gráfico de painel"
 
 #: frappe/core/doctype/data_export/exporter.py:253
 msgid "Parent is the name of the document to which the data will get added to."
@@ -18826,7 +18826,7 @@ msgstr "Por favor, verifique a URL de configuração do OpenID"
 
 #: frappe/utils/dashboard.py:58
 msgid "Please check the filter values set for Dashboard Chart: {}"
-msgstr "Verifique os valores de filtro definidos para o gráfico do dashboard: {}"
+msgstr "Verifique os valores de filtro definidos para o gráfico do painel: {}"
 
 #: frappe/model/base_document.py:866
 msgid "Please check the value of \"Fetch From\" set for field {0}"
@@ -22560,7 +22560,7 @@ msgstr "Selecionar Moeda"
 #: frappe/desk/doctype/form_tour/form_tour.json
 #: frappe/public/js/frappe/utils/dashboard_utils.js:240
 msgid "Select Dashboard"
-msgstr "Selecionar Dashboard"
+msgstr "Selecionar Painel"
 
 #. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
@@ -23224,7 +23224,7 @@ msgstr "Definir gráfico"
 #. Description of the 'Chart Options' (Code) field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json
 msgid "Set Default Options for all charts on this Dashboard (Ex: \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
-msgstr "Defina as opções padrão para todos os gráficos neste Dashboard (Ex: &quot;cores&quot;: [&quot;# d1d8dd&quot;, &quot;# ff5858&quot;])"
+msgstr "Defina as opções padrão para todos os gráficos neste Painel (Ex: &quot;cores&quot;: [&quot;# d1d8dd&quot;, &quot;# ff5858&quot;])"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:467
 #: frappe/desk/doctype/number_card/number_card.js:367
@@ -23627,12 +23627,12 @@ msgstr "Exibir símbolo da moeda no lado direito"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/desk/doctype/dashboard/dashboard.js:6
 msgid "Show Dashboard"
-msgstr "Mostrar Dashboard"
+msgstr "Exibir Painel"
 
 #. Label of a Button field in DocType 'Access Log'
 #: frappe/core/doctype/access_log/access_log.json
 msgid "Show Document"
-msgstr "Mostrar documento"
+msgstr "Exibir Documento"
 
 #: frappe/www/error.html:41 frappe/www/error.html:59
 msgid "Show Error"
@@ -26293,7 +26293,7 @@ msgstr "Tempo em segundos para manter a imagem do código QR no servidor. Min: <
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:402
 msgid "Time series based on is required to create a dashboard chart"
-msgstr "As séries cronológicas baseadas em são necessárias para criar um gráfico de dashboard"
+msgstr "As séries cronológicas baseadas em são necessárias para criar um gráfico de painel"
 
 #: frappe/public/js/frappe/form/controls/time.js:107
 msgid "Time {0} must be in format: {1}"
@@ -29464,7 +29464,7 @@ msgstr "Você cancelou este documento {1}"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:406
 msgid "You cannot create a dashboard chart from single DocTypes"
-msgstr "Você não pode criar um gráfico de dashboard de DocTypes Únicos"
+msgstr "Você não pode criar um gráfico de painel de DocTypes Únicos"
 
 #: frappe/social/doctype/energy_point_log/energy_point_log.py:45
 msgid "You cannot give review points to yourself"
@@ -29595,7 +29595,7 @@ msgstr "Você não viu {0}"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:191
 msgid "You haven't added any Dashboard Charts or Number Cards yet."
-msgstr "Você ainda não adicionou nenhum gráfico de dashboard ou cartão numérico."
+msgstr "Você ainda não adicionou nenhum gráfico de painel ou cartão numérico."
 
 #: frappe/public/js/frappe/list/list_view.js:472
 msgid "You haven't created a {0} yet"
@@ -30095,7 +30095,7 @@ msgstr "cinza escuro"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:65
 msgid "dashboard"
-msgstr "dashboard"
+msgstr "painel"
 
 #. Option for the 'Date Format' (Select) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -30659,12 +30659,12 @@ msgstr "na lixeira"
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "on_update"
-msgstr "ao atualizar"
+msgstr "on_update"
 
 #. Option for the 'Doc Event' (Select) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "on_update_after_submit"
-msgstr "ao atualizar após envio"
+msgstr "on_update_after_submit"
 
 #: frappe/utils/data.py:1379
 msgid "only."
@@ -31256,7 +31256,7 @@ msgstr "Gráfico {0}"
 #: frappe/public/js/frappe/utils/utils.js:944
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:10
 msgid "{0} Dashboard"
-msgstr "Dashboard {0}"
+msgstr "Painel {0}"
 
 #: frappe/public/js/frappe/form/grid_row.js:459
 #: frappe/public/js/frappe/list/list_settings.js:227
@@ -31891,7 +31891,7 @@ msgstr "{0} compartilhou este documento com {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:317
 msgid "{0} should be indexed because it's referred in dashboard connections"
-msgstr "{0} deve ser indexado porque é referenciado nas conexões do dashboard"
+msgstr "{0} deve ser indexado porque é referenciado nas conexões do painel"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:139
 msgid "{0} should not be same as {1}"
@@ -31959,7 +31959,7 @@ msgstr "{0} {1} adicionado"
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:270
 msgid "{0} {1} added to Dashboard {2}"
-msgstr "{0} {1} adicionado ao Dashboard {2}"
+msgstr "{0} {1} adicionado ao Painel {2}"
 
 #: frappe/model/base_document.py:587 frappe/model/rename_doc.py:110
 msgid "{0} {1} already exists"
