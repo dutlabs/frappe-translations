@@ -2223,11 +2223,11 @@ msgstr "Conta Para Alteração de Valor"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:46
 msgid "Account is mandatory to get payment entries"
-msgstr "Uma Conta é obrigatória para obter entradas de pagamento"
+msgstr "Conta é obrigatória para obter entradas de pagamento"
 
 #: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:44
 msgid "Account is not set for the dashboard chart {0}"
-msgstr "Uma Conta não está definida para o Painel de Gráficos {0}"
+msgstr "Conta não está definida para o gráfico do painel {0}"
 
 #: erpnext/assets/doctype/asset/asset.py:699
 msgid "Account not Found"
@@ -33977,7 +33977,7 @@ msgstr "Pai item {0} não deve ser um item de Estoque"
 #. Label of a Link field in DocType 'Location'
 #: erpnext/assets/doctype/location/location.json
 msgid "Parent Location"
-msgstr "Localização Dos Pais"
+msgstr "Localização Pai"
 
 #. Label of a Link field in DocType 'Quality Procedure'
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
