@@ -33942,7 +33942,7 @@ msgstr "Grupo de Clientes Pai"
 #. Label of a Link field in DocType 'Department'
 #: erpnext/setup/doctype/department/department.json
 msgid "Parent Department"
-msgstr "Departamento Dos Pais"
+msgstr "Departamento Pai"
 
 #. Label of a Data field in DocType 'Packed Item'
 #: erpnext/stock/doctype/packed_item/packed_item.json
