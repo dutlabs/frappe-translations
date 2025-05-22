@@ -43414,7 +43414,7 @@ msgstr "Linha nº {0}: o Armazém Aprovado e o Armazém do Fornecedor não podem
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:426
 msgid "Row #{0}: Accepted Warehouse is mandatory for the accepted Item {1}"
-msgstr "Linha #{0}: O Armazém Aprovado é obrigatório para o item aceito {1}."
+msgstr "Linha #{0}: o Armazém Aprovado é obrigatório para o item aceito {1}."
 
 #: erpnext/controllers/accounts_controller.py:1035
 msgid "Row #{0}: Account {1} does not belong to company {2}"
