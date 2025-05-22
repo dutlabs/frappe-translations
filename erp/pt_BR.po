@@ -32,7 +32,7 @@ msgstr " Quantidade"
 #. Label of a Check field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 msgid " Is Child Table"
-msgstr " É uma Tabela Filha"
+msgstr " É Tabela Filha"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:184
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:107
@@ -1956,7 +1956,7 @@ msgstr "Quantidade Aceita"
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Accepted Warehouse"
-msgstr "Armazém Aceito"
+msgstr "Armazém Aprovado"
 
 #. Label of a Data field in DocType 'Currency Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
@@ -25302,7 +25302,7 @@ msgstr "Está Rejeitado"
 #. Label of a Check field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "Is Rejected Warehouse"
-msgstr "É Armazém Rejeitado"
+msgstr "É armazém de descarte"
 
 #. Label of a Check field in DocType 'POS Invoice Reference'
 #. Label of a Check field in DocType 'Delivery Note'
@@ -41798,7 +41798,7 @@ msgstr "Armazém de Itens Rejeitados"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:653
 msgid "Rejected Warehouse and Accepted Warehouse cannot be same."
-msgstr "O Armazém Rejeitado e o Armazém Aceito não podem ser o mesmo."
+msgstr "O armazém de descarte e o armazém aprovado não podem ser os mesmos."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:23
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation_dashboard.py:14
@@ -42946,7 +42946,7 @@ msgstr "Qtde de Devolução"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:321
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Return Qty from Rejected Warehouse"
-msgstr "Qtde de Devolução do Armazém Rejeitado"
+msgstr "Qtde de Devolução do Armazém de Descarte"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:106
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:208
@@ -43406,15 +43406,15 @@ msgstr "Linha #{0}: A fórmula do Critério de Aceitação é obrigatória."
 #: erpnext/controllers/subcontracting_controller.py:72
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:433
 msgid "Row #{0}: Accepted Warehouse and Rejected Warehouse cannot be same"
-msgstr "Linha #{0}: O Armazém Aceito e o Armazém Rejeitado não podem ser o mesmo."
+msgstr "Linha #{0}: o Armazém Aprovado e o Armazém de Descarte não podem ser o mesmo."
 
 #: erpnext/controllers/buying_controller.py:227
 msgid "Row #{0}: Accepted Warehouse and Supplier Warehouse cannot be same"
-msgstr "Linha nº {0}: o Warehouse aceito e o Warehouse do fornecedor não podem ser iguais"
+msgstr "Linha nº {0}: o Armazém Aprovado e o Armazém do Fornecedor não podem ser iguais"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:426
 msgid "Row #{0}: Accepted Warehouse is mandatory for the accepted Item {1}"
-msgstr "Linha #{0}: O Armazém Aceito é obrigatório para o item aceito {1}."
+msgstr "Linha #{0}: O Armazém Aprovado é obrigatório para o item aceito {1}."
 
 #: erpnext/controllers/accounts_controller.py:1035
 msgid "Row #{0}: Account {1} does not belong to company {2}"
@@ -46826,7 +46826,7 @@ msgstr "Conjunto"
 #. Label of a Link field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Set Accepted Warehouse"
-msgstr "Definir Armazém Aceito"
+msgstr "Definir Armazém Aprovado"
 
 #. Label of a Check field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -46849,7 +46849,7 @@ msgstr "Definir Fornecedor Padrão"
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Set From Warehouse"
-msgstr "Definir do Armazém"
+msgstr "Definir Armazém de Origem"
 
 #. Description of the 'Territory Targets' (Section Break) field in DocType
 #. 'Territory'
@@ -47045,13 +47045,13 @@ msgstr "Defina {0} na empresa {1}"
 #. 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Sets 'Accepted Warehouse' in each row of the Items table."
-msgstr "Define 'Armazém Aceito' em cada linha da tabela de Itens."
+msgstr "Define 'Armazém Aprovado' em cada linha da tabela de Itens."
 
 #. Description of the 'Rejected Warehouse' (Link) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Sets 'Rejected Warehouse' in each row of the Items table."
-msgstr "Define 'Armazém Rejeitado' em cada linha da tabela de Itens."
+msgstr "Define 'Armazém de Descarte' em cada linha da tabela de Itens."
 
 #. Description of the 'Set Reserve Warehouse' (Link) field in DocType
 #. 'Subcontracting Order'
