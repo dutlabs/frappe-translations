@@ -6216,12 +6216,12 @@ msgstr "Série de Nomenclatura de Ativos"
 #. Label of a Select field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Asset Owner"
-msgstr "Proprietário de Ativos"
+msgstr "Proprietário do Ativo"
 
 #. Label of a Link field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Asset Owner Company"
-msgstr "Proprietário Proprietário Empresa"
+msgstr "Empresa Proprietária do Ativo"
 
 #. Label of a Int field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
