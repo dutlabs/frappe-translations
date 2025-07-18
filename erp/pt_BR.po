@@ -478,7 +478,7 @@ msgid ""
 msgstr ""
 "# Demonstrações Financeiras\n"
 "\n"
-"No Dut ERP, você pode obter relatórios financeiros essenciais, como [Balanço Patrimonial] e Demonstração de [Lucros e Perdas], com um clique. Você pode gerar o relatório para diferentes períodos e traçar gráficos analíticos com base nos dados das demonstrações. Para mais relatórios, verifique as seções como Demonstrações Financeiras, Razão Geral e Relatórios de Rentabilidade.\n"
+"No Dut ERP, você pode obter relatórios financeiros essenciais, como [Balanço Patrimonial] e Demonstração de [Lucros e Perdas], com um clique. Você pode gerar o relatório para diferentes períodos e traçar gráficos analíticos com base nos dados das demonstrações. Para mais relatórios, verifique as seções como Demonstrações Financeiras, Livro Razão e Relatórios de Rentabilidade.\n"
 "\n"
 "<b>[Verifique os relatórios de Contabilidade](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
 
@@ -2300,31 +2300,31 @@ msgstr "Conta {0} é inválido. Conta de moeda deve ser {1}"
 
 #: erpnext/accounts/doctype/account/account.py:150
 msgid "Account {0}: Parent account {1} can not be a ledger"
-msgstr "Conta {0}: a Conta Superior {1} não pode ser um livro-razão"
+msgstr "Conta {0}: a Conta Pai {1} não pode ser um livro-razão"
 
 #: erpnext/accounts/doctype/account/account.py:156
 msgid "Account {0}: Parent account {1} does not belong to company: {2}"
-msgstr "Conta {0}: a Conta Superior {1} não pertence à empresa: {2}"
+msgstr "Conta {0}: a Conta Pai {1} não pertence à empresa: {2}"
 
 #: erpnext/accounts/doctype/account/account.py:144
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "Conta {0}: a Conta Superior {1} não existe"
+msgstr "Conta {0}: a Conta Pai {1} não existe"
 
 #: erpnext/accounts/doctype/account/account.py:147
 msgid "Account {0}: You can not assign itself as parent account"
-msgstr "Conta {0}: Você não pode definir a própria conta como uma conta superior"
+msgstr "Conta {0}: Você não pode definir a própria conta como uma conta pai"
 
 #: erpnext/accounts/general_ledger.py:424
 msgid "Account: <b>{0}</b> is capital Work in progress and can not be updated by Journal Entry"
-msgstr "Conta: <b>{0}</b> é capital em andamento e não pode ser atualizado pela entrada de diário"
+msgstr "Conta: <b>{0}</b> é capital em andamento e não pode ser atualizado pelo Lançamento Contábil do Livro Diário"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:285
 msgid "Account: {0} can only be updated via Stock Transactions"
-msgstr "Conta: {0} só pode ser atualizado via transações de ações"
+msgstr "Conta: {0} só pode ser atualizada via Transações de Estoque"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2736
 msgid "Account: {0} is not permitted under Payment Entry"
-msgstr "Conta: {0} não é permitida em Entrada de pagamento"
+msgstr "Conta: {0} não é permitida em Entrada de Pagamento"
 
 #: erpnext/controllers/accounts_controller.py:3106
 msgid "Account: {0} with currency: {1} can not be selected"
@@ -2533,17 +2533,17 @@ msgstr "Filtro da Dimensões Contábeis"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 msgid "Accounting Entries"
-msgstr "Lançamentos Contábeis"
+msgstr "Registros Contábeis"
 
 #: erpnext/assets/doctype/asset/asset.py:778
 #: erpnext/assets/doctype/asset/asset.py:793
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:552
 msgid "Accounting Entry for Asset"
-msgstr "Lançamento Contábil de Ativo"
+msgstr "Registro Contábil de Ativo"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:771
 msgid "Accounting Entry for Service"
-msgstr "Lançamento Contábil Para Serviço"
+msgstr "Registro Contábil para Serviço"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:996
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1017
@@ -2561,15 +2561,15 @@ msgstr "Lançamento Contábil Para Serviço"
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1578
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:587
 msgid "Accounting Entry for Stock"
-msgstr "Lançamento Contábil de Estoque"
+msgstr "Registro Contábil de Estoque"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:682
 msgid "Accounting Entry for {0}"
-msgstr "Lançamento Contábil para {0}"
+msgstr "Registro Contábil para {0}"
 
 #: erpnext/controllers/accounts_controller.py:2320
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
-msgstr "Contabilidade de entrada para {0}: {1} só pode ser feito em moeda: {2}"
+msgstr "Registro Contábil para {0}: {1} só pode ser feito em moeda: {2}"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:193
 #: erpnext/buying/doctype/supplier/supplier.js:85
@@ -2578,7 +2578,7 @@ msgstr "Contabilidade de entrada para {0}: {1} só pode ser feito em moeda: {2}"
 #: erpnext/selling/doctype/customer/customer.js:150
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:50
 msgid "Accounting Ledger"
-msgstr "Registro Contábil"
+msgstr "Razão Contábil"
 
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json
@@ -7750,7 +7750,7 @@ msgstr "Importação de Extrato Bancário"
 
 #: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:40
 msgid "Bank Statement balance as per General Ledger"
-msgstr "Extrato bancário de acordo com o livro razão"
+msgstr "Extrato bancário de acordo com o Livro Razão"
 
 #. Linked DocType in Bank Account's connections
 #. Name of a DocType
@@ -7782,7 +7782,7 @@ msgstr "Transação Bancária {0} Correspondida"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:541
 msgid "Bank Transaction {0} added as Journal Entry"
-msgstr "Transação Bancária {0} adicionada como Lançamento Contábil"
+msgstr "Transação Bancária {0} adicionada como Lançamento Contábil do Livro Diário"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:516
 msgid "Bank Transaction {0} added as Payment Entry"
@@ -17718,24 +17718,24 @@ msgstr "A data de vencimento é obrigatória"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:140
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "Dunning"
-msgstr "Dunning"
+msgstr "Cobrança"
 
 #. Label of a Currency field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "Dunning Amount"
-msgstr "Quantia de Cobrança"
+msgstr "Valor da Cobrança"
 
 #. Label of a Currency field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "Dunning Amount (Company Currency)"
-msgstr "Valor de Cobrança (Moeda da Empresa)"
+msgstr "Valor da Cobrança (Moeda da Empresa)"
 
 #. Label of a Currency field in DocType 'Dunning'
 #. Label of a Currency field in DocType 'Dunning Type'
 #: erpnext/accounts/doctype/dunning/dunning.json
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
 msgid "Dunning Fee"
-msgstr "Taxa de Cobranca"
+msgstr "Taxa de Cobrança"
 
 #. Label of a Section Break field in DocType 'Dunning Type'
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
@@ -17777,7 +17777,7 @@ msgstr "Grupo de Clientes Duplicado"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.py:71
 msgid "Duplicate Entry. Please check Authorization Rule {0}"
-msgstr "Duplicar entrada. Por favor verifique Regra de Autorização {0}"
+msgstr "Entrada duplicada. Por favor, verifique Regra de Autorização {0}"
 
 #: erpnext/assets/doctype/asset/asset.py:334
 msgid "Duplicate Finance Book"
@@ -21050,7 +21050,7 @@ msgstr "Totalmente Entregue"
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset/asset_list.js:6
 msgid "Fully Depreciated"
-msgstr "Depreciados Totalmente"
+msgstr "Totalmente Depreciado"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:28
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:41
@@ -21095,23 +21095,23 @@ msgstr "G - D"
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:170
 #: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.py:238
 msgid "GL Balance"
-msgstr "Saldo GL"
+msgstr "Saldo do Livro Razão"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/report/general_ledger/general_ledger.py:611
 msgid "GL Entry"
-msgstr "Lançamento GL"
+msgstr "Lançamento do Livro Razão"
 
 #. Label of a Select field in DocType 'Period Closing Voucher'
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
 msgid "GL Entry Processing Status"
-msgstr "Status do Processamento da Entrada GL"
+msgstr "Status do Processamento do Lançamento do Livro Razão"
 
 #. Label of a Int field in DocType 'Repost Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "GL reposting index"
-msgstr "Índice de repostagem GL"
+msgstr "Índice de Repostagem do Livro Razão"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -23654,7 +23654,7 @@ msgstr "Armazém Incorreto"
 
 #: erpnext/accounts/general_ledger.py:52
 msgid "Incorrect number of General Ledger Entries found. You might have selected a wrong Account in the transaction."
-msgstr "Número incorreto de General Ledger Entries encontrado. Talvez você tenha selecionado uma conta de errado na transação."
+msgstr "Número incorreto de Lançamentos do Livro Razão encontrado. Talvez você tenha selecionado uma Conta incorreta na transação."
 
 #. Label of a Link field in DocType 'Purchase Invoice'
 #. Label of a Link field in DocType 'Sales Invoice'
@@ -24661,7 +24661,7 @@ msgstr "É a conta padrão"
 #. Label of a Check field in DocType 'Dunning Letter Text'
 #: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
 msgid "Is Default Language"
-msgstr "É o idioma padrão"
+msgstr "É Idioma Padrão"
 
 #. Label of a Select field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
@@ -27386,13 +27386,13 @@ msgstr "Cabeçalho de Carta"
 #. Letter Text'
 #: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
 msgid "Letter or Email Body Text"
-msgstr "Carta Ou Texto do Corpo do E-mail"
+msgstr "Carta ou Texto do Corpo do E-mail"
 
 #. Description of the 'Closing Text' (Text Editor) field in DocType 'Dunning
 #. Letter Text'
 #: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
 msgid "Letter or Email Closing Text"
-msgstr "Texto de Fechamento de Carta Ou E-mail"
+msgstr "Texto de Encerramento de Carta ou E-mail"
 
 #. Label of an action in the Onboarding Step 'Sales Order'
 #: erpnext/selling/onboarding_step/sales_order/sales_order.json
@@ -28007,7 +28007,7 @@ msgstr "Detalhes de Manutenção"
 
 #: erpnext/assets/doctype/asset_maintenance/asset_maintenance.js:50
 msgid "Maintenance Log"
-msgstr "Log de Manutenção"
+msgstr "Registro de Manutenção"
 
 #. Label of a Data field in DocType 'Asset Maintenance'
 #. Label of a Link field in DocType 'Asset Maintenance Team'
@@ -33899,45 +33899,45 @@ msgstr "Os Registos de Pagamento {0} não estão relacionados"
 #: erpnext/accounts/workspace/payables/payables.json
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "Payment Entry"
-msgstr "Pagamentos"
+msgstr "Lançamento de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
 msgid "Payment Entry Deduction"
-msgstr "Dedução de Registo de Pagamento"
+msgstr "Dedução de Lançamento de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 msgid "Payment Entry Reference"
-msgstr "Referência de Registo de Pagamento"
+msgstr "Referência de Lançamento de Pagamento"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:450
 msgid "Payment Entry already exists"
-msgstr "Pagamento já existe"
+msgstr "Lançamento de Pagamento já existe"
 
 #: erpnext/accounts/utils.py:613
 msgid "Payment Entry has been modified after you pulled it. Please pull it again."
-msgstr "Entrada de pagamento foi modificado depois que você puxou-o. Por favor puxe-o novamente."
+msgstr "Lançamento de Pagamento foi modificado depois que você o atualizou. Por favor atualize-o novamente."
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:126
 #: erpnext/accounts/doctype/payment_request/payment_request.py:547
 msgid "Payment Entry is already created"
-msgstr "Entrada de pagamento já foi criada"
+msgstr "Lançamento de Pagamento já foi criado"
 
 #: erpnext/controllers/accounts_controller.py:1516
 msgid "Payment Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice."
-msgstr "A Entrada de Pagamento {0} está vinculada ao Pedido {1}, verifique se deve ser considerada como adiantamento nesta fatura."
+msgstr "O Lançamento de Pagamento {0} está vinculado ao Pedido {1}, verifique se deve ser considerado como adiantamento nesta fatura."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:279
 msgid "Payment Failed"
-msgstr "Pagamento falhou"
+msgstr "Pagamento Falhou"
 
 #. Label of a Section Break field in DocType 'Bank Transaction'
 #. Label of a Section Break field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Payment From / To"
-msgstr "Pagamento de / Para"
+msgstr "Pagamento De / Para"
 
 #. Label of a Link field in DocType 'Payment Gateway Account'
 #. Label of a Read Only field in DocType 'Payment Request'
@@ -39474,7 +39474,7 @@ msgstr "Entrada Rápida"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:552
 msgid "Quick Journal Entry"
-msgstr "Lançamento no Livro Diário Rápido"
+msgstr "Lançamento Contábil Rápido"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -42203,11 +42203,11 @@ msgstr "Receita"
 #. Label of a Link field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Reversal Of"
-msgstr "Reversão de"
+msgstr "Estorno de"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:49
 msgid "Reverse Journal Entry"
-msgstr "Entrada de Diário Reversa"
+msgstr "Estorno de Lançamento Contábil"
 
 #. Label of a Link field in DocType 'Quality Action'
 #. Group in Quality Goal's connections
@@ -42222,7 +42222,7 @@ msgstr "Entrada de Diário Reversa"
 #: erpnext/quality_management/doctype/quality_review_objective/quality_review_objective.json
 #: erpnext/quality_management/report/review/review.json
 msgid "Review"
-msgstr "Reveja"
+msgstr "Revisar"
 
 #. Title of an Onboarding Step
 #: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
@@ -42281,22 +42281,22 @@ msgstr "Toque"
 #. Label of a Link field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Role Allowed to Create/Edit Back-dated Transactions"
-msgstr "Papel Permitido para Criar/Editar Transações Retroativas"
+msgstr "Função Autorizada a Criar/Editar Transações Retroativas"
 
 #. Label of a Link field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Role Allowed to Edit Frozen Stock"
-msgstr "Função Autorizada Para Editar Estoque Congelado"
+msgstr "Função Autorizada a Editar Estoque Congelado"
 
 #. Label of a Link field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role Allowed to Over Bill "
-msgstr "Função Permitida para Superfaturar"
+msgstr "Função Autorizada a Superfaturar"
 
 #. Label of a Link field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Role Allowed to Over Deliver/Receive"
-msgstr "Papel Permitido para Entregar/Receber em Excesso"
+msgstr "Função Autorizada a Entregar/Receber em Excesso"
 
 #. Label of a Link field in DocType 'Accounts Settings'
 #. Label of a Link field in DocType 'Buying Settings'
@@ -42305,17 +42305,17 @@ msgstr "Papel Permitido para Entregar/Receber em Excesso"
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Role Allowed to Override Stop Action"
-msgstr "Papel Permitido para Substituir Ação de Parada"
+msgstr "Função Autorizada a Substituir Ação de Parada"
 
 #. Label of a Link field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role Allowed to Set Frozen Accounts and Edit Frozen Entries"
-msgstr "Função Permitida Para Definir Contas Congeladas e Editar Entradas Congeladas"
+msgstr "Função Autorizada a Definir Contas Congeladas e Editar Entradas Congeladas"
 
 #. Label of a Link field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role allowed to bypass Credit Limit"
-msgstr "Papel permitido para contornar Limite de Crédito"
+msgstr "Função autorizada a contornar Limite de Crédito"
 
 #. Label of a Link field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
@@ -42345,11 +42345,11 @@ msgstr "Tipo de Raiz é obrigatório"
 
 #: erpnext/accounts/doctype/account/account.py:213
 msgid "Root cannot be edited."
-msgstr "Root não pode ser editado."
+msgstr "Raiz não pode ser editado."
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:47
 msgid "Root cannot have a parent cost center"
-msgstr "Root não pode ter um centro de custos pai"
+msgstr "Raiz não pode ter um centro de custos pai"
 
 #. Label of a Check field in DocType 'Pricing Rule'
 #. Label of a Check field in DocType 'Promotional Scheme Product Discount'
@@ -42437,7 +42437,7 @@ msgstr "Total Arredondado"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Rounded Total (Company Currency)"
-msgstr "Total Arredondado (moeda da Empresa)"
+msgstr "Total Arredondado (Moeda da Empresa)"
 
 #. Label of a Currency field in DocType 'POS Invoice'
 #. Label of a Currency field in DocType 'Purchase Invoice'
@@ -42463,7 +42463,7 @@ msgstr "Ajuste de Arredondamento"
 #. Label of a Currency field in DocType 'Supplier Quotation'
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
 msgid "Rounding Adjustment (Company Currency"
-msgstr "Ajuste de Arredondamento (moeda da Empresa"
+msgstr "Ajuste de Arredondamento (Moeda da Empresa"
 
 #. Label of a Currency field in DocType 'POS Invoice'
 #. Label of a Currency field in DocType 'Purchase Invoice'
@@ -42482,22 +42482,22 @@ msgstr "Ajuste de Arredondamento (moeda da Empresa"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Rounding Adjustment (Company Currency)"
-msgstr "Ajuste de Arredondamento (moeda da Empresa)"
+msgstr "Ajuste de Arredondamento (Moeda da Empresa)"
 
 #. Label of a Float field in DocType 'Exchange Rate Revaluation'
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
 msgid "Rounding Loss Allowance"
-msgstr "Permissão para Perda de Arredondamento"
+msgstr "Tolerância para Perda por Arredondamento"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:45
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:48
 msgid "Rounding Loss Allowance should be between 0 and 1"
-msgstr "A Permissão para Perda de Arredondamento deve estar entre 0 e 1"
+msgstr "A Tolerância para Perda por Arredondamento deve estar entre 0 e 1"
 
 #: erpnext/controllers/stock_controller.py:604
 #: erpnext/controllers/stock_controller.py:619
 msgid "Rounding gain/loss Entry for Stock Transfer"
-msgstr "Entrada de ganho/perda de arredondamento para Transferência de Estoque"
+msgstr "Lançamento de ganho/perda por arredondamento para Transferência de Estoque"
 
 #. Label of a Small Text field in DocType 'BOM'
 #. Label of a Data field in DocType 'Homepage Section Card'
@@ -42774,7 +42774,7 @@ msgstr "Linha #{0}: O item {1} não é um item de estoque"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:690
 msgid "Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher"
-msgstr "Linha #{0}: o Lançamento Contabilístico {1} não tem uma conta {2} ou está relacionado a outro voucher"
+msgstr "Linha #{0}: o Lançamento Contábil {1} não tem uma conta {2} ou está relacionado a outro comprovante"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:576
 msgid "Row #{0}: Not allowed to change Supplier as Purchase Order already exists"
@@ -42859,11 +42859,11 @@ msgstr "Linha #{0}: A quantidade recebida deve ser igual à quantidade aceita + 
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1251
 msgid "Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry"
-msgstr "Linha #{0}: o Tipo de Documento de Referência deve ser um Pedido de Compra, uma Nota Fiscal de Compra ou um Lançamento Contábil"
+msgstr "Linha #{0}: o Tipo de Documento de Referência deve ser um Pedido de Compra, uma Nota Fiscal de Compra ou um Lançamento Contábil do Livro Diário"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1237
 msgid "Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice, Journal Entry or Dunning"
-msgstr "Linha #{0}: o tipo de documento de referência deve ser pedido de venda, fatura de venda, lançamento contábil manual ou cobrança"
+msgstr "Linha #{0}: o tipo de documento de referência deve ser Pedido de Venda, Fatura de Venda, Lançamento Contábil do Livro Diário ou Cobrança"
 
 #: erpnext/controllers/buying_controller.py:505
 msgid "Row #{0}: Rejected Qty can not be entered in Purchase Return"
@@ -51024,7 +51024,7 @@ msgstr "O valor de {0} definido nesta solicitação de pagamento é diferente do
 
 #: erpnext/accounts/doctype/dunning/dunning.py:86
 msgid "The currency of invoice {} ({}) is different from the currency of this dunning ({})."
-msgstr "A moeda da fatura {} ({}) é diferente da moeda desta cobrança ({})"
+msgstr "A moeda da fatura {} ({}) é diferente da moeda desta cobrança ({})."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:955
 msgid "The default BOM for that item will be fetched by the system. You can also change the BOM."
@@ -51032,24 +51032,24 @@ msgstr "A BOM padrão para esse item será buscado automaticamente pelo sistema.
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:69
 msgid "The difference between from time and To Time must be a multiple of Appointment"
-msgstr "A diferença entre time e Time deve ser um múltiplo de Compromisso"
+msgstr "A diferença entre Data Inicial e Data Final deve ser um múltiplo de Compromisso"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:177
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:185
 msgid "The field Asset Account cannot be blank"
-msgstr "O campo Conta do ativo não pode ficar em branco"
+msgstr "O campo Conta de Ativo não pode ficar em branco"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:192
 msgid "The field Equity/Liability Account cannot be blank"
-msgstr "O campo Conta do patrimônio líquido / passivo não pode ficar em branco"
+msgstr "O campo Conta de Patrimônio Líquido/Passivo não pode ficar em branco"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:173
 msgid "The field From Shareholder cannot be blank"
-msgstr "O campo do Acionista não pode estar em branco"
+msgstr "O campo Do Acionista não pode ficar em branco"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:181
 msgid "The field To Shareholder cannot be blank"
-msgstr "O campo Acionista não pode estar em branco"
+msgstr "O campo Ao Acionista não pode ficar em branco"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:385
 msgid "The field {0} in row {1} is not set"
@@ -51057,7 +51057,7 @@ msgstr "O campo {0} na linha {1} não está configurado"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:188
 msgid "The fields From Shareholder and To Shareholder cannot be blank"
-msgstr "Os campos do Acionista e do Acionista não podem estar em branco"
+msgstr "Os campos Do Acionista e Ao Acionista não podem ficar em branco"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:488
 msgid "The finished product {0} quantity {1} and For Quantity {2} cannot be different"
@@ -52197,13 +52197,13 @@ msgstr "Ponto Final do Intervalo"
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/purchase_order/purchase_order_list.js:29
 msgid "To Receive"
-msgstr "Receber"
+msgstr "A Receber"
 
 #. Option for the 'Status' (Select) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/purchase_order/purchase_order_list.js:23
 msgid "To Receive and Bill"
-msgstr "Receber e Faturar"
+msgstr "A Receber e Faturar"
 
 #. Label of a Date field in DocType 'Bank Reconciliation Tool'
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
@@ -52682,7 +52682,7 @@ msgstr "Crédito Total"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:267
 msgid "Total Credit/ Debit Amount should be same as linked Journal Entry"
-msgstr "O valor total de crédito / débito deve ser o mesmo que o lançamento no diário associado"
+msgstr "O valor total de crédito / débito deve ser o mesmo que o Lançamento Contábil do Livro Diário associado"
 
 #. Label of a Currency field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
