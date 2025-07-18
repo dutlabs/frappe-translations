@@ -21106,7 +21106,7 @@ msgstr "Lançamento do Livro Razão"
 #. Label of a Select field in DocType 'Period Closing Voucher'
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
 msgid "GL Entry Processing Status"
-msgstr "Status do Processamento da Lançamento do Livro Razão"
+msgstr "Status do Processamento do Lançamento do Livro Razão"
 
 #. Label of a Int field in DocType 'Repost Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
