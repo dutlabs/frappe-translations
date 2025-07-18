@@ -8562,7 +8562,7 @@ msgstr "Assinante do Blog"
 #. Label of a Select field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Blood Group"
-msgstr "Grupo Sanguíneo"
+msgstr "Tipo Sanguíneo"
 
 #. Option for the 'Color' (Select) field in DocType 'Supplier Scorecard Scoring
 #. Standing'
@@ -13842,7 +13842,7 @@ msgstr "Endereço Atual"
 #. Label of a Select field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Current Address Is"
-msgstr "Endereço Atual É"
+msgstr "Endereço Atual é"
 
 #. Label of a Currency field in DocType 'Stock Reconciliation Item'
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
@@ -29426,7 +29426,7 @@ msgstr "Condições Mistas"
 #: erpnext/crm/report/lead_details/lead_details.py:42
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Mobile"
-msgstr "Móvel"
+msgstr "Celular"
 
 #. Label of a Small Text field in DocType 'Dunning'
 #. Label of a Data field in DocType 'POS Invoice'
@@ -31128,7 +31128,7 @@ msgstr "Nada mais para mostrar."
 #. Label of a Int field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Notice (days)"
-msgstr "Aviso Prévio ( Dias)"
+msgstr "Aviso Prévio (Dias)"
 
 #. Label of a Link in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
@@ -31653,7 +31653,7 @@ msgid "Open Issues"
 msgstr "Incidentes Abertos"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:46
-msgid "Open Issues "
+msgid "Open Issues"
 msgstr "Incidentes Em Aberto"
 
 #: erpnext/manufacturing/doctype/bom/bom_item_preview.html:25
@@ -34683,7 +34683,7 @@ msgstr "Endereço Permanente"
 #. Label of a Select field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Permanent Address Is"
-msgstr "Endereço Permanente É"
+msgstr "Endereço Permanente é"
 
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:19
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:17
@@ -35916,7 +35916,7 @@ msgstr "Por favor, defina uma Conta de Despesa na tabela de Itens."
 
 #: erpnext/crm/doctype/email_campaign/email_campaign.py:57
 msgid "Please set an email id for the Lead {0}"
-msgstr "Por favor defina um email para o Lead {0}"
+msgstr "Por favor defina um e-mail para o Lead {0}"
 
 #: erpnext/regional/italy/utils.py:302
 msgid "Please set at least one row in the Taxes and Charges Table"
@@ -36359,12 +36359,12 @@ msgstr "Pré-Venda"
 #. Label of a Select field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Prefered Contact Email"
-msgstr "Contato de Email Preferido"
+msgstr "Contato de E-mail Preferido"
 
 #. Label of a Data field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Prefered Email"
-msgstr "Email Preferido"
+msgstr "E-mail Preferido"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:283
 msgid "Preference"
@@ -36817,7 +36817,7 @@ msgstr "Detalhes Principais de Contato"
 #. Customer'
 #: erpnext/accounts/doctype/process_statement_of_accounts_customer/process_statement_of_accounts_customer.json
 msgid "Primary Contact Email"
-msgstr "Email do Contato Principal"
+msgstr "E-mail do Contato Principal"
 
 #. Label of a Dynamic Link field in DocType 'Party Link'
 #: erpnext/accounts/doctype/party_link/party_link.json
@@ -37986,7 +37986,7 @@ msgstr "Clientes Prospectados Mas Não Convertidos"
 #. Description of the 'Company Email' (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Provide Email Address registered in company"
-msgstr "Forneça o Endereço de Email registado na empresa"
+msgstr "Forneça o Endereço de E-mail registrado na empresa"
 
 #. Label of a Link field in DocType 'Communication Medium'
 #. Label of a Select field in DocType 'Video'
@@ -39609,7 +39609,7 @@ msgstr "Levantadas Por"
 #. Label of a Data field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
 msgid "Raised By (Email)"
-msgstr "Levantadas Por (email)"
+msgstr "Levantadas Por (e-mail)"
 
 #. Option for the 'Periodicity' (Select) field in DocType 'Maintenance Schedule
 #. Item'
@@ -41655,7 +41655,7 @@ msgstr "Reseleccione, se o contato escolhido for editado após salvar"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.js:35
 msgid "Resend Payment Email"
-msgstr "Reenviar Email de Pagamento"
+msgstr "Reenviar E-mail de Pagamento"
 
 #. Label of a Select field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -45243,7 +45243,7 @@ msgstr "Enviar Impressão do Documento"
 #. Label of a Check field in DocType 'Request for Quotation Supplier'
 #: erpnext/buying/doctype/request_for_quotation_supplier/request_for_quotation_supplier.json
 msgid "Send Email"
-msgstr "Enviar Email"
+msgstr "Enviar E-mail"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:11
 msgid "Send Emails"
@@ -45276,7 +45276,7 @@ msgstr "Enviar Para Contato Principal"
 #. Description of a DocType
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Send regular summary reports via Email."
-msgstr "Enviar relatórios periódicos de síntese via Email."
+msgstr "Enviar relatórios resumidos regularmente por E-mail."
 
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
@@ -50101,7 +50101,7 @@ msgstr "Tarefa"
 #. Label of a Data field in DocType 'Asset Maintenance Log'
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
 msgid "Task Assignee Email"
-msgstr "Email do Responsável pela Tarefa"
+msgstr "E-mail do Responsável pela Tarefa"
 
 #. Option for the '% Complete Method' (Select) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
@@ -51385,7 +51385,7 @@ msgstr "Houve um problema ao conectar com o servidor de autenticação do Plaid.
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:290
 msgid "There were errors while sending email. Please try again."
-msgstr "Ocorreram erros durante o envio de email. Por favor tente novamente."
+msgstr "Ocorreram erros durante o envio de e-mail. Por favor, tente novamente."
 
 #: erpnext/accounts/utils.py:1040
 msgid "There were issues unlinking payment entry {0}."
@@ -54149,7 +54149,7 @@ msgstr "Não Assinado"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:128
 msgid "Unsubscribe from this Email Digest"
-msgstr "Cancelar a inscrição neste Resumo por Email"
+msgstr "Cancelar a inscrição neste Resumo por E-mail"
 
 #. Option for the 'Status' (Select) field in DocType 'Email Campaign'
 #. Label of a Check field in DocType 'Lead'
@@ -56190,7 +56190,7 @@ msgstr "Função de Ponderação"
 #. Label of a Check field in DocType 'Project User'
 #: erpnext/projects/doctype/project_user/project_user.json
 msgid "Welcome email sent"
-msgstr "Email de boas-vindas enviado"
+msgstr "E-mail de boas-vindas enviado"
 
 #: erpnext/setup/utils.py:235
 msgid "Welcome to {0}"
@@ -56999,7 +56999,7 @@ msgstr "Seu Nome (obrigatório)"
 #: erpnext/templates/includes/footer/footer_extension.html:5
 #: erpnext/templates/includes/footer/footer_extension.html:6
 msgid "Your email address..."
-msgstr "Seu endereço de email..."
+msgstr "Seu endereço de e-mail..."
 
 #: erpnext/www/book_appointment/verify/index.html:11
 msgid "Your email has been verified and your appointment has been scheduled"
@@ -57416,7 +57416,7 @@ msgstr "{0} o cupom usado é {1}. a quantidade permitida está esgotada"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:124
 msgid "{0} Digest"
-msgstr "{0} Digest"
+msgstr "Resumo {0}"
 
 #: erpnext/accounts/utils.py:1349
 msgid "{0} Number {1} is already used in {2} {3}"
