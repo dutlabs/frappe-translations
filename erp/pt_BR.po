@@ -46119,7 +46119,7 @@ msgstr "Enviar Para Contato Principal"
 #. Description of a DocType
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Send regular summary reports via Email."
-msgstr "Enviar relatórios periódicos de síntese via E-mail."
+msgstr "Enviar relatórios resumidos regularmente por E-mail."
 
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
@@ -52260,7 +52260,7 @@ msgstr "Houve um problema ao conectar com o servidor de autenticação do Plaid.
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:290
 msgid "There were errors while sending email. Please try again."
-msgstr "Ocorreram erros durante o envio de e-mail. Por favor tente novamente."
+msgstr "Ocorreram erros durante o envio de e-mail. Por favor, tente novamente."
 
 #: erpnext/accounts/utils.py:1035
 msgid "There were issues unlinking payment entry {0}."
@@ -58362,7 +58362,7 @@ msgstr "{0} o cupom usado é {1}. a quantidade permitida está esgotada"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:124
 msgid "{0} Digest"
-msgstr "{0} Digerir"
+msgstr "Resumo {0}"
 
 #: erpnext/accounts/utils.py:1344
 msgid "{0} Number {1} is already used in {2} {3}"
