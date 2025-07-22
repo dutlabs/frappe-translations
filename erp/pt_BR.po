@@ -2158,16 +2158,16 @@ msgstr "Saldo de Abertura de Conta"
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Paid From"
-msgstr "Conta de Origem do Pagamento"
+msgstr "Conta Contábil de Destino"
 
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Paid To"
-msgstr "Conta Paga Para"
+msgstr "Conta Contábil de Destino"
 
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.py:118
 msgid "Account Pay Only"
-msgstr "Apenas Pagamento por Conta"
+msgstr "Conta Somente para Pagamento"
 
 #. Label of a Link field in DocType 'Bank Account'
 #. Label of a Data field in DocType 'Bank Account Subtype'
