@@ -7098,11 +7098,11 @@ msgstr "Apagar aba"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:869
 msgid "Delete Workspace"
-msgstr "Apagar área de trabalho"
+msgstr "Apagar Espaço de Trabalho"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:868
 msgid "Delete and Generate New"
-msgstr "Excluir e gerar novo"
+msgstr "Excluir e Gerar Novo"
 
 #: frappe/public/js/form_builder/components/Section.vue:203
 msgctxt "Button text"
@@ -7354,11 +7354,11 @@ msgstr "Usuário da Área de Trabalho"
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
 msgid "Desktop Icon"
-msgstr "Ícone da área de trabalho"
+msgstr "Ícone da Área de Trabalho"
 
 #: frappe/desk/doctype/desktop_icon/desktop_icon.py:225
 msgid "Desktop Icon already exists"
-msgstr "Ícone da área de trabalho já existe"
+msgstr "Ícone da Área de Trabalho já existe"
 
 #. Label of a Code field in DocType 'Scheduled Job Log'
 #. Label of a Tab Break field in DocType 'Customize Form'
@@ -25192,7 +25192,7 @@ msgstr "Trocar Tema"
 
 #: frappe/templates/includes/navbar/navbar_login.html:17
 msgid "Switch To Desk"
-msgstr "→ Área de Trabalho"
+msgstr "Área de Trabalho"
 
 #: frappe/public/js/frappe/list/list_sidebar.js:296
 msgid "Switch to Frappe CRM for smarter sales"
