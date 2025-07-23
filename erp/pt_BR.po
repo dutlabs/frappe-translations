@@ -569,7 +569,7 @@ msgid ""
 msgstr ""
 "# Compra de um Ativo\n"
 "\n"
-"O processo de compra de ativos é realizado seguindo o ciclo de compra padrão. Se obras em andamento estiverem habilitadas na Categoria de Ativo, o Ativo será criado assim que o Recibo de Compra for gerado. Você pode rapidamente criar um Recibo de Compra para o Ativo e ver seu impacto nos registros contábeis."
+"O processo de compra de ativos é realizado seguindo o ciclo de compra padrão. Se obras em andamento estiverem habilitadas na Categoria de Ativo, o Ativo será criado assim que o Recibo de Compra for gerado. Você pode rapidamente criar um Recibo de Compra para o Ativo e ver seu impacto nos livros contábeis."
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:141
 msgid "# Req'd Items"
@@ -654,7 +654,7 @@ msgid ""
 msgstr ""
 "# Configurar uma Empresa\n"
 "\n"
-"Uma empresa é uma entidade legal para a qual você configurará seus registros contábeis e criará transações contábeis. No Dut ERP, você pode criar várias empresas e estabelecer relações (grupo/subsidiária) entre elas.\n"
+"Uma empresa é uma entidade legal para a qual você configurará seus livros contábeis e criará transações contábeis. No Dut ERP, você pode criar várias empresas e estabelecer relações (grupo/subsidiária) entre elas.\n"
 "\n"
 "Na configuração de empresa, você pode registrar diversas contas padrão para aquela empresa e definir configurações cruciais relacionadas à metodologia contábil seguida pela empresa.\n"
 
@@ -2202,11 +2202,11 @@ msgstr "Valor da Conta"
 
 #: erpnext/accounts/doctype/account/account.py:295
 msgid "Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'"
-msgstr "O saldo da Conta já está em Crédito, você não tem permissão para definir 'Saldo Deve Ser' como 'Débito'"
+msgstr "O saldo da Conta Contábil já está em Crédito, você não tem permissão para definir 'Saldo Deve Ser' como 'Débito'"
 
 #: erpnext/accounts/doctype/account/account.py:289
 msgid "Account balance already in Debit, you are not allowed to set 'Balance Must Be' as 'Credit'"
-msgstr "O saldo da Conta já está em Débito, você não tem permissão para definir 'Saldo Deve Ser' como 'Crédito'"
+msgstr "O saldo da Conta Contábil já está em Débito, você não tem permissão para definir 'Saldo Deve Ser' como 'Crédito'"
 
 #. Label of a Link field in DocType 'POS Invoice'
 #. Label of a Link field in DocType 'POS Profile'
@@ -2252,31 +2252,31 @@ msgstr "Contas com transações existentes não pode ser convertidas em livro-ra
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:67
 msgid "Account {0} added multiple times"
-msgstr "Conta {0} foi adicionada múltiplas vezes"
+msgstr "Conta Contábil {0} foi adicionada múltiplas vezes"
 
 #: erpnext/setup/doctype/company/company.py:191
 msgid "Account {0} does not belong to company: {1}"
-msgstr "A Conta {0} não pertence à Empresa: {1}"
+msgstr "A Conta Contábil {0} não pertence à Empresa: {1}"
 
 #: erpnext/accounts/doctype/budget/budget.py:101
 msgid "Account {0} does not belongs to company {1}"
-msgstr "Conta {0} não pertence à empresa {1}"
+msgstr "Conta Contábil {0} não pertence à empresa {1}"
 
 #: erpnext/accounts/doctype/account/account.py:552
-msgid "Account {0} does not exist"
+msgid "Account Contábil {0} does not exist"
 msgstr "A Conta {0} não existe"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.py:64
 msgid "Account {0} does not exists"
-msgstr "Conta {0} não existe"
+msgstr "Conta Contábil {0} não existe"
 
 #: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:51
 msgid "Account {0} does not exists in the dashboard chart {1}"
-msgstr "A conta {0} não existe no gráfico do painel {1}"
+msgstr "A Conta Contábil {0} não existe no gráfico do painel {1}"
 
 #: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py:48
 msgid "Account {0} does not match with Company {1} in Mode of Account: {2}"
-msgstr "A conta {0} não coincide com a Empresa {1} no Modo de Conta: {2}"
+msgstr "A Conta {0} não coincide com a Empresa {1} no Modo de Conta: {2}"
 
 #: erpnext/accounts/doctype/account/account.py:509
 msgid "Account {0} exists in parent company {1}."
@@ -2533,17 +2533,17 @@ msgstr "Filtro da Dimensões Contábeis"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 msgid "Accounting Entries"
-msgstr "Registros Contábeis"
+msgstr "Lançamentos Contábeis"
 
 #: erpnext/assets/doctype/asset/asset.py:778
 #: erpnext/assets/doctype/asset/asset.py:793
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:552
 msgid "Accounting Entry for Asset"
-msgstr "Registro Contábil de Ativo"
+msgstr "Lançamento Contábil para Ativo"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:771
 msgid "Accounting Entry for Service"
-msgstr "Registro Contábil para Serviço"
+msgstr "Lançamento Contábil para Serviço"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:996
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1017
@@ -2561,15 +2561,15 @@ msgstr "Registro Contábil para Serviço"
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1578
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:587
 msgid "Accounting Entry for Stock"
-msgstr "Registro Contábil de Estoque"
+msgstr "Lançamento Contábil de Estoque"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:682
 msgid "Accounting Entry for {0}"
-msgstr "Registro Contábil para {0}"
+msgstr "Lançamento Contábil para {0}"
 
 #: erpnext/controllers/accounts_controller.py:2320
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
-msgstr "Registro Contábil para {0}: {1} só pode ser feito em moeda: {2}"
+msgstr "Lançamento Contábil para {0}: {1} só pode ser feito em moeda: {2}"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:193
 #: erpnext/buying/doctype/supplier/supplier.js:85
@@ -2629,7 +2629,7 @@ msgstr "Os lançamentos contábeis estão congelados até esta data. Ninguém po
 #: erpnext/setup/doctype/incoterm/incoterm.json
 #: erpnext/setup/doctype/supplier_group/supplier_group.json
 msgid "Accounts"
-msgstr "Contas"
+msgstr "Contas Contábeis"
 
 #. Label of a Tab Break field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -6340,7 +6340,7 @@ msgstr "Ativo excluído"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:181
 msgid "Asset issued to Employee {0}"
-msgstr "Ativo emitido para o Funcionário {0}"
+msgstr "Ativo emitido para o Colaborador {0}"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:74
 msgid "Asset out of order due to Asset Repair {0}"
@@ -6348,7 +6348,7 @@ msgstr "Ativo fora de serviço devido à Reparação do Ativo {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:166
 msgid "Asset received at Location {0} and issued to Employee {1}"
-msgstr "Ativo recebido na Localização {0} e emitido para o Funcionário {1}"
+msgstr "Ativo recebido na Localização {0} e emitido para o Colaborador {1}"
 
 #: erpnext/assets/doctype/asset/depreciation.py:458
 msgid "Asset restored"
@@ -6396,7 +6396,7 @@ msgstr "Ativo atualizado após a conclusão da Reparação do Ativo {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:106
 msgid "Asset {0} cannot be received at a location and given to an employee in a single movement"
-msgstr "O Ativo {0} não pode ser recebido em uma localidade e dado a um funcionário em um único movimento"
+msgstr "O Ativo {0} não pode ser recebido em uma localidade e dado a um colaborador em um único movimento"
 
 #: erpnext/assets/doctype/asset/depreciation.py:401
 msgid "Asset {0} cannot be scrapped, as it is already {1}"
@@ -6520,7 +6520,7 @@ msgstr "Pelo menos uma conta com ganho ou perda cambial é necessária"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:436
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:515
 msgid "At least one mode of payment is required for POS invoice."
-msgstr "É necessário pelo menos um modo de pagamento para a fatura POS."
+msgstr "É necessário pelo menos uma forma de pagamento para a fatura de PDV."
 
 #: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.py:34
 msgid "At least one of the Applicable Modules should be selected"
@@ -7566,7 +7566,7 @@ msgstr "Banco / Conta Caixa"
 #. Label of a Data field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Bank A/C No."
-msgstr "Nº Cta. Bancária"
+msgstr "Nº da Conta Bancária"
 
 #. Name of a DocType
 #. Label of a Link field in DocType 'Bank Clearance'
@@ -8618,17 +8618,17 @@ msgstr "Lançar Depreciação de Ativos Automaticamente"
 #. Label of a Select field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Deferred Entries Based On"
-msgstr "Lançar Entradas Diferidas Com Base Em"
+msgstr "Agendar Lançamentos Diferidos Com Base Em"
 
 #. Label of a Check field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Deferred Entries Via Journal Entry"
-msgstr "Lançar Entradas Diferidas Via Lançamento Contábil de Livro Diário"
+msgstr "Agendar Lançamentos Diferidos Via Lançamento no Livro Diário"
 
 #. Label of a Check field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Tax Loss on Early Payment Discount"
-msgstr "Lançar Perda Fiscal sobre Desconto por Pagamento Antecipado"
+msgstr "Agendar Perda Fiscal sobre Desconto por Pagamento Antecipado"
 
 #: erpnext/www/book_appointment/index.html:15
 msgid "Book an appointment"
@@ -9488,7 +9488,7 @@ msgstr "Não É Possível Otimizar a Rota Pois o Endereço do Driver Está Ausen
 
 #: erpnext/setup/doctype/employee/employee.py:185
 msgid "Cannot Relieve Employee"
-msgstr "Não Pode Dispensar o Funcionário"
+msgstr "Não é Possível Dispensar o Colaborador"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:72
 msgid "Cannot Resubmit Ledger entries for vouchers in Closed fiscal year."
@@ -12963,15 +12963,15 @@ msgstr "Criar Entrada de Depreciação"
 
 #: erpnext/utilities/activation.py:136
 msgid "Create Employee"
-msgstr "Criar Empregado"
+msgstr "Criar Colaborador"
 
 #: erpnext/utilities/activation.py:134
 msgid "Create Employee Records"
-msgstr "Criar Registros de Colaboradores"
+msgstr "Criar Registros de Colaborador"
 
 #: erpnext/utilities/activation.py:135
 msgid "Create Employee records."
-msgstr "Criar registros de Funcionários."
+msgstr "Criar registros de Colaborador."
 
 #. Label of a Check field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -12980,7 +12980,7 @@ msgstr "Criar Ativo Agrupado"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:72
 msgid "Create Inter Company Journal Entry"
-msgstr "Criar Entrada de Diário Entre Empresas"
+msgstr "Criar Lançamento no Livro Diário Entre Empresas"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:54
 msgid "Create Invoices"
@@ -12997,11 +12997,11 @@ msgstr "Criar Ficha de Serviço com base no Tamanho do Lote"
 
 #: erpnext/accounts/doctype/payment_order/payment_order.js:39
 msgid "Create Journal Entries"
-msgstr "Criar Lançamentos Contábeis"
+msgstr "Criar Lançamentos no Livro Diário"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.js:18
 msgid "Create Journal Entry"
-msgstr "Criar Entrada de Diário"
+msgstr "Criar Lançamento no Livro Diário"
 
 #. Title of an Onboarding Step
 #: erpnext/crm/onboarding_step/create_lead/create_lead.json
@@ -13016,7 +13016,7 @@ msgstr "Criar Leads"
 #. Label of a Check field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Create Ledger Entries for Change Amount"
-msgstr "Criar Lançamentos Contábeis para Valor de Alteração"
+msgstr "Criar Lançamentos no Razão para Valor de Troco"
 
 #: erpnext/buying/doctype/supplier/supplier.js:224
 #: erpnext/selling/doctype/customer/customer.js:247
@@ -13349,7 +13349,7 @@ msgstr "Criando Dimensões..."
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:92
 msgid "Creating Journal Entries..."
-msgstr "Criando Lançamentos Contábeis..."
+msgstr "Criando Lançamentos no Livro Diário..."
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.js:42
 msgid "Creating Packing Slip ..."
@@ -16773,7 +16773,7 @@ msgstr "Desabilitar Seletor de Número de Série e Lote"
 #. Label of a Check field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Disable auto setting Grand Total to default Payment Mode"
-msgstr "Desabilitar a definição automática do Total Geral para o Modo de Pagamento padrão"
+msgstr "Desabilitar a definição automática do Total Geral para o Forma de Pagamento padrão"
 
 #. Label of a Check field in DocType 'Accounting Dimension Filter'
 #. Label of a Check field in DocType 'Bank Account'
@@ -18297,16 +18297,16 @@ msgstr "Histórico de Trabalho Externo do Colaborador"
 #: erpnext/communication/doctype/communication_medium_timeslot/communication_medium_timeslot.json
 #: erpnext/setup/doctype/employee_group/employee_group.json
 msgid "Employee Group"
-msgstr "Grupo de Empregados"
+msgstr "Grupo de Colaboradores"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/employee_group_table/employee_group_table.json
 msgid "Employee Group Table"
-msgstr "Tabela de Grupo de Empregados"
+msgstr "Tabela de Grupo de Colaboradores"
 
 #: erpnext/projects/report/billing_summary.py:13
 msgid "Employee ID"
-msgstr "ID do Empregado"
+msgstr "ID do Colaborador"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.json
@@ -18332,7 +18332,7 @@ msgstr "Número do Colaborador"
 #. Label of a Link field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
 msgid "Employee User Id"
-msgstr "ID de Usuário do Funcionário"
+msgstr "ID de Usuário do Colaborador"
 
 #: erpnext/setup/doctype/employee/employee.py:217
 msgid "Employee cannot report to himself."
@@ -18340,15 +18340,15 @@ msgstr "Colaborador não pode denunciar a si mesmo."
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:73
 msgid "Employee is required while issuing Asset {0}"
-msgstr "O colaborador é necessário ao emitir o Ativo {0}"
+msgstr "Colaborador é necessário ao emitir o Ativo {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:123
 msgid "Employee {0} does not belongs to the company {1}"
-msgstr "O colaborador {0} não pertence à empresa {1}"
+msgstr "Colaborador {0} não pertence à empresa {1}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:260
 msgid "Employee {0} is currently working on another workstation. Please assign another employee."
-msgstr "O funcionário {0} está atualmente trabalhando em outra estação de trabalho. Por favor, atribua outro funcionário."
+msgstr "O colaborador {0} está atualmente trabalhando em outra estação de trabalho. Por favor, atribua outro colaborador."
 
 #: erpnext/stock/doctype/batch/batch_list.js:16
 msgid "Empty"
@@ -18636,11 +18636,11 @@ msgstr "Garantir a Entrega Com Base no Número de Série Produzido"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:251
 msgid "Enter API key in Google Settings."
-msgstr "Digite a Chave da API Nas Configurações do Google."
+msgstr "Insira a Chave da API em Configurações do Google."
 
 #: erpnext/setup/doctype/employee/employee.js:91
 msgid "Enter First and Last name of Employee, based on Which Full Name will be updated. IN transactions, it will be Full Name which will be fetched."
-msgstr "Digite o nome e sobrenome do funcionário, com base no qual o nome completo será atualizado. Nas transações, será o nome completo que será recuperado."
+msgstr "Insira o primeiro e último nome do Colaborador, com base nos quais o Nome Completo será atualizado. Nas transações, será o Nome Completo que será carregado."
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:201
 msgid "Enter Manually"
@@ -18652,13 +18652,13 @@ msgstr "Inserir Números de Série"
 
 #: erpnext/stock/doctype/material_request/material_request.js:390
 msgid "Enter Supplier"
-msgstr "Entrar no Fornecedor"
+msgstr "Inserir Fornecedor"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:320
 #: erpnext/manufacturing/doctype/workstation/workstation.js:190
 #: erpnext/manufacturing/doctype/workstation/workstation.js:238
 msgid "Enter Value"
-msgstr "Digite o Valor"
+msgstr "Insira o Valor"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.js:96
 msgid "Enter Visit Details"
@@ -18666,11 +18666,11 @@ msgstr "Inserir Detalhes da Visita"
 
 #: erpnext/manufacturing/doctype/routing/routing.js:78
 msgid "Enter a name for Routing."
-msgstr "Digite um nome para o Roteamento."
+msgstr "Insira um nome para o Roteamento."
 
 #: erpnext/manufacturing/doctype/operation/operation.js:20
 msgid "Enter a name for the Operation, for example, Cutting."
-msgstr "Digite um nome para a Operação, por exemplo, Corte."
+msgstr "Insira um nome para a Operação, por exemplo, Corte."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:50
 msgid "Enter a name for this Holiday List."
@@ -18682,7 +18682,7 @@ msgstr "Insira o valor a ser resgatado."
 
 #: erpnext/stock/doctype/item/item.js:941
 msgid "Enter an Item Code, the name will be auto-filled the same as Item Code on clicking inside the Item Name field."
-msgstr "Digite um Código de Item, o nome será preenchido automaticamente com o mesmo Código de Item ao clicar no campo Nome do Item."
+msgstr "Insira um Código de Item, o nome será preenchido automaticamente com o mesmo Código de Item ao clicar no campo Nome do Item."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:926
 msgid "Enter customer's email"
@@ -18707,11 +18707,11 @@ msgstr "Digite cada número de série em uma nova linha."
 #. Description of the 'Campaign' (Link) field in DocType 'Opportunity'
 #: erpnext/crm/doctype/opportunity/opportunity.json
 msgid "Enter name of campaign if source of enquiry is campaign"
-msgstr "Digite o nome da campanha se o motivo da consulta foi uma campanha."
+msgstr "Insira o nome da campanha se o motivo da consulta foi uma campanha."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:51
 msgid "Enter the Bank Guarantee Number before submittting."
-msgstr "Digite o número da garantia bancária antes de enviar."
+msgstr "Insira o Número da Garantia Bancária antes de submeter."
 
 #: erpnext/manufacturing/doctype/routing/routing.js:83
 msgid ""
@@ -18725,23 +18725,23 @@ msgstr ""
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:53
 msgid "Enter the name of the Beneficiary before submittting."
-msgstr "Digite o nome do beneficiário antes de enviar."
+msgstr "Insira o nome do Beneficiário antes de submeter."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:55
 msgid "Enter the name of the bank or lending institution before submittting."
-msgstr "Digite o nome do banco ou instituição de empréstimo antes de enviar."
+msgstr "Insira o nome do banco ou instituição de empréstimo antes de submeter."
 
 #: erpnext/stock/doctype/item/item.js:967
 msgid "Enter the opening stock units."
-msgstr "Digite as unidades de estoque inicial."
+msgstr "Insira as unidades de estoque inicial."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:793
 msgid "Enter the quantity of the Item that will be manufactured from this Bill of Materials."
-msgstr "Digite a quantidade do Item que será fabricada a partir deste Bill of Materials."
+msgstr "Insira a quantidade do Item que será fabricada a partir deste Bill of Materials."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:962
 msgid "Enter the quantity to manufacture. Raw material Items will be fetched only when this is set."
-msgstr "Digite a quantidade a ser fabricada. Itens de matéria-prima serão recuperados apenas quando isso for configurado."
+msgstr "Insira a quantidade a ser fabricada. Itens de matéria-prima serão recuperados apenas quando isso for configurado."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:424
 msgid "Enter {0} amount."
@@ -20207,12 +20207,12 @@ msgstr "Foco na entrada de pesquisa"
 #. Label of a Data field in DocType 'Shareholder'
 #: erpnext/accounts/doctype/shareholder/shareholder.json
 msgid "Folio no."
-msgstr "Folio No."
+msgstr "Nº do Fólio"
 
 #. Label of a Check field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
 msgid "Follow Calendar Months"
-msgstr "Siga os Meses do Calendário"
+msgstr "Seguir Meses do Calendário"
 
 #: erpnext/templates/emails/reorder_item.html:1
 msgid "Following Material Requests have been raised automatically based on Item's re-order level"
@@ -20310,11 +20310,11 @@ msgstr "Para Fornecedor"
 #: erpnext/stock/doctype/material_request/material_request.js:317
 #: erpnext/templates/form_grid/material_request_grid.html:36
 msgid "For Warehouse"
-msgstr "Para Armazém"
+msgstr "Armazém de Destino"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:461
 msgid "For Warehouse is required before Submit"
-msgstr "Armazém de destino necessário antes de enviar"
+msgstr "Armazém de Destino é obrigatório antes de submeter"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:125
 msgid "For Work Order"
@@ -21948,7 +21948,7 @@ msgstr "Semestralmente"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:153
 msgid "Handle Employee Advances"
-msgstr "Gerenciar Adiantamentos de Funcionários"
+msgstr "Gerenciar Adiantamentos de Colaborador"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:204
 msgid "Hardware"
@@ -22133,7 +22133,7 @@ msgstr "Aqui você pode manter a altura, peso, alergias, restrições médicas, 
 
 #: erpnext/setup/doctype/employee/employee.js:117
 msgid "Here, you can select a senior of this Employee. Based on this, Organization Chart will be populated."
-msgstr "Aqui, você pode selecionar um superior deste Funcionário. Com base nisso, o organograma será preenchido."
+msgstr "Aqui, você pode selecionar um superior para este Colaborador. Com base nisso, o Organograma será preenchido."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:77
 msgid "Here, your weekly offs are pre-populated based on the previous selections. You can add more rows to also add public and national holidays individually."
@@ -22560,7 +22560,7 @@ msgstr "Se habilitado, não atualize os valores de série/lote nas transações 
 #. in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If enabled, ledger entries will be posted for change amount in POS transactions"
-msgstr "Se habilitado, as entradas no razão serão registradas para o valor de alteração em transações de PDV."
+msgstr "Se habilitado, as entradas no razão serão registradas para o valor de troco em transações de PDV."
 
 #. Description of the 'Disable Rounded Total' (Check) field in DocType 'POS
 #. Profile'
@@ -22797,7 +22797,7 @@ msgstr "Ignorar Modelo de Termos de Pagamento Padrão"
 #. Label of a Check field in DocType 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore Employee Time Overlap"
-msgstr "Ignorar a Sobreposição do Tempo do Empregado"
+msgstr "Ignorar Sobreposição de Horário de Colaborador"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:140
 msgid "Ignore Empty Stock"
@@ -25101,7 +25101,7 @@ msgstr "Data de Emissão"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:67
 msgid "Issuing cannot be done to a location. Please enter employee to issue the Asset {0} to"
-msgstr "A emissão não pode ser feita para uma localização. Insira o funcionário para emitir o Ativo {0}"
+msgstr "A emissão não pode ser feita para uma localização. Insira o colaborador para emitir o Ativo {0}"
 
 #: erpnext/stock/doctype/item/item.py:565
 msgid "It can take upto few hours for accurate stock values to be visible after merging items."
@@ -29530,11 +29530,11 @@ msgstr "Forma de Pagamento"
 #. Name of a DocType
 #: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json
 msgid "Mode of Payment Account"
-msgstr "Modo de Pagamento da Conta"
+msgstr "Forma de Pagamento da Conta"
 
 #: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:35
 msgid "Mode of Payments"
-msgstr "Modo de Pagamento"
+msgstr "Forma de Pagamento"
 
 #. Label of a Data field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
@@ -29544,7 +29544,7 @@ msgstr "Modelo"
 #. Label of a Section Break field in DocType 'POS Closing Entry'
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 msgid "Modes of Payment"
-msgstr "Modos de Pagamento"
+msgstr "Formas de Pagamento"
 
 #: erpnext/templates/pages/projects.html:69
 msgid "Modified By"
@@ -30340,7 +30340,7 @@ msgstr "Novo Departamento"
 
 #: erpnext/setup/doctype/employee/employee_tree.js:29
 msgid "New Employee"
-msgstr "Novo Empregado"
+msgstr "Novo Colaborador"
 
 #: erpnext/public/js/templates/crm_activities.html:14
 #: erpnext/public/js/utils/crm_activities.js:85
@@ -30684,7 +30684,7 @@ msgstr "Nenhuma descrição informada"
 
 #: erpnext/telephony/doctype/call_log/call_log.py:117
 msgid "No employee was scheduled for call popup"
-msgstr "Nenhum funcionário foi agendado para o pop-up de chamada"
+msgstr "Nenhum colaborador foi agendado para o pop-up de chamada"
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:500
 msgid "No failed logs"
@@ -30741,7 +30741,7 @@ msgstr "Número de Documentos"
 #: erpnext/crm/doctype/lead/lead.json
 #: erpnext/crm/doctype/opportunity/opportunity.json
 msgid "No of Employees"
-msgstr "Número de Funcionários"
+msgstr "Número de Colaboradores"
 
 #: erpnext/crm/report/lead_conversion_time/lead_conversion_time.py:61
 msgid "No of Interactions"
@@ -30869,7 +30869,7 @@ msgstr "Nº"
 #. Label of a Select field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "No. of Employees"
-msgstr "Nº de Funcionários"
+msgstr "Nº de Colaboradores"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:66
 msgid "No. of parallel job cards which can be allowed on this workstation. Example: 2 would mean this workstation can process production for two Work Orders at a time."
@@ -31149,7 +31149,7 @@ msgstr "Notificar Clientes Por E-mail"
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 msgid "Notify Employee"
-msgstr "Notificar Empregado"
+msgstr "Notificar Colaborador"
 
 #. Label of a Check field in DocType 'Supplier Scorecard Standing'
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
@@ -33973,12 +33973,12 @@ msgstr "Razão de Pagamento"
 
 #: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.py:248
 msgid "Payment Ledger Balance"
-msgstr "Saldo da Razão de Pagamento"
+msgstr "Saldo do Razão de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
 msgid "Payment Ledger Entry"
-msgstr "Lançamento na Razão de Pagamento"
+msgstr "Lançamento no Razão de Pagamento"
 
 #. Label of a Int field in DocType 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
@@ -35076,7 +35076,7 @@ msgstr "Por favor, adicione o papel de 'Fornecedor' ao usuário {0}."
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:101
 msgid "Please add Mode of payments and opening balance details."
-msgstr "Adicione o modo de pagamento e os detalhes do saldo inicial."
+msgstr "Adicione as formas de pagamento e os detalhes do saldo inicial."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:184
 msgid "Please add Request for Quotation to the sidebar in Portal Settings."
@@ -35451,7 +35451,7 @@ msgstr "Por favor, mantenha uma Cobrança Aplicável, quando 'Distribuir Cobran�
 
 #: erpnext/setup/doctype/employee/employee.py:184
 msgid "Please make sure the employees above report to another Active employee."
-msgstr "Certifique-se de que os funcionários acima se reportem a outro funcionário ativo."
+msgstr "Certifique-se de que os colaboradores acima se reportem a outro colaborador ativo."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:374
 msgid "Please make sure the file you are using has 'Parent Account' column present in the header."
@@ -35676,7 +35676,7 @@ msgstr "Por favor, selecione uma data e horário."
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:158
 msgid "Please select a default mode of payment"
-msgstr "Selecione um modo de pagamento padrão"
+msgstr "Selecione uma forma de pagamento padrão"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:803
 msgid "Please select a field to edit from numpad"
@@ -35928,19 +35928,19 @@ msgstr "Por favor, configure tanto o CPF/CNPJ quanto o Código Fiscal na Empresa
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2091
 msgid "Please set default Cash or Bank account in Mode of Payment {0}"
-msgstr "Defina Caixa padrão ou conta bancária no Modo de pagamento {0}"
+msgstr "Por favor, defina a Conta padrão de Caixa ou Banco na Forma de Pagamento {0}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:66
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:176
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2691
 msgid "Please set default Cash or Bank account in Mode of Payment {}"
-msgstr "Por favor, configure o modo de pagamento padrão como Dinheiro ou Conta Bancária padrão no Modo de Pagamento {}"
+msgstr "Por favor, configure a forma de pagamento padrão como Dinheiro ou Conta Bancária padrão na Forma de Pagamento {}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:68
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:178
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2693
 msgid "Please set default Cash or Bank account in Mode of Payments {}"
-msgstr "Por favor, configure o modo de pagamento como Dinheiro ou Conta Bancária padrão em Modo de Pagamentos {}"
+msgstr "Por favor, configure a forma de pagamento como Dinheiro ou Conta Bancária padrão em Formas de Pagamento {}"
 
 #: erpnext/accounts/utils.py:2186
 msgid "Please set default Exchange Gain/Loss Account in Company {}"
@@ -35961,7 +35961,7 @@ msgstr "Por favor, defina a conta padrão de custo de mercadorias vendidas na em
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:192
 #: erpnext/accounts/utils.py:1060
 msgid "Please set default {0} in Company {1}"
-msgstr "Por favor, configure um(a) {0} padrão na Empresa {1}"
+msgstr "Por favor, configure o padrão para {0} na Empresa {1}"
 
 #: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.py:111
 msgid "Please set filter based on Item or Warehouse"
@@ -42310,7 +42310,7 @@ msgstr "Função Autorizada a Substituir Ação de Parada"
 #. Label of a Link field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role Allowed to Set Frozen Accounts and Edit Frozen Entries"
-msgstr "Função Autorizada a Definir Contas Congeladas e Editar Entradas Congeladas"
+msgstr "Função Autorizada a Definir Contas Congeladas e Editar Lançamentos Congelados"
 
 #. Label of a Link field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -42337,7 +42337,7 @@ msgstr "Tipo de Raiz"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:399
 msgid "Root Type for {0} must be one of the Asset, Liability, Income, Expense and Equity"
-msgstr "O tipo de Raiz para {0} deve ser um dos seguintes: Ativo, Passivo, Receita, Despesa e Patrimônio"
+msgstr "O Tipo de Raiz para {0} deve ser um dos seguintes: Ativo, Passivo, Receita, Despesa e Patrimônio"
 
 #: erpnext/accounts/doctype/account/account.py:424
 msgid "Root Type is mandatory"
@@ -42859,11 +42859,11 @@ msgstr "Linha #{0}: A quantidade recebida deve ser igual à quantidade aceita + 
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1251
 msgid "Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry"
-msgstr "Linha #{0}: o Tipo de Documento de Referência deve ser um Pedido de Compra, uma Nota Fiscal de Compra ou um Lançamento Contábil do Livro Diário"
+msgstr "Linha #{0}: o Tipo de Documento de Referência deve ser um Pedido de Compra, uma Nota Fiscal de Compra ou um Lançamento no Livro Diário"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1237
 msgid "Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice, Journal Entry or Dunning"
-msgstr "Linha #{0}: o tipo de documento de referência deve ser Pedido de Venda, Fatura de Venda, Lançamento Contábil do Livro Diário ou Cobrança"
+msgstr "Linha #{0}: o tipo de documento de referência deve ser Pedido de Venda, Fatura de Venda, Lançamento no Livro Diário ou Cobrança"
 
 #: erpnext/controllers/buying_controller.py:505
 msgid "Row #{0}: Rejected Qty can not be entered in Purchase Return"
@@ -43108,11 +43108,11 @@ msgstr "Linha {0}: A quantidade aceita e a quantidade rejeitada não podem ser z
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:572
 msgid "Row {0}: Account {1} and Party Type {2} have different account types"
-msgstr "Linha {0}: A conta {1} e o tipo de parte {2} possuem tipos de contas diferentes"
+msgstr "Linha {0}: A Conta Contábil {1} e o Tipo de Parte {2} possuem tipos de contas diferentes"
 
 #: erpnext/controllers/accounts_controller.py:3051
 msgid "Row {0}: Account {1} is a Group Account"
-msgstr "Linha {0}: A conta {1} é uma conta de grupo"
+msgstr "Linha {0}: A Conta Contábil {1} é um Grupo de Contas"
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:157
 msgid "Row {0}: Activity Type is mandatory."
@@ -43272,7 +43272,7 @@ msgstr "Linha {0}: A Lista de Embalagem já foi criada para o Item {1}."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:783
 msgid "Row {0}: Party / Account does not match with {1} / {2} in {3} {4}"
-msgstr "Linha {0}: Parceiro / Conta não coincidem com {1} / {2} em {3} {4}"
+msgstr "Linha {0}: Parte / Conta não coincidem com {1} / {2} em {3} {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:563
 msgid "Row {0}: Party Type and Party is required for Receivable / Payable account {1}"
@@ -44876,7 +44876,7 @@ msgstr "Selecionar Clientes Por"
 
 #: erpnext/setup/doctype/employee/employee.js:103
 msgid "Select Date of Birth. This will validate Employees age and prevent hiring of under-age staff."
-msgstr "Selecione a Data de Nascimento. Isso validará a idade do Funcionário e impedirá a contratação de menores."
+msgstr "Selecione a Data de Nascimento. Isso validará a idade dos Colaboradores e impedirá a contratação de menores de idade."
 
 #: erpnext/setup/doctype/employee/employee.js:110
 msgid "Select Date of joining. It will have impact on the first salary calculation, Leave allocation on pro-rata bases."
@@ -45004,7 +45004,7 @@ msgstr "Selecione Uma Empresa"
 
 #: erpnext/setup/doctype/employee/employee.js:98
 msgid "Select a Company this Employee belongs to."
-msgstr "Selecione a Empresa a qual este Funcionário pertence."
+msgstr "Selecione a Empresa à qual este Colaborador pertence."
 
 #: erpnext/buying/doctype/supplier/supplier.js:188
 msgid "Select a Customer"
@@ -45016,11 +45016,11 @@ msgstr "Selecione Uma Prioridade Padrão."
 
 #: erpnext/selling/doctype/customer/customer.js:211
 msgid "Select a Supplier"
-msgstr "Selecione Um Fornecedor"
+msgstr "Selecione um Fornecedor"
 
 #: erpnext/stock/doctype/material_request/material_request.js:372
 msgid "Select a Supplier from the Default Suppliers of the items below. On selection, a Purchase Order will be made against items belonging to the selected Supplier only."
-msgstr "Selecione um fornecedor dos fornecedores padrão dos itens abaixo. na seleção, um pedido de compra será feito apenas para itens pertencentes ao fornecedor selecionado."
+msgstr "Selecione um Fornecedor dos Fornecedores Padrão dos itens abaixo. Na seleção, um Pedido de Compra será feito apenas para itens pertencentes ao Fornecedor selecionado."
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:161
 msgid "Select a company"
@@ -46112,7 +46112,7 @@ msgstr "Definir Armazém de Origem"
 #: erpnext/stock/doctype/material_request/material_request.json
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Set Target Warehouse"
-msgstr "Definir Armazém Alvo"
+msgstr "Definir Armazém de Destino"
 
 #. Title of an Onboarding Step
 #: erpnext/setup/onboarding_step/company_set_up/company_set_up.json
@@ -47175,7 +47175,7 @@ msgstr "Fonte e armazém de destino não pode ser o mesmo para a linha {0}"
 
 #: erpnext/stock/dashboard/item_dashboard.js:287
 msgid "Source and target warehouse must be different"
-msgstr "O Armazém de origem e o armazém de destino devem ser diferentes um do outro"
+msgstr "O armazém de origem e o armazém de destino devem ser diferentes"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:84
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:115
@@ -47947,7 +47947,7 @@ msgstr "Razão de Estoque"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:38
 msgid "Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts"
-msgstr "Lançamentos na Razão de Estoque e Livro Razão são reenviados para os Recibos de Compra selecionados"
+msgstr "Lançamentos no Razão de Estoque e Livro Razão são reenviados para os Recibos de Compra selecionados"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
@@ -47955,12 +47955,12 @@ msgstr "Lançamentos na Razão de Estoque e Livro Razão são reenviados para os
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:138
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:30
 msgid "Stock Ledger Entry"
-msgstr "Lançamento na Razão de Estoque"
+msgstr "Lançamento no Razão de Estoque"
 
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:98
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:106
 msgid "Stock Ledger ID"
-msgstr "ID da Razão de Estoque"
+msgstr "ID do Razão de Estoque"
 
 #. Name of a report
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.json
@@ -49984,19 +49984,19 @@ msgstr "O Item Alvo {0} deve ser um item de Ativo Imobilizado"
 #. Label of a Link field in DocType 'Asset Movement Item'
 #: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
 msgid "Target Location"
-msgstr "Localização Alvo"
+msgstr "Local de Destino"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:100
 msgid "Target Location is required while receiving Asset {0} from an employee"
-msgstr "O local de destino é necessário ao receber o ativo {0} de um funcionário"
+msgstr "O Local de Destino é necessário ao receber o Ativo {0} de um colaborador"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:85
 msgid "Target Location is required while transferring Asset {0}"
-msgstr "O local de destino é necessário ao transferir o ativo {0}"
+msgstr "O Local de Destino é necessário ao transferir um Ativo {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:93
 msgid "Target Location or To Employee is required while receiving Asset {0}"
-msgstr "O local de destino ou o funcionário é necessário ao receber o ativo {0}"
+msgstr "O Local de Destino ou o Colaborador de Destino é necessário ao receber o Ativo {0}"
 
 #: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/sales_partner_target_variance_based_on_item_group.js:41
 #: erpnext/selling/report/sales_person_target_variance_based_on_item_group/sales_person_target_variance_based_on_item_group.js:41
@@ -50048,16 +50048,16 @@ msgstr "Endereço do Armazém de Destino"
 #. Label of a Link field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Target Warehouse Address Link"
-msgstr "Link de Endereço do Armazém Alvo"
+msgstr "Link do Endereço do Armazém de Destino"
 
 #: erpnext/controllers/selling_controller.py:790
 msgid "Target Warehouse is set for some items but the customer is not an internal customer."
-msgstr "O Armazém Alvo está definido para alguns itens, mas o cliente não é um cliente interno."
+msgstr "O Armazém de Destino está definido para alguns itens, mas o cliente não é um cliente interno."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:582
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:589
 msgid "Target warehouse is mandatory for row {0}"
-msgstr "Destino do Warehouse é obrigatória para a linha {0}"
+msgstr "O Armazém de Destino é obrigatório para a linha {0}"
 
 #. Label of a Table field in DocType 'Sales Partner'
 #. Label of a Table field in DocType 'Sales Person'
@@ -50071,7 +50071,7 @@ msgstr "Metas"
 #. Label of a Data field in DocType 'Customs Tariff Number'
 #: erpnext/stock/doctype/customs_tariff_number/customs_tariff_number.json
 msgid "Tariff Number"
-msgstr "Número de Tarifas"
+msgstr "Código NCM"
 
 #. Label of a Link field in DocType 'Asset Maintenance Log'
 #. Label of a Link field in DocType 'Dependent Task'
@@ -51336,7 +51336,7 @@ msgstr "Pode haver vários fatores de cobrança em camadas com base no total gas
 
 #: erpnext/accounts/party.py:588
 msgid "There can only be 1 Account per Company in {0} {1}"
-msgstr "Pode haver apenas uma conta por empresa em {0} {1}"
+msgstr "Pode haver apenas uma Conta Contábil por Empresa em {0} {1}"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:81
 msgid "There can only be one Shipping Rule Condition with 0 or blank value for \"To Value\""
@@ -51415,7 +51415,7 @@ msgstr "Esta Ordem de Compra foi totalmente subcontratada."
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:31
 msgid "This Warehouse will be auto-updated in the Target Warehouse field of Work Order."
-msgstr "Este armazém será atualizado automaticamente no campo Armazém de destino da Ordem de Serviço."
+msgstr "Este Armazém será atualizado automaticamente no campo Armazém de Destino da Ordem de Serviço."
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:24
 msgid "This Warehouse will be auto-updated in the Work In Progress Warehouse field of Work Orders."
@@ -52144,7 +52144,7 @@ msgstr "Data de Vencimento (Até)"
 #. Label of a Link field in DocType 'Asset Movement Item'
 #: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
 msgid "To Employee"
-msgstr "Para Empregado"
+msgstr "Colaborador de Destino"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:51
 msgid "To Fiscal Year"
@@ -53556,7 +53556,7 @@ msgstr "Balancete de Verificação (Simples)"
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 msgid "Trial Balance for Party"
-msgstr "Balancete de Verificação Por Parceiro"
+msgstr "Balancete de Verificação por Parte"
 
 #. Label of a Date field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -57328,7 +57328,7 @@ msgstr "a assinatura já está cancelada."
 #: erpnext/controllers/status_updater.py:348
 #: erpnext/controllers/status_updater.py:368
 msgid "target_ref_field"
-msgstr "campo_ref_alvo"
+msgstr "target_ref_field"
 
 #. Label of a Data field in DocType 'Production Plan Item'
 #: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
@@ -57767,7 +57767,7 @@ msgstr "{0} {1} já está vinculado ao Código Comum {2}."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:621
 msgid "{0} {1} is associated with {2}, but Party Account is {3}"
-msgstr "{0} {1} está associado a {2}, mas a Conta do Partido é {3}"
+msgstr "{0} {1} está associado a {2}, mas a Conta da Parte é {3}"
 
 #: erpnext/controllers/buying_controller.py:715
 #: erpnext/controllers/selling_controller.py:470
