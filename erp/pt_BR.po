@@ -2158,7 +2158,7 @@ msgstr "Saldo de Abertura de Conta"
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Paid From"
-msgstr "Conta Contábil de Destino"
+msgstr "Conta Contábil de Origem"
 
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -32926,7 +32926,7 @@ msgstr "Etiqueta de Embalagem a partir da Nota de Entrega"
 #. Name of a DocType
 #: erpnext/stock/doctype/packed_item/packed_item.json
 msgid "Packed Item"
-msgstr ""
+msgstr "Item Embalado"
 
 #. Label of a Table field in DocType 'POS Invoice'
 #. Label of a Table field in DocType 'Sales Invoice'
@@ -37986,7 +37986,7 @@ msgstr "Clientes Prospectados Mas Não Convertidos"
 #. Description of the 'Company Email' (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Provide Email Address registered in company"
-msgstr "Forneça o Endereço de E-mail registado na empresa"
+msgstr "Forneça o Endereço de E-mail registrado na empresa"
 
 #. Label of a Link field in DocType 'Communication Medium'
 #. Label of a Select field in DocType 'Video'
