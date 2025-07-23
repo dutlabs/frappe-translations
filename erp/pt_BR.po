@@ -8453,7 +8453,7 @@ msgstr "CEP Para Cobrança"
 
 #: erpnext/accounts/party.py:610
 msgid "Billing currency must be equal to either default company's currency or party account currency"
-msgstr "A moeda de faturamento deve ser igual à moeda da empresa padrão ou à moeda da conta do parceiro"
+msgstr "A moeda de faturamento deve ser igual à moeda da empresa padrão ou à moeda da conta da parte"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/bin/bin.json
@@ -21846,7 +21846,7 @@ msgstr "Agrupar Por Solicitação de Material"
 
 #: erpnext/accounts/report/payment_ledger/payment_ledger.js:83
 msgid "Group by Party"
-msgstr "Agrupar Por Parceiro"
+msgstr "Agrupar Por Parte"
 
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.js:90
 msgid "Group by Purchase Order"
@@ -33420,7 +33420,7 @@ msgstr "Parcialmente Pago e com Desconto"
 #. Label of a Link field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
 msgid "Partner Type"
-msgstr "Tipo de Parceiro"
+msgstr "Tipo de Parte"
 
 #. Label of a Data field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
@@ -33496,13 +33496,13 @@ msgstr "Parceria"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/stock/report/serial_no_ledger/serial_no_ledger.py:85
 msgid "Party"
-msgstr "Parceiro"
+msgstr "Parte"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/party_account/party_account.json
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1070
 msgid "Party Account"
-msgstr "Conta do Parceiro"
+msgstr "Conta da Parte"
 
 #. Label of a Link field in DocType 'Payment Request'
 #. Label of a Link field in DocType 'POS Invoice'
@@ -33517,7 +33517,7 @@ msgstr "Conta do Parceiro"
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Party Account Currency"
-msgstr "Moeda do Parceiro"
+msgstr "Moeda da Conta Parte"
 
 #. Label of a Data field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
@@ -33531,19 +33531,19 @@ msgstr "A moeda da Conta da Parte {0} ({1}) e a moeda do documento ({2}) devem s
 #. Label of a Currency field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Party Balance"
-msgstr "Saldo do Parceiro"
+msgstr "Saldo da Parte"
 
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Party Bank Account"
-msgstr "Conta Bancária do Parceiro"
+msgstr "Conta Bancária da Parte"
 
 #. Label of a Section Break field in DocType 'Bank Account'
 #. Label of a Section Break field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Party Details"
-msgstr "Detalhes do Parceiro"
+msgstr "Detalhes da Parte"
 
 #. Label of a Data field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -33560,7 +33560,7 @@ msgstr "IBAN da Parte (Extrato Bancário)"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 msgid "Party Information"
-msgstr "Informação do Parceiro"
+msgstr "Informações da Parte"
 
 #. Label of a Data field in DocType 'Blanket Order Item'
 #: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
@@ -33583,7 +33583,7 @@ msgstr "Vínculo da Parte"
 #: erpnext/selling/doctype/party_specific_item/party_specific_item.json
 #: erpnext/selling/report/address_and_contacts/address_and_contacts.js:22
 msgid "Party Name"
-msgstr "Nome do Parceiro"
+msgstr "Nome da Parte"
 
 #. Label of a Data field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
