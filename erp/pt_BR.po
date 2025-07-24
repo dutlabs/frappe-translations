@@ -1777,7 +1777,7 @@ msgstr "Um Armazém Lógico no qual as movimentações de estoque são registrad
 
 #: erpnext/templates/emails/confirm_appointment.html:2
 msgid "A new appointment has been created for you with {0}"
-msgstr "Um novo compromisso foi criado para você com {0}"
+msgstr "Um novo agendamento foi criado para você com {0}"
 
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:96
 msgid "A template with tax category {0} already exists. Only one template is allowed with each tax category"
@@ -5818,11 +5818,11 @@ msgstr "Duração da Consulta (em Minutos)"
 
 #: erpnext/www/book_appointment/index.py:20
 msgid "Appointment Scheduling Disabled"
-msgstr "Agendamento de Agendamentos Desativado"
+msgstr "Agendamentos Desativados"
 
 #: erpnext/www/book_appointment/index.py:21
 msgid "Appointment Scheduling has been disabled for this site"
-msgstr "O agendamento de compromissos foi desativado para este site"
+msgstr "Agendamento foi desativado para este site"
 
 #. Label of a Link field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
@@ -18361,7 +18361,7 @@ msgstr "Habilitar Permitir Reserva Parcial nas Configurações de Estoque para r
 #. Label of a Check field in DocType 'Appointment Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Enable Appointment Scheduling"
-msgstr "Ativar Agendamento de Compromissos"
+msgstr "Habilitar Agendamento"
 
 #. Label of a Check field in DocType 'Process Statement Of Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
@@ -31184,7 +31184,7 @@ msgstr "Notificar Por E-mail a Criação de Requisição de Material Automática
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Notify customer and agent via email on the day of the appointment."
-msgstr "Notificar o cliente e o agente por e-mail no dia do compromisso."
+msgstr "Notificar o cliente e o agente por e-mail no dia do agendamento."
 
 #. Label of a Select field in DocType 'Homepage Section'
 #: erpnext/portal/doctype/homepage_section/homepage_section.json
@@ -31194,7 +31194,7 @@ msgstr "Numero de Colunas"
 #. Label of a Int field in DocType 'Appointment Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Number of Concurrent Appointments"
-msgstr "Número de Compromissos Simultâneos"
+msgstr "Número de Agendamentos Simultâneos"
 
 #. Label of a Int field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -31224,7 +31224,7 @@ msgstr "Número de dias após a data da fatura ter expirado antes de cancelar a 
 #. Label of a Int field in DocType 'Appointment Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Number of days appointments can be booked in advance"
-msgstr "Número de dias em que os compromissos podem ser agendados com antecedência"
+msgstr "Número de dias em que os agendamentos podem ser feitos com antecedência"
 
 #. Description of the 'Days Until Due' (Int) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -51032,7 +51032,7 @@ msgstr "A BOM padrão para esse item será buscado automaticamente pelo sistema.
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:69
 msgid "The difference between from time and To Time must be a multiple of Appointment"
-msgstr "A diferença entre Horário de Início e Horário de Término deve ser um múltiplo de Compromisso"
+msgstr "A diferença entre Horário de Início e Horário de Término deve ser um múltiplo de Agendamento"
 
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:177
 #: erpnext/accounts/doctype/share_transfer/share_transfer.py:185
