@@ -47167,7 +47167,7 @@ msgstr "Link de Endereço do Armazém de Origem"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:88
 msgid "Source and Target Location cannot be same"
-msgstr "A origem e o local de destino não podem ser iguais"
+msgstr "A origem e a localização de destino não podem ser iguais"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:599
 msgid "Source and target warehouse cannot be same for row {0}"
@@ -49984,19 +49984,19 @@ msgstr "O Item Alvo {0} deve ser um item de Ativo Imobilizado"
 #. Label of a Link field in DocType 'Asset Movement Item'
 #: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
 msgid "Target Location"
-msgstr "Local de Destino"
+msgstr "Localização de Destino"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:100
 msgid "Target Location is required while receiving Asset {0} from an employee"
-msgstr "O Local de Destino é necessário ao receber o Ativo {0} de um colaborador"
+msgstr "A Localização de Destino é obrigatória ao receber o Ativo {0} de um colaborador"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:85
 msgid "Target Location is required while transferring Asset {0}"
-msgstr "O Local de Destino é necessário ao transferir um Ativo {0}"
+msgstr "A Localização de Destino é obrigatória ao transferir um Ativo {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:93
 msgid "Target Location or To Employee is required while receiving Asset {0}"
-msgstr "O Local de Destino ou o Colaborador de Destino é necessário ao receber o Ativo {0}"
+msgstr "A Localização de Destino ou o Colaborador de Destino é obrigatório ao receber o Ativo {0}"
 
 #: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/sales_partner_target_variance_based_on_item_group.js:41
 #: erpnext/selling/report/sales_person_target_variance_based_on_item_group/sales_person_target_variance_based_on_item_group.js:41
