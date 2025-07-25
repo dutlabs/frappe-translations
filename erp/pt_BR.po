@@ -1825,7 +1825,7 @@ msgstr "ACC-PINV-.YYYY.-"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "AMC Expiry Date"
-msgstr "Data de Validade do AMC"
+msgstr "Data de Validade do Contrato Anual de Manutenção"
 
 #. Option for the 'Source Type' (Select) field in DocType 'Support Search
 #. Source'
@@ -14716,7 +14716,7 @@ msgstr "Resumo Diário de Registro de Horas"
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Dashboard"
-msgstr "Painel de Controle"
+msgstr "Painel"
 
 #: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.js:15
 msgid "Data Based On"
@@ -20426,7 +20426,7 @@ msgstr "Previsão"
 #. Label of a Section Break field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Foreign Trade Details"
-msgstr "Detalhes Comércio Exterior"
+msgstr "Detalhes de Comércio Exterior"
 
 #. Label of a Check field in DocType 'Item Quality Inspection Parameter'
 #. Label of a Check field in DocType 'Quality Inspection Reading'
@@ -20455,16 +20455,16 @@ msgstr "URL do Fórum"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Free Item"
-msgstr "Item Grátis"
+msgstr "Item Gratuito"
 
 #. Label of a Currency field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Free Item Rate"
-msgstr "Taxa de Item Grátis"
+msgstr "Taxa de Item Gratuito"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:283
 msgid "Free item code is not selected"
-msgstr "Código de item livre não selecionado"
+msgstr "Código de item gratuito não foi selecionado"
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:647
 msgid "Free item not set in the pricing rule {0}"
@@ -21503,7 +21503,7 @@ msgstr "Vale Presente"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Give free item for every N quantity"
-msgstr "Dar item grátis para cada N quantidade"
+msgstr "Dar item gratuito para cada quantidade N"
 
 #. Name of a DocType
 #. Label of a Link in the ERPNext Settings Workspace
@@ -21511,7 +21511,7 @@ msgstr "Dar item grátis para cada N quantidade"
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
 msgid "Global Defaults"
-msgstr "Padrões Gerais"
+msgstr "Padrões Globais"
 
 #: erpnext/www/book_appointment/index.html:58
 msgid "Go back"
@@ -21586,7 +21586,7 @@ msgstr "Serviços Google"
 #. Label of a Link in the ERPNext Integrations Workspace
 #: erpnext/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
 msgid "Google Settings"
-msgstr "Configurações Google"
+msgstr "Configurações do Google"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:166
 msgid "Government"
@@ -21600,7 +21600,7 @@ msgstr "Período de Carência"
 #. Option for the 'Level' (Select) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
 msgid "Graduate"
-msgstr "Pós-graduação"
+msgstr "Graduação"
 
 #. Label of a Currency field in DocType 'Dunning'
 #. Label of a Float field in DocType 'Payment Entry Reference'
@@ -24731,7 +24731,7 @@ msgstr "É Ativo Imobilizado"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Is Free Item"
-msgstr "É item grátis"
+msgstr "É Item Gratuito"
 
 #. Label of a Check field in DocType 'Supplier'
 #. Label of a Check field in DocType 'Customer'
@@ -26534,11 +26534,11 @@ msgstr "Capacidade de Trabalho"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 msgid "Job Card"
-msgstr "Ficha de Serviço"
+msgstr "Cartão de Ordem Serviço"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:167
 msgid "Job Card Analysis"
-msgstr "Análise de Carteira de Trabalho"
+msgstr "Análise de Cartões de Ordem Serviço"
 
 #. Name of a DocType
 #. Label of a Data field in DocType 'Material Request Item'
@@ -26547,44 +26547,44 @@ msgstr "Análise de Carteira de Trabalho"
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Job Card Item"
-msgstr "Item da Ficha de Serviço"
+msgstr "Item do Cartão de Ordem Serviço"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
 msgid "Job Card Operation"
-msgstr "Operação da Ficha de Serviço"
+msgstr "Operação do Cartão de Ordem Serviço"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/job_card_scheduled_time/job_card_scheduled_time.json
 msgid "Job Card Scheduled Time"
-msgstr "Horário Agendado pela Ficha de Serviço"
+msgstr "Horário Programado do Cartão de Ordem Serviço"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
 msgid "Job Card Scrap Item"
-msgstr "Item de Sucata da Ficha de Serviço"
+msgstr "Item de Sucata do Cartão de Ordem Serviço"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Job Card Summary"
-msgstr "Resumo da Ficha de Serviço"
+msgstr "Resumo de Cartões de Ordem Serviço"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
 msgid "Job Card Time Log"
-msgstr "Registro de Tempo da Ficha de Serviço"
+msgstr "Registro de Tempo do Cartão de Ordem Serviço"
 
 #. Label of a Tab Break field in DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Job Card and Capacity Planning"
-msgstr "Planejamento da Ficha de Serviço e Capacidade"
+msgstr "Planejamento do Cartão de Ordem Serviço e Capacidade"
 
 #. Label of a Tab Break field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 msgid "Job Cards"
-msgstr "Cartões de Serviço"
+msgstr "Cartões de Ordem Serviço"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.js:106
 msgid "Job Paused"
@@ -26608,49 +26608,49 @@ msgstr "Cargo"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Job Worker"
-msgstr "Trabalhador"
+msgstr "Operário de Produção"
 
 #. Label of a Link field in DocType 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Job Worker Address"
-msgstr "Endereço do Trabalhador"
+msgstr "Endereço do Operário de Produção"
 
 #. Label of a Small Text field in DocType 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Job Worker Address Details"
-msgstr "Detalhes do Endereço do Trabalhador"
+msgstr "Detalhes do Endereço do Operário de Produção"
 
 #. Label of a Link field in DocType 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Job Worker Contact"
-msgstr "Contato do Trabalhador"
+msgstr "Contato do Operário de Produção"
 
 #. Label of a Data field in DocType 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Job Worker Delivery Note"
-msgstr "Nota de Entrega do Trabalhador"
+msgstr "Nota de Entrega do Operário de Produção"
 
 #. Label of a Data field in DocType 'Subcontracting Order'
 #. Label of a Data field in DocType 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Job Worker Name"
-msgstr "Nome do Trabalhador"
+msgstr "Nome do Operário de Produção"
 
 #. Label of a Link field in DocType 'Subcontracting Order'
 #. Label of a Link field in DocType 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Job Worker Warehouse"
-msgstr "Armazém do Trabalhador"
+msgstr "Armazém do Operário de Produção"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1677
 msgid "Job card {0} created"
-msgstr "Ficha de serviço {0} criado"
+msgstr "Cartão de Ordem de Serviço {0} criado"
 
 #: erpnext/utilities/bulk_transaction.py:49
 msgid "Job: {0} has been triggered for processing failed transactions"
-msgstr "Tarefa: {0} foi acionada para processar transações falhas."
+msgstr "Tarefa: {0} foi acionada para processar transações com falha"
 
 #. Label of a Tab Break field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -26659,11 +26659,11 @@ msgstr "Ingressando"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:30
 msgid "Journal Entries"
-msgstr "Lançamentos Contábeis"
+msgstr "Lançamentos do Livro Diário"
 
 #: erpnext/accounts/utils.py:984
 msgid "Journal Entries {0} are un-linked"
-msgstr "Lançamentos no Livro Diário {0} são desvinculados"
+msgstr "Lançamentos do Livro Diário {0} estão desvinculados"
 
 #. Linked DocType in Bank Account's connections
 #. Name of a DocType
@@ -32405,7 +32405,7 @@ msgstr "Valor Saída"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Out of AMC"
-msgstr "Fora do Cam"
+msgstr "Fora do Contrato Anual de Manutenção"
 
 #. Option for the 'Status' (Select) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -36140,7 +36140,7 @@ msgstr "Chave de Descrição de Postagens"
 #. Option for the 'Level' (Select) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
 msgid "Post Graduate"
-msgstr "Pós-graduação"
+msgstr "Pós-Graduação"
 
 #. Label of a Data field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
@@ -53946,12 +53946,12 @@ msgstr "Lucro / Prejuízo (crédito) de Anos Fiscais Não Encerrados"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Under AMC"
-msgstr "Sob CAM"
+msgstr "Sob Contrato Anual de Manutenção"
 
 #. Option for the 'Level' (Select) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
 msgid "Under Graduate"
-msgstr "Graduação"
+msgstr "Estudante de Graduação"
 
 #. Option for the 'Maintenance Status' (Select) field in DocType 'Serial No'
 #. Option for the 'Warranty / AMC Status' (Select) field in DocType 'Warranty
@@ -55914,12 +55914,12 @@ msgstr "Garantia"
 #. Label of a Section Break field in DocType 'Serial No'
 #: erpnext/stock/doctype/serial_no/serial_no.json
 msgid "Warranty / AMC Details"
-msgstr "Garantia / Detalhes do Cam"
+msgstr "Garantia / Detalhes do Contrato Anual de Manutenção"
 
 #. Label of a Select field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Warranty / AMC Status"
-msgstr "Garantia / Status do Cam"
+msgstr "Garantia / Status do Contrato Anual de Manutenção"
 
 #. Label of a Link in the CRM Workspace
 #. Name of a DocType
