@@ -23748,7 +23748,7 @@ msgstr "Compartilhe este documento com"
 
 #: frappe/public/js/frappe/form/sidebar/share.js:45
 msgid "Share {0} with"
-msgstr "Partilhar {0} com"
+msgstr "Compartilhar {0} com"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #. Option for the 'Comment Type' (Select) field in DocType 'Communication'
