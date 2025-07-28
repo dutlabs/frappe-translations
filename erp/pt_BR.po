@@ -19106,7 +19106,7 @@ msgstr "Companhia Existente"
 #. Label of a Tab Break field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Exit"
-msgstr "Saída"
+msgstr "Desligamento"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:248
 msgid "Exit Full Screen"
@@ -19115,7 +19115,7 @@ msgstr "Sair da Tela Cheia"
 #. Label of a Date field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Exit Interview Held On"
-msgstr "Entrevista de Saída Realizada Em"
+msgstr "Entrevista de Desligamento Realizada Em"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:153
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:186
@@ -19126,20 +19126,20 @@ msgstr "Expandir Todos"
 
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.py:415
 msgid "Expected"
-msgstr "Esperado"
+msgstr "Previsto"
 
 #. Label of a Currency field in DocType 'POS Closing Entry Detail'
 #: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
 msgid "Expected Amount"
-msgstr "Quantidade Esperada"
+msgstr "Quantidade Prevista"
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:417
 msgid "Expected Arrival Date"
-msgstr "Data Esperada de Chegada"
+msgstr "Data de Chegada Prevista"
 
 #: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:119
 msgid "Expected Balance Qty"
-msgstr "Quantidade de Saldo Esperada"
+msgstr "Qtd. de Saldo Previsto"
 
 #. Label of a Date field in DocType 'Opportunity'
 #: erpnext/crm/doctype/opportunity/opportunity.json
@@ -19178,13 +19178,13 @@ msgstr "Data Prevista de Término"
 
 #: erpnext/projects/doctype/task/task.py:103
 msgid "Expected End Date should be less than or equal to parent task's Expected End Date {0}."
-msgstr "A Data de Término Esperada deve ser menor ou igual à Data de Término Esperada da tarefa principal {0}."
+msgstr "A Data Prevista de Término deve ser menor ou igual à Data Prevista de Término da tarefa principal {0}."
 
 #. Label of a Float field in DocType 'Timesheet Detail'
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 #: erpnext/public/js/projects/timer.js:16
 msgid "Expected Hrs"
-msgstr "Horas Esperadas"
+msgstr "Horas Previstas"
 
 #. Label of a Datetime field in DocType 'Job Card'
 #. Label of a Date field in DocType 'Project'
@@ -19200,24 +19200,24 @@ msgstr "Data Prevista de Início"
 
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:129
 msgid "Expected Stock Value"
-msgstr "Valor Esperado do Estoque"
+msgstr "Valor Previsto do Estoque"
 
 #. Label of a Float field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
 msgid "Expected Time (in hours)"
-msgstr "Tempo esperado (em horas)"
+msgstr "Tempo Previsto (em horas)"
 
 #. Label of a Float field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Expected Time Required (In Mins)"
-msgstr "Tempo Esperado Necessário (Em Minutos)"
+msgstr "Tempo Previsto Necessário (Em Minutos)"
 
 #. Label of a Currency field in DocType 'Asset Depreciation Schedule'
 #. Label of a Currency field in DocType 'Asset Finance Book'
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
 #: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
 msgid "Expected Value After Useful Life"
-msgstr "Valor Esperado Após Sua Vida Útil"
+msgstr "Valor Previsto Após Vida Útil"
 
 #. Option for the 'Root Type' (Select) field in DocType 'Account'
 #. Label of a Float field in DocType 'Cashier Closing'
@@ -19237,7 +19237,7 @@ msgstr "Despesa"
 
 #: erpnext/controllers/stock_controller.py:756
 msgid "Expense / Difference account ({0}) must be a 'Profit or Loss' account"
-msgstr "Despesa conta / Diferença ({0}) deve ser um 'resultados' conta"
+msgstr "A conta de Despesa / Diferença ({0}) deve ser uma conta de 'Lucro ou Prejuízo'"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #. Label of a Link field in DocType 'Loyalty Program'
@@ -19310,7 +19310,7 @@ msgstr "Despesas"
 #: erpnext/accounts/report/account_balance/account_balance.js:49
 #: erpnext/setup/doctype/company/company.json
 msgid "Expenses Included In Asset Valuation"
-msgstr "Despesas Incluídas na Avaliação de Imobilizado"
+msgstr "Despesas Incluídas na Valoração do Ativo"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #. Label of a Link field in DocType 'Company'
@@ -19320,7 +19320,7 @@ msgstr "Despesas Incluídas na Avaliação de Imobilizado"
 #: erpnext/accounts/report/account_balance/account_balance.js:51
 #: erpnext/setup/doctype/company/company.json
 msgid "Expenses Included In Valuation"
-msgstr "Despesas Incluídas na Avaliação"
+msgstr "Despesas Incluídas na Valoração"
 
 #. Option for the 'Status' (Select) field in DocType 'Supplier Quotation'
 #. Option for the 'Status' (Select) field in DocType 'Quotation'
@@ -19333,16 +19333,16 @@ msgstr "Despesas Incluídas na Avaliação"
 #: erpnext/stock/doctype/item/item_list.js:9
 #: erpnext/stock/doctype/serial_no/serial_no.json
 msgid "Expired"
-msgstr "Expirado"
+msgstr "Vencido"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:233
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:370
 msgid "Expired Batches"
-msgstr "Lotes Expirados"
+msgstr "Lotes Vencidos"
 
 #: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:37
 msgid "Expires On"
-msgstr "Expira Em"
+msgstr "Vence Em"
 
 #. Option for the 'Pick Serial / Batch Based On' (Select) field in DocType
 #. 'Stock Settings'
@@ -19352,7 +19352,7 @@ msgstr "Validade"
 
 #: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:38
 msgid "Expiry (In Days)"
-msgstr "Vencimento (em Dias)"
+msgstr "Validade (Em Dias)"
 
 #. Label of a Date field in DocType 'Loyalty Point Entry'
 #. Label of a Date field in DocType 'Driver'
@@ -19368,12 +19368,12 @@ msgstr "Data de Validade"
 
 #: erpnext/stock/doctype/batch/batch.py:199
 msgid "Expiry Date Mandatory"
-msgstr "Data de Expiração Obrigatória"
+msgstr "Data de Validade Obrigatória"
 
 #. Label of a Int field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "Expiry Duration (in days)"
-msgstr "Duração de expiração (em dias)"
+msgstr "Duração da Validade (em dias)"
 
 #. Label of a Table field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
@@ -19383,7 +19383,7 @@ msgstr "Itens Detalhados"
 #. Name of a report
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.json
 msgid "Exponential Smoothing Forecasting"
-msgstr "Previsão de Suavização Exponencial"
+msgstr "Previsão por Suavização Exponencial"
 
 #. Label of a Link in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
