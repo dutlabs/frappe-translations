@@ -11738,17 +11738,17 @@ msgstr "E-mails Processados"
 #. Label of a Check field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
 msgid "Has  Attachment"
-msgstr "Possui Anexo"
+msgstr "Tem Anexo"
 
 #. Name of a DocType
 #: frappe/core/doctype/has_domain/has_domain.json
 msgid "Has Domain"
-msgstr "Possui Domínio"
+msgstr "Tem Domínio"
 
 #. Label of a Check field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Has Next Condition"
-msgstr "Possui Próxima Condição"
+msgstr "Tem Próxima Condição"
 
 #. Name of a DocType
 #: frappe/core/doctype/has_role/has_role.json
@@ -11758,7 +11758,7 @@ msgstr "Tem Função"
 #. Label of a Check field in DocType 'Installed Application'
 #: frappe/core/doctype/installed_application/installed_application.json
 msgid "Has Setup Wizard"
-msgstr "Possui Assistente de Configuração"
+msgstr "Tem Assistente de Configuração"
 
 #. Label of a Check field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -11787,7 +11787,7 @@ msgstr "HTML do Cabeçalho"
 
 #: frappe/printing/doctype/letter_head/letter_head.py:61
 msgid "Header HTML set from attachment {0}"
-msgstr "Conjunto HTML do Cabeçalho do anexo {0}"
+msgstr "HTML do Cabeçalho definido a partir do anexo {0}."
 
 #. Label of a Code field in DocType 'Letter Head'
 #: frappe/printing/doctype/letter_head/letter_head.json
@@ -11806,7 +11806,7 @@ msgstr "Cabeçalho, Robôs"
 
 #: frappe/printing/doctype/letter_head/letter_head.js:30
 msgid "Header/Footer scripts can be used to add dynamic behaviours."
-msgstr "Scripts de cabeçalho/rodapé podem ser usados para adicionar comportamentos dinâmicos."
+msgstr "Scripts de Cabeçalho/Rodapé podem ser usados para adicionar comportamentos dinâmicos."
 
 #. Label of a Table field in DocType 'Webhook'
 #. Label of a Code field in DocType 'Webhook Request Log'
@@ -13614,7 +13614,7 @@ msgstr "É Requisição Remota?"
 #. Label of a Check field in DocType 'Installed Application'
 #: frappe/core/doctype/installed_application/installed_application.json
 msgid "Is Setup Complete?"
-msgstr "A Configuração Está Completa?"
+msgstr "Configuração Completa?"
 
 #. Label of a Check field in DocType 'DocType'
 #. Label of a Check field in DocType 'Onboarding Step'
