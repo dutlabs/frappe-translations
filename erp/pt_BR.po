@@ -7946,7 +7946,7 @@ msgstr "Custo Base Por Unidade"
 #. Label of a Currency field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Base Hour Rate(Company Currency)"
-msgstr "Valor Por Hora Base (Moeda da Empresa)"
+msgstr "Valor Base Por Hora (Moeda da Empresa)"
 
 #. Label of a Currency field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
@@ -13210,7 +13210,7 @@ msgstr "Criar Modelo de Imposto"
 
 #: erpnext/utilities/activation.py:128
 msgid "Create Timesheet"
-msgstr "Criar Quadro de Horários"
+msgstr "Criar Folha de Ponto"
 
 #. Label of a Button field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -14767,7 +14767,7 @@ msgstr "Horário Diário para Envio"
 #: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.json
 #: erpnext/projects/workspace/projects/projects.json
 msgid "Daily Timesheet Summary"
-msgstr "Resumo Diário de Registro de Horas"
+msgstr "Resumo Diário de Folha de Ponto"
 
 #. Label of a shortcut in the Accounting Workspace
 #. Label of a shortcut in the Assets Workspace
@@ -19700,12 +19700,12 @@ msgstr "Buscar Atualizações de Assinatura"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1015
 msgid "Fetch Timesheet"
-msgstr "Buscar Registro de Horas"
+msgstr "Buscar Folha de Ponto"
 
 #. Label of a Check field in DocType 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Fetch Timesheet in Sales Invoice"
-msgstr "Buscar Registro de Horas na Fatura de Venda"
+msgstr "Buscar Folha de Ponto na Fatura de Venda"
 
 #. Label of a Select field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
@@ -21560,7 +21560,7 @@ msgstr "Obter Fornecedores Por"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1067
 msgid "Get Timesheets"
-msgstr "Obter Registros de Horas"
+msgstr "Obter Folhas de Ponto"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:84
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:87
@@ -22277,7 +22277,7 @@ msgstr "Ocultar Itens Indisponíveis"
 #. Label of a Check field in DocType 'Project User'
 #: erpnext/projects/doctype/project_user/project_user.json
 msgid "Hide timesheets"
-msgstr "Ocultar registros de horas"
+msgstr "Ocultar folhas de ponto"
 
 #. Option for the 'Priority' (Select) field in DocType 'Project'
 #. Option for the 'Priority' (Select) field in DocType 'Task'
@@ -23567,7 +23567,7 @@ msgstr "Incluir Itens Subcontratados"
 #: erpnext/projects/report/employee_billing_summary/employee_billing_summary.js:29
 #: erpnext/projects/report/project_billing_summary/project_billing_summary.js:29
 msgid "Include Timesheets in Draft Status"
-msgstr "Incluir Registros de Horas em Estado de Rascunho"
+msgstr "Incluir Folhas de Ponto em Estado de Rascunho"
 
 #. Label of a Link field in DocType 'Closing Stock Balance'
 #: erpnext/stock/doctype/closing_stock_balance/closing_stock_balance.json
@@ -42125,7 +42125,7 @@ msgstr "Retomar Serviço"
 
 #: erpnext/projects/doctype/timesheet/timesheet.js:64
 msgid "Resume Timer"
-msgstr "Retomar o Temporizador"
+msgstr "Retomar Cronômetro"
 
 #. Label of a Check field in DocType 'Item'
 #. Label of a Check field in DocType 'Purchase Receipt Item'
@@ -43444,7 +43444,7 @@ msgstr "Linha {0}: Por favor, defina o código correto em Modo de pagamento {1}"
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:211
 msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
-msgstr "Linha {0}: O projeto deve ser o mesmo definido na Planilha de Horas: {1}."
+msgstr "Linha {0}: O projeto deve ser o mesmo definido na Folha de Ponto: {1}."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:114
 msgid "Row {0}: Purchase Invoice {1} has no stock impact."
@@ -43869,7 +43869,7 @@ msgstr "Pagamento da Fatura de Venda"
 #. Name of a DocType
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 msgid "Sales Invoice Timesheet"
-msgstr "Registro de Horas da Fatura de Venda"
+msgstr "Folha de Ponto da Fatura de Venda"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -47573,7 +47573,7 @@ msgstr "A Hora de Início não pode ser maior ou igual à Hora de Término para 
 
 #: erpnext/projects/doctype/timesheet/timesheet.js:61
 msgid "Start Timer"
-msgstr "Iniciar Temporizador"
+msgstr "Iniciar Cronômetro"
 
 #: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:56
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:56
@@ -51961,33 +51961,33 @@ msgstr "O temporizador excedeu as horas dadas."
 #: erpnext/projects/workspace/projects/projects.json
 #: erpnext/templates/pages/projects.html:65
 msgid "Timesheet"
-msgstr "Registro de Horas"
+msgstr "Folha de Ponto"
 
 #. Label of a Data field in DocType 'Sales Invoice Timesheet'
 #. Name of a DocType
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 msgid "Timesheet Detail"
-msgstr "Detalhes do Registro de Horas"
+msgstr "Detalhes da Folha de Ponto"
 
 #: erpnext/config/projects.py:55
 msgid "Timesheet for tasks."
-msgstr "Registros de Horas para tarefas."
+msgstr "Folha de Ponto para tarefas."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:765
 msgid "Timesheet {0} is already completed or cancelled"
-msgstr "O Registro de Horas {0} está finalizado ou cancelado"
+msgstr "A Folha de Ponto {0} está finalizada ou cancelada"
 
 #. Label of a Section Break field in DocType 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 #: erpnext/projects/doctype/timesheet/timesheet.py:568
 #: erpnext/templates/pages/projects.html:60
 msgid "Timesheets"
-msgstr "Registros de Horas"
+msgstr "Folha de Ponto"
 
 #: erpnext/utilities/activation.py:125
 msgid "Timesheets help keep track of time, cost and billing for activites done by your team"
-msgstr "O Registo de Horas ajudar a manter o controlo do tempo, custo e faturamento para atividades feitas pela sua equipa"
+msgstr "A Folha de Ponto ajuda a manter o controle do tempo, custo e faturamento para atividades realizadas pela sua equipe"
 
 #. Label of a Section Break field in DocType 'Communication Medium'
 #. Label of a Table field in DocType 'Communication Medium'
@@ -52726,7 +52726,7 @@ msgstr "Valor Total Faturável"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Total Billable Amount (via Timesheet)"
-msgstr "Valor Total Faturável (via Registro de Horas)"
+msgstr "Valor Total Faturável (via Folha de Ponto)"
 
 #. Label of a Float field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
