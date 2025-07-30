@@ -7240,14 +7240,14 @@ msgstr "BOM Criada"
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Creator"
-msgstr "Criador do BOM"
+msgstr "Criador de Lista de Materiais (BOM)"
 
 #. Label of a Data field in DocType 'BOM'
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 msgid "BOM Creator Item"
-msgstr "Item de Criador de BOM"
+msgstr "Item do Criador de Lista de Materiais (BOM)"
 
 #. Label of a Data field in DocType 'Purchase Order Item Supplied'
 #. Label of a Data field in DocType 'Purchase Receipt Item Supplied'
@@ -7258,37 +7258,37 @@ msgstr "Item de Criador de BOM"
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "BOM Detail No"
-msgstr "Nº do Detalhe da BOM"
+msgstr "Nº do Detalhe da Lista de Materiais (BOM)"
 
 #. Name of a report
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.json
 msgid "BOM Explorer"
-msgstr "Explorador BOM"
+msgstr "Explorador da Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 msgid "BOM Explosion Item"
-msgstr "Item de Explosão de BOM"
+msgstr "Item de Explosão da Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.js:20
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:101
 msgid "BOM ID"
-msgstr "BOM ID"
+msgstr "ID da Lista de Materiais (BOM)"
 
 #. Label of a Section Break field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "BOM Info"
-msgstr "Informações da BOM"
+msgstr "Informações da Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "BOM Item"
-msgstr "Item da BOM"
+msgstr "Item da Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:60
 #: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:166
 msgid "BOM Level"
-msgstr "Nível da BOM"
+msgstr "Nível da Lista de Materiais (BOM)"
 
 #. Label of a Link field in DocType 'BOM Item'
 #. Label of a Link field in DocType 'Job Card'
@@ -7311,30 +7311,30 @@ msgstr "Nível da BOM"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No"
-msgstr "Nº da BOM"
+msgstr "Nº da Lista de Materiais (BOM)"
 
 #. Description of the 'BOM No' (Link) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No. for a Finished Good Item"
-msgstr "Nº da BOM para um Item de Produto Acabado"
+msgstr "Nº da Lista de Materiais (BOM) para um Item de Produto Acabado"
 
 #. Name of a DocType
 #. Label of a Table field in DocType 'Routing'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 #: erpnext/manufacturing/doctype/routing/routing.json
 msgid "BOM Operation"
-msgstr "Operação De Lista de Materiais (BOM)"
+msgstr "Operação da Lista de Materiais (BOM)"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Operations Time"
-msgstr "Tempo de Operações Lista de Materiais (BOM)"
+msgstr "Tempo de Operações da Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:25
 msgid "BOM Qty"
-msgstr "Qtd da Lista de Materiais (BOM)"
+msgstr "Qtd. da Lista de Materiais (BOM)"
 
 #: erpnext/stock/report/item_prices/item_prices.py:60
 msgid "BOM Rate"
@@ -7343,7 +7343,7 @@ msgstr "Valor na Lista de Materiais (BOM)"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
 msgid "BOM Scrap Item"
-msgstr "Item de Sucata de Lista de Materiais (BOM)"
+msgstr "Item de Sucata da Lista de Materiais (BOM)"
 
 #. Label of a Link in the Manufacturing Workspace
 #. Name of a report
@@ -7355,7 +7355,7 @@ msgstr "Pesquisar Lista de Materiais (BOM)"
 #. Name of a report
 #: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.json
 msgid "BOM Stock Calculated"
-msgstr "Estoque de Lista de Materiais (BOM) Calculado"
+msgstr "Estoque da Lista de Materiais (BOM) Calculado"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
@@ -7364,16 +7364,16 @@ msgstr "Estoque de Lista de Materiais (BOM) Calculado"
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "BOM Stock Report"
-msgstr "Relatório de Estoque Por Lista de Materiais (BOM)"
+msgstr "Relatório de Estoque por Lista de Materiais (BOM)"
 
 #. Label of a Tab Break field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "BOM Tree"
-msgstr "Árvore Lista de Materiais (BOM)"
+msgstr "Árvore da Lista de Materiais (BOM)"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:26
 msgid "BOM UoM"
-msgstr "Unidade de Medida (UdM) da Lista de Materiais (BOM)"
+msgstr "Unidade de Medida da Lista de Materiais (BOM)"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
@@ -7417,12 +7417,12 @@ msgstr "Relatório de Variação da Lista de Materiais (BOM)"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json
 msgid "BOM Website Item"
-msgstr "Lista de Materiais (BOM) de Itens no Website"
+msgstr "Item da Lista de Materiais (BOM) do Site"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_website_operation/bom_website_operation.json
 msgid "BOM Website Operation"
-msgstr "Lista de Materiais (BOM) de Operação do Website"
+msgstr "Operação da Lista de Materiais (BOM) do Site"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:1206
 msgid "BOM and Manufacturing Quantity are required"
@@ -7448,11 +7448,11 @@ msgstr "Recursão de Lista de Materiais (BOM): {1} não pode ser pai ou filho de
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1259
 msgid "BOM {0} does not belong to Item {1}"
-msgstr "Lista de Materiais (BOM) {0} não pertencem ao Item {1}"
+msgstr "Lista de Materiais (BOM) {0} não pertence ao Item {1}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1241
 msgid "BOM {0} must be active"
-msgstr "BOM {0} deve ser ativa"
+msgstr "Lista de Materiais (BOM) {0} deve estar ativa"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1244
 msgid "BOM {0} must be submitted"
@@ -36437,15 +36437,15 @@ msgstr "Data e Hora de Registro"
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:41
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Posting Time"
-msgstr "Horário da Postagem"
+msgstr "Hora da Postagem"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1863
 msgid "Posting date and posting time is mandatory"
-msgstr "Data e horário da postagem são obrigatórios"
+msgstr "Data e hora da postagem são obrigatórias"
 
 #: erpnext/controllers/sales_and_purchase_return.py:65
 msgid "Posting timestamp must be after {0}"
-msgstr "Postando timestamp deve ser posterior a {0}"
+msgstr "Data e hora da postagem deve ser posterior a {0}"
 
 #. Description of a DocType
 #: erpnext/crm/doctype/opportunity/opportunity.json
