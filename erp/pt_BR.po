@@ -7071,11 +7071,11 @@ msgstr "Estoque Disponível"
 #: erpnext/selling/report/available_stock_for_packing_items/available_stock_for_packing_items.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Available Stock for Packing Items"
-msgstr "Estoque Disponível Para o Empacotamento de Itens"
+msgstr "Estoque Disponível para Itens de Embalagem"
 
 #: erpnext/assets/doctype/asset/asset.py:305
 msgid "Available for use date is required"
-msgstr "Disponível para data de uso é obrigatório"
+msgstr "Data de Disponibilidade para Uso é obrigatória"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:760
 msgid "Available quantity is {0}, you need {1}"
@@ -7088,11 +7088,11 @@ msgstr "Disponível {0}"
 #. Label of a Date field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Available-for-use Date"
-msgstr "Data Disponível Para Uso"
+msgstr "Data de Disponibilidade para Uso"
 
 #: erpnext/assets/doctype/asset/asset.py:410
 msgid "Available-for-use Date should be after purchase date"
-msgstr "A data disponível para uso deve ser posterior à data de compra"
+msgstr "A Data de Disponibilidade para Uso deve ser posterior à data de compra"
 
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:168
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:202
@@ -14691,7 +14691,7 @@ msgstr "Clientes"
 #: erpnext/selling/report/customers_without_any_sales_transactions/customers_without_any_sales_transactions.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Customers Without Any Sales Transactions"
-msgstr "Clientes Sem Qualquer Transação de Vendas"
+msgstr "Clientes Sem Transações de Venda"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:104
 msgid "Customers not selected."
@@ -26400,35 +26400,35 @@ msgstr "Item, Cliente, Fornecedor e Cotação"
 #. Name of a report
 #: erpnext/stock/report/item_wise_price_list_rate/item_wise_price_list_rate.json
 msgid "Item-wise Price List Rate"
-msgstr "Lista de Preços Por Item"
+msgstr "Lista de Preços por Item"
 
 #. Name of a report
 #. Label of a Link in the Buying Workspace
 #: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.json
 #: erpnext/buying/workspace/buying/buying.json
 msgid "Item-wise Purchase History"
-msgstr "Histórico de Compras Por Item"
+msgstr "Histórico de Compras por Item"
 
 #. Name of a report
 #. Label of a Link in the Payables Workspace
 #: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.json
 #: erpnext/accounts/workspace/payables/payables.json
 msgid "Item-wise Purchase Register"
-msgstr "Registro de Compras Por Item"
+msgstr "Registro de Compras por Item"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
 #: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Item-wise Sales History"
-msgstr "Histórico de Vendas Por Item"
+msgstr "Histórico de Vendas por Item"
 
 #. Name of a report
 #. Label of a Link in the Receivables Workspace
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.json
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "Item-wise Sales Register"
-msgstr "Registro de Vendas Por Item"
+msgstr "Registro de Vendas por Item"
 
 #: erpnext/stock/get_item_details.py:672
 msgid "Item/Item Code required to get Item Tax Template."
@@ -44203,12 +44203,12 @@ msgstr "Metas do Parceiro de Vendas"
 #. Label of a Link in the Selling Workspace
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Sales Partner Target Variance Based On Item Group"
-msgstr "Variação de Meta do Parceiro de Vendas com Base no Grupo de Itens"
+msgstr "Variação de Meta do Parceiro de Vendas Baseada no Grupo de Itens"
 
 #. Name of a report
 #: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/sales_partner_target_variance_based_on_item_group.json
 msgid "Sales Partner Target Variance based on Item Group"
-msgstr "Desvio-alvo do parceiro de vendas com base no grupo de itens"
+msgstr "Variação de Meta do Parceiro de Vendas Baseada no Grupo de Itens"
 
 #. Name of a report
 #: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.json
@@ -44228,7 +44228,7 @@ msgstr "Tipo de Parceiro de Vendas"
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Sales Partners Commission"
-msgstr "Comissão Dos Parceiros de Vendas"
+msgstr "Comissão de Parceiros de Vendas"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -44302,7 +44302,7 @@ msgstr "Metas do Vendedor"
 #: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Sales Person-wise Transaction Summary"
-msgstr "Resumo de Vendas Por Vendedor"
+msgstr "Resumo de Vendas por Vendedor"
 
 #. Label of a Card Break in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
@@ -51030,7 +51030,7 @@ msgstr "Nome do Território"
 #: erpnext/selling/report/territory_target_variance_based_on_item_group/territory_target_variance_based_on_item_group.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Territory Target Variance Based On Item Group"
-msgstr "Desvio Alvo do Território Baseado no Grupo de Itens"
+msgstr "Variação da Meta do Território com Base no Grupo de Itens"
 
 #. Label of a Section Break field in DocType 'Territory'
 #: erpnext/setup/doctype/territory/territory.json
@@ -51045,11 +51045,11 @@ msgstr "Vendas por Território"
 #. Name of a report
 #: erpnext/selling/report/territory_wise_sales/territory_wise_sales.json
 msgid "Territory-wise Sales"
-msgstr "Vendas Por Território"
+msgstr "Vendas por Território"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:90
 msgid "The 'From Package No.' field must neither be empty nor it's value less than 1."
-msgstr "O ';A partir do número do pacote'; o campo não deve estar vazio nem valor inferior a 1."
+msgstr "O campo 'Nº do Pacote de Origem' não pode ficar vazio ou com valor inferior a 1."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:368
 msgid "The Access to Request for Quotation From Portal is Disabled. To Allow Access, Enable it in Portal Settings."
