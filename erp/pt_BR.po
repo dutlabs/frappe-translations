@@ -2131,7 +2131,7 @@ msgstr "Moeda da Conta (Para)"
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
 msgid "Account Details"
-msgstr "Detalhes da Conta Contábil"
+msgstr "Detalhes da Conta"
 
 #. Label of a Link field in DocType 'Advance Tax'
 #. Label of a Link field in DocType 'Advance Taxes and Charges'
@@ -24624,7 +24624,7 @@ msgstr "Recursos de Faturamento"
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Inward"
-msgstr "Interior"
+msgstr "Entrada"
 
 #. Label of a Check field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
@@ -26159,19 +26159,19 @@ msgstr "Artigo Indisponível"
 #. Name of a DocType
 #: erpnext/stock/doctype/item_variant/item_variant.json
 msgid "Item Variant"
-msgstr "Item Variant"
+msgstr "Variante de Item"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json
 msgid "Item Variant Attribute"
-msgstr "Variant Item Atributo"
+msgstr "Atributo de Variante de Item"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/item_variant_details/item_variant_details.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Item Variant Details"
-msgstr "Item Variant Details"
+msgstr "Detalhes de Variante de Item"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -26183,11 +26183,11 @@ msgstr "Configurações da Variante de Item"
 
 #: erpnext/stock/doctype/item/item.js:802
 msgid "Item Variant {0} already exists with same attributes"
-msgstr "Variant item {0} já existe com mesmos atributos"
+msgstr "Variante de Item {0} já existe com mesmos atributos"
 
 #: erpnext/stock/doctype/item/item.py:781
 msgid "Item Variants updated"
-msgstr "Variantes de item atualizadas"
+msgstr "Variantes de Item atualizadas"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:73
 msgid "Item Warehouse based reposting has been enabled."
@@ -26234,7 +26234,7 @@ msgstr "Item e Armazém"
 #. Label of a Section Break field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Item and Warranty Details"
-msgstr "Itens e Garantia Detalhes"
+msgstr "Detalhes do Item e da Garantia"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2590
 msgid "Item for row {0} does not match Material Request"
@@ -26250,7 +26250,7 @@ msgstr "O item foi removido, pois nenhum número de série/lote foi selecionado.
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:126
 msgid "Item must be added using 'Get Items from Purchase Receipts' button"
-msgstr "O artigo deve ser adicionado usando \"Obter itens de recibos de compra 'botão"
+msgstr "O Item deve ser adicionado usando o botão 'Obter Itens de Recibos de Compra'"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:42
 #: erpnext/selling/doctype/sales_order/sales_order.js:1206
@@ -26277,15 +26277,15 @@ msgstr "Item a ser fabricado ou reembalado"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:38
 msgid "Item valuation rate is recalculated considering landed cost voucher amount"
-msgstr "Taxa de valorização do item é recalculado considerando valor do voucher custo desembarcou"
+msgstr "Custo de aquisição do item é recalculada considerando o valor do comprovante de custo de aquisição"
 
 #: erpnext/stock/utils.py:553
 msgid "Item valuation reposting in progress. Report might show incorrect item valuation."
-msgstr "Repostagem de avaliação do item em andamento. O relatório pode mostrar avaliação incorreta do item."
+msgstr "Recontabilização da valoração do item em andamento. O relatório pode mostrar a valoração incorreta do item."
 
 #: erpnext/stock/doctype/item/item.py:948
 msgid "Item variant {0} exists with same attributes"
-msgstr "Variante item {0} existe com os mesmos atributos"
+msgstr "Variante de item {0} existe com os mesmos atributos"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:83
 msgid "Item {0} cannot be added as a sub-assembly of itself"
@@ -26322,11 +26322,11 @@ msgstr "Item {0} foi desativado"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:697
 msgid "Item {0} has no Serial No. Only serilialized items can have delivery based on Serial No"
-msgstr "O item {0} não tem número de série. Apenas itens serilializados podem ter entrega com base no número de série"
+msgstr "O Item {0} não tem Nº de Série. Apenas itens serilializados podem ter entrega baseada no Nº de Série"
 
 #: erpnext/stock/doctype/item/item.py:1122
 msgid "Item {0} has reached its end of life on {1}"
-msgstr "Item {0} chegou ao fim da vida em {1}"
+msgstr "O Item {0} atingiu o fim de sua vida útil em {1}"
 
 #: erpnext/stock/stock_ledger.py:114
 msgid "Item {0} ignored since it is not a stock item"
@@ -26338,7 +26338,7 @@ msgstr "O item {0} já está reservado/entregue pelo Pedido de Venda {1}."
 
 #: erpnext/stock/doctype/item/item.py:1142
 msgid "Item {0} is cancelled"
-msgstr "Item {0} é cancelada"
+msgstr "Item {0} está cancelado"
 
 #: erpnext/stock/doctype/item/item.py:1126
 msgid "Item {0} is disabled"
@@ -26354,7 +26354,7 @@ msgstr "Item {0} não é um item de estoque"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1691
 msgid "Item {0} is not active or end of life has been reached"
-msgstr "Item {0} não está ativo ou fim de vida útil foi atingido"
+msgstr "Item {0} não está ativo ou o fim de sua vida útil foi atingido"
 
 #: erpnext/assets/doctype/asset/asset.py:270
 msgid "Item {0} must be a Fixed Asset Item"
@@ -26366,11 +26366,11 @@ msgstr "O item {0} deve ser um Item Sem Estoque"
 
 #: erpnext/stock/get_item_details.py:329
 msgid "Item {0} must be a Sub-contracted Item"
-msgstr "Item {0} deve ser um item do sub- contratados"
+msgstr "Item {0} deve ser um Item Subcontratado"
 
 #: erpnext/assets/doctype/asset/asset.py:272
 msgid "Item {0} must be a non-stock item"
-msgstr "Item {0} deve ser um item não inventariado"
+msgstr "Item {0} deve ser um item sem controle de estoque"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1172
 msgid "Item {0} not found in 'Raw Materials Supplied' table in {1} {2}"
@@ -26527,7 +26527,7 @@ msgstr "Itens Necessários"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/report/items_to_be_requested/items_to_be_requested.json
 msgid "Items To Be Requested"
-msgstr "Itens Para Requisitar"
+msgstr "Itens a Serem Solicitados"
 
 #. Label of a Card Break in the Selling Workspace
 #: erpnext/selling/workspace/selling/selling.json
@@ -26553,7 +26553,7 @@ msgstr "Itens a Repostar"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1536
 msgid "Items to Manufacture are required to pull the Raw Materials associated with it."
-msgstr "Os itens a fabricar são necessários para extrair as matérias-primas associadas a eles."
+msgstr "Os Itens a Fabricar são necessários para extrair as Matérias-Primas associadas a eles."
 
 #. Label of a Link in the Buying Workspace
 #: erpnext/buying/workspace/buying/buying.json
@@ -26567,7 +26567,7 @@ msgstr "Itens para Reservar"
 #. Description of the 'Warehouse' (Link) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Items under this warehouse will be suggested"
-msgstr "Itens sob este armazém serão sugeridos"
+msgstr "Itens neste armazém serão sugeridos"
 
 #: erpnext/controllers/stock_controller.py:92
 msgid "Items {0} do not exist in the Item master."
@@ -26576,14 +26576,14 @@ msgstr "Os itens {0} não existem no cadastro de Itens."
 #. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Itemwise Discount"
-msgstr "Desconto Relativo Ao Item"
+msgstr "Desconto por Item"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Itemwise Recommended Reorder Level"
-msgstr "Níves de Reposição Recomendados Por Item"
+msgstr "Níves de Reposição Recomendados por Item"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -32602,7 +32602,7 @@ msgstr "Excelente para {0} não pode ser inferior a zero ( {1})"
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Outward"
-msgstr "Para Fora"
+msgstr "Saída"
 
 #. Label of a Currency field in DocType 'Accounts Settings'
 #. Label of a Float field in DocType 'Item'
@@ -45611,7 +45611,7 @@ msgstr "Estado do Nº de Série"
 #: erpnext/stock/report/serial_no_warranty_expiry/serial_no_warranty_expiry.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Serial No Warranty Expiry"
-msgstr "Vencimento da Garantia Com Nº de Série"
+msgstr "Vencimento da Garantia do Nº de Série"
 
 #. Label of a Section Break field in DocType 'Pick List Item'
 #. Label of a Section Break field in DocType 'Stock Reconciliation Item'
@@ -51593,7 +51593,7 @@ msgstr "Isso abrange todos os scorecards vinculados a esta configuração"
 
 #: erpnext/controllers/status_updater.py:356
 msgid "This document is over limit by {0} {1} for item {4}. Are you making another {3} against the same {2}?"
-msgstr "Este documento está fora do limite {0} {1} para o item {4}. Você está fazendo outro(a) {3} relacionado(a) a(o) mesmo(a) {2}?"
+msgstr "Este documento excedeu o limite de {0} em {1} para o item {4}. Você está fazendo outra(o) {3} para o mesmo(a) {2}?"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:483
 msgid "This field is used to set the 'Customer'."
@@ -54479,7 +54479,7 @@ msgstr "Atualizar Valor e Disponibilidade"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:605
 msgid "Update Rate as per Last Purchase"
-msgstr "Atualizar Taxa de acordo com a Última Compra"
+msgstr "Atualizar Valores conforme Última Compra"
 
 #. Label of a Check field in DocType 'POS Invoice'
 #. Label of a Check field in DocType 'POS Profile'
