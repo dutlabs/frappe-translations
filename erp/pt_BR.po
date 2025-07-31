@@ -2131,7 +2131,7 @@ msgstr "Moeda da Conta (Para)"
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
 msgid "Account Details"
-msgstr "Detalhes da Conta Contábil"
+msgstr "Detalhes da Conta"
 
 #. Label of a Link field in DocType 'Advance Tax'
 #. Label of a Link field in DocType 'Advance Taxes and Charges'
@@ -24624,7 +24624,7 @@ msgstr "Recursos de Faturamento"
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Inward"
-msgstr "Interior"
+msgstr "Entrada"
 
 #. Label of a Check field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
@@ -32602,7 +32602,7 @@ msgstr "Excelente para {0} não pode ser inferior a zero ( {1})"
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Outward"
-msgstr "Para Fora"
+msgstr "Saída"
 
 #. Label of a Currency field in DocType 'Accounts Settings'
 #. Label of a Float field in DocType 'Item'
@@ -51593,7 +51593,7 @@ msgstr "Isso abrange todos os scorecards vinculados a esta configuração"
 
 #: erpnext/controllers/status_updater.py:356
 msgid "This document is over limit by {0} {1} for item {4}. Are you making another {3} against the same {2}?"
-msgstr "Este documento está fora do limite {0} {1} para o item {4}. Você está fazendo outro(a) {3} relacionado(a) a(o) mesmo(a) {2}?"
+msgstr "Este documento excedeu o limite de {0} em {1} para o item {4}. Você está fazendo outra(o) {3} para o mesmo(a) {2}?"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:483
 msgid "This field is used to set the 'Customer'."
@@ -54479,7 +54479,7 @@ msgstr "Atualizar Valor e Disponibilidade"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:605
 msgid "Update Rate as per Last Purchase"
-msgstr "Atualizar Taxa de acordo com a Última Compra"
+msgstr "Atualizar Valores conforme Última Compra"
 
 #. Label of a Check field in DocType 'POS Invoice'
 #. Label of a Check field in DocType 'POS Profile'
