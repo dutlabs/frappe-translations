@@ -2419,7 +2419,7 @@ msgstr "Contabilidade"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Accounting Details"
-msgstr "Detalhes da Contabilidade"
+msgstr "Detalhes Contábeis"
 
 #. Name of a DocType
 #. Label of a Select field in DocType 'Accounting Dimension Filter'
@@ -19360,7 +19360,7 @@ msgstr "Conta de Despesas Ausente"
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Expense Claim"
-msgstr "Pedido de Reembolso de Despesas"
+msgstr "Solicitação de Reembolso de Despesas"
 
 #. Label of a Link field in DocType 'Purchase Invoice Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
