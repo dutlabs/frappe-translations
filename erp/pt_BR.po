@@ -33968,7 +33968,7 @@ msgstr "Lançamentos de Pagamentos"
 
 #: erpnext/accounts/utils.py:1082
 msgid "Payment Entries {0} are un-linked"
-msgstr "Os Registos de Pagamento {0} não estão relacionados"
+msgstr "Os Registros de Pagamento {0} não estão relacionados"
 
 #. Linked DocType in Bank Account's connections
 #. Label of a Dynamic Link field in DocType 'Bank Clearance Detail'
@@ -40591,7 +40591,7 @@ msgstr "URL de Gravação"
 #. Group in Quality Feedback Template's connections
 #: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json
 msgid "Records"
-msgstr "Registos"
+msgstr "Registros"
 
 #: erpnext/regional/united_arab_emirates/utils.py:171
 msgid "Recoverable Standard Rated expenses should not be set when Reverse Charge Applicable is Y"
@@ -57998,7 +57998,7 @@ msgstr "{0} {1} via Arquivo CSV"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:219
 msgid "{0} {1}: 'Profit and Loss' type account {2} not allowed in Opening Entry"
-msgstr "{0} {1}: o tipo de conta \"Lucros e Perdas\" {2} não é permitido num Registo de Entrada"
+msgstr "{0} {1}: Conta do tipo 'Lucros e Perdas' {2} não é permitida em Registro de Abertura"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:248
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:87
