@@ -6668,12 +6668,12 @@ msgstr "Exportação de Dados"
 #: frappe/core/doctype/data_import/data_import.json
 #: frappe/core/doctype/data_import_log/data_import_log.json
 msgid "Data Import"
-msgstr "Importação de dados"
+msgstr "Importação de Dados"
 
 #. Name of a DocType
 #: frappe/core/doctype/data_import_log/data_import_log.json
 msgid "Data Import Log"
-msgstr "Registro de importação de dados"
+msgstr "Registro de Importação de Dados"
 
 #: frappe/core/doctype/data_export/exporter.py:174
 msgid "Data Import Template"
@@ -6681,11 +6681,11 @@ msgstr "Modelo de Importação de Dados"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:612
 msgid "Data Too Long"
-msgstr "Dados muito longos"
+msgstr "Dados Muito Extensos"
 
 #: frappe/model/base_document.py:741
 msgid "Data missing in table"
-msgstr "Falta de dados na tabela"
+msgstr "Dados ausentes na tabela"
 
 #. Label of a Data field in DocType 'System Health Report'
 #. Label of a Section Break field in DocType 'System Health Report'
@@ -6696,16 +6696,16 @@ msgstr "Banco de dados"
 #. Label of a Select field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Database Engine"
-msgstr "Engine do Banco de Dados"
+msgstr "Motor de Banco de Dados"
 
 #. Label of a Section Break field in DocType 'System Console'
 #: frappe/desk/doctype/system_console/system_console.json
 msgid "Database Processes"
-msgstr "Processos de banco de dados"
+msgstr "Processos do Banco de Dados"
 
 #: frappe/public/js/frappe/doctype/index.js:38
 msgid "Database Row Size Utilization"
-msgstr "Utilização do tamanho de linha do Banco de Dados"
+msgstr "Utilização do Tamanho da Linha do Banco de Dados"
 
 #. Name of a report
 #: frappe/core/report/database_storage_usage_by_tables/database_storage_usage_by_tables.json
@@ -12840,7 +12840,7 @@ msgstr "Caixa de Entrada"
 #: frappe/core/doctype/communication/communication.json
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Inbox User"
-msgstr "Usuário da caixa de entrada"
+msgstr "Usuário da Caixa de Entrada"
 
 #: frappe/public/js/frappe/list/base_list.js:208
 msgid "Inbox View"
@@ -12854,16 +12854,16 @@ msgstr "Incluir Campo Nome"
 #. Label of a Check field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Include Search in Top Bar"
-msgstr "Incluem a busca no Top Bar"
+msgstr "Incluir Busca na Barra Superior"
 
 #: frappe/website/doctype/website_theme/website_theme.js:61
 msgid "Include Theme from Apps"
-msgstr "Incluir tema de aplicativos"
+msgstr "Incluir Tema de Aplicativos"
 
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Include Web View Link in Email"
-msgstr "Enviar link no email para visualizar o documento online"
+msgstr "Incluir Link de Visualização Web no E-mail"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1527
 msgid "Include filters"
@@ -12917,7 +12917,7 @@ msgstr "Configuração Incorreta"
 
 #: frappe/utils/csvutils.py:209
 msgid "Incorrect URL"
-msgstr "URL incorreto"
+msgstr "URL Incorreta"
 
 #: frappe/utils/password.py:90
 msgid "Incorrect User or Password"
@@ -32223,11 +32223,11 @@ msgstr "{0} registro excluído"
 
 #: frappe/public/js/frappe/logtypes.js:22
 msgid "{0} records are not automatically deleted."
-msgstr "{0} registros não são automaticamente excluídos."
+msgstr "Os registros de {0} não são automaticamente excluídos."
 
 #: frappe/public/js/frappe/logtypes.js:29
 msgid "{0} records are retained for {1} days."
-msgstr "{0} registros são mantidos por {1} dias."
+msgstr "Os registros de {0} são mantidos por {1} dias."
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:179
 msgid "{0} records deleted"
