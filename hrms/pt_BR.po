@@ -632,7 +632,7 @@ msgstr "Contas não definidas para o Componente Salarial {0}"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:593
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
-msgstr "Lançamento do Livro Diário de Competência (Accrual) para salários de {0} a {1}"
+msgstr "Lançamento Contábil de Competência (Accrual) para salários de {0} a {1}"
 
 #. Label of a Select field in DocType 'Full and Final Asset'
 #. Label of a Select field in DocType 'Shift Assignment Tool'
@@ -992,7 +992,7 @@ msgstr "Permitir Usuários"
 #. Label of a Int field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Allow check-out after shift end time (in minutes)"
-msgstr "Permitir saída após término do turno (em minutos)"
+msgstr "Permitir registro de saída após o horário final do turno (em minutos)"
 
 #. Description of the 'Allow Users' (Section Break) field in DocType 'Leave
 #. Block List'
@@ -1010,7 +1010,7 @@ msgstr "Permite alocar mais licenças do que o número de dias no período de al
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Alternating entries as IN and OUT during the same shift"
-msgstr "Entradas alternadas como ENTRADA e SAÍDA durante o mesmo turno"
+msgstr "Alternar registros como ENTRADA e SAÍDA durante o mesmo turno"
 
 #. Label of a Link field in DocType 'Appraisal'
 #. Label of a Link field in DocType 'Attendance'
@@ -1208,12 +1208,12 @@ msgstr "Valor Anual Tributável"
 #. Label of a Small Text field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
 msgid "Any other details"
-msgstr "Outros detalhes"
+msgstr "Quaisquer outros detalhes"
 
 #. Description of the 'Remarks' (Text) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 msgid "Any other remarks, noteworthy effort that should go in the records"
-msgstr "Outros comentários, esforços notáveis que devem ser registrados"
+msgstr "Quaisquer outras observações, esforço notável que deva constar nos registros"
 
 #. Label of a Table MultiSelect field in DocType 'Gratuity Rule'
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.json
@@ -1270,7 +1270,7 @@ msgstr "Status da Solicitação"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:207
 msgid "Application period cannot be across two allocation records"
-msgstr "O período da solicitação não pode abranger dois registros de alocação"
+msgstr "O período de solicitação não pode se estender por dois registros de alocação"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:204
 msgid "Application period cannot be outside leave allocation period"
@@ -2172,7 +2172,7 @@ msgstr "Não é possível dividir o turno após a data final"
 
 #: hrms/api/roster.py:141
 msgid "Cannot break shift before start date"
-msgstr "Não é possível dividir o turno antes da data de início"
+msgstr "Não é possível dividir o turno antes da data inicial"
 
 #: hrms/hr/doctype/shift_assignment/shift_assignment.py:70
 msgid "Cannot cancel Shift Assignment: {0} as it is linked to Attendance: {1}"
@@ -2916,7 +2916,7 @@ msgstr "Criar Abertura de Vaga"
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.js:10
 msgid "Create Journal Entry"
-msgstr "Criar Lançamento do Livro Diário"
+msgstr "Criar Lançamento Contábil"
 
 #. Title of an Onboarding Step
 #: hrms/hr/onboarding_step/create_leave_allocation/create_leave_allocation.json
@@ -3393,7 +3393,7 @@ msgstr "Valor Padrão"
 #. Account'
 #: hrms/payroll/doctype/salary_component_account/salary_component_account.json
 msgid "Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected."
-msgstr "Conta bancária ou de caixa padrão será atualizada automaticamente no Lançamento do Livro Diário da Folha de Pagamento quando este modo for selecionado."
+msgstr "Conta contábil Banco/Caixa padrão será atualizada automaticamente no Lançamento Contábil de Salário quando este modo for selecionado."
 
 #. Label of a Currency field in DocType 'Employee Grade'
 #: hrms/hr/doctype/employee_grade/employee_grade.json
@@ -5065,11 +5065,11 @@ msgstr "A Data Final não pode ser anterior à Data Inicial"
 #: hrms/hr/notification/training_scheduled/training_scheduled.html:34
 #: hrms/templates/emails/training_event.html:8
 msgid "End Time"
-msgstr "Hora de Término"
+msgstr "Horário Final"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:201
 msgid "End date: {0}"
-msgstr "Data de término: {0}"
+msgstr "Data final: {0}"
 
 #: hrms/hr/doctype/training_event/training_event.py:26
 msgid "End time cannot be before start time"
@@ -6155,11 +6155,11 @@ msgstr "Sem Glúten"
 
 #: frontend/src/views/InvalidEmployee.vue:12
 msgid "Go to Login"
-msgstr "Ir para Login"
+msgstr "Ir para Início de Sessão"
 
 #: frontend/src/views/Login.vue:70
 msgid "Go to Reset Password page"
-msgstr "Ir para a página de Redefinir Senha"
+msgstr "Ir para a página de Redefinição de Senha"
 
 #. Linked DocType in Appraisal Cycle's connections
 #. Label of a Small Text field in DocType 'Appraisal Goal'
@@ -6542,19 +6542,19 @@ msgstr "Meio Período"
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 #: hrms/hr/doctype/leave_application/leave_application.json
 msgid "Half Day Date"
-msgstr "Data do Meio Período"
+msgstr "Data de Meio Período"
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:27
 msgid "Half Day Date is mandatory"
-msgstr "A Data do Meio Período é obrigatória"
+msgstr "A Data de Meio Período é obrigatória"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:191
 msgid "Half Day Date should be between From Date and To Date"
-msgstr "A Data do Meio Período deve estar entre a Data Inicial e a Data Final"
+msgstr "A Data de Meio Período deve estar entre a Data Inicial e a Data Final"
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:29
 msgid "Half Day Date should be in between Work From Date and Work End Date"
-msgstr "A Data do Meio Período deve estar entre a Data de Início e a Data de Término do Trabalho"
+msgstr "A Data de Meio Período deve estar entre a Data de Início e a Data Final de Trabalho"
 
 #. Label of a HTML field in DocType 'Employee Attendance Tool'
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
@@ -6995,7 +6995,7 @@ msgstr "Faixa do Imposto de Renda é obrigatória, pois a Estrutura Salarial {0}
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1603
 msgid "Income Tax Slab must be effective on or before Payroll Period Start Date: {0}"
-msgstr "A Faixa do Imposto de Renda deve estar vigente em ou antes da Data de Início do Período da Folha: {0}"
+msgstr "A Faixa do Imposto de Renda deve estar vigente em ou antes da Data Inicial do Período da Folha: {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1591
 msgid "Income Tax Slab not set in Salary Structure Assignment: {0}"
@@ -7569,12 +7569,12 @@ msgstr "Data de Admissão"
 #: hrms/payroll/doctype/salary_withholding_cycle/salary_withholding_cycle.json
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 msgid "Journal Entry"
-msgstr "Lançamento do Livro Diário"
+msgstr "Lançamento Contábil"
 
 #. Linked DocType in Full and Final Statement's connections
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.json
 msgid "Journal Entry Account"
-msgstr "Conta de Lançamento do Livro Diário"
+msgstr "Conta de Lançamento Contábil"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:18
 #: hrms/public/js/salary_slip_deductions_report_filters.js:25
@@ -8234,7 +8234,7 @@ msgstr "Tipo de Registro é obrigatório para check-ins dentro do turno: {0}."
 
 #: frontend/src/views/Login.vue:34
 msgid "Login"
-msgstr "Login"
+msgstr "Entrar"
 
 #: frontend/src/views/InvalidEmployee.vue:7
 msgid "Login Failed"
@@ -12272,7 +12272,7 @@ msgstr "Início"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/report/salary_register/salary_register.py:162
 msgid "Start Date"
-msgstr "Data de Início"
+msgstr "Data Inicial"
 
 #. Label of a Time field in DocType 'Shift Type'
 #. Label of a Datetime field in DocType 'Training Event'
@@ -12281,23 +12281,23 @@ msgstr "Data de Início"
 #: hrms/hr/notification/training_scheduled/training_scheduled.html:32
 #: hrms/templates/emails/training_event.html:7
 msgid "Start Time"
-msgstr "Horário de Início"
+msgstr "Horário Inicial"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:264
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}"
-msgstr "As datas de início e fim não estão em um Período de Pagamento válido, não é possível calcular {0}"
+msgstr "As datas inicial e final não estão em um Período de Folha de Pagamento válido, não é possível calcular {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1536
 msgid "Start and end dates not in a valid Payroll Period, cannot calculate {0}."
-msgstr "As datas de início e fim não estão em um Período de Pagamento válido, não é possível calcular {0}."
+msgstr "As datas inicial e final não estão em um Período de Folha de Pagamento válido, não é possível calcular {0}."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:199
 msgid "Start date: {0}"
-msgstr "Data de início: {0}"
+msgstr "Data inicial: {0}"
 
 #: hrms/hr/doctype/shift_type/shift_type.py:40
 msgid "Start time and end time cannot be same."
-msgstr "O horário de início e de término não podem ser iguais."
+msgstr "O horário inicial e final não podem ser iguais."
 
 #. Label of a Check field in DocType 'Salary Component'
 #. Label of a Check field in DocType 'Salary Detail'
@@ -12476,11 +12476,11 @@ msgstr "Submetido"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:409
 msgid "Submitting Salary Slips and creating Journal Entry..."
-msgstr "Enviando Holerites e criando Lançamento do Livro Diário..."
+msgstr "Submetendo Holerites e criando Lançamento Contábil..."
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1536
 msgid "Submitting Salary Slips..."
-msgstr "Enviando Holerites..."
+msgstr "Submetendo Holerites..."
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:162
 msgid "Subsidiary companies have already planned for {1} vacancies at a budget of {2}. Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned for its subsidiary companies"
@@ -12814,13 +12814,13 @@ msgstr "O holerite enviado por e-mail ao colaborador será protegido por senha, 
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time after the shift start time when check-in is considered as late (in minutes)."
-msgstr "O tempo após o início do turno em que o registro de entrada é considerado atrasado (em minutos)."
+msgstr "O tempo após o horário inicial do turno quando o registro de entrada é considerado como atraso (em minutos)."
 
 #. Description of the 'Early Exit Grace Period' (Int) field in DocType 'Shift
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "The time before the shift end time when check-out is considered as early (in minutes)."
-msgstr "O tempo antes do fim do turno em que a saída é considerada antecipada (em minutos)."
+msgstr "O tempo antes do horário final do turno quando o registro de saída é considerado como saída antecipada (em minutos)."
 
 #. Description of the 'Begin check-in before shift start time (in minutes)'
 #. (Int) field in DocType 'Shift Type'
@@ -12870,7 +12870,7 @@ msgstr "Esta licença compensatória será aplicável a partir de {0}."
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:47
 msgid "This employee already has a log with the same timestamp.{0}"
-msgstr "Este cadastroolaborador já possui um registro com o mesmo carimbo de data/hora.{0}"
+msgstr "Este colaborador já possui um registro de ponto com o mesmo registro de data e hora.{0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1276
 msgid "This error can be due to invalid formula or condition."
@@ -12906,7 +12906,7 @@ msgstr "Isso substituirá o componente de imposto {0} no holerite e o imposto n�
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:400
 msgid "This will submit Salary Slips and create accrual Journal Entry. Do you want to proceed?"
-msgstr "Isso irá submeter os Holerite e criará o Lançamento do Livro Diário da competência. Deseja continuar?"
+msgstr "Isso irá submeter os Holerites e criará o Lançamento Contábil da competência. Você deseja continuar?"
 
 #: frontend/src/components/AttendanceCalendar.vue:116
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:52
@@ -12918,7 +12918,7 @@ msgstr "Quinta-feira"
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Time"
-msgstr "Hora"
+msgstr "Horário"
 
 #: hrms/hr/dashboard_chart_source/hiring_vs_attrition_count/hiring_vs_attrition_count.js:28
 msgid "Time Interval"
@@ -12933,7 +12933,7 @@ msgstr "Folha de Ponto"
 #. field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Time after the end of shift during which check-out is considered for attendance."
-msgstr "Tempo após o fim do turno durante o qual a saída é considerada para a presença."
+msgstr "O tempo após o horário final do turno durante o qual o registro de saída é considerado para a presença."
 
 #. Description of the 'Time to Fill' (Duration) field in DocType 'Job
 #. Requisition'
@@ -14110,7 +14110,7 @@ msgstr "Lembrete de Aniversário de Trabalho"
 #. Label of a Date field in DocType 'Compensatory Leave Request'
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 msgid "Work End Date"
-msgstr "Data de Término do Trabalho"
+msgstr "Data Final de Trabalho"
 
 #. Label of a Select field in DocType 'Gratuity Rule'
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.json
@@ -14120,7 +14120,7 @@ msgstr "Método de Cálculo de Experiência Profissional"
 #. Label of a Date field in DocType 'Compensatory Leave Request'
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 msgid "Work From Date"
-msgstr "Trabalhar a Partir da Data"
+msgstr "Data Inicial de Trabalho"
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
 #. Option for the 'Reason' (Select) field in DocType 'Attendance Request'
