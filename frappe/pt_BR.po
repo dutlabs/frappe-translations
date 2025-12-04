@@ -273,7 +273,7 @@ msgstr "<div class=\"alert\">Por favor, não atualize isto, pois pode prejudicar
 #. Introduction text of the request-data Web Form
 #: frappe/website/web_form/request_data/request_data.json
 msgid "<div class=\"ql-editor read-mode\"><p>Request a file containing your personally identifiable information (PII) that is saved on our system. The file will be in JSON format and is sent to you by email. If you would like to have your PII deleted from our system, please make a <a href=\"/request-to-delete-data\" rel=\"noopener noreferrer\">request to delete data</a>.</p></div>"
-msgstr "<div class=\"ql-editor read-mode\"><p>Solicite um arquivo contendo suas informações de identificação pessoal (PII) que estão salvas em nosso sistema. O arquivo será no formato JSON e será enviado a você por e-mail. Se você deseja que suas PII sejam excluídas de nosso sistema, por favor, faça uma <a href=\"/request-to-delete-data\" rel=\"noopener noreferrer\">solicitação para excluir dados</a>.</p></div>""
+msgstr "<div class=\"ql-editor read-mode\"><p>Solicite um arquivo contendo suas informações de identificação pessoal (PII) que estão salvas em nosso sistema. O arquivo será no formato JSON e será enviado a você por e-mail. Se você deseja que suas PII sejam excluídas de nosso sistema, por favor, faça uma <a href=\"/request-to-delete-data\" rel=\"noopener noreferrer\">solicitação para excluir dados</a>.</p></div>"
 
 #. Introduction text of the request-to-delete-data Web Form
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
@@ -16721,7 +16721,7 @@ msgstr "Novo Formulário de Documento"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:159
 msgid "New Document Shared {0}"
-msgstr "Novo Documento Compartilhado {0}"S
+msgstr "Novo Documento Compartilhado {0}"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:27
 #: frappe/public/js/frappe/views/communication.js:23
