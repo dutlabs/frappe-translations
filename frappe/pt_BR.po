@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2025-11-28 16:15+0000\n"
-"PO-Revision-Date: 2024-11-04 16:53-1506\n"
+"POT-Creation-Date: 2025-12-10 14:56+0000\n"
+"PO-Revision-Date: 2025-12-10 15:07-6630\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -6113,7 +6113,7 @@ msgstr "Criar ou Editar Fluxo de Trabalho"
 
 #: frappe/public/js/frappe/list/list_view.js:511
 msgid "Create your first {0}"
-msgstr "Crie seu primeiro {0}"
+msgstr "Criar {0}"
 
 #: frappe/workflow/doctype/workflow/workflow.js:16
 msgid "Create your workflow visually using the Workflow Builder."
@@ -16256,7 +16256,7 @@ msgstr "Módulos HTML"
 msgid "Monday"
 msgstr "Segunda-feira"
 
-#. Description of a Card Break in the Build WorkspaceMonitor logs for errors, background jobs, communications, and user activity
+#. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Monitor logs for errors, background jobs, communications, and user activity"
 msgstr "Monitore registros para verificar erros, tarefas em segundo plano, comunicações e atividades do usuário"
@@ -17379,7 +17379,7 @@ msgstr "Nenhum(a) {0} encontrado(a)"
 
 #: frappe/public/js/frappe/list/list_view.js:501
 msgid "No {0} found with matching filters. Clear filters to see all {0}."
-msgstr "Nenhum {0} encontrado com os filtros correspondentes. Limpe os filtros para ver todos os {0}."
+msgstr "Nenhum(a) {0} encontrado(a) com os filtros correspondentes. Limpe os filtros para exibir tudo."
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:171
 msgid "No {0} mail"
@@ -30374,7 +30374,7 @@ msgstr "Você tem notificações não lidas"
 
 #: frappe/core/doctype/log_settings/log_settings.py:125
 msgid "You have unseen {0}"
-msgstr "Você não viu {0}"
+msgstr "Você tem {0} não visualizadas"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:192
 msgid "You haven't added any Dashboard Charts or Number Cards yet."
@@ -30382,7 +30382,7 @@ msgstr "Você ainda não adicionou nenhum gráfico de painel ou cartão numéric
 
 #: frappe/public/js/frappe/list/list_view.js:505
 msgid "You haven't created a {0} yet"
-msgstr "Você ainda não criou um {0}"
+msgstr "Você ainda não criou um(a) {0}"
 
 #: frappe/rate_limiter.py:164
 msgid "You hit the rate limit because of too many requests. Please try after sometime."
