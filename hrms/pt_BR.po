@@ -7046,7 +7046,7 @@ msgstr "Saldo de licença insuficiente para o Tipo de Licença {0}"
 #. Label of a Data field in DocType 'Interest'
 #: hrms/hr/doctype/interest/interest.json
 msgid "Interest"
-msgstr "Juros"
+msgstr "Interesse"
 
 #. Label of a Currency field in DocType 'Salary Slip Loan'
 #: hrms/payroll/doctype/salary_slip_loan/salary_slip_loan.json
