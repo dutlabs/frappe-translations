@@ -6611,7 +6611,7 @@ msgstr "Pelo menos uma conta com ganho ou perda cambial é necessária"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:437
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:516
 msgid "At least one mode of payment is required for POS invoice."
-msgstr "É necessário pelo menos um meio de pagamento para a fatura de PDV."
+msgstr "É necessário pelo menos uma forma de pagamento para a fatura de PDV."
 
 #: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.py:34
 msgid "At least one of the Applicable Modules should be selected"
@@ -29819,7 +29819,7 @@ msgstr "Celular: "
 #: erpnext/accounts/report/purchase_register/purchase_register.py:201
 #: erpnext/accounts/report/sales_register/sales_register.py:224
 msgid "Mode Of Payment"
-msgstr "Meio de Pagamento"
+msgstr "Forma de Pagamento"
 
 #. Label of a Link field in DocType 'Cashier Closing Payments'
 #. Label of a Link field in DocType 'Journal Entry'
@@ -29862,16 +29862,16 @@ msgstr "Meio de Pagamento"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/selling/page/point_of_sale/pos_controller.js:33
 msgid "Mode of Payment"
-msgstr "Meio de Pagamento"
+msgstr "Forma de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json
 msgid "Mode of Payment Account"
-msgstr "Conta de Meio de Pagamento"
+msgstr "Conta da Forma de Pagamento"
 
 #: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:35
 msgid "Mode of Payments"
-msgstr "Meios de Pagamento"
+msgstr "Forma de Pagamentos"
 
 #. Label of a Data field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
@@ -29881,7 +29881,7 @@ msgstr "Modelo"
 #. Label of a Section Break field in DocType 'POS Closing Entry'
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 msgid "Modes of Payment"
-msgstr "Meios de Pagamento"
+msgstr "Formas de Pagamento"
 
 #: erpnext/templates/pages/projects.html:69
 msgid "Modified By"
@@ -33215,7 +33215,7 @@ msgstr "Perfil de PDV obrigatório para fazer Lançamento de PDV"
 
 #: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py:63
 msgid "POS Profile {} contains Mode of Payment {}. Please remove them to disable this mode."
-msgstr "O Perfil de PDV {} contém o Meio de Pagamento {}. Remova-o para desabilitá-lo."
+msgstr "O Perfil de PDV {} contém a Forma de Pagamento {}. Por favor, remova-a para desabilitá-la."
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:46
 msgid "POS Profile {} does not belongs to company {}"
@@ -36068,7 +36068,7 @@ msgstr "Por favor, selecione uma data e horário."
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:158
 msgid "Please select a default mode of payment"
-msgstr "Por favor, selecione um meio de pagamento padrão"
+msgstr "Por favor, selecione uma forma de pagamento padrão"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:809
 msgid "Please select a field to edit from numpad"
@@ -36331,19 +36331,19 @@ msgstr "Por favor, configure tanto a Identificação Fiscal quanto o Código Fis
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2099
 msgid "Please set default Cash or Bank account in Mode of Payment {0}"
-msgstr "Por favor, defina a conta padrão de Caixa ou Banco no Meio de Pagamento {0}"
+msgstr "Por favor, defina a conta padrão de Caixa ou Banco na Forma de Pagamento {0}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:66
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:176
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2699
 msgid "Please set default Cash or Bank account in Mode of Payment {}"
-msgstr "Por favor, defina a conta padrão de Caixa ou Banco no Meio de Pagamento {0}"
+msgstr "Por favor, defina a conta padrão de Caixa ou Banco na Forma de Pagamento {0}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:68
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:178
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2701
 msgid "Please set default Cash or Bank account in Mode of Payments {}"
-msgstr "Por favor, defina a conta padrão de Caixa ou Banco nos Meios de Pagamento {0}"
+msgstr "Por favor, defina a conta padrão de Caixa ou Banco nas Formas de Pagamento {0}"
 
 #: erpnext/accounts/utils.py:2326
 msgid "Please set default Exchange Gain/Loss Account in Company {}"
@@ -43797,11 +43797,11 @@ msgstr "Linha #{0}: Por favor, defina o Motivo da Isenção de Impostos em Impos
 
 #: erpnext/regional/italy/utils.py:336
 msgid "Row {0}: Please set the Mode of Payment in Payment Schedule"
-msgstr "Linha #{0}: Por favor, defina o Meio de Pagamento no Cronograma de Pagamento"
+msgstr "Linha #{0}: Por favor, defina o Forma de Pagamento no Cronograma de Pagamento"
 
 #: erpnext/regional/italy/utils.py:341
 msgid "Row {0}: Please set the correct code on Mode of Payment {1}"
-msgstr "Linha #{0}: Por favor, defina o código correto em Meio de pagamento {1}"
+msgstr "Linha #{0}: Por favor, defina o código correto na Forma de Pagamento {1}"
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:211
 msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
@@ -57465,7 +57465,7 @@ msgstr "Você só pode resgatar no máximo {0} pontos neste pedido."
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:161
 msgid "You can only select one mode of payment as default"
-msgstr "Você só pode selecionar um meio de pagamento como padrão"
+msgstr "Você só pode selecionar uma forma de pagamento como padrão"
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:532
 msgid "You can redeem upto {0}."
