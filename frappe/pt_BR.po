@@ -31986,7 +31986,7 @@ msgstr "remover-assinar"
 
 #: frappe/model/rename_doc.py:215
 msgid "renamed from {0} to {1}"
-msgstr "renomeado de {0} para {1}"
+msgstr "renomeou de {0} para {1}"
 
 #. Option for the 'Icon' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
