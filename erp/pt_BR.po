@@ -23562,7 +23562,7 @@ msgstr "Identificação do pacote para a entrega (para impressão)"
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:5
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:414
 msgid "Identifying Decision Makers"
-msgstr "Identificando os Tomadores de Decisão"
+msgstr "Identificação de Decisores"
 
 #. Option for the 'Status' (Select) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
@@ -30095,7 +30095,7 @@ msgstr "Marcar Como Fechado"
 #: erpnext/crm/doctype/prospect/prospect.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Market Segment"
-msgstr "Segmento de Renda"
+msgstr "Segmento de Mercado"
 
 #: erpnext/setup/doctype/company/company.py:380
 msgid "Marketing"
@@ -31653,7 +31653,7 @@ msgstr "Gás Natural"
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:3
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:412
 msgid "Needs Analysis"
-msgstr "Requer Análise"
+msgstr "Análise de Necessidades"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:625
 msgid "Negative Quantity is not allowed"
@@ -33844,12 +33844,12 @@ msgstr "Fonte da Oportunidade"
 #. Label of a Link in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Opportunity Summary by Sales Stage"
-msgstr "Resumo de Oportunidade por Estágio de Vendas"
+msgstr "Resumo de Oportunidade por Etapa de Vendas"
 
 #. Name of a report
 #: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.json
 msgid "Opportunity Summary by Sales Stage "
-msgstr "Resumo de Oportunidade por Estágio de Vendas "
+msgstr "Resumo de Oportunidade por Etapa de Vendas "
 
 #. Label of a Link field in DocType 'Opportunity'
 #. Name of a DocType
@@ -39974,7 +39974,7 @@ msgstr "Composição de Proposta"
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:7
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:416
 msgid "Proposal/Price Quote"
-msgstr "Proposta/Preço Cotado"
+msgstr "Proposta/Orçamento"
 
 #. Label of a Check field in DocType 'Subscription Settings'
 #: erpnext/accounts/doctype/subscription_settings/subscription_settings.json
@@ -46441,7 +46441,7 @@ msgstr "Devolução de Vendas"
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:69
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Sales Stage"
-msgstr "Estágio de Vendas"
+msgstr "Etapa de Vendas"
 
 #: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:8
 msgid "Sales Summary"
@@ -49668,12 +49668,12 @@ msgstr "Sr"
 #. Label of a Data field in DocType 'Prospect Opportunity'
 #: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
 msgid "Stage"
-msgstr "Estágio"
+msgstr "Etapa"
 
 #. Label of a Data field in DocType 'Sales Stage'
 #: erpnext/crm/doctype/sales_stage/sales_stage.json
 msgid "Stage Name"
-msgstr "Nome Artístico"
+msgstr "Nome da Etapa"
 
 #. Label of a Int field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -58154,7 +58154,7 @@ msgstr "Aguardando o pagamento..."
 
 #: erpnext/setup/setup_wizard/data/lead_source.txt:10
 msgid "Walk In"
-msgstr "Visita Presencial"
+msgstr "Visita Espontânea"
 
 #. Label of a Section Break field in DocType 'POS Invoice'
 #. Label of a Link field in DocType 'POS Invoice Item'
