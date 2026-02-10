@@ -31629,7 +31629,7 @@ msgstr "itálico"
 
 #: frappe/templates/signup.html:11 frappe/www/login.html:10
 msgid "jane@example.com"
-msgstr "seu_email@exemplo.com"
+msgstr "nome.sobrenome"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:46
 msgid "just now"
