@@ -708,7 +708,7 @@ msgstr "Custo Real"
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:131
 msgid "Actual Encashable Days"
-msgstr "Dias de Abono Pecuniário Reais"
+msgstr "Dias Efetivos para Conversão"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:419
 msgid "Actual balances aren't available because the leave application spans over different leave allocations. You can still apply for leaves which would be compensated during the next allocation."
@@ -3097,7 +3097,7 @@ msgstr "Empregador Atual "
 #. Label of a Data field in DocType 'Employee Referral'
 #: hrms/hr/doctype/employee_referral/employee_referral.json
 msgid "Current Job Title"
-msgstr "Cargo Atual"
+msgstr "Título do Cargo Atual"
 
 #. Label of a Currency field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -3393,7 +3393,7 @@ msgstr "Valor Padrão"
 #. Account'
 #: hrms/payroll/doctype/salary_component_account/salary_component_account.json
 msgid "Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected."
-msgstr "Conta contábil Banco/Caixa padrão será atualizada automaticamente no Lançamento Contábil de Salário quando este modo for selecionado."
+msgstr "Conta contábil do tipo Banco/Caixa padrão será atualizada automaticamente no Lançamento Contábil de Salário quando este modo estiver selecionado."
 
 #. Label of a Currency field in DocType 'Employee Grade'
 #: hrms/hr/doctype/employee_grade/employee_grade.json
@@ -4256,7 +4256,7 @@ msgstr "Adiantamentos de Colaborador"
 #: hrms/hr/workspace/employee_lifecycle/employee_lifecycle.json
 #: hrms/hr/workspace/hr/hr.json
 msgid "Employee Analytics"
-msgstr "Análise de Colaborador"
+msgstr "Análise de Colaboradores"
 
 #. Name of a DocType
 #. Label of a Link in the Shift & Attendance Workspace
@@ -4405,7 +4405,7 @@ msgstr "Avaliação de Feedback do Colaborador"
 #: hrms/hr/workspace/hr/hr.json
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 msgid "Employee Grade"
-msgstr "Grau do Colaborador"
+msgstr "Nível do Colaborador"
 
 #. Name of a DocType
 #. Label of a Link in the Employee Lifecycle Workspace
@@ -5263,7 +5263,7 @@ msgstr "Excluir Feriados"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:106
 msgid "Excluded {0} Non-Encashable Leaves for {1}"
-msgstr "Foram excluídas {0} Licenças Não Elegíveis para Abono Pecuniário para {1}"
+msgstr "Foram excluídas {0} Licenças Não Elegíveis para Conversão para {1}"
 
 #. Label of a Check field in DocType 'Salary Component'
 #. Label of a Check field in DocType 'Salary Detail'
@@ -6233,7 +6233,7 @@ msgstr "Metas atualizadas com sucesso"
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/setup.py:200
 msgid "Grade"
-msgstr "Classificação"
+msgstr "Nível"
 
 #. Label of a Currency field in DocType 'Expense Claim'
 #: hrms/hr/doctype/expense_claim/expense_claim.json
@@ -7018,7 +7018,7 @@ msgstr "Distribuição Incorreta de Peso"
 #. Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Indicates the number of leaves that cannot be encashed from the leave balance. E.g. with a leave balance of 10 and 4 Non-Encashable Leaves, you can encash 6, while the remaining 4 can be carried forward or expired"
-msgstr "Indica o número de licenças que não podem ser convertidas em abono pecuniário a partir do saldo de licenças. Por exemplo, com um saldo de 10 licenças e 4 Licenças Não Elegíveis para Abono Pecuniário, você pode converter 6 em dinheiro, enquanto as 4 restantes podem ser acumuladas ou expiram"
+msgstr "Indica o número de licenças que não podem ser convertidas em dinheiro a partir do saldo de licenças. Por exemplo, com um saldo de 10 licenças e 4 Licenças Não Elegíveis para Conversão, você pode converter 6 em dinheiro, enquanto as 4 restantes podem ser acumuladas ou expiram"
 
 #. Option for the 'Type' (Select) field in DocType 'Vehicle Service'
 #: hrms/hr/doctype/vehicle_service/vehicle_service.json
@@ -7379,7 +7379,7 @@ msgstr "Está Pago"
 #. Label of a Check field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Is Partially Paid Leave"
-msgstr "É Licença Parcialmente Paga"
+msgstr "Licença Parcialmente Remunerada"
 
 #. Label of a Check field in DocType 'Additional Salary'
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
@@ -7389,7 +7389,7 @@ msgstr "É Recorrente"
 #. Label of a Check field in DocType 'Salary Detail'
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 msgid "Is Recurring Additional Salary"
-msgstr "É Salário Adicional Recorrente"
+msgstr "Salário Adicional Recorrente"
 
 #. Label of a Check field in DocType 'Salary Withholding Cycle'
 #: hrms/payroll/doctype/salary_withholding_cycle/salary_withholding_cycle.json
@@ -7406,7 +7406,7 @@ msgstr "Salário Retido"
 #: hrms/payroll/doctype/salary_component/salary_component.json
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 msgid "Is Tax Applicable"
-msgstr "Tributação Aplicável"
+msgstr "Tributação Aplicável?"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:12
 #: hrms/public/js/salary_slip_deductions_report_filters.js:19
@@ -7435,7 +7435,7 @@ msgstr "Candidato"
 #. Name of a DocType
 #: hrms/hr/doctype/job_applicant_source/job_applicant_source.json
 msgid "Job Applicant Source"
-msgstr "Fonte do Candidato"
+msgstr "Origem do Candidato"
 
 #: hrms/hr/doctype/employee_referral/employee_referral.py:51
 msgid "Job Applicant {0} created successfully."
@@ -7467,32 +7467,32 @@ msgstr "Descrição do Cargo"
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:52
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Job Offer"
-msgstr "Proposta de Emprego"
+msgstr "Proposta"
 
 #. Name of a DocType
 #: hrms/hr/doctype/job_offer_term/job_offer_term.json
 msgid "Job Offer Term"
-msgstr "Termo da Proposta de Emprego"
+msgstr "Termo da Proposta"
 
 #. Label of a Link field in DocType 'Job Offer'
 #. Name of a DocType
 #: hrms/hr/doctype/job_offer/job_offer.json
 #: hrms/hr/doctype/job_offer_term_template/job_offer_term_template.json
 msgid "Job Offer Term Template"
-msgstr "Modelo de Termo da Proposta de Emprego"
+msgstr "Modelo de Termo da Proposta"
 
 #. Label of a Table field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Job Offer Terms"
-msgstr "Termos da Proposta de Emprego"
+msgstr "Termos da Proposta"
 
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:61
 msgid "Job Offer status"
-msgstr "Status da Proposta de Emprego"
+msgstr "Status da Proposta"
 
 #: hrms/hr/doctype/job_offer/job_offer.py:24
 msgid "Job Offer: {0} is already for Job Applicant: {1}"
-msgstr "Proposta de Emprego: {0} já está vinculada ao Candidato: {1}"
+msgstr "Proposta: {0} já está vinculada ao Candidato: {1}"
 
 #. Label of a Link field in DocType 'Interview'
 #. Label of a Link field in DocType 'Job Applicant'
@@ -7508,15 +7508,15 @@ msgstr "Proposta de Emprego: {0} já está vinculada ao Candidato: {1}"
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:31
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Job Opening"
-msgstr "Vaga de Emprego"
+msgstr "Vaga"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.py:51
 msgid "Job Opening Associated"
-msgstr "Vaga de Emprego Associada"
+msgstr "Vaga Associada"
 
 #: hrms/www/jobs/index.html:2 hrms/www/jobs/index.html:5
 msgid "Job Openings"
-msgstr "Vagas de Emprego"
+msgstr "Vagas"
 
 #: hrms/hr/doctype/job_opening/job_opening.py:83
 msgid "Job Openings for the designation {0} are already open or the hiring is complete as per the Staffing Plan {1}"
@@ -7533,12 +7533,12 @@ msgstr "Requisição de Vaga"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.py:48
 msgid "Job Requisition {0} has been associated with Job Opening {1}"
-msgstr "A requisição de vaga {0} foi associada à vaga de emprego {1}"
+msgstr "A Requisição de Vaga {0} foi associada à Vaga {1}"
 
 #. Label of a Data field in DocType 'Job Opening'
 #: hrms/hr/doctype/job_opening/job_opening.json
 msgid "Job Title"
-msgstr "Cargo"
+msgstr "Título do Cargo"
 
 #. Description of the 'Description' (Text Editor) field in DocType 'Job
 #. Opening'
@@ -7842,12 +7842,12 @@ msgstr "Detalhes da Licença"
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/hr/workspace/leaves/leaves.json
 msgid "Leave Encashment"
-msgstr "Venda de Licença"
+msgstr "Conversão de Licença"
 
 #. Label of a Currency field in DocType 'Salary Structure'
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 msgid "Leave Encashment Amount Per Day"
-msgstr "Valor Diário da Venda de Licença"
+msgstr "Valor Diário da Conversão de Licença"
 
 #: frontend/src/views/leave/List.vue:5
 msgid "Leave History"
@@ -7976,27 +7976,27 @@ msgstr "Nome do Tipo de Licença"
 
 #: hrms/hr/doctype/leave_type/leave_type.py:33
 msgid "Leave Type can either be compensatory or earned leave."
-msgstr "O tipo de licença pode ser compensatória ou adquirida."
+msgstr "O Tipo de Licença pode ser compensatória ou adquirida."
 
 #: hrms/hr/doctype/leave_type/leave_type.py:45
 msgid "Leave Type can either be without pay or partial pay"
-msgstr "O tipo de licença pode ser sem remuneração ou com remuneração parcial"
+msgstr "O Tipo de Licença pode ser não remunerada ou parcialmente remunerada"
 
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:34
 msgid "Leave Type is mandatory"
-msgstr "O tipo de licença é obrigatório"
+msgstr "O Tipo de Licença é obrigatório"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:185
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
-msgstr "O tipo de licença {0} não pode ser alocado, pois é uma licença sem remuneração"
+msgstr "O Tipo de Licença {0} não pode ser alocado, pois é uma licença não remunerada"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:482
 msgid "Leave Type {0} cannot be carry-forwarded"
-msgstr "O tipo de licença {0} não pode ser acumulado"
+msgstr "O Tipo de Licença {0} não pode ser acumulado"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:96
 msgid "Leave Type {0} is not encashable"
-msgstr "O tipo de licença {0} não pode ser vendido"
+msgstr "O Tipo de Licença {0} não permite conversão em dinheiro"
 
 #. Label of a Float field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -8011,11 +8011,11 @@ msgstr "A Licença Não Remunerada não corresponde aos registros {} aprovados"
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:54
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
-msgstr "A Alocação de Licença {0} está vinculada à solicitação de licença {1}"
+msgstr "A Alocação de Licença {0} está vinculada à Solicitação de Licença {1}"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:85
 msgid "Leave already have been assigned for this Leave Policy Assignment"
-msgstr "As licenças já foram atribuídas para esta atribuição de política de licença"
+msgstr "Já existem licenças atribuídas a esta Atribuição de Política de Licença"
 
 #. Label of a Section Break field in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
@@ -8431,12 +8431,12 @@ msgstr "Os benefícios máximos devem ser maiores que zero para conceder benefí
 #. Label of a Float field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 msgid "Max working hours against Timesheet"
-msgstr "Máximo de horas trabalhadas no Quadro de Horários"
+msgstr "Máximo de horas trabalhadas por Registro de Horas"
 
 #. Label of a Float field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Maximum Carry Forwarded Leaves"
-msgstr "Máximo de Licenças Acumuladas"
+msgstr "Máximo de Licenças Cumulativas"
 
 #. Label of a Int field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -8450,7 +8450,7 @@ msgstr "Máximo de Licenças Consecutivas Excedido"
 #. Label of a Int field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Maximum Encashable Leaves"
-msgstr "Máximo de Licenças Elegíveis para Abono Pecuniário"
+msgstr "Máximo de Licenças Elegíveis para Conversão"
 
 #. Label of a Currency field in DocType 'Employee Tax Exemption Declaration
 #. Category'
@@ -8498,7 +8498,7 @@ msgstr "O benefício máximo do colaborador {0} excede {1} pela soma de {2} do v
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:117
 msgid "Maximum encashable leaves for {0} are {1}"
-msgstr "O máximo de licenças elegíveis para abono pecuniário para {0} é {1}"
+msgstr "O máximo de licenças elegíveis para conversão para {0} é {1}"
 
 #: hrms/hr/doctype/leave_policy/leave_policy.py:19
 msgid "Maximum leave allowed in the leave type {0} is {1}"
@@ -8512,7 +8512,7 @@ msgstr "Mai"
 #. Label of a Select field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
 msgid "Meal Preference"
-msgstr "Preferência de Refeição"
+msgstr "Preferência Alimentar"
 
 #: hrms/setup.py:327
 msgid "Medical"
@@ -9033,7 +9033,7 @@ msgstr "Horas Não Faturadas (NF)"
 #. Label of a Int field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Non-Encashable Leaves"
-msgstr "Licenças Não Elegíveis para Abono Pecuniário"
+msgstr "Licenças Não Elegíveis para Conversão"
 
 #. Option for the 'Meal Preference' (Select) field in DocType 'Travel
 #. Itinerary'
@@ -9132,7 +9132,7 @@ msgstr "Número de Ciclos de Retenção"
 #. Encashment'
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 msgid "Number of leaves eligible for encashment based on leave type settings"
-msgstr "Número de folgas elegíveis para compensação com base nas configurações do tipo de folga"
+msgstr "Número de folgas elegíveis para conversão com base nas configurações do tipo de folga"
 
 #: frontend/src/views/Login.vue:86
 msgid "OTP Code"
@@ -10831,7 +10831,7 @@ msgstr "Relatórios"
 #: hrms/hr/report/employee_exits/employee_exits.js:45
 #: hrms/hr/report/employee_exits/employee_exits.py:79
 msgid "Reports To"
-msgstr "Reporta-se a"
+msgstr "Superior Imediato"
 
 #: frontend/src/views/Home.vue:32 frontend/src/views/attendance/Dashboard.vue:9
 msgid "Request Attendance"
