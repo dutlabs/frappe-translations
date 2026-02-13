@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
-"POT-Creation-Date: 2026-02-11 18:02+0000\n"
-"PO-Revision-Date: 2026-02-11 18:02+0000\n"
+"POT-Creation-Date: 2026-02-13 18:13+0000\n"
+"PO-Revision-Date: 2026-02-13 18:13+0000\n"
 "Last-Translator: info@erpnext.com\n"
 "Language-Team: info@erpnext.com\n"
 "MIME-Version: 1.0\n"
@@ -25932,6 +25932,11 @@ msgstr "É Alternativo"
 msgid "Is Billable"
 msgstr "É Faturável"
 
+#. Label of the is_billing_contact (Check) field in DocType 'Contact'
+#: erpnext/erpnext_integrations/custom/contact.json
+msgid "Is Billing Contact"
+msgstr "É Contato de Faturamento"
+
 #. Label of a Check field in DocType 'GL Entry'
 #. Label of a Check field in DocType 'Serial and Batch Bundle'
 #. Label of a Check field in DocType 'Stock Ledger Entry'
@@ -26335,6 +26340,11 @@ msgstr "É Modelo"
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Is Transporter"
 msgstr "É Transportadora"
+
+#. Label of the is_your_company_address (Check) field in DocType 'Address'
+#: erpnext/accounts/custom/address.json
+msgid "Is Your Company Address"
+msgstr "É Endereço da Empresa"
 
 #. Label of a Check field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -52808,6 +52818,7 @@ msgstr "Ativos Fiscais"
 msgid "Tax Breakup"
 msgstr "Desagregação de Impostos"
 
+#. Label of the tax_category (Link) field in DocType 'Address'
 #. Label of a Link field in DocType 'POS Invoice'
 #. Label of a Link field in DocType 'POS Profile'
 #. Label of a Link field in DocType 'Purchase Invoice'
@@ -52826,6 +52837,7 @@ msgstr "Desagregação de Impostos"
 #. Label of a Link field in DocType 'Delivery Note'
 #. Label of a Link field in DocType 'Item Tax'
 #. Label of a Link field in DocType 'Purchase Receipt'
+#: erpnext/accounts/custom/address.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
