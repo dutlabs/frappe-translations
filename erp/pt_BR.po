@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
-"POT-Creation-Date: 2026-02-13 18:13+0000\n"
-"PO-Revision-Date: 2026-02-13 18:13+0000\n"
+"POT-Creation-Date: 2026-02-24 23:51+0000\n"
+"PO-Revision-Date: 2026-02-24 23:51+0000\n"
 "Last-Translator: info@erpnext.com\n"
 "Language-Team: info@erpnext.com\n"
 "MIME-Version: 1.0\n"
@@ -2361,7 +2361,7 @@ msgstr "A Conta Contábil {0} não existe no gráfico do painel {1}"
 
 #: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py:48
 msgid "Account {0} does not match with Company {1} in Mode of Account: {2}"
-msgstr "A Conta {0} não coincide com a Empresa {1} no Modo de Conta: {2}"
+msgstr "A Conta Contábil {0} não coincide com a Empresa {1} no Modo de Conta: {2}"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:117
 msgid "Account {0} doesn't belong to Company {1}"
@@ -2369,15 +2369,15 @@ msgstr "A Conta Contábil {0} não pertence à Empresa {1}"
 
 #: erpnext/accounts/doctype/account/account.py:543
 msgid "Account {0} exists in parent company {1}."
-msgstr "A conta {0} existe na empresa-mãe {1}."
+msgstr "A Conta Contábil {0} existe na empresa-mãe {1}."
 
 #: erpnext/accounts/doctype/budget/budget.py:111
 msgid "Account {0} has been entered multiple times"
-msgstr "A Conta {0} foi inserida várias vezes"
+msgstr "A Conta Contábil {0} foi inserida várias vezes"
 
 #: erpnext/accounts/doctype/account/account.py:410
 msgid "Account {0} is added in the child company {1}"
-msgstr "Conta {0} está adicionada na empresa filha {1}"
+msgstr "A Conta Contábil {0} foi adicionada na empresa filha {1}"
 
 #: erpnext/setup/doctype/company/company.py:214
 msgid "Account {0} is disabled."
@@ -10796,7 +10796,7 @@ msgstr "Número do Cheque"
 #. Name of a DocType
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Cheque Print Template"
-msgstr "Template Para Impressão de Cheques"
+msgstr "Modelo de Impressão de Cheque"
 
 #. Label of a Select field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
@@ -20052,7 +20052,7 @@ msgstr "Empresa Existente"
 #. Label of a Link field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Existing Company "
-msgstr "Companhia Existente"
+msgstr "Empresa Existente"
 
 #: erpnext/setup/setup_wizard/data/lead_source.txt:1
 msgid "Existing Customer"
@@ -26868,7 +26868,7 @@ msgstr "Código do Item é obrigatório na Linha Número {0}"
 #: erpnext/selling/page/point_of_sale/pos_controller.js:780
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:274
 msgid "Item Code: {0} is not available under warehouse {1}."
-msgstr "Código de Item: {0} não está disponível no armazém {1}."
+msgstr "Código do Item: {0} não está disponível no armazém {1}."
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
@@ -26878,14 +26878,14 @@ msgstr "Detalhe do Cliente do Item"
 #. Name of a DocType
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Item Default"
-msgstr "Item Padrão"
+msgstr "Padrão do Item"
 
 #. Label of a Table field in DocType 'Item'
 #. Label of a Section Break field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Item Defaults"
-msgstr "Padrões de Item"
+msgstr "Padrões do Item"
 
 #. Label of a Small Text field in DocType 'BOM'
 #. Label of a Text Editor field in DocType 'BOM Item'
@@ -40382,7 +40382,7 @@ msgstr "Gerente de Compras"
 #: erpnext/stock/doctype/item_price/item_price.json
 #: erpnext/stock/doctype/price_list/price_list.json
 msgid "Purchase Master Manager"
-msgstr "Gestor de Dados de Compras"
+msgstr "Gestor de Cadastros de Compras"
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -49849,7 +49849,7 @@ msgstr "Valor de Venda Padrão"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Standard Template"
-msgstr "Template Padrão"
+msgstr "Modelo Padrão"
 
 #. Description of a DocType
 #: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json

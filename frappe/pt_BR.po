@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-02-11 14:44+0000\n"
-"PO-Revision-Date: 2026-02-11 14:44+0000\n"
+"POT-Creation-Date: 2026-02-24 23:50+0000\n"
+"PO-Revision-Date: 2026-02-24 23:50+0000\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -6856,7 +6856,7 @@ msgstr "Dados"
 
 #: frappe/public/js/frappe/form/controls/data.js:59
 msgid "Data Clipped"
-msgstr "Dados Cortados"
+msgstr "Dados Truncados"
 
 #. Name of a DocType
 #: frappe/core/doctype/data_export/data_export.json
@@ -6881,7 +6881,7 @@ msgstr "Modelo de Importação de Dados"
 
 #: frappe/core/doctype/data_import/data_import.py:66
 msgid "Data Import is not allowed for {0}. Enable 'Allow Import' in DocType settings."
-msgstr "A importação de dados não é permitida para {0}. Habilite 'Permitir Importação' nas configurações do DocType."
+msgstr "A Importação de Dados não é permitida para {0}. Habilite 'Permitir Importação' nas configurações do Tipo de Documento."
 
 #: frappe/custom/doctype/customize_form/customize_form.py:619
 msgid "Data Too Long"
@@ -7068,7 +7068,7 @@ msgstr "Padrão"
 
 #: frappe/contacts/doctype/address_template/address_template.py:41
 msgid "Default Address Template cannot be deleted"
-msgstr "Template endereço padrão não pode ser excluído"
+msgstr "O Modelo de Endereço Padrão não pode ser excluído"
 
 #. Label of a Select field in DocType 'Document Naming Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
@@ -12845,20 +12845,20 @@ msgstr "Aplicativos Ignorados"
 
 #: frappe/integrations/doctype/dropbox_settings/dropbox_settings.py:348
 msgid "Illegal Access Token. Please try again"
-msgstr "Token de Acesso Ilegal. Por favor, tente novamente"
+msgstr "Token de Acesso Inválido. Por favor, tente novamente"
 
 #: frappe/model/workflow.py:146
 msgid "Illegal Document Status for {0}"
-msgstr "Status de Documento Ilegal para {0}"
+msgstr "Status de Documento Inválido para {0}"
 
 #: frappe/model/db_query.py:497 frappe/model/db_query.py:500
 #: frappe/model/db_query.py:1181
 msgid "Illegal SQL Query"
-msgstr "Consulta SQL Ilegal"
+msgstr "Consulta SQL Inválida"
 
 #: frappe/utils/jinja.py:95
 msgid "Illegal template"
-msgstr "Template ilegal"
+msgstr "Modelo Inválido"
 
 #. Label of a Attach Image field in DocType 'Contact'
 #. Option for the 'Type' (Select) field in DocType 'DocField'
@@ -20717,7 +20717,7 @@ msgstr "Gerente de Compras"
 #. Name of a role
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Purchase Master Manager"
-msgstr "Gestor de Dados de Compras"
+msgstr "Gestor de Cadastros de Compras"
 
 #. Name of a role
 #: frappe/contacts/doctype/address/address.json
@@ -20897,7 +20897,7 @@ msgstr "Na fila para cópia de segurança. Você receberá um e-mail com o link 
 
 #: frappe/email/doctype/newsletter/newsletter.js:95
 msgid "Queued {0} emails"
-msgstr "{0} e-mails na fila"
+msgstr "{0} e-mails colocados na fila"
 
 #. Label of a Data field in DocType 'System Health Report Workers'
 #: frappe/desk/doctype/system_health_report_workers/system_health_report_workers.json
@@ -22854,7 +22854,7 @@ msgstr "Gerente de Vendas"
 #. Name of a role
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Sales Master Manager"
-msgstr "Gestor de Dados de Vendas"
+msgstr "Gestor de Cadastros de Vendas"
 
 #. Name of a role
 #: frappe/contacts/doctype/address/address.json
