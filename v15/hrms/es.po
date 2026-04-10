@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-02-11 15:00+0000\n"
+"POT-Creation-Date: 2026-04-10 12:25+0000\n"
 "PO-Revision-Date: 2026-02-11 15:05+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: es\n"
@@ -427,7 +427,7 @@ msgstr ""
 #. Employee'
 #. Option for the 'Consider Unmarked Attendance As' (Select) field in DocType
 #. 'Payroll Settings'
-#: frontend/src/components/AttendanceCalendar.vue:80
+#: frontend/src/components/AttendanceCalendar.vue:79
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
@@ -535,7 +535,7 @@ msgstr ""
 msgid "Accounting Dimensions"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:122
+#: hrms/hr/doctype/expense_claim/expense_claim.js:127
 msgid "Accounting Ledger"
 msgstr ""
 
@@ -583,6 +583,7 @@ msgstr ""
 
 #. Label of a Select field in DocType 'Full and Final Asset'
 #. Label of a Select field in DocType 'Shift Assignment Tool'
+#: hrms/hr/doctype/attendance_request/attendance_request.py:40
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 msgid "Action"
@@ -1143,7 +1144,7 @@ msgstr ""
 msgid "Annual Allocation Exceeded"
 msgstr ""
 
-#: hrms/setup.py:397
+#: hrms/setup.py:399
 msgid "Annual Salary"
 msgstr ""
 
@@ -1348,7 +1349,7 @@ msgstr ""
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/appraisal_template/appraisal_template.json
 #: hrms/hr/doctype/appraisee/appraisee.json
-#: hrms/hr/workspace/performance/performance.json hrms/setup.py:162
+#: hrms/hr/workspace/performance/performance.json hrms/setup.py:161
 msgid "Appraisal Template"
 msgstr ""
 
@@ -1391,7 +1392,7 @@ msgstr ""
 msgid "Appraisees: {0}"
 msgstr ""
 
-#: hrms/setup.py:389
+#: hrms/setup.py:391
 msgid "Apprentice"
 msgstr ""
 
@@ -1435,7 +1436,7 @@ msgstr ""
 msgid "Approver"
 msgstr ""
 
-#: hrms/setup.py:133 hrms/setup.py:235
+#: hrms/setup.py:132 hrms/setup.py:234
 msgid "Approvers"
 msgstr ""
 
@@ -1627,7 +1628,6 @@ msgid "Attendance ID"
 msgstr ""
 
 #. Label of a Link field in DocType 'Employee Checkin'
-#: hrms/hr/doctype/attendance/attendance_list.js:115
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.js:100
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 msgid "Attendance Marked"
@@ -1658,7 +1658,7 @@ msgstr ""
 msgid "Attendance To Date"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:121
+#: hrms/hr/doctype/attendance_request/attendance_request.py:164
 msgid "Attendance Updated"
 msgstr ""
 
@@ -1666,7 +1666,7 @@ msgstr ""
 msgid "Attendance Warnings"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:60
+#: hrms/hr/doctype/attendance/attendance.py:62
 msgid "Attendance date {0} can not be less than employee {1}'s joining date: {2}"
 msgstr ""
 
@@ -1674,11 +1674,11 @@ msgstr ""
 msgid "Attendance for all the employees under this criteria has been marked already."
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:118
+#: hrms/hr/doctype/attendance/attendance.py:120
 msgid "Attendance for employee {0} is already marked for an overlapping shift {1}: {2}"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:72
+#: hrms/hr/doctype/attendance/attendance.py:74
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
 msgstr ""
 
@@ -1690,7 +1690,7 @@ msgstr ""
 msgid "Attendance for the following dates will be skipped/overwritten on submission"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance_list.js:95
+#: hrms/hr/doctype/attendance/attendance_list.js:94
 msgid "Attendance from {0} to {1} has already been marked for the Employee {2}"
 msgstr ""
 
@@ -1706,11 +1706,15 @@ msgstr ""
 msgid "Attendance marked successfully"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:140
+#: hrms/hr/doctype/attendance/attendance.py:368
+msgid "Attendance marked successfully."
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:183
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:149
+#: hrms/hr/doctype/attendance_request/attendance_request.py:192
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr ""
 
@@ -1835,7 +1839,7 @@ msgstr ""
 msgid "Bank Details"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:156
+#: hrms/hr/doctype/expense_claim/expense_claim.js:161
 msgid "Bank Entries"
 msgstr ""
 
@@ -2030,6 +2034,14 @@ msgstr ""
 msgid "Bulk Salary Structure Assignment"
 msgstr ""
 
+#: hrms/hr/doctype/attendance/attendance.py:362
+msgid "Bulk attendance marking is already in progress for employee {0}. You can monitor the job status {1}"
+msgstr ""
+
+#: hrms/hr/doctype/attendance/attendance.py:358
+msgid "Bulk attendance marking is queued with a background job. It may take a while. You can monitor the job status {0}"
+msgstr ""
+
 #. Description of the 'Calculate Final Score based on Formula' (Check) field in
 #. DocType 'Appraisal Cycle'
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
@@ -2062,11 +2074,11 @@ msgstr ""
 msgid "Calculated in days"
 msgstr ""
 
-#: hrms/setup.py:325
+#: hrms/setup.py:327
 msgid "Calls"
 msgstr ""
 
-#: hrms/setup.py:394
+#: hrms/setup.py:396
 msgid "Campaign"
 msgstr ""
 
@@ -2116,11 +2128,11 @@ msgstr ""
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr ""
 
-#: hrms/api/roster.py:139
+#: hrms/api/roster.py:134
 msgid "Cannot break shift after end date"
 msgstr ""
 
-#: hrms/api/roster.py:141
+#: hrms/api/roster.py:136
 msgid "Cannot break shift before start date"
 msgstr ""
 
@@ -2152,7 +2164,7 @@ msgstr ""
 msgid "Cannot find active Leave Period"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:152
+#: hrms/hr/doctype/attendance/attendance.py:154
 msgid "Cannot mark attendance for an Inactive employee {0}"
 msgstr ""
 
@@ -2180,7 +2192,7 @@ msgstr ""
 msgid "Carry Forwarded Leaves"
 msgstr ""
 
-#: hrms/setup.py:340 hrms/setup.py:341
+#: hrms/setup.py:342 hrms/setup.py:343
 msgid "Casual Leave"
 msgstr ""
 
@@ -2194,11 +2206,11 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:105
+#: hrms/hr/doctype/attendance_request/attendance_request.py:148
 msgid "Changed the status from {0} to {1} and Status for Other Half to {2} via Attendance Request"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:109
+#: hrms/hr/doctype/attendance_request/attendance_request.py:152
 msgid "Changed the status from {0} to {1} via Attendance Request"
 msgstr ""
 
@@ -2224,7 +2236,7 @@ msgstr ""
 msgid "Check <a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> for more details"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1453
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1455
 msgid "Check Error Log {0} for more details."
 msgstr ""
 
@@ -2325,7 +2337,7 @@ msgstr ""
 msgid "Cleared"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:292
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:300
 msgid "Click {0} to change the configuration and then resave salary slip"
 msgstr ""
 
@@ -2384,7 +2396,7 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
-#: hrms/setup.py:386
+#: hrms/setup.py:388
 msgid "Commission"
 msgstr ""
 
@@ -2553,7 +2565,7 @@ msgstr ""
 msgid "Compensatory Leave Request"
 msgstr ""
 
-#: hrms/setup.py:349 hrms/setup.py:350
+#: hrms/setup.py:351 hrms/setup.py:352
 msgid "Compensatory Off"
 msgstr ""
 
@@ -2613,7 +2625,7 @@ msgstr ""
 msgid "Condition & Formula"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_structure/salary_structure.js:8
+#: hrms/payroll/doctype/salary_structure/salary_structure.js:9
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:12
 msgid "Condition and Formula Help"
 msgstr ""
@@ -2660,7 +2672,7 @@ msgstr ""
 
 #. Label of a Check field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:282
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:287
 msgid "Consider Marked Attendance on Holidays"
 msgstr ""
 
@@ -2670,7 +2682,7 @@ msgstr ""
 
 #. Label of a Select field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:282
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:286
 msgid "Consider Unmarked Attendance As"
 msgstr ""
 
@@ -2705,7 +2717,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: hrms/setup.py:385
+#: hrms/setup.py:387
 msgid "Contract"
 msgstr ""
 
@@ -2759,7 +2771,7 @@ msgstr ""
 msgid "Could not find any salary slip(s) for the employee {0}"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1516
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1518
 msgid "Could not submit some Salary Slips: {}"
 msgstr ""
 
@@ -2809,7 +2821,7 @@ msgstr ""
 #: hrms/hr/doctype/employee_advance/employee_advance.js:87
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.js:59
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.js:61
-#: hrms/hr/doctype/expense_claim/expense_claim.js:109
+#: hrms/hr/doctype/expense_claim/expense_claim.js:114
 #: hrms/hr/doctype/job_applicant/job_applicant.js:29
 #: hrms/hr/doctype/job_applicant/job_applicant.js:57
 #: hrms/hr/doctype/leave_encashment/leave_encashment.js:63
@@ -2948,7 +2960,7 @@ msgstr ""
 msgid "Creating Payment Entries......"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1476
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1478
 msgid "Creating Salary Slips..."
 msgstr ""
 
@@ -3203,6 +3215,7 @@ msgstr ""
 #. Label of a Datetime field in DocType 'Full and Final Asset'
 #. Label of a Date field in DocType 'Vehicle Log'
 #. Label of a Date field in DocType 'Employee Benefit Application'
+#: hrms/hr/doctype/attendance_request/attendance_request.py:40
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:7
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/doctype/employee_referral/employee_referral.json
@@ -3257,7 +3270,7 @@ msgstr ""
 #: hrms/payroll/doctype/retention_bonus/retention_bonus.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:621
-#: hrms/payroll/report/salary_register/salary_register.py:133 hrms/setup.py:396
+#: hrms/payroll/report/salary_register/salary_register.py:133 hrms/setup.py:398
 msgid "Date of Joining"
 msgstr ""
 
@@ -3271,7 +3284,7 @@ msgstr ""
 msgid "Dates Based On"
 msgstr ""
 
-#: hrms/setup.py:121
+#: hrms/setup.py:120
 msgid "Days for which Holidays are blocked for this department."
 msgstr ""
 
@@ -3373,15 +3386,15 @@ msgstr ""
 msgid "Default Base Pay"
 msgstr ""
 
-#: hrms/setup.py:81
+#: hrms/setup.py:80
 msgid "Default Employee Advance Account"
 msgstr ""
 
-#: hrms/setup.py:73
+#: hrms/setup.py:72
 msgid "Default Expense Claim Payable Account"
 msgstr ""
 
-#: hrms/overrides/company.py:133 hrms/setup.py:96
+#: hrms/overrides/company.py:133 hrms/setup.py:95
 msgid "Default Payroll Payable Account"
 msgstr ""
 
@@ -3391,7 +3404,7 @@ msgid "Default Salary Structure"
 msgstr ""
 
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:204
-#: hrms/setup.py:207
+#: hrms/setup.py:206
 msgid "Default Shift"
 msgstr ""
 
@@ -3539,7 +3552,7 @@ msgstr ""
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:608
 #: hrms/payroll/report/salary_register/salary_register.js:56
 #: hrms/payroll/report/salary_register/salary_register.py:146
-#: hrms/public/js/salary_slip_deductions_report_filters.js:42 hrms/setup.py:402
+#: hrms/public/js/salary_slip_deductions_report_filters.js:42 hrms/setup.py:404
 #: hrms/templates/generators/job_opening.html:87
 msgid "Department"
 msgstr ""
@@ -3766,7 +3779,7 @@ msgstr ""
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.json
 #: hrms/payroll/doctype/salary_component/salary_component.json
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:286
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:292
 msgid "Disabled"
 msgstr ""
 
@@ -3856,7 +3869,7 @@ msgstr ""
 msgid "Driver"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:77
+#: hrms/hr/doctype/attendance/attendance.py:79
 msgid "Duplicate Attendance"
 msgstr ""
 
@@ -4272,7 +4285,7 @@ msgstr ""
 
 #. Label of a Table field in DocType 'Employee Benefit Application'
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.json
-#: hrms/setup.py:399
+#: hrms/setup.py:401
 msgid "Employee Benefits"
 msgstr ""
 
@@ -4475,7 +4488,7 @@ msgstr ""
 msgid "Employee Lifecycle Dashboard"
 msgstr ""
 
-#: hrms/setup.py:773
+#: hrms/setup.py:763
 msgid "Employee Loan"
 msgstr ""
 
@@ -4660,7 +4673,7 @@ msgstr ""
 #: hrms/hr/doctype/employee_referral/employee_referral.json
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 #: hrms/hr/doctype/job_requisition/job_requisition.js:18
-#: hrms/hr/workspace/recruitment/recruitment.json hrms/setup.py:393
+#: hrms/hr/workspace/recruitment/recruitment.json hrms/setup.py:395
 msgid "Employee Referral"
 msgstr ""
 
@@ -4811,6 +4824,10 @@ msgstr ""
 msgid "Employee name"
 msgstr ""
 
+#: hrms/api/__init__.py:84
+msgid "Employee not found"
+msgstr ""
+
 #. Description of the 'Employee Naming By' (Select) field in DocType 'HR
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
@@ -4825,11 +4842,11 @@ msgstr ""
 msgid "Employee was marked Absent for not meeting the working hours threshold."
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:398
+#: hrms/hr/doctype/shift_type/shift_type.py:403
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:67
+#: hrms/hr/doctype/attendance_request/attendance_request.py:110
 msgid "Employee {0} already has an Attendance Request {1} that overlaps with this period"
 msgstr ""
 
@@ -4853,11 +4870,11 @@ msgstr ""
 msgid "Employee {0} has no maximum benefit amount"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:211
+#: hrms/hr/doctype/attendance/attendance.py:213
 msgid "Employee {0} is not active or does not exist"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:187
+#: hrms/hr/doctype/attendance/attendance.py:189
 msgid "Employee {0} is on Leave on {1}"
 msgstr ""
 
@@ -4865,7 +4882,7 @@ msgstr ""
 msgid "Employee {0} not found in Training Event Participants."
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:180
+#: hrms/hr/doctype/attendance/attendance.py:182
 msgid "Employee {0} on Half day on {1}"
 msgstr ""
 
@@ -4953,7 +4970,7 @@ msgstr ""
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
-#: hrms/setup.py:186 hrms/templates/generators/job_opening.html:141
+#: hrms/setup.py:185 hrms/templates/generators/job_opening.html:141
 msgid "Employment Type"
 msgstr ""
 
@@ -4980,7 +4997,7 @@ msgstr ""
 #. Label of a Check field in DocType 'Shift Schedule Assignment'
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:285
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:291
 msgid "Enabled"
 msgstr ""
 
@@ -5021,7 +5038,7 @@ msgstr ""
 msgid "Encrypt Salary Slips in Emails"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance_list.js:58
+#: hrms/hr/doctype/attendance/attendance_list.js:57
 msgid "End"
 msgstr ""
 
@@ -5254,7 +5271,7 @@ msgstr ""
 msgid "Exchange Rate cannot be zero."
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance_list.js:78
+#: hrms/hr/doctype/attendance/attendance_list.js:77
 msgid "Exclude Holidays"
 msgstr ""
 
@@ -5346,8 +5363,8 @@ msgstr ""
 
 #: hrms/hr/doctype/exit_interview/test_exit_interview.py:108
 #: hrms/hr/doctype/exit_interview/test_exit_interview.py:118
-#: hrms/hr/doctype/exit_interview/test_exit_interview.py:120 hrms/setup.py:474
-#: hrms/setup.py:476 hrms/setup.py:497
+#: hrms/hr/doctype/exit_interview/test_exit_interview.py:120 hrms/setup.py:476
+#: hrms/setup.py:478 hrms/setup.py:499
 msgid "Exit Questionnaire Notification"
 msgstr ""
 
@@ -5424,8 +5441,9 @@ msgstr ""
 #. Name of a role
 #. Label of a Link field in DocType 'Expense Claim'
 #: hrms/hr/doctype/employee_advance/employee_advance.json
-#: hrms/hr/doctype/expense_claim/expense_claim.json hrms/setup.py:153
-#: hrms/setup.py:241
+#: hrms/hr/doctype/expense_claim/expense_claim.json
+#: hrms/patches/v15_0/update_approver_custom_fields.py:11 hrms/setup.py:152
+#: hrms/setup.py:240
 msgid "Expense Approver"
 msgstr ""
 
@@ -5471,7 +5489,7 @@ msgstr ""
 #. Name of a DocType
 #. Label of a Data field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expense Claims Workspace
-#: hrms/hr/doctype/expense_claim/expense_claim.py:547
+#: hrms/hr/doctype/expense_claim/expense_claim.py:558
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expense_claims/expense_claims.json
@@ -5599,7 +5617,7 @@ msgstr ""
 msgid "Failed to delete defaults for country {0}."
 msgstr ""
 
-#: hrms/api/__init__.py:769
+#: hrms/api/__init__.py:785
 msgid "Failed to download Salary Slip PDF"
 msgstr ""
 
@@ -5623,7 +5641,7 @@ msgstr ""
 msgid "Failed to {0} {1} for employees:"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1519
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1521
 #: hrms/public/js/utils/index.js:149
 msgid "Failure"
 msgstr ""
@@ -5810,7 +5828,7 @@ msgstr ""
 msgid "Fiscal Year"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1436
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1438
 msgid "Fiscal Year {0} not found"
 msgstr ""
 
@@ -5843,7 +5861,7 @@ msgstr ""
 msgid "Follow via Email"
 msgstr ""
 
-#: hrms/setup.py:326
+#: hrms/setup.py:328
 msgid "Food"
 msgstr ""
 
@@ -5853,7 +5871,7 @@ msgid "For Designation "
 msgstr ""
 
 #. Label of a Link field in DocType 'Employee Performance Feedback'
-#: hrms/hr/doctype/attendance/attendance_list.js:29
+#: hrms/hr/doctype/attendance/attendance_list.js:28
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 msgid "For Employee"
 msgstr ""
@@ -5914,7 +5932,7 @@ msgstr ""
 msgid "Frequency"
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:117
+#: frontend/src/components/AttendanceCalendar.vue:116
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:57
 msgid "Friday"
 msgstr ""
@@ -6081,7 +6099,7 @@ msgstr ""
 msgid "Full and Final Statement"
 msgstr ""
 
-#: hrms/setup.py:382
+#: hrms/setup.py:384
 msgid "Full-time"
 msgstr ""
 
@@ -6247,7 +6265,7 @@ msgstr ""
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:173
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/setup.py:200
+#: hrms/setup.py:199
 msgid "Grade"
 msgstr ""
 
@@ -6357,15 +6375,15 @@ msgid "Group goal's progress is auto-calculated based on the child goals."
 msgstr ""
 
 #. Name of a Workspace
-#: hrms/hr/workspace/hr/hr.json hrms/setup.py:315
+#: hrms/hr/workspace/hr/hr.json hrms/setup.py:317
 msgid "HR"
 msgstr ""
 
-#: hrms/setup.py:59
+#: hrms/setup.py:58
 msgid "HR & Payroll"
 msgstr ""
 
-#: hrms/setup.py:65
+#: hrms/setup.py:64
 msgid "HR & Payroll Settings"
 msgstr ""
 
@@ -6542,7 +6560,7 @@ msgstr ""
 #. Label of a Check field in DocType 'Compensatory Leave Request'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance Tool'
 #. Label of a Check field in DocType 'Leave Application'
-#: frontend/src/components/AttendanceCalendar.vue:80
+#: frontend/src/components/AttendanceCalendar.vue:79
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/attendance_request/attendance_request.json
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
@@ -6586,7 +6604,7 @@ msgstr ""
 msgid "Half Yearly"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:31
+#: hrms/hr/doctype/attendance_request/attendance_request.py:32
 msgid "Half day date should be in between from date and to date"
 msgstr ""
 
@@ -6601,7 +6619,7 @@ msgstr ""
 msgid "Has Certificate"
 msgstr ""
 
-#: hrms/setup.py:215
+#: hrms/setup.py:214
 msgid "Health Insurance"
 msgstr ""
 
@@ -6610,11 +6628,11 @@ msgstr ""
 msgid "Health Insurance Name"
 msgstr ""
 
-#: hrms/setup.py:229
+#: hrms/setup.py:228
 msgid "Health Insurance No"
 msgstr ""
 
-#: hrms/setup.py:221
+#: hrms/setup.py:220
 msgid "Health Insurance Provider"
 msgstr ""
 
@@ -6654,8 +6672,8 @@ msgstr ""
 msgid "Hold"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:296
-#: hrms/hr/doctype/leave_application/leave_application.py:1410
+#: hrms/hr/doctype/attendance/attendance.py:298
+#: hrms/hr/doctype/leave_application/leave_application.py:1411
 #: hrms/hr/report/employees_working_on_a_holiday/employees_working_on_a_holiday.py:46
 msgid "Holiday"
 msgstr ""
@@ -6929,7 +6947,7 @@ msgid "Incentive Amount"
 msgstr ""
 
 #. Label of a Card Break in the Salary Payout Workspace
-#: hrms/payroll/workspace/salary_payout/salary_payout.json hrms/setup.py:407
+#: hrms/payroll/workspace/salary_payout/salary_payout.json hrms/setup.py:409
 msgid "Incentives"
 msgstr ""
 
@@ -7092,7 +7110,7 @@ msgstr ""
 msgid "Intermediate"
 msgstr ""
 
-#: hrms/setup.py:388
+#: hrms/setup.py:390
 msgid "Intern"
 msgstr ""
 
@@ -7140,8 +7158,8 @@ msgstr ""
 #: hrms/hr/doctype/interview/test_interview.py:300
 #: hrms/hr/doctype/interview/test_interview.py:309
 #: hrms/hr/doctype/interview/test_interview.py:311
-#: hrms/hr/doctype/interview/test_interview.py:318 hrms/setup.py:460
-#: hrms/setup.py:462 hrms/setup.py:495
+#: hrms/hr/doctype/interview/test_interview.py:318 hrms/setup.py:462
+#: hrms/setup.py:464 hrms/setup.py:497
 msgid "Interview Feedback Reminder"
 msgstr ""
 
@@ -7156,8 +7174,8 @@ msgstr ""
 #: hrms/hr/doctype/interview/test_interview.py:284
 #: hrms/hr/doctype/interview/test_interview.py:293
 #: hrms/hr/doctype/interview/test_interview.py:295
-#: hrms/hr/doctype/interview/test_interview.py:317 hrms/setup.py:448
-#: hrms/setup.py:450 hrms/setup.py:491
+#: hrms/hr/doctype/interview/test_interview.py:317 hrms/setup.py:450
+#: hrms/setup.py:452 hrms/setup.py:493
 msgid "Interview Reminder"
 msgstr ""
 
@@ -7297,7 +7315,7 @@ msgstr ""
 msgid "Invalid Shift Times"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:678
+#: hrms/hr/doctype/expense_claim/expense_claim.py:689
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr ""
 
@@ -7463,7 +7481,7 @@ msgstr ""
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 #: hrms/hr/doctype/job_offer/job_offer.json
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:38
-#: hrms/hr/workspace/recruitment/recruitment.json hrms/setup.py:193
+#: hrms/hr/workspace/recruitment/recruitment.json hrms/setup.py:192
 msgid "Job Applicant"
 msgstr ""
 
@@ -7492,7 +7510,7 @@ msgstr ""
 
 #. Label of a Tab Break field in DocType 'Job Requisition'
 #. Label of a Text Editor field in DocType 'Job Requisition'
-#: hrms/hr/doctype/job_requisition/job_requisition.json hrms/setup.py:403
+#: hrms/hr/doctype/job_requisition/job_requisition.json hrms/setup.py:405
 msgid "Job Description"
 msgstr ""
 
@@ -7805,7 +7823,7 @@ msgstr ""
 msgid "Leave Application period cannot be across two non-consecutive leave allocations {0} and {1}."
 msgstr ""
 
-#: hrms/setup.py:425 hrms/setup.py:427 hrms/setup.py:487
+#: hrms/setup.py:427 hrms/setup.py:429 hrms/setup.py:489
 msgid "Leave Approval Notification"
 msgstr ""
 
@@ -7816,7 +7834,8 @@ msgstr ""
 
 #. Label of a Link field in DocType 'Leave Application'
 #. Name of a role
-#: hrms/hr/doctype/leave_application/leave_application.json hrms/setup.py:146
+#: hrms/hr/doctype/leave_application/leave_application.json
+#: hrms/patches/v15_0/update_approver_custom_fields.py:19 hrms/setup.py:145
 #: hrms/setup.py:248
 msgid "Leave Approver"
 msgstr ""
@@ -7845,7 +7864,7 @@ msgstr ""
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
-#: hrms/hr/workspace/leaves/leaves.json hrms/setup.py:125
+#: hrms/hr/workspace/leaves/leaves.json hrms/setup.py:124
 msgid "Leave Block List"
 msgstr ""
 
@@ -7874,7 +7893,7 @@ msgstr ""
 msgid "Leave Block List Name"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1386
+#: hrms/hr/doctype/leave_application/leave_application.py:1387
 msgid "Leave Blocked"
 msgstr ""
 
@@ -7982,7 +8001,7 @@ msgstr ""
 msgid "Leave Policy: {0} already assigned for Employee {1} for period {2} to {3}"
 msgstr ""
 
-#: hrms/setup.py:434 hrms/setup.py:436 hrms/setup.py:488
+#: hrms/setup.py:436 hrms/setup.py:438 hrms/setup.py:490
 msgid "Leave Status Notification"
 msgstr ""
 
@@ -8055,8 +8074,8 @@ msgstr ""
 
 #. Label of a Float field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
-#: hrms/payroll/report/salary_register/salary_register.py:179 hrms/setup.py:374
-#: hrms/setup.py:375
+#: hrms/payroll/report/salary_register/salary_register.py:179 hrms/setup.py:376
+#: hrms/setup.py:377
 msgid "Leave Without Pay"
 msgstr ""
 
@@ -8145,7 +8164,7 @@ msgstr ""
 msgid "Leaves for the Leave Type {0} won't be carry-forwarded since carry-forwarding is disabled."
 msgstr ""
 
-#: hrms/setup.py:405
+#: hrms/setup.py:407
 msgid "Leaves per Year"
 msgstr ""
 
@@ -8234,7 +8253,7 @@ msgstr ""
 msgid "Loan Product"
 msgstr ""
 
-#: hrms/payroll/report/salary_register/salary_register.py:233 hrms/setup.py:766
+#: hrms/payroll/report/salary_register/salary_register.py:233 hrms/setup.py:756
 msgid "Loan Repayment"
 msgstr ""
 
@@ -8371,9 +8390,9 @@ msgstr ""
 msgid "Mar"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance_list.js:17
-#: hrms/hr/doctype/attendance/attendance_list.js:25
-#: hrms/hr/doctype/attendance/attendance_list.js:128
+#: hrms/hr/doctype/attendance/attendance_list.js:16
+#: hrms/hr/doctype/attendance/attendance_list.js:24
+#: hrms/hr/doctype/attendance/attendance_list.js:118
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.js:230
 #: hrms/hr/doctype/shift_type/shift_type.js:13
 msgid "Mark Attendance"
@@ -8403,7 +8422,7 @@ msgstr ""
 msgid "Mark as {0}"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance_list.js:102
+#: hrms/hr/doctype/attendance/attendance_list.js:101
 msgid "Mark attendance as {0} for {1} on selected dates?"
 msgstr ""
 
@@ -8577,7 +8596,7 @@ msgstr ""
 msgid "Meal Preference"
 msgstr ""
 
-#: hrms/setup.py:327
+#: hrms/setup.py:329
 msgid "Medical"
 msgstr ""
 
@@ -8589,7 +8608,7 @@ msgstr ""
 #. Label of a Text Editor field in DocType 'PWA Notification'
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1486
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1488
 msgid "Message"
 msgstr ""
 
@@ -8678,7 +8697,7 @@ msgstr ""
 msgid "Model"
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:113
+#: frontend/src/components/AttendanceCalendar.vue:112
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:37
 msgid "Monday"
 msgstr ""
@@ -8990,8 +9009,8 @@ msgstr ""
 msgid "No attendance records found."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:40
-msgid "No attendance records to create"
+#: hrms/hr/doctype/attendance_request/attendance_request.py:50
+msgid "No attendance records to create due to following reasons"
 msgstr ""
 
 #: hrms/hr/doctype/interview/interview.py:87
@@ -9026,7 +9045,7 @@ msgstr ""
 msgid "No items selected"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:197
+#: hrms/hr/doctype/attendance/attendance.py:199
 msgid "No leave record found for employee {0} on {1}"
 msgstr ""
 
@@ -9055,7 +9074,7 @@ msgstr ""
 msgid "No replies from"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1502
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1504
 msgid "No salary slip found to submit for the above selected criteria OR salary slip already submitted"
 msgstr ""
 
@@ -9133,7 +9152,7 @@ msgstr ""
 msgid "Not Started"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:282
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:284
 msgid "Note"
 msgstr ""
 
@@ -9161,7 +9180,7 @@ msgstr ""
 msgid "Nothing to change"
 msgstr ""
 
-#: hrms/setup.py:406
+#: hrms/setup.py:408
 msgid "Notice Period"
 msgstr ""
 
@@ -9286,7 +9305,7 @@ msgid "On Hold"
 msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
-#: frontend/src/components/AttendanceCalendar.vue:80
+#: frontend/src/components/AttendanceCalendar.vue:79
 #: hrms/hr/doctype/attendance/attendance.json
 msgid "On Leave"
 msgstr ""
@@ -9326,7 +9345,7 @@ msgstr ""
 msgid "Only Interviews with Cleared or Rejected status can be submitted."
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:103
+#: hrms/hr/doctype/leave_application/leave_application.py:104
 msgid "Only Leave Applications with status 'Approved' and 'Rejected' can be submitted"
 msgstr ""
 
@@ -9439,7 +9458,7 @@ msgstr ""
 msgid "Other Taxes and Charges"
 msgstr ""
 
-#: hrms/setup.py:328
+#: hrms/setup.py:330
 msgid "Others"
 msgstr ""
 
@@ -9466,11 +9485,11 @@ msgstr ""
 msgid "Overall Average Rating"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:72
+#: hrms/hr/doctype/attendance_request/attendance_request.py:115
 msgid "Overlapping Attendance Request"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:123
+#: hrms/hr/doctype/attendance/attendance.py:125
 msgid "Overlapping Shift Attendance"
 msgstr ""
 
@@ -9573,7 +9592,7 @@ msgstr ""
 msgid "Parent Goal"
 msgstr ""
 
-#: hrms/setup.py:383
+#: hrms/setup.py:385
 msgid "Part-time"
 msgstr ""
 
@@ -9652,7 +9671,7 @@ msgid "Payables"
 msgstr ""
 
 #: hrms/hr/doctype/employee_advance/employee_advance.js:43
-#: hrms/hr/doctype/expense_claim/expense_claim.js:105
+#: hrms/hr/doctype/expense_claim/expense_claim.js:110
 #: hrms/hr/doctype/expense_claim/expense_claim_dashboard.py:9
 #: hrms/hr/doctype/leave_encashment/leave_encashment.js:59
 #: hrms/payroll/doctype/gratuity/gratuity_dashboard.py:10
@@ -9690,7 +9709,7 @@ msgstr ""
 msgid "Payment Days Dependency"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:282
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:284
 msgid "Payment Days calculations are based on these Payroll Settings"
 msgstr ""
 
@@ -9708,7 +9727,7 @@ msgstr ""
 msgid "Payment and Accounting"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1102
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1104
 msgid "Payment of {0} from {1} to {2}"
 msgstr ""
 
@@ -9723,11 +9742,11 @@ msgstr ""
 msgid "Payroll"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.js:282
+#: hrms/payroll/doctype/salary_slip/salary_slip.js:285
 msgid "Payroll Based On"
 msgstr ""
 
-#: hrms/setup.py:111 hrms/setup.py:274
+#: hrms/setup.py:110 hrms/setup.py:276
 msgid "Payroll Cost Center"
 msgstr ""
 
@@ -9799,7 +9818,7 @@ msgstr ""
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/setup.py:839
+#: hrms/setup.py:829
 msgid "Payroll Payable Account"
 msgstr ""
 
@@ -9937,7 +9956,7 @@ msgstr ""
 msgid "Phone Number"
 msgstr ""
 
-#: hrms/setup.py:387
+#: hrms/setup.py:389
 msgid "Piecework"
 msgstr ""
 
@@ -9969,10 +9988,6 @@ msgstr ""
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:818
 msgid "Please assign a Salary Structure for Employee {0} applicable from or before {1} first"
-msgstr ""
-
-#: hrms/hr/doctype/attendance_request/attendance_request.py:41
-msgid "Please check if employee is on leave or attendance with the same status exists for selected day(s)."
 msgstr ""
 
 #: hrms/templates/emails/training_event.html:17
@@ -10053,7 +10068,7 @@ msgstr ""
 msgid "Please select a csv file"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:348
+#: hrms/hr/doctype/attendance/attendance.py:350
 msgid "Please select a date."
 msgstr ""
 
@@ -10160,7 +10175,7 @@ msgstr ""
 msgid "Please set the Appraisal Template for all the {0} or select the template in the Employees table below."
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:364
+#: hrms/hr/doctype/expense_claim/expense_claim.js:369
 msgid "Please set the Company"
 msgstr ""
 
@@ -10276,7 +10291,7 @@ msgstr ""
 #. Employee'
 #. Option for the 'Consider Unmarked Attendance As' (Select) field in DocType
 #. 'Payroll Settings'
-#: frontend/src/components/AttendanceCalendar.vue:80
+#: frontend/src/components/AttendanceCalendar.vue:79
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
@@ -10324,15 +10339,15 @@ msgstr ""
 msgid "Printing Details"
 msgstr ""
 
-#: hrms/setup.py:366 hrms/setup.py:367
+#: hrms/setup.py:368 hrms/setup.py:369
 msgid "Privilege Leave"
 msgstr ""
 
-#: hrms/setup.py:384
+#: hrms/setup.py:386
 msgid "Probation"
 msgstr ""
 
-#: hrms/setup.py:398
+#: hrms/setup.py:400
 msgid "Probationary Period"
 msgstr ""
 
@@ -10343,7 +10358,7 @@ msgstr ""
 
 #. Label of a Check field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
-#: hrms/setup.py:850
+#: hrms/setup.py:840
 msgid "Process Payroll Accounting Entry based on Employee"
 msgstr ""
 
@@ -10595,6 +10610,7 @@ msgstr ""
 #. Label of a Text field in DocType 'Leave Block List Date'
 #. Label of a Section Break field in DocType 'Salary Withholding'
 #: hrms/hr/doctype/attendance_request/attendance_request.json
+#: hrms/hr/doctype/attendance_request/attendance_request.py:40
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:9
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 #: hrms/hr/doctype/leave_application/leave_application.json
@@ -10879,7 +10895,7 @@ msgstr ""
 msgid "Reopen"
 msgstr ""
 
-#: hrms/setup.py:823 hrms/setup.py:832
+#: hrms/setup.py:813 hrms/setup.py:822
 msgid "Repay From Salary"
 msgstr ""
 
@@ -10971,7 +10987,7 @@ msgstr ""
 msgid "Require Full Funding"
 msgstr ""
 
-#: hrms/setup.py:170
+#: hrms/setup.py:169
 msgid "Required Skills"
 msgstr ""
 
@@ -11015,7 +11031,7 @@ msgstr ""
 msgid "Resolved By"
 msgstr ""
 
-#: hrms/setup.py:404
+#: hrms/setup.py:406
 msgid "Responsibilities"
 msgstr ""
 
@@ -11203,11 +11219,11 @@ msgstr ""
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:653
+#: hrms/hr/doctype/expense_claim/expense_claim.py:664
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:402
+#: hrms/hr/doctype/expense_claim/expense_claim.py:413
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr ""
 
@@ -11377,7 +11393,7 @@ msgstr ""
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 #: hrms/payroll/workspace/payroll/payroll.json
-#: hrms/payroll/workspace/salary_payout/salary_payout.json hrms/setup.py:302
+#: hrms/payroll/workspace/salary_payout/salary_payout.json hrms/setup.py:304
 msgid "Salary Slip"
 msgstr ""
 
@@ -11431,7 +11447,7 @@ msgstr ""
 msgid "Salary Slip submission is queued. It may take a few minutes"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1441
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1443
 msgid "Salary Slip {0} failed for Payroll Entry {1}"
 msgstr ""
 
@@ -11453,11 +11469,11 @@ msgstr ""
 msgid "Salary Slips Submitted"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1483
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1485
 msgid "Salary Slips already exist for employees {}, and will not be processed by this payroll."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1508
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1510
 msgid "Salary Slips submitted for period from {0} to {1}"
 msgstr ""
 
@@ -11583,11 +11599,11 @@ msgstr ""
 msgid "Sanctioned Amount"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:423
+#: hrms/hr/doctype/expense_claim/expense_claim.py:434
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:118
+#: frontend/src/components/AttendanceCalendar.vue:117
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:62
 msgid "Saturday"
 msgstr ""
@@ -11662,7 +11678,7 @@ msgstr ""
 msgid "Select Payment Account to make Bank Entry"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1646
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1648
 msgid "Select Payroll Frequency."
 msgstr ""
 
@@ -11688,8 +11704,14 @@ msgstr ""
 msgid "Select Users"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:407
+#: hrms/hr/doctype/expense_claim/expense_claim.js:412
 msgid "Select an employee to get the employee advance."
+msgstr ""
+
+#. Description of the 'Include Holidays' (Check) field in DocType 'Attendance
+#. Request'
+#: hrms/hr/doctype/attendance_request/attendance_request.json
+msgid "Select if any of the days selected for request are holidays"
 msgstr ""
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.js:200
@@ -11739,6 +11761,14 @@ msgstr ""
 msgid "Select {0}"
 msgstr ""
 
+#: hrms/hr/doctype/expense_claim/expense_claim.js:443
+msgid "Selected employee advance is not of employee {0}"
+msgstr ""
+
+#: hrms/hr/doctype/expense_claim/expense_claim.py:402
+msgid "Selected employee advance is not of employee {}"
+msgstr ""
+
 #. Label of a Tab Break field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.py:33
@@ -11767,7 +11797,7 @@ msgstr ""
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:873
+#: hrms/hr/doctype/leave_application/leave_application.py:874
 msgid "Self-approval for leaves is not allowed"
 msgstr ""
 
@@ -11928,7 +11958,7 @@ msgstr ""
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:546
+#: hrms/hr/doctype/expense_claim/expense_claim.py:557
 msgid "Set the default account for the {0} {1}"
 msgstr ""
 
@@ -12111,7 +12141,8 @@ msgstr ""
 msgid "Shift Request"
 msgstr ""
 
-#: hrms/setup.py:139 hrms/setup.py:260
+#: hrms/patches/v15_0/update_approver_custom_fields.py:27 hrms/setup.py:138
+#: hrms/setup.py:261
 msgid "Shift Request Approver"
 msgstr ""
 
@@ -12249,7 +12280,7 @@ msgstr ""
 msgid "Showing"
 msgstr ""
 
-#: hrms/setup.py:358 hrms/setup.py:359
+#: hrms/setup.py:360 hrms/setup.py:361
 msgid "Sick Leave"
 msgstr ""
 
@@ -12284,7 +12315,7 @@ msgid "Skill Name"
 msgstr ""
 
 #. Label of a Section Break field in DocType 'Employee Skill Map'
-#: hrms/hr/doctype/employee_skill_map/employee_skill_map.json hrms/setup.py:176
+#: hrms/hr/doctype/employee_skill_map/employee_skill_map.json hrms/setup.py:175
 msgid "Skills"
 msgstr ""
 
@@ -12316,7 +12347,7 @@ msgstr ""
 msgid "Source and Rating"
 msgstr ""
 
-#: hrms/api/roster.py:100
+#: hrms/api/roster.py:95
 msgid "Source and target shifts cannot be the same"
 msgstr ""
 
@@ -12365,7 +12396,7 @@ msgstr ""
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:46
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:51
-#: hrms/hr/doctype/attendance/attendance_list.js:46
+#: hrms/hr/doctype/attendance/attendance_list.js:45
 msgid "Start"
 msgstr ""
 
@@ -12466,7 +12497,7 @@ msgstr ""
 #: frontend/src/views/leave/List.vue:35
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 #: hrms/hr/doctype/attendance/attendance.json
-#: hrms/hr/doctype/attendance/attendance_list.js:71
+#: hrms/hr/doctype/attendance/attendance_list.js:70
 #: hrms/hr/doctype/daily_work_summary/daily_work_summary.json
 #: hrms/hr/doctype/employee_advance/employee_advance.json
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.js:155
@@ -12512,7 +12543,7 @@ msgstr ""
 msgid "Status for Other Half"
 msgstr ""
 
-#: hrms/setup.py:401
+#: hrms/setup.py:403
 msgid "Stock Options"
 msgstr ""
 
@@ -12601,7 +12632,7 @@ msgstr ""
 msgid "Submitting Salary Slips and creating Journal Entry..."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1563
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1565
 msgid "Submitting Salary Slips..."
 msgstr ""
 
@@ -12617,7 +12648,7 @@ msgstr ""
 #: frontend/src/views/AppSettings.vue:95
 #: hrms/hr/doctype/employee_referral/employee_referral.py:54
 #: hrms/hr/utils.py:877
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1511
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1513
 #: hrms/public/js/utils/index.js:139
 msgid "Success"
 msgstr ""
@@ -12640,7 +12671,7 @@ msgstr ""
 msgid "Summarized View"
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:112
+#: frontend/src/components/AttendanceCalendar.vue:111
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:67
 msgid "Sunday"
 msgstr ""
@@ -12916,7 +12947,7 @@ msgstr ""
 msgid "The days between {0} to {1} are not valid holidays."
 msgstr ""
 
-#: hrms/setup.py:130
+#: hrms/setup.py:129
 msgid "The first Approver in the list will be set as the default Approver."
 msgstr ""
 
@@ -12969,6 +13000,10 @@ msgstr ""
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:480
 msgid "There are more holidays than working days this month."
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:64
+msgid "There are multiple shifts assigned to the employee for the same period. Please mention the shift"
 msgstr ""
 
 #: hrms/hr/doctype/job_offer/job_offer.py:39
@@ -13042,7 +13077,7 @@ msgstr ""
 msgid "This will submit Salary Slips and create accrual Journal Entry. Do you want to proceed?"
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:116
+#: frontend/src/components/AttendanceCalendar.vue:115
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:52
 msgid "Thursday"
 msgstr ""
@@ -13357,11 +13392,11 @@ msgstr ""
 msgid "Total Exemption Amount"
 msgstr ""
 
-#: hrms/setup.py:292
+#: hrms/setup.py:294
 msgid "Total Expense Claim (via Expense Claim)"
 msgstr ""
 
-#: hrms/setup.py:283
+#: hrms/setup.py:285
 msgid "Total Expense Claim (via Expense Claims)"
 msgstr ""
 
@@ -13388,7 +13423,7 @@ msgstr ""
 msgid "Total Income Tax"
 msgstr ""
 
-#: hrms/setup.py:796
+#: hrms/setup.py:786
 msgid "Total Interest Amount"
 msgstr ""
 
@@ -13419,7 +13454,7 @@ msgstr ""
 msgid "Total Leaves Encashed"
 msgstr ""
 
-#: hrms/setup.py:810
+#: hrms/setup.py:800
 msgid "Total Loan Repayment"
 msgstr ""
 
@@ -13445,7 +13480,7 @@ msgstr ""
 msgid "Total Present"
 msgstr ""
 
-#: hrms/setup.py:787
+#: hrms/setup.py:777
 msgid "Total Principal Amount"
 msgstr ""
 
@@ -13484,7 +13519,7 @@ msgstr ""
 msgid "Total Working Hours"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:417
+#: hrms/hr/doctype/expense_claim/expense_claim.py:428
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr ""
 
@@ -13698,7 +13733,7 @@ msgid "Transfer Date"
 msgstr ""
 
 #. Label of a Card Break in the Expense Claims Workspace
-#: hrms/hr/workspace/expense_claims/expense_claims.json hrms/setup.py:329
+#: hrms/hr/workspace/expense_claims/expense_claims.json hrms/setup.py:331
 msgid "Travel"
 msgstr ""
 
@@ -13748,7 +13783,7 @@ msgstr ""
 msgid "Travel Type"
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:114
+#: frontend/src/components/AttendanceCalendar.vue:113
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:42
 msgid "Tuesday"
 msgstr ""
@@ -13797,15 +13832,15 @@ msgstr ""
 msgid "Unlink Payment"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:231
+#: hrms/hr/doctype/attendance/attendance.py:233
 msgid "Unlinked Attendance record from Employee Checkins: {}"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance.py:234
+#: hrms/hr/doctype/attendance/attendance.py:236
 msgid "Unlinked logs"
 msgstr ""
 
-#: hrms/hr/doctype/attendance/attendance_list.js:84
+#: hrms/hr/doctype/attendance/attendance_list.js:83
 msgid "Unmarked Attendance for days"
 msgstr ""
 
@@ -13931,7 +13966,7 @@ msgstr ""
 msgid "Update Tax"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:115
+#: hrms/hr/doctype/attendance_request/attendance_request.py:158
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr ""
 
@@ -14108,8 +14143,8 @@ msgstr ""
 #: hrms/hr/doctype/employee_separation/employee_separation.js:19
 #: hrms/hr/doctype/employee_separation/employee_separation.js:28
 #: hrms/hr/doctype/employee_separation/employee_separation.js:35
-#: hrms/hr/doctype/expense_claim/expense_claim.js:134
-#: hrms/hr/doctype/expense_claim/expense_claim.js:165
+#: hrms/hr/doctype/expense_claim/expense_claim.js:139
+#: hrms/hr/doctype/expense_claim/expense_claim.js:170
 #: hrms/hr/doctype/job_applicant/job_applicant.js:42
 msgid "View"
 msgstr ""
@@ -14149,7 +14184,7 @@ msgstr ""
 msgid "WARNING: Loan Management module has been separated from ERPNext."
 msgstr ""
 
-#: hrms/setup.py:392
+#: hrms/setup.py:394
 msgid "Walk In"
 msgstr ""
 
@@ -14178,11 +14213,11 @@ msgstr ""
 msgid "Warning: {0} already has an active Shift Assignment {1} for some/all of these dates."
 msgstr ""
 
-#: hrms/setup.py:391
+#: hrms/setup.py:393
 msgid "Website Listing"
 msgstr ""
 
-#: frontend/src/components/AttendanceCalendar.vue:115
+#: frontend/src/components/AttendanceCalendar.vue:114
 #: hrms/hr/doctype/leave_block_list/leave_block_list.js:47
 msgid "Wednesday"
 msgstr ""
@@ -14263,7 +14298,7 @@ msgstr ""
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
 #. Option for the 'Reason' (Select) field in DocType 'Attendance Request'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance Tool'
-#: frontend/src/components/AttendanceCalendar.vue:80
+#: frontend/src/components/AttendanceCalendar.vue:79
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/attendance_request/attendance_request.json
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
@@ -14298,7 +14333,7 @@ msgstr ""
 #. Label of a Float field in DocType 'Salary Slip Timesheet'
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/payroll/doctype/salary_slip_timesheet/salary_slip_timesheet.json
-#: hrms/setup.py:400
+#: hrms/setup.py:402
 msgid "Working Hours"
 msgstr ""
 
@@ -14407,7 +14442,7 @@ msgstr ""
 msgid "You can only submit Leave Encashment for a valid encashment amount"
 msgstr ""
 
-#: hrms/api/__init__.py:726
+#: hrms/api/__init__.py:742
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr ""
 
@@ -14459,6 +14494,10 @@ msgstr ""
 msgid "Your password has expired. Please reset your password to continue"
 msgstr ""
 
+#: hrms/hr/doctype/attendance_request/attendance_request.py:46
+msgid "action"
+msgstr ""
+
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.py:100
 msgid "active"
 msgstr ""
@@ -14507,6 +14546,10 @@ msgstr ""
 
 #: hrms/public/js/utils/index.js:135
 msgid "processed"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:45
+msgid "reason"
 msgstr ""
 
 #: hrms/www/jobs/index.html:122
