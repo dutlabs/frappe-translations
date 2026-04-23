@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  frappe\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
-"POT-Creation-Date: 2026-04-16 16:01-0506\n"
+"POT-Creation-Date: 2026-04-22 18:04-0506\n"
 "PO-Revision-Date: 2026-02-11 18:02+0000\n"
 "Last-Translator: info@erpnext.com\n"
 "Language: es_ES\n"
@@ -711,7 +711,7 @@ msgstr "'Cuenta' en la sección Contabilidad de Cliente {0}"
 msgid "'Allow Multiple Sales Orders Against a Customer's Purchase Order'"
 msgstr ""
 
-#: erpnext/controllers/trends.py:56
+#: erpnext/controllers/trends.py:62
 msgid "'Based On' and 'Group By' can not be same"
 msgstr "'Basado en' y 'Agrupar por' no pueden ser iguales"
 
@@ -3430,7 +3430,7 @@ msgstr ""
 msgid "Additional Discount Amount (Company Currency)"
 msgstr ""
 
-#: erpnext/controllers/taxes_and_totals.py:752
+#: erpnext/controllers/taxes_and_totals.py:751
 msgid "Additional Discount Amount ({discount_amount}) cannot exceed the total before such discount ({total_before_discount})"
 msgstr ""
 
@@ -3821,7 +3821,7 @@ msgstr ""
 msgid "Advance amount"
 msgstr ""
 
-#: erpnext/controllers/taxes_and_totals.py:889
+#: erpnext/controllers/taxes_and_totals.py:888
 msgid "Advance amount cannot be greater than {0} {1}"
 msgstr "Cantidad de avance no puede ser mayor que {0} {1}"
 
@@ -5295,8 +5295,8 @@ msgstr ""
 msgid "Ampere-Second"
 msgstr ""
 
-#: erpnext/controllers/trends.py:277 erpnext/controllers/trends.py:289
-#: erpnext/controllers/trends.py:298
+#: erpnext/controllers/trends.py:283 erpnext/controllers/trends.py:295
+#: erpnext/controllers/trends.py:304
 msgid "Amt"
 msgstr "Monto"
 
@@ -5786,7 +5786,7 @@ msgstr "Como el campo {0} está habilitado, el campo {1} es obligatorio."
 msgid "As the field {0} is enabled, the value of the field {1} should be more than 1."
 msgstr "Como el campo {0} está habilitado, el valor del campo {1} debe ser superior a 1."
 
-#: erpnext/stock/doctype/item/item.py:1008
+#: erpnext/stock/doctype/item/item.py:1022
 msgid "As there are existing submitted transactions against item {0}, you can not change the value of {1}."
 msgstr ""
 
@@ -6535,7 +6535,7 @@ msgstr ""
 msgid "Attribute Value"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:949
+#: erpnext/stock/doctype/item/item.py:963
 msgid "Attribute table is mandatory"
 msgstr "Tabla de atributos es obligatoria"
 
@@ -6543,11 +6543,11 @@ msgstr "Tabla de atributos es obligatoria"
 msgid "Attribute value: {0} must appear only once"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:953
+#: erpnext/stock/doctype/item/item.py:967
 msgid "Attribute {0} selected multiple times in Attributes Table"
 msgstr "Atributo {0} seleccionado varias veces en la tabla Atributos"
 
-#: erpnext/stock/doctype/item/item.py:885
+#: erpnext/stock/doctype/item/item.py:899
 msgid "Attributes"
 msgstr "Atributos"
 
@@ -9635,7 +9635,7 @@ msgstr ""
 msgid "Cannot cancel transaction for Completed Work Order."
 msgstr "No se puede cancelar la transacción para la orden de trabajo completada."
 
-#: erpnext/stock/doctype/item/item.py:905
+#: erpnext/stock/doctype/item/item.py:919
 msgid "Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item"
 msgstr "No se pueden cambiar los Atributos después de la Transacciones de Stock. Haga un nuevo Artículo y transfiera el stock al nuevo Artículo"
 
@@ -9647,7 +9647,7 @@ msgstr ""
 msgid "Cannot change Service Stop Date for item in row {0}"
 msgstr "No se puede cambiar la fecha de detención del servicio para el artículo en la fila {0}"
 
-#: erpnext/stock/doctype/item/item.py:896
+#: erpnext/stock/doctype/item/item.py:910
 msgid "Cannot change Variant properties after stock transaction. You will have to make a new Item to do this."
 msgstr "No se pueden cambiar las propiedades de la Variante después de una transacción de stock. Deberá crear un nuevo ítem para hacer esto."
 
@@ -11642,6 +11642,10 @@ msgstr "Compañía {0} no existe"
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:83
 msgid "Company {0} is added more than once"
+msgstr ""
+
+#: erpnext/regional/doctype/south_africa_vat_settings/south_africa_vat_settings.py:33
+msgid "Company {0} is not in South Africa."
 msgstr ""
 
 #: erpnext/setup/setup_wizard/operations/taxes_setup.py:14
@@ -13657,7 +13661,7 @@ msgstr "Creando Cuentas ..."
 msgid "Creating Delivery Note ..."
 msgstr ""
 
-#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:144
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:142
 msgid "Creating Dimensions..."
 msgstr "Creando Dimensiones ..."
 
@@ -15968,15 +15972,15 @@ msgstr ""
 msgid "Default Unit of Measure"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1291
+#: erpnext/stock/doctype/item/item.py:1305
 msgid "Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You need to either cancel the linked documents or create a new Item."
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1274
+#: erpnext/stock/doctype/item/item.py:1288
 msgid "Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM."
 msgstr "Unidad de medida predeterminada para el artículo {0} no se puede cambiar directamente porque ya ha realizado alguna transacción (s) con otra UOM. Usted tendrá que crear un nuevo elemento a utilizar un UOM predeterminado diferente."
 
-#: erpnext/stock/doctype/item/item.py:927
+#: erpnext/stock/doctype/item/item.py:941
 msgid "Default Unit of Measure for Variant '{0}' must be same as in Template '{1}'"
 msgstr "Unidad de medida predeterminada para variante '{0}' debe ser la mismo que en la plantilla '{1}'"
 
@@ -18948,7 +18952,7 @@ msgstr ""
 msgid "Enable Auto Email"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1083
+#: erpnext/stock/doctype/item/item.py:1097
 msgid "Enable Auto Re-Order"
 msgstr "Habilitar reordenamiento automático"
 
@@ -19500,7 +19504,7 @@ msgstr ""
 msgid "Example URL"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1014
+#: erpnext/stock/doctype/item/item.py:1028
 msgid "Example of a linked document: {0}"
 msgstr ""
 
@@ -20772,7 +20776,7 @@ msgstr ""
 msgid "Fiscal Year End Date should be one year after Fiscal Year Start Date"
 msgstr "La fecha de finalización del año fiscal debe ser un año después de la fecha de inicio del año fiscal"
 
-#: erpnext/controllers/trends.py:53
+#: erpnext/controllers/trends.py:59
 msgid "Fiscal Year {0} Does Not Exist"
 msgstr "El año fiscal {0} no existe"
 
@@ -21389,7 +21393,7 @@ msgstr ""
 #: erpnext/public/js/stock_analytics.js:74
 #: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.js:8
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.js:16
-#: erpnext/regional/report/vat_audit_report/vat_audit_report.js:16
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.js:23
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:43
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.js:24
@@ -21672,7 +21676,7 @@ msgstr ""
 msgid "From date cannot be greater than To date"
 msgstr "La fecha 'Desde' no puede ser mayor que la fecha 'Hasta'"
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:74
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:79
 msgid "From value must be less than to value in row {0}"
 msgstr "El valor debe ser menor que el valor de la línea {0}"
 
@@ -25198,7 +25202,7 @@ msgstr "Fecha de Entrega Inválida"
 msgid "Invalid Discount"
 msgstr ""
 
-#: erpnext/controllers/taxes_and_totals.py:759
+#: erpnext/controllers/taxes_and_totals.py:758
 msgid "Invalid Discount Amount"
 msgstr ""
 
@@ -25210,7 +25214,7 @@ msgstr ""
 msgid "Invalid Document Type"
 msgstr "Tipo de Documento Inválido"
 
-#: erpnext/controllers/trends.py:63
+#: erpnext/controllers/trends.py:69
 msgid "Invalid Filter"
 msgstr ""
 
@@ -25231,7 +25235,7 @@ msgstr ""
 msgid "Invalid Item"
 msgstr "Artículo Inválido"
 
-#: erpnext/stock/doctype/item/item.py:1429
+#: erpnext/stock/doctype/item/item.py:1443
 msgid "Invalid Item Defaults"
 msgstr ""
 
@@ -25622,11 +25626,6 @@ msgstr "Es Alternativo"
 #. Label of a Check field in DocType 'Timesheet Detail'
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 msgid "Is Billable"
-msgstr ""
-
-#. Label of the is_billing_contact (Check) field in DocType 'Contact'
-#: erpnext/erpnext_integrations/custom/contact.json
-msgid "Is Billing Contact"
 msgstr ""
 
 #. Label of a Check field in DocType 'GL Entry'
@@ -26033,11 +26032,6 @@ msgstr ""
 msgid "Is Transporter"
 msgstr ""
 
-#. Label of the is_your_company_address (Check) field in DocType 'Address'
-#: erpnext/accounts/custom/address.json
-msgid "Is Your Company Address"
-msgstr ""
-
 #. Label of a Check field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Is a Subscription"
@@ -26213,7 +26207,7 @@ msgstr ""
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:33
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:204
 #: erpnext/buying/workspace/buying/buying.json
-#: erpnext/controllers/taxes_and_totals.py:1168
+#: erpnext/controllers/taxes_and_totals.py:1167
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:102
@@ -27159,7 +27153,7 @@ msgstr "Configuraciones de Variante de Artículo"
 msgid "Item Variant {0} already exists with same attributes"
 msgstr "Artículo Variant {0} ya existe con los mismos atributos"
 
-#: erpnext/stock/doctype/item/item.py:804
+#: erpnext/stock/doctype/item/item.py:818
 msgid "Item Variants updated"
 msgstr "Variantes del artículo actualizadas"
 
@@ -27214,7 +27208,7 @@ msgstr ""
 msgid "Item for row {0} does not match Material Request"
 msgstr "El artículo de la fila {0} no coincide con la solicitud de material"
 
-#: erpnext/stock/doctype/item/item.py:818
+#: erpnext/stock/doctype/item/item.py:832
 msgid "Item has variants."
 msgstr "El producto tiene variantes."
 
@@ -27257,7 +27251,7 @@ msgstr ""
 msgid "Item valuation reposting in progress. Report might show incorrect item valuation."
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:971
+#: erpnext/stock/doctype/item/item.py:985
 msgid "Item variant {0} exists with same attributes"
 msgstr "Existe la variante de artículo {0} con mismos atributos"
 
@@ -27298,7 +27292,7 @@ msgstr "Elemento {0} ha sido desactivado"
 msgid "Item {0} has no Serial No. Only serilialized items can have delivery based on Serial No"
 msgstr "El artículo {0} no tiene un número de serie. Solo los artículos serializados pueden tener una entrega basada en el número de serie."
 
-#: erpnext/stock/doctype/item/item.py:1145
+#: erpnext/stock/doctype/item/item.py:1159
 msgid "Item {0} has reached its end of life on {1}"
 msgstr "El producto {0} ha llegado al fin de la vida útil el {1}"
 
@@ -27310,11 +27304,11 @@ msgstr "El producto {0} ha sido ignorado ya que no es un elemento de stock"
 msgid "Item {0} is already reserved/delivered against Sales Order {1}."
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1165
+#: erpnext/stock/doctype/item/item.py:1179
 msgid "Item {0} is cancelled"
 msgstr "El producto {0} esta cancelado"
 
-#: erpnext/stock/doctype/item/item.py:1149
+#: erpnext/stock/doctype/item/item.py:1163
 msgid "Item {0} is disabled"
 msgstr "Artículo {0} está deshabilitado"
 
@@ -27322,7 +27316,7 @@ msgstr "Artículo {0} está deshabilitado"
 msgid "Item {0} is not a serialized Item"
 msgstr "El producto {0} no es un producto serializado"
 
-#: erpnext/stock/doctype/item/item.py:1157
+#: erpnext/stock/doctype/item/item.py:1171
 msgid "Item {0} is not a stock Item"
 msgstr "El producto {0} no es un producto de stock"
 
@@ -28804,7 +28798,7 @@ msgstr ""
 msgid "Linked Location"
 msgstr "Ubicación vinculada"
 
-#: erpnext/stock/doctype/item/item.py:1018
+#: erpnext/stock/doctype/item/item.py:1032
 msgid "Linked with submitted documents"
 msgstr ""
 
@@ -32082,7 +32076,7 @@ msgstr ""
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1690
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1750
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1764
-#: erpnext/stock/doctype/item/item.py:1390
+#: erpnext/stock/doctype/item/item.py:1404
 msgid "No Permission"
 msgstr "Sin permiso"
 
@@ -32469,6 +32463,7 @@ msgid "Not Found"
 msgstr ""
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:801
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:480
 #: erpnext/templates/pages/material_request_info.py:21
 #: erpnext/templates/pages/order.py:37 erpnext/templates/pages/rfq.py:46
 msgid "Not Permitted"
@@ -34212,7 +34207,7 @@ msgstr ""
 msgid "Overlap in scoring between {0} and {1}"
 msgstr "Se superponen las puntuaciones entre {0} y {1}"
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:201
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:206
 msgid "Overlapping conditions found between:"
 msgstr "Condiciones traslapadas entre:"
 
@@ -37262,8 +37257,8 @@ msgstr "Por favor guarde primero"
 msgid "Please select <b>Template Type</b> to download template"
 msgstr "Seleccione <b>Tipo de plantilla</b> para descargar la plantilla"
 
-#: erpnext/controllers/taxes_and_totals.py:765
-#: erpnext/public/js/controllers/taxes_and_totals.js:746
+#: erpnext/controllers/taxes_and_totals.py:764
+#: erpnext/public/js/controllers/taxes_and_totals.js:749
 msgid "Please select Apply Discount On"
 msgstr "Por favor seleccione 'Aplicar descuento en'"
 
@@ -37652,7 +37647,7 @@ msgstr ""
 msgid "Please set Unrealized Exchange Gain/Loss Account in Company {0}"
 msgstr "Configure la Cuenta de Ganancias / Pérdidas de Exchange no realizada en la Empresa {0}"
 
-#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:54
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:56
 msgid "Please set VAT Accounts in {0}"
 msgstr ""
 
@@ -39734,7 +39729,7 @@ msgstr "Seguimiento de stock por proyecto"
 msgid "Project wise Stock Tracking "
 msgstr "Seguimiento preciso del stock--"
 
-#: erpnext/controllers/trends.py:429
+#: erpnext/controllers/trends.py:435
 msgid "Project-wise data is not available for Quotation"
 msgstr "Los datos del proyecto no están disponibles para el presupuesto"
 
@@ -40538,7 +40533,7 @@ msgstr "Las órdenes de compra le ayudará a planificar y dar seguimiento a sus 
 msgid "Purchased"
 msgstr ""
 
-#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:180
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:184
 msgid "Purchases"
 msgstr ""
 
@@ -40632,8 +40627,8 @@ msgstr ""
 #: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:240
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:224
-#: erpnext/controllers/trends.py:276 erpnext/controllers/trends.py:288
-#: erpnext/controllers/trends.py:293
+#: erpnext/controllers/trends.py:282 erpnext/controllers/trends.py:294
+#: erpnext/controllers/trends.py:299
 #: erpnext/crm/doctype/opportunity_item/opportunity_item.json
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
@@ -45182,7 +45177,7 @@ msgstr "Fila #{}: {}"
 msgid "Row #{}: {} {} does not exist."
 msgstr "Fila # {}: {} {} no existe."
 
-#: erpnext/stock/doctype/item/item.py:1422
+#: erpnext/stock/doctype/item/item.py:1436
 msgid "Row #{}: {} {} doesn't belong to Company {}. Please select valid {}."
 msgstr ""
 
@@ -45310,7 +45305,7 @@ msgid "Row {0}: Enter location for the asset item {1}"
 msgstr "Fila {0}: ingrese la ubicación para el artículo del activo {1}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:915
-#: erpnext/controllers/taxes_and_totals.py:1270
+#: erpnext/controllers/taxes_and_totals.py:1269
 msgid "Row {0}: Exchange Rate is mandatory"
 msgstr "Fila {0}: Tipo de cambio es obligatorio"
 
@@ -45765,7 +45760,7 @@ msgstr ""
 #: erpnext/crm/doctype/opportunity/opportunity.js:288
 #: erpnext/crm/doctype/opportunity/opportunity.py:156
 #: erpnext/projects/doctype/project/project_dashboard.py:15
-#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:180
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:184
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/setup/doctype/company/company.py:395
@@ -48799,7 +48794,7 @@ msgstr ""
 msgid "Shipping Address does not belong to the {0}"
 msgstr ""
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:129
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:134
 msgid "Shipping Address does not have country, which is required for this Shipping Rule"
 msgstr "Dirección de Envío no tiene país, que se requiere para esta Regla de Envío"
 
@@ -48888,15 +48883,15 @@ msgstr ""
 msgid "Shipping Zipcode"
 msgstr ""
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:133
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:138
 msgid "Shipping rule not applicable for country {0} in Shipping Address"
 msgstr "La regla de envío no se aplica al país {0} en la dirección de envío."
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:152
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:157
 msgid "Shipping rule only applicable for Buying"
 msgstr "Regla de Envío solo aplicable para la Compra"
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:147
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:152
 msgid "Shipping rule only applicable for Selling"
 msgstr "Regla de Envío solo aplicable para Ventas"
 
@@ -51849,7 +51844,7 @@ msgstr "Comparación de cotizaciones de proveedores"
 msgid "Supplier Quotation Item"
 msgstr "Ítem de Presupuesto de Proveedor"
 
-#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:494
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:499
 msgid "Supplier Quotation {0} Created"
 msgstr "Cotización de proveedor {0} creada"
 
@@ -52668,7 +52663,6 @@ msgstr "Impuestos pagados"
 msgid "Tax Breakup"
 msgstr ""
 
-#. Label of the tax_category (Link) field in DocType 'Address'
 #. Label of a Link field in DocType 'POS Invoice'
 #. Label of a Link field in DocType 'POS Profile'
 #. Label of a Link field in DocType 'Purchase Invoice'
@@ -52687,7 +52681,6 @@ msgstr ""
 #. Label of a Link field in DocType 'Delivery Note'
 #. Label of a Link field in DocType 'Item Tax'
 #. Label of a Link field in DocType 'Purchase Receipt'
-#: erpnext/accounts/custom/address.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -52902,7 +52895,7 @@ msgstr ""
 #. Label of a Currency field in DocType 'Tax Withheld Vouchers'
 #: erpnext/accounts/doctype/tax_withheld_vouchers/tax_withheld_vouchers.json
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:275
-#: erpnext/controllers/taxes_and_totals.py:1168
+#: erpnext/controllers/taxes_and_totals.py:1167
 msgid "Taxable Amount"
 msgstr "Base imponible"
 
@@ -53490,6 +53483,10 @@ msgstr ""
 msgid "The amount of {0} set in this payment request is different from the calculated amount of all payment plans: {1}. Make sure this is correct before submitting the document."
 msgstr "El monto de {0} establecido en esta Solicitud de Pago es diferente del monto calculado de todos los planes de pago: {1}. Asegúrese de que esto sea correcto antes de enviar el documento."
 
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:43
+msgid "The company {0} is not in South Africa. VAT Audit Report is only available for companies in South Africa."
+msgstr ""
+
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1062
 msgid "The completed quantity {0} of an operation {1} cannot be greater than the completed quantity {2} of a previous operation {3}."
 msgstr ""
@@ -53559,7 +53556,7 @@ msgstr ""
 msgid "The following cancelled repost entries exist for <b>{0}</b>:<br><br>{1}<br><br>Kindly delete these entries before continuing."
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:872
+#: erpnext/stock/doctype/item/item.py:886
 msgid "The following deleted attributes exist in Variants but not in the Template. You can either delete the Variants or keep the attribute(s) in template."
 msgstr "Los siguientes atributos eliminados existen en las variantes pero no en la plantilla. Puede eliminar las variantes o mantener los atributos en la plantilla."
 
@@ -53825,7 +53822,7 @@ msgstr ""
 msgid "There can only be 1 Account per Company in {0} {1}"
 msgstr "Sólo puede existir una (1) cuenta por compañía en {0} {1}"
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:81
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:86
 msgid "There can only be one Shipping Rule Condition with 0 or blank value for \"To Value\""
 msgstr "Sólo puede existir una 'regla de envió' con valor 0 o valor en blanco en 'para el valor'"
 
@@ -54529,7 +54526,7 @@ msgstr ""
 #: erpnext/public/js/stock_analytics.js:75
 #: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.js:15
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.js:23
-#: erpnext/regional/report/vat_audit_report/vat_audit_report.js:24
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.js:31
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:44
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.js:31
@@ -54950,9 +54947,9 @@ msgstr ""
 #: erpnext/accounts/report/trial_balance/trial_balance.py:351
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
-#: erpnext/controllers/trends.py:247
+#: erpnext/controllers/trends.py:253
 #: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:195
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:199
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:28
@@ -55728,11 +55725,11 @@ msgstr "Total {0} ({1})"
 msgid "Total {0} for all items is zero, may be you should change 'Distribute Charges Based On'"
 msgstr "Total de {0} para todos los elementos es cero, puede ser que usted debe cambiar en &quot;Distribuir los cargos basados en &#39;"
 
-#: erpnext/controllers/trends.py:23 erpnext/controllers/trends.py:30
+#: erpnext/controllers/trends.py:25 erpnext/controllers/trends.py:32
 msgid "Total(Amt)"
 msgstr "Monto total"
 
-#: erpnext/controllers/trends.py:23 erpnext/controllers/trends.py:30
+#: erpnext/controllers/trends.py:25 erpnext/controllers/trends.py:32
 msgid "Total(Qty)"
 msgstr "Total (Cantidad)"
 
@@ -56962,7 +56959,7 @@ msgstr ""
 msgid "Updating Opening Balances"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1406
+#: erpnext/stock/doctype/item/item.py:1420
 msgid "Updating Variants..."
 msgstr "Actualizando Variantes ..."
 
@@ -57661,7 +57658,7 @@ msgstr "Varianza ({})"
 msgid "Variant"
 msgstr "Variante"
 
-#: erpnext/stock/doctype/item/item.py:887
+#: erpnext/stock/doctype/item/item.py:901
 msgid "Variant Attribute Error"
 msgstr "Error de atributo de variante"
 
@@ -57680,7 +57677,7 @@ msgstr "Lista de materiales variante"
 msgid "Variant Based On"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:915
+#: erpnext/stock/doctype/item/item.py:929
 msgid "Variant Based On cannot be changed"
 msgstr "La variante basada en no se puede cambiar"
 
@@ -57698,7 +57695,7 @@ msgstr "Campo de Variante"
 msgid "Variant Item"
 msgstr "Elemento variante"
 
-#: erpnext/stock/doctype/item/item.py:885
+#: erpnext/stock/doctype/item/item.py:899
 msgid "Variant Items"
 msgstr "Elementos variantes"
 
@@ -59671,7 +59668,7 @@ msgstr ""
 msgid "You have entered a duplicate Delivery Note on Row"
 msgstr ""
 
-#: erpnext/stock/doctype/item/item.py:1082
+#: erpnext/stock/doctype/item/item.py:1096
 msgid "You have to enable auto re-order in Stock Settings to maintain re-order levels."
 msgstr "Debe habilitar el reordenamiento automático en la Configuración de inventario para mantener los niveles de reordenamiento."
 
@@ -59768,7 +59765,7 @@ msgstr "[Importante] [ERPNext] Errores de reorden automático"
 msgid "`Allow Negative rates for Items`"
 msgstr ""
 
-#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:206
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:211
 msgid "and"
 msgstr "y"
 
@@ -60204,7 +60201,7 @@ msgstr "{0} y {1} son obligatorios"
 msgid "{0} asset cannot be transferred"
 msgstr "{0} activo no se puede transferir"
 
-#: erpnext/controllers/trends.py:60
+#: erpnext/controllers/trends.py:66
 msgid "{0} can be either {1} or {2}."
 msgstr ""
 
@@ -60309,7 +60306,7 @@ msgstr "{0} está bloqueado por lo que esta transacción no puede continuar"
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:50
 #: erpnext/accounts/report/general_ledger/general_ledger.py:53
 #: erpnext/accounts/report/pos_register/pos_register.py:107
-#: erpnext/controllers/trends.py:50
+#: erpnext/controllers/trends.py:56
 msgid "{0} is mandatory"
 msgstr "{0} es obligatorio"
 
