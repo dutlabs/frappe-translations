@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-04-22 19:04-0506\n"
+"POT-Creation-Date: 2026-06-15 15:02+0000\n"
 "PO-Revision-Date: 2026-02-11 15:05+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: es\n"
@@ -478,7 +478,7 @@ msgstr ""
 msgid "Account Head"
 msgstr ""
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:56
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:58
 msgid "Account No"
 msgstr ""
 
@@ -577,7 +577,7 @@ msgstr ""
 msgid "Accounts not set for Salary Component {0}"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:600
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:626
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
 msgstr ""
 
@@ -598,8 +598,8 @@ msgstr ""
 #: hrms/hr/doctype/job_requisition/job_requisition.js:46
 #: hrms/hr/doctype/job_requisition/job_requisition.js:78
 #: hrms/hr/doctype/job_requisition/job_requisition.js:81
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:45
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:114
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:49
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:118
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:159
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:77
 msgid "Actions"
@@ -723,7 +723,7 @@ msgstr ""
 msgid "Additional Information "
 msgstr ""
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:46
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:48
 msgid "Additional PF"
 msgstr ""
 
@@ -845,7 +845,7 @@ msgstr ""
 msgid "Allocate Leave"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:66
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:70
 msgid "Allocate Leaves"
 msgstr ""
 
@@ -882,7 +882,7 @@ msgstr ""
 msgid "Allocation"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:128
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:132
 msgid "Allocation Expired!"
 msgstr ""
 
@@ -1077,7 +1077,7 @@ msgstr ""
 #: hrms/payroll/doctype/employee_other_income/employee_other_income.json
 #: hrms/payroll/doctype/salary_component/salary_component.json
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
-#: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:32
+#: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:33
 msgid "Amount"
 msgstr ""
 
@@ -1407,7 +1407,7 @@ msgstr ""
 msgid "Approval Status"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:139
+#: hrms/hr/doctype/expense_claim/expense_claim.py:142
 msgid "Approval Status must be 'Approved' or 'Rejected'"
 msgstr ""
 
@@ -1658,7 +1658,7 @@ msgstr ""
 msgid "Attendance To Date"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:164
+#: hrms/hr/doctype/attendance_request/attendance_request.py:166
 msgid "Attendance Updated"
 msgstr ""
 
@@ -1710,11 +1710,11 @@ msgstr ""
 msgid "Attendance marked successfully."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:183
+#: hrms/hr/doctype/attendance_request/attendance_request.py:185
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:192
+#: hrms/hr/doctype/attendance_request/attendance_request.py:194
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr ""
 
@@ -1816,11 +1816,15 @@ msgstr ""
 msgid "Awaiting Response"
 msgstr ""
 
+#: frontend/src/views/Login.vue:17
+msgid "Back to Login"
+msgstr ""
+
 #: hrms/hr/doctype/leave_application/leave_application.py:180
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
 msgstr ""
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:55
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:57
 msgid "Bank"
 msgstr ""
 
@@ -2007,15 +2011,15 @@ msgstr ""
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:29
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:21
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:30
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:23
 #: hrms/payroll/report/salary_register/salary_register.js:77
 #: hrms/payroll/report/salary_register/salary_register.py:139
 #: hrms/public/js/salary_slip_deductions_report_filters.js:48
 msgid "Branch"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:193
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:219
 msgid "Branch: {0}"
 msgstr ""
 
@@ -2207,11 +2211,16 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:148
+#: frontend/src/views/AppSettings.vue:36
+#: frontend/src/views/ChangePassword.vue:16
+msgid "Change Password"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:150
 msgid "Changed the status from {0} to {1} and Status for Other Half to {2} via Attendance Request"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:152
+#: hrms/hr/doctype/attendance_request/attendance_request.py:154
 msgid "Changed the status from {0} to {1} via Attendance Request"
 msgstr ""
 
@@ -2237,7 +2246,7 @@ msgstr ""
 msgid "Check <a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> for more details"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1455
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1481
 msgid "Check Error Log {0} for more details."
 msgstr ""
 
@@ -2552,7 +2561,7 @@ msgstr ""
 msgid "Company Details"
 msgstr ""
 
-#: frontend/src/views/Profile.vue:177
+#: frontend/src/views/Profile.vue:178
 msgid "Company Information"
 msgstr ""
 
@@ -2656,6 +2665,10 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
+#: frontend/src/views/ChangePassword.vue:36
+msgid "Confirm New Password"
+msgstr ""
+
 #: frontend/src/components/CheckInPanel.vue:73
 msgid "Confirm {0}"
 msgstr ""
@@ -2696,7 +2709,7 @@ msgstr ""
 msgid "Contact Email"
 msgstr ""
 
-#: frontend/src/views/Profile.vue:190
+#: frontend/src/views/Profile.vue:191
 msgid "Contact Information"
 msgstr ""
 
@@ -2742,7 +2755,7 @@ msgstr ""
 #. Label of a Link field in DocType 'Gratuity'
 #. Label of a Link field in DocType 'Payroll Entry'
 #: hrms/hr/doctype/expense_claim/expense_claim.json
-#: hrms/hr/doctype/expense_claim/expense_claim.py:333
+#: hrms/hr/doctype/expense_claim/expense_claim.py:336
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
@@ -2772,7 +2785,7 @@ msgstr ""
 msgid "Could not find any salary slip(s) for the employee {0}"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1518
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1544
 msgid "Could not submit some Salary Slips: {}"
 msgstr ""
 
@@ -2961,7 +2974,7 @@ msgstr ""
 msgid "Creating Payment Entries......"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1478
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1504
 msgid "Creating Salary Slips..."
 msgstr ""
 
@@ -3098,6 +3111,10 @@ msgstr ""
 #. Label of a Int field in DocType 'Staffing Plan Detail'
 #: hrms/hr/doctype/staffing_plan_detail/staffing_plan_detail.json
 msgid "Current Openings"
+msgstr ""
+
+#: frontend/src/views/ChangePassword.vue:22
+msgid "Current Password"
 msgstr ""
 
 #. Option for the 'Calculate Gratuity Amount Based On' (Select) field in
@@ -3569,11 +3586,11 @@ msgstr ""
 msgid "Department Wise Openings"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:102
+#: hrms/hr/doctype/expense_claim/expense_claim.py:105
 msgid "Department {0} does not belong to company: {1}"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:195
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:221
 msgid "Department: {0}"
 msgstr ""
 
@@ -3725,7 +3742,7 @@ msgstr ""
 msgid "Designation Skill"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:197
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:223
 msgid "Designation: {0}"
 msgstr ""
 
@@ -3785,7 +3802,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: frontend/src/views/AppSettings.vue:40
+#: frontend/src/views/AppSettings.vue:65
 msgid "Disabling Push Notifications..."
 msgstr ""
 
@@ -4009,7 +4026,7 @@ msgstr ""
 
 #. Label of a Data field in DocType 'Employee Referral'
 #. Label of a Section Break field in DocType 'Payroll Settings'
-#: frontend/src/views/Login.vue:15
+#: frontend/src/views/ForgotPassword.vue:25 frontend/src/views/Login.vue:45
 #: hrms/hr/doctype/employee_referral/employee_referral.json
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 msgid "Email"
@@ -4208,9 +4225,9 @@ msgstr ""
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.js:26
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:595
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:25
-#: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:21
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:32
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:35
+#: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:22
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:34
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:37
 #: hrms/payroll/report/salary_register/salary_register.js:32
 #: hrms/payroll/report/salary_register/salary_register.py:120
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:17
@@ -4333,7 +4350,7 @@ msgstr ""
 #. Label of a Section Break field in DocType 'Travel Request'
 #. Label of a Section Break field in DocType 'Employee Other Income'
 #. Label of a Section Break field in DocType 'Payroll Entry'
-#: frontend/src/views/Profile.vue:165
+#: frontend/src/views/Profile.vue:166
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 #: hrms/hr/doctype/exit_interview/exit_interview.json
@@ -4592,9 +4609,9 @@ msgstr ""
 #: hrms/payroll/report/bank_remittance/bank_remittance.py:32
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:602
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:32
-#: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:28
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:39
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:28
+#: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:29
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:41
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:30
 #: hrms/payroll/report/salary_register/salary_register.py:127
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:18
 msgid "Employee Name"
@@ -4848,7 +4865,7 @@ msgstr ""
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:110
+#: hrms/hr/doctype/attendance_request/attendance_request.py:112
 msgid "Employee {0} already has an Attendance Request {1} that overlaps with this period"
 msgstr ""
 
@@ -4991,7 +5008,7 @@ msgstr ""
 msgid "Enable Late Entry Marking"
 msgstr ""
 
-#: frontend/src/views/AppSettings.vue:25
+#: frontend/src/views/AppSettings.vue:50
 msgid "Enable Push Notifications"
 msgstr ""
 
@@ -5003,7 +5020,7 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: frontend/src/views/AppSettings.vue:40
+#: frontend/src/views/AppSettings.vue:65
 msgid "Enabling Push Notifications..."
 msgstr ""
 
@@ -5083,7 +5100,7 @@ msgstr ""
 msgid "End Time"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:201
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:227
 msgid "End date: {0}"
 msgstr ""
 
@@ -5115,8 +5132,12 @@ msgstr ""
 msgid "Enter the Standard Working Hours for a normal work day. These hours will be used in calculations of reports such as Employee Hours Utilization and Project Profitability analysis."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:222
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:226
 msgid "Enter the number of leaves you want to allocate for the period."
+msgstr ""
+
+#: frontend/src/views/ForgotPassword.vue:22
+msgid "Enter your email address and we'll send you a link to reset your password."
 msgstr ""
 
 #: frontend/src/components/FormField.vue:42
@@ -5128,9 +5149,9 @@ msgstr ""
 #: frontend/src/components/FormView.vue:557
 #: frontend/src/components/FormView.vue:579
 #: frontend/src/components/RequestActionSheet.vue:326
-#: frontend/src/views/AppSettings.vue:104
-#: frontend/src/views/AppSettings.vue:127
-#: frontend/src/views/AppSettings.vue:138 hrms/hr/doctype/goal/goal_list.js:100
+#: frontend/src/views/AppSettings.vue:129
+#: frontend/src/views/AppSettings.vue:151
+#: frontend/src/views/AppSettings.vue:162 hrms/hr/doctype/goal/goal_list.js:100
 #: hrms/hr/doctype/goal/goal_list.js:108 hrms/overrides/company.py:37
 #: hrms/overrides/company.py:50
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:310
@@ -5160,7 +5181,7 @@ msgstr ""
 msgid "Error in formula or condition"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2293
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2297
 msgid "Error in formula or condition: {0} in Income Tax Slab"
 msgstr ""
 
@@ -5172,7 +5193,7 @@ msgstr ""
 msgid "Error updating {0}"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2372
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2376
 msgid "Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> <b>Error:</b> {error} <br><br> <b>Hint:</b> {description}"
 msgstr ""
 
@@ -5491,7 +5512,7 @@ msgstr ""
 #. Name of a DocType
 #. Label of a Data field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expense Claims Workspace
-#: hrms/hr/doctype/expense_claim/expense_claim.py:558
+#: hrms/hr/doctype/expense_claim/expense_claim.py:561
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expense_claims/expense_claims.json
@@ -5560,7 +5581,7 @@ msgstr ""
 msgid "Expenses & Advances"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:39
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:43
 msgid "Expire Allocation"
 msgstr ""
 
@@ -5623,6 +5644,10 @@ msgstr ""
 msgid "Failed to download Salary Slip PDF"
 msgstr ""
 
+#: frontend/src/views/ForgotPassword.vue:83
+msgid "Failed to send reset link"
+msgstr ""
+
 #: hrms/hr/doctype/interview/interview.py:117
 msgid "Failed to send the Interview Reschedule notification. Please configure your email account."
 msgstr ""
@@ -5635,6 +5660,10 @@ msgstr ""
 msgid "Failed to submit some leave policy assignments:"
 msgstr ""
 
+#: frontend/src/views/ChangePassword.vue:94
+msgid "Failed to update password"
+msgstr ""
+
 #: hrms/hr/doctype/interview/interview.py:210
 msgid "Failed to update the Job Applicant status"
 msgstr ""
@@ -5643,7 +5672,7 @@ msgstr ""
 msgid "Failed to {0} {1} for employees:"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1521
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1547
 #: hrms/public/js/utils/index.js:149
 msgid "Failure"
 msgstr ""
@@ -5830,7 +5859,7 @@ msgstr ""
 msgid "Fiscal Year"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1438
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1464
 msgid "Fiscal Year {0} not found"
 msgstr ""
 
@@ -5883,6 +5912,10 @@ msgstr ""
 #: hrms/hr/doctype/leave_type/leave_type.json
 #, python-format
 msgid "For a day of leave taken, if you still pay (say) 50% of the daily salary, then enter 0.50 in this field."
+msgstr ""
+
+#: frontend/src/views/Login.vue:71
+msgid "Forgot Password?"
 msgstr ""
 
 #. Label of a Code field in DocType 'Salary Component'
@@ -6193,7 +6226,7 @@ msgstr ""
 msgid "Go to Login"
 msgstr ""
 
-#: frontend/src/views/Login.vue:72
+#: frontend/src/views/Login.vue:29
 msgid "Go to Reset Password page"
 msgstr ""
 
@@ -6344,7 +6377,7 @@ msgstr ""
 #: frontend/src/components/SalarySlipItem.vue:13
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:54
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:42
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:44
 #: hrms/payroll/report/salary_register/salary_register.py:211
 msgid "Gross Pay"
 msgstr ""
@@ -6675,7 +6708,7 @@ msgid "Hold"
 msgstr ""
 
 #: hrms/hr/doctype/attendance/attendance.py:298
-#: hrms/hr/doctype/leave_application/leave_application.py:1415
+#: hrms/hr/doctype/leave_application/leave_application.py:1414
 #: hrms/hr/report/employees_working_on_a_holiday/employees_working_on_a_holiday.py:46
 msgid "Holiday"
 msgstr ""
@@ -6752,7 +6785,7 @@ msgstr ""
 msgid "House rented dates should be atleast 15 days apart"
 msgstr ""
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:60
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:62
 msgid "IFSC"
 msgstr ""
 
@@ -7304,7 +7337,7 @@ msgstr ""
 msgid "Invalid Dates"
 msgstr ""
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:25
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:27
 msgid "Invalid Leave Ledger Entry"
 msgstr ""
 
@@ -7317,7 +7350,7 @@ msgstr ""
 msgid "Invalid Shift Times"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:689
+#: hrms/hr/doctype/expense_claim/expense_claim.py:694
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr ""
 
@@ -7895,7 +7928,7 @@ msgstr ""
 msgid "Leave Block List Name"
 msgstr ""
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1391
+#: hrms/hr/doctype/leave_application/leave_application.py:1390
 msgid "Leave Blocked"
 msgstr ""
 
@@ -7940,7 +7973,7 @@ msgstr ""
 msgid "Leave Ledger Entry"
 msgstr ""
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:18
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:20
 msgid "Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0} and To Date is {1}"
 msgstr ""
 
@@ -8089,7 +8122,7 @@ msgstr ""
 msgid "Leave allocation is skipped for {0}, because number of leaves to be allocated is 0."
 msgstr ""
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:54
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:56
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
 msgstr ""
 
@@ -8300,7 +8333,7 @@ msgstr ""
 msgid "Lodging Required"
 msgstr ""
 
-#: frontend/src/views/Profile.vue:107
+#: frontend/src/views/Profile.vue:106
 msgid "Log Out"
 msgstr ""
 
@@ -8314,7 +8347,7 @@ msgstr ""
 msgid "Log Type is required for check-ins falling in the shift: {0}."
 msgstr ""
 
-#: frontend/src/views/Login.vue:34
+#: frontend/src/views/Login.vue:64
 msgid "Login"
 msgstr ""
 
@@ -8322,7 +8355,7 @@ msgstr ""
 msgid "Login Failed"
 msgstr ""
 
-#: frontend/src/views/Login.vue:8
+#: frontend/src/views/Login.vue:38
 msgid "Login to Frappe HR"
 msgstr ""
 
@@ -8346,7 +8379,7 @@ msgstr ""
 msgid "Lower Range"
 msgstr ""
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:61
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:63
 msgid "MICR"
 msgstr ""
 
@@ -8610,7 +8643,7 @@ msgstr ""
 #. Label of a Text Editor field in DocType 'PWA Notification'
 #: hrms/hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1488
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1514
 msgid "Message"
 msgstr ""
 
@@ -8660,7 +8693,7 @@ msgstr ""
 msgid "Missing Relieving Date"
 msgstr ""
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:18
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:20
 msgid "Missing Salary Components"
 msgstr ""
 
@@ -8689,7 +8722,7 @@ msgstr ""
 msgid "Mode of Travel"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:339
+#: hrms/hr/doctype/expense_claim/expense_claim.py:342
 msgid "Mode of payment is required to make a payment"
 msgstr ""
 
@@ -8806,7 +8839,7 @@ msgid "Name"
 msgstr ""
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1268
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2288
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2292
 msgid "Name error"
 msgstr ""
 
@@ -8828,7 +8861,7 @@ msgstr ""
 #. Label of a Currency field in DocType 'Salary Structure'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:49
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:51
 #: hrms/payroll/report/salary_register/salary_register.py:251
 msgid "Net Pay"
 msgstr ""
@@ -8902,6 +8935,14 @@ msgstr ""
 #. Label of a Float field in DocType 'Leave Control Panel'
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 msgid "New Leaves Allocated (In Days)"
+msgstr ""
+
+#: frontend/src/views/ChangePassword.vue:29
+msgid "New Password"
+msgstr ""
+
+#: frontend/src/views/ChangePassword.vue:112
+msgid "New passwords do not match"
 msgstr ""
 
 #. Description of the 'Create Shifts After' (Date) field in DocType 'Shift
@@ -9019,11 +9060,11 @@ msgstr ""
 msgid "No changes found in timings."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:202
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:228
 msgid "No employees found"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:185
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:211
 msgid "No employees found for the mentioned criteria:<br>Company: {0}<br> Currency: {1}<br>Payroll Payable Account: {2}"
 msgstr ""
 
@@ -9055,7 +9096,7 @@ msgstr ""
 msgid "No leaves have been allocated."
 msgstr ""
 
-#: frontend/src/views/Login.vue:53
+#: frontend/src/views/Login.vue:91
 msgid "No login methods are available. Please contact your administrator."
 msgstr ""
 
@@ -9076,7 +9117,7 @@ msgstr ""
 msgid "No replies from"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1504
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1530
 msgid "No salary slip found to submit for the above selected criteria OR salary slip already submitted"
 msgstr ""
 
@@ -9154,6 +9195,10 @@ msgstr ""
 msgid "Not Started"
 msgstr ""
 
+#: hrms/hr/doctype/leave_application/leave_application.py:1513
+msgid "Not permitted"
+msgstr ""
+
 #: hrms/payroll/doctype/salary_slip/salary_slip.js:284
 msgid "Note"
 msgstr ""
@@ -9227,11 +9272,11 @@ msgstr ""
 msgid "Number of leaves eligible for encashment based on leave type settings"
 msgstr ""
 
-#: frontend/src/views/Login.vue:88
+#: frontend/src/views/Login.vue:105
 msgid "OTP Code"
 msgstr ""
 
-#: frontend/src/views/Login.vue:79
+#: frontend/src/views/Login.vue:96
 msgid "OTP Verification"
 msgstr ""
 
@@ -9360,7 +9405,7 @@ msgstr ""
 msgid "Only Tax Impact (Cannot Claim But Part of Taxable Income)"
 msgstr ""
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:33
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:35
 msgid "Only expired allocation can be cancelled"
 msgstr ""
 
@@ -9487,7 +9532,7 @@ msgstr ""
 msgid "Overall Average Rating"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:115
+#: hrms/hr/doctype/attendance_request/attendance_request.py:117
 msgid "Overlapping Attendance Request"
 msgstr ""
 
@@ -9534,15 +9579,15 @@ msgstr ""
 msgid "PAN Number"
 msgstr ""
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:43
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:45
 msgid "PF Account"
 msgstr ""
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:44
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:46
 msgid "PF Amount"
 msgstr ""
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:51
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:53
 msgid "PF Loan"
 msgstr ""
 
@@ -9618,7 +9663,7 @@ msgstr ""
 msgid "Passport Number"
 msgstr ""
 
-#: frontend/src/views/Login.vue:22
+#: frontend/src/views/Login.vue:52
 msgid "Password"
 msgstr ""
 
@@ -9633,6 +9678,10 @@ msgstr ""
 
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.py:22
 msgid "Password policy for Salary Slips is not set"
+msgstr ""
+
+#: frontend/src/views/ForgotPassword.vue:74
+msgid "Password reset link has been sent to your email."
 msgstr ""
 
 #. Label of a Check field in DocType 'Employee Benefit Application Detail'
@@ -9663,7 +9712,7 @@ msgstr ""
 msgid "Payable Account"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:128
+#: hrms/hr/doctype/expense_claim/expense_claim.py:131
 msgid "Payable Account is mandatory to submit an Expense Claim"
 msgstr ""
 
@@ -9729,7 +9778,7 @@ msgstr ""
 msgid "Payment and Accounting"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1104
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1130
 msgid "Payment of {0} from {1} to {2}"
 msgstr ""
 
@@ -10008,8 +10057,20 @@ msgstr ""
 msgid "Please enable default incoming account before creating Daily Work Summary Group"
 msgstr ""
 
+#: frontend/src/views/ForgotPassword.vue:109
+msgid "Please enter a valid email address"
+msgstr ""
+
 #: hrms/hr/doctype/staffing_plan/staffing_plan.js:97
 msgid "Please enter the designation"
+msgstr ""
+
+#: frontend/src/views/ForgotPassword.vue:104
+msgid "Please enter your email address"
+msgstr ""
+
+#: frontend/src/views/ChangePassword.vue:107
+msgid "Please fill all fields"
 msgstr ""
 
 #: hrms/hr/doctype/shift_type/shift_type.py:58
@@ -10161,7 +10222,7 @@ msgstr ""
 msgid "Please set a date range less than 90 days."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:318
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:344
 msgid "Please set account in Salary Component {0}"
 msgstr ""
 
@@ -10510,15 +10571,15 @@ msgstr ""
 msgid "Purpose of Travel"
 msgstr ""
 
-#: frontend/src/views/AppSettings.vue:128
+#: frontend/src/views/AppSettings.vue:152
 msgid "Push Notification permission denied"
 msgstr ""
 
-#: frontend/src/views/AppSettings.vue:96
+#: frontend/src/views/AppSettings.vue:121
 msgid "Push notifications disabled"
 msgstr ""
 
-#: frontend/src/views/AppSettings.vue:80
+#: frontend/src/views/AppSettings.vue:106
 msgid "Push notifications have been disabled on your site"
 msgstr ""
 
@@ -11002,7 +11063,7 @@ msgstr ""
 msgid "Reschedule Interview"
 msgstr ""
 
-#: frontend/src/views/Login.vue:59
+#: frontend/src/views/ForgotPassword.vue:16 frontend/src/views/Login.vue:10
 msgid "Reset Password"
 msgstr ""
 
@@ -11221,11 +11282,11 @@ msgstr ""
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:664
+#: hrms/hr/doctype/expense_claim/expense_claim.py:669
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:413
+#: hrms/hr/doctype/expense_claim/expense_claim.py:416
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr ""
 
@@ -11261,7 +11322,7 @@ msgstr ""
 msgid "Row {0}: {1}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:332
+#: hrms/hr/doctype/expense_claim/expense_claim.py:335
 msgid "Row {0}: {1} is required in the expenses table to book an expense claim."
 msgstr ""
 
@@ -11339,7 +11400,7 @@ msgstr ""
 msgid "Salary Expectation"
 msgstr ""
 
-#: frontend/src/views/Profile.vue:200
+#: frontend/src/views/Profile.vue:201
 msgid "Salary Information"
 msgstr ""
 
@@ -11433,7 +11494,7 @@ msgstr ""
 msgid "Salary Slip already exists for {0} for the given dates"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:251
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:277
 msgid "Salary Slip creation is queued. It may take a few minutes"
 msgstr ""
 
@@ -11445,11 +11506,11 @@ msgstr ""
 msgid "Salary Slip of employee {0} already created for time sheet {1}"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:296
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:322
 msgid "Salary Slip submission is queued. It may take a few minutes"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1443
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1469
 msgid "Salary Slip {0} failed for Payroll Entry {1}"
 msgstr ""
 
@@ -11471,11 +11532,11 @@ msgstr ""
 msgid "Salary Slips Submitted"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1485
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1511
 msgid "Salary Slips already exist for employees {}, and will not be processed by this payroll."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1510
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1536
 msgid "Salary Slips submitted for period from {0} to {1}"
 msgstr ""
 
@@ -11563,7 +11624,7 @@ msgstr ""
 msgid "Salary breakup based on Earning and Deduction."
 msgstr ""
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:15
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:17
 msgid "Salary components of type Provident Fund, Additional Provident Fund or Provident Fund Loan are not set up."
 msgstr ""
 
@@ -11573,7 +11634,7 @@ msgstr ""
 msgid "Salary components should be part of the Salary Structure."
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2437
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2441
 msgid "Salary slip emails have been enqueued for sending. Check {0} for status."
 msgstr ""
 
@@ -11601,7 +11662,7 @@ msgstr ""
 msgid "Sanctioned Amount"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:434
+#: hrms/hr/doctype/expense_claim/expense_claim.py:437
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr ""
 
@@ -11680,7 +11741,7 @@ msgstr ""
 msgid "Select Payment Account to make Bank Entry"
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1648
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1674
 msgid "Select Payroll Frequency."
 msgstr ""
 
@@ -11716,7 +11777,7 @@ msgstr ""
 msgid "Select if any of the days selected for request are holidays"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:200
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:204
 msgid "Select the Employee for which you want to allocate leaves."
 msgstr ""
 
@@ -11724,15 +11785,15 @@ msgstr ""
 msgid "Select the Employee."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:205
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:209
 msgid "Select the Leave Type like Sick leave, Privilege Leave, Casual Leave, etc."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:217
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:221
 msgid "Select the date after which this Leave Allocation will expire."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.js:212
+#: hrms/hr/doctype/leave_allocation/leave_allocation.js:216
 msgid "Select the date from which this Leave Allocation will be valid."
 msgstr ""
 
@@ -11767,7 +11828,7 @@ msgstr ""
 msgid "Selected employee advance is not of employee {0}"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:402
+#: hrms/hr/doctype/expense_claim/expense_claim.py:405
 msgid "Selected employee advance is not of employee {}"
 msgstr ""
 
@@ -11795,7 +11856,7 @@ msgstr ""
 msgid "Self-Study"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:116
+#: hrms/hr/doctype/expense_claim/expense_claim.py:119
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr ""
 
@@ -11834,6 +11895,10 @@ msgstr ""
 #. Label of a Check field in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Send Leave Notification"
+msgstr ""
+
+#: frontend/src/views/ForgotPassword.vue:45
+msgid "Send Reset Link"
 msgstr ""
 
 #. Label of a Link field in DocType 'HR Settings'
@@ -11960,7 +12025,7 @@ msgstr ""
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:557
+#: hrms/hr/doctype/expense_claim/expense_claim.py:560
 msgid "Set the default account for the {0} {1}"
 msgstr ""
 
@@ -11987,7 +12052,7 @@ msgstr ""
 #. Label of a Card Break in the HR Workspace
 #. Label of a Card Break in the Payroll Workspace
 #: frontend/src/views/AppSettings.vue:17
-#: frontend/src/views/Notifications.vue:38 frontend/src/views/Profile.vue:87
+#: frontend/src/views/Notifications.vue:38 frontend/src/views/Profile.vue:86
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 #: hrms/hr/workspace/hr/hr.json hrms/payroll/workspace/payroll/payroll.json
 msgid "Settings"
@@ -12449,7 +12514,7 @@ msgstr ""
 msgid "Start date cannot be greater than end date."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:199
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:225
 msgid "Start date: {0}"
 msgstr ""
 
@@ -12634,7 +12699,7 @@ msgstr ""
 msgid "Submitting Salary Slips and creating Journal Entry..."
 msgstr ""
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1565
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1591
 msgid "Submitting Salary Slips..."
 msgstr ""
 
@@ -12647,10 +12712,12 @@ msgstr ""
 #: frontend/src/components/FormView.vue:548
 #: frontend/src/components/FormView.vue:570
 #: frontend/src/components/RequestActionSheet.vue:317
-#: frontend/src/views/AppSettings.vue:95
+#: frontend/src/views/AppSettings.vue:120
+#: frontend/src/views/ChangePassword.vue:84
+#: frontend/src/views/ForgotPassword.vue:73
 #: hrms/hr/doctype/employee_referral/employee_referral.py:54
 #: hrms/hr/utils.py:885
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1513
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1539
 #: hrms/public/js/utils/index.js:139
 msgid "Success"
 msgstr ""
@@ -12701,7 +12768,7 @@ msgstr ""
 msgid "Syntax error"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2291
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2295
 msgid "Syntax error in condition: {0} in Income Tax Slab"
 msgstr ""
 
@@ -13067,7 +13134,7 @@ msgstr ""
 msgid "This is based on the attendance of this Employee"
 msgstr ""
 
-#: hrms/www/hrms.py:19
+#: hrms/www/hrms.py:20
 msgid "This method is only meant for developer mode"
 msgstr ""
 
@@ -13280,8 +13347,8 @@ msgstr ""
 #. Label of a Currency field in DocType 'Expense Taxes and Charges'
 #: hrms/hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
 #: hrms/hr/report/daily_work_summary_replies/daily_work_summary_replies.py:29
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:52
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:40
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:54
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:41
 msgid "Total"
 msgstr ""
 
@@ -13352,7 +13419,7 @@ msgstr ""
 #. Label of a Currency field in DocType 'Salary Structure'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:148
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:155
 #: hrms/payroll/report/salary_register/salary_register.py:244
 msgid "Total Deduction"
 msgstr ""
@@ -13408,7 +13475,7 @@ msgstr ""
 msgid "Total Goal Score"
 msgstr ""
 
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:141
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:148
 msgid "Total Gross Pay"
 msgstr ""
 
@@ -13460,7 +13527,7 @@ msgstr ""
 msgid "Total Loan Repayment"
 msgstr ""
 
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:155
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:162
 msgid "Total Net Pay"
 msgstr ""
 
@@ -13521,7 +13588,7 @@ msgstr ""
 msgid "Total Working Hours"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:428
+#: hrms/hr/doctype/expense_claim/expense_claim.py:431
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr ""
 
@@ -13948,6 +14015,10 @@ msgstr ""
 msgid "Update Job Applicant"
 msgstr ""
 
+#: frontend/src/views/ChangePassword.vue:55
+msgid "Update Password"
+msgstr ""
+
 #: hrms/hr/doctype/goal/goal_tree.js:232 hrms/hr/doctype/goal/goal_tree.js:238
 msgid "Update Progress"
 msgstr ""
@@ -13968,7 +14039,7 @@ msgstr ""
 msgid "Update Tax"
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:158
+#: hrms/hr/doctype/attendance_request/attendance_request.py:160
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr ""
 
@@ -14135,7 +14206,7 @@ msgstr ""
 msgid "Vehicle Service Item"
 msgstr ""
 
-#: frontend/src/views/Login.vue:100
+#: frontend/src/views/Login.vue:117
 msgid "Verify"
 msgstr ""
 
@@ -14492,7 +14563,11 @@ msgstr ""
 msgid "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr ""
 
-#: frontend/src/views/Login.vue:63
+#: frontend/src/views/ChangePassword.vue:85
+msgid "Your password has been updated."
+msgstr ""
+
+#: frontend/src/views/Login.vue:22
 msgid "Your password has expired. Please reset your password to continue"
 msgstr ""
 
@@ -14529,7 +14604,7 @@ msgstr ""
 msgid "email"
 msgstr ""
 
-#: frontend/src/views/Login.vue:16
+#: frontend/src/views/Login.vue:46
 msgid "johndoe@mail.com"
 msgstr ""
 
@@ -14596,7 +14671,7 @@ msgstr ""
 msgid "{0} & {1} more"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2287
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2291
 msgid "{0} <br> This error can be due to missing or deleted field."
 msgstr ""
 
@@ -14708,7 +14783,7 @@ msgstr ""
 msgid "{0} must be submitted"
 msgstr ""
 
-#: hrms/hr/doctype/goal/goal.py:194
+#: hrms/hr/doctype/goal/goal.py:196
 msgid "{0} of {1} Completed"
 msgstr ""
 
@@ -14740,7 +14815,7 @@ msgstr ""
 msgid "{0} {1} {2}?"
 msgstr ""
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1987
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1989
 msgid "{0}: Employee email not found, hence email not sent"
 msgstr ""
 
