@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-06-15 15:02+0000\n"
+"POT-Creation-Date: 2026-06-24 15:24+0000\n"
 "PO-Revision-Date: 2026-02-24 23:52+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: pt_BR\n"
@@ -3339,7 +3339,7 @@ msgstr "Data de Nascimento"
 #: hrms/hr/report/employee_exits/employee_exits.py:32
 #: hrms/payroll/doctype/retention_bonus/retention_bonus.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:621
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:628
 #: hrms/payroll/report/salary_register/salary_register.py:133 hrms/setup.py:398
 msgid "Date of Joining"
 msgstr "Data de Admissão"
@@ -3620,7 +3620,7 @@ msgstr "Viagem de Entrega"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.js:33
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:608
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:615
 #: hrms/payroll/report/salary_register/salary_register.js:56
 #: hrms/payroll/report/salary_register/salary_register.py:146
 #: hrms/public/js/salary_slip_deductions_report_filters.js:42 hrms/setup.py:404
@@ -3783,7 +3783,7 @@ msgstr "Descrição de uma Abertura de Vaga"
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.json
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:615
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:622
 #: hrms/payroll/report/salary_register/salary_register.js:70
 #: hrms/payroll/report/salary_register/salary_register.py:153
 msgid "Designation"
@@ -4275,7 +4275,7 @@ msgstr "Envia o holerite ao colaborador com base no e-mail preferencial selecion
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.js:26
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:595
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:602
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:25
 #: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:22
 #: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:34
@@ -4659,7 +4659,7 @@ msgstr "Empréstimo do Colaborador"
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 #: hrms/payroll/report/bank_remittance/bank_remittance.py:32
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:602
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:609
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:32
 #: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.py:29
 #: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:41
@@ -5233,7 +5233,7 @@ msgstr "Erro ao excluir {0}"
 msgid "Error in formula or condition"
 msgstr "Erro na fórmula ou condição"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2297
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2299
 msgid "Error in formula or condition: {0} in Income Tax Slab"
 msgstr "Erro na fórmula ou condição: {0} na Faixa de Imposto de Renda"
 
@@ -5245,7 +5245,7 @@ msgstr "Erro em algumas linhas"
 msgid "Error updating {0}"
 msgstr "Erro ao atualizar {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2376
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2378
 msgid "Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> <b>Error:</b> {error} <br><br> <b>Hint:</b> {description}"
 msgstr "Erro ao avaliar o {doctype} {doclink} na linha {row_id}. <br><br> <b>Erro:</b> {error} <br><br> <b>Dica:</b> {description}"
 
@@ -6421,7 +6421,7 @@ msgstr "Detalhes da Reclamação"
 msgid "Grievance Type"
 msgstr "Tipo de Reclamação"
 
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:630
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:637
 msgid "Gross Earnings"
 msgstr "Ganhos Brutos"
 
@@ -7112,7 +7112,7 @@ msgstr "Deduções de Imposto de Renda"
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:142
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:623
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:630
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgid "Income Tax Slab"
@@ -7127,15 +7127,15 @@ msgstr "Outras Cobranças da Faixa do Imposto de Renda"
 msgid "Income Tax Slab is mandatory since the Salary Structure {0} has a tax component {1}"
 msgstr "Faixa do Imposto de Renda é obrigatória, pois a Estrutura Salarial {0} possui um componente tributário {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1635
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1637
 msgid "Income Tax Slab must be effective on or before Payroll Period Start Date: {0}"
 msgstr "A Faixa do Imposto de Renda deve estar vigente em ou antes da Data Inicial do Período da Folha: {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1623
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1625
 msgid "Income Tax Slab not set in Salary Structure Assignment: {0}"
 msgstr "Faixa do Imposto de Renda não definida na Atribuição da Estrutura Salarial: {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1631
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1633
 msgid "Income Tax Slab: {0} is disabled"
 msgstr "Faixa do Imposto de Renda: {0} está desativada"
 
@@ -8749,7 +8749,7 @@ msgstr "Data de Desligamento Ausente"
 msgid "Missing Salary Components"
 msgstr "Componentes Salariais Ausentes"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1626
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1628
 msgid "Missing Tax Slab"
 msgstr "Faixa de Imposto Ausente"
 
@@ -8891,7 +8891,7 @@ msgid "Name"
 msgstr "Nome"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1268
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2292
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2294
 msgid "Name error"
 msgstr "Erro de Nome"
 
@@ -9124,7 +9124,7 @@ msgstr "Nenhum colaborador encontrado para os critérios informados:<br>Empresa:
 msgid "No employees found for the selected criteria"
 msgstr "Nenhum colaborador encontrado para os critérios selecionados"
 
-#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:71
+#: hrms/payroll/report/income_tax_computation/income_tax_computation.py:78
 msgid "No employees found with selected filters and active salary structure"
 msgstr "Nenhum colaborador encontrado com os filtros selecionados e estrutura salarial ativa"
 
@@ -9264,7 +9264,7 @@ msgstr "Nota: O Turno não será sobrescrito nos registros de frequência existe
 msgid "Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period"
 msgstr "Nota: O total de licenças alocadas {0} não deve ser menor que as licenças já aprovadas {1} para o período"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1966
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1968
 msgid "Note: Your salary slip is password protected, the password to unlock the PDF is of the format {0}."
 msgstr "Nota: Seu holerite está protegido por senha, a senha para desbloquear o PDF segue o formato {0}."
 
@@ -10129,7 +10129,7 @@ msgstr "Por favor, preencha todos os campos"
 msgid "Please reduce {0} to avoid shift time overlapping with itself"
 msgstr "Por favor, reduza {0} para evitar sobreposição de horários da mesma escala"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1955
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1957
 msgid "Please see attachment"
 msgstr "Por favor, veja o anexo"
 
@@ -11169,7 +11169,9 @@ msgid "Resume"
 msgstr "Currículo"
 
 #. Label of a Attach field in DocType 'Job Applicant'
+#. Label of a field in the job-application Web Form
 #: hrms/hr/doctype/job_applicant/job_applicant.json
+#: hrms/hr/web_form/job_application/job_application.json
 msgid "Resume Attachment"
 msgstr "Anexo do Currículo"
 
@@ -11686,7 +11688,7 @@ msgstr "Componentes salariais do tipo Fundo de Garantia, Fundo de Garantia Adici
 msgid "Salary components should be part of the Salary Structure."
 msgstr "Os componentes salariais devem fazer parte da Estrutura Salarial."
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2441
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2443
 msgid "Salary slip emails have been enqueued for sending. Check {0} for status."
 msgstr "Os e-mails dos holerites foram colocados na fila para envio. Verifique {0} para ver o status."
 
@@ -12820,7 +12822,7 @@ msgstr "Sincronizar {0}"
 msgid "Syntax error"
 msgstr "Erro de sintaxe"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2295
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2297
 msgid "Syntax error in condition: {0} in Income Tax Slab"
 msgstr "Erro de sintaxe na condição: {0} na Faixa de Imposto de Renda"
 
@@ -13324,7 +13326,7 @@ msgstr "Data Final"
 
 #: frontend/src/views/attendance/AttendanceRequestForm.vue:93
 #: frontend/src/views/attendance/ShiftRequestForm.vue:90
-#: frontend/src/views/leave/Form.vue:179
+#: frontend/src/views/leave/Form.vue:196
 msgid "To Date cannot be before From Date"
 msgstr "A Data Final não pode ser anterior à Data Inicial"
 
@@ -14723,7 +14725,7 @@ msgstr "{0} & {1}"
 msgid "{0} & {1} more"
 msgstr "{0} & {1} mais"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2291
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2293
 msgid "{0} <br> This error can be due to missing or deleted field."
 msgstr "{0} <br> Este erro pode ser devido a um campo ausente ou excluído."
 
@@ -14867,7 +14869,7 @@ msgstr "{0} será atualizado para as seguintes Estruturas Salariais: {1}."
 msgid "{0} {1} {2}?"
 msgstr "{0} {1} {2}?"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1989
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1991
 msgid "{0}: Employee email not found, hence email not sent"
 msgstr "{0}: E-mail do colaborador não encontrado, portanto o e-mail não foi enviado"
 
