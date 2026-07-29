@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-07-23 23:44+0000\n"
+"POT-Creation-Date: 2026-07-29 13:58+0000\n"
 "PO-Revision-Date: 2026-02-24 23:50+0000\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
@@ -4087,11 +4087,11 @@ msgstr "Edição em Massa"
 msgid "Bulk Edit {0}"
 msgstr "Edição em Massa {0}"
 
-#: frappe/desk/reportview.py:615
+#: frappe/desk/reportview.py:661
 msgid "Bulk Operation Failed"
 msgstr "Operação em Massa Falhou"
 
-#: frappe/desk/reportview.py:619
+#: frappe/desk/reportview.py:665
 msgid "Bulk Operation Successful"
 msgstr "Operação em Massa Bem-Sucedida"
 
@@ -4466,7 +4466,7 @@ msgstr "Cancelando {0}"
 msgid "Cannot Download Report due to insufficient permissions"
 msgstr "Não foi possível baixar o relatório devido a permissões insuficientes"
 
-#: frappe/client.py:483
+#: frappe/client.py:484
 msgid "Cannot Fetch Values"
 msgstr "Não foi possível obter os valores"
 
@@ -5055,7 +5055,7 @@ msgstr "Limpar Registros Depois de (dias)"
 msgid "Clear User Permissions"
 msgstr "Limpar Permissões de Usuário"
 
-#: frappe/public/js/frappe/list/base_list.js:889
+#: frappe/public/js/frappe/list/base_list.js:890
 msgid "Clear all filters"
 msgstr "Limpar todos os filtros"
 
@@ -6960,7 +6960,7 @@ msgstr "Dados Muito Extensos"
 
 #: frappe/model/base_document.py:744
 msgid "Data missing in table"
-msgstr "Dados ausentes na tabela"
+msgstr "Dados não encontrados na tabela"
 
 #. Label of a Data field in DocType 'System Health Report'
 #. Label of a Section Break field in DocType 'System Health Report'
@@ -7506,7 +7506,7 @@ msgstr "Documentos Excluídos"
 msgid "Deleted Name"
 msgstr "Nome Excluído"
 
-#: frappe/desk/reportview.py:619
+#: frappe/desk/reportview.py:665
 msgid "Deleted all documents successfully"
 msgstr "Todos os documentos foram apagados com sucesso"
 
@@ -7514,7 +7514,7 @@ msgstr "Todos os documentos foram apagados com sucesso"
 msgid "Deleted!"
 msgstr "Excluído!"
 
-#: frappe/desk/reportview.py:597
+#: frappe/desk/reportview.py:643
 msgid "Deleting {0}"
 msgstr "Excluindo {0}"
 
@@ -8074,7 +8074,7 @@ msgstr "Link de Tipo de Documento"
 
 #: frappe/public/js/form_builder/components/Field.vue:162
 msgid "DocType Missing"
-msgstr "DocType Ausente"
+msgstr "DocType Não Encontrado"
 
 #. Name of a DocType
 #. Option for the 'Applied On' (Select) field in DocType 'Property Setter'
@@ -8462,7 +8462,7 @@ msgstr "Documento {0} Já Restaurado"
 msgid "Document {0} has been set to state {1} by {2}"
 msgstr "O documento {0} foi definido para o estado {1} por {2}"
 
-#: frappe/client.py:465
+#: frappe/client.py:466
 msgid "Document {0} {1} does not exist"
 msgstr "Documento {0} {1} não existe"
 
@@ -9897,7 +9897,7 @@ msgstr "Erro: O documento foi modificado após você tê-lo aberto"
 
 #: frappe/model/base_document.py:758
 msgid "Error: Value missing for {0}: {1}"
-msgstr "Erro: Valor ausente para {0}: {1}"
+msgstr "Erro: Valor não encontrado para {0}: {1}"
 
 #. Label of a Section Break field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -10345,7 +10345,7 @@ msgstr "Falha ao decodificar o token, forneça um token codificado em base64 vá
 msgid "Failed to decrypt key {0}"
 msgstr "Falha ao descriptografar a chave {0}"
 
-#: frappe/desk/reportview.py:613
+#: frappe/desk/reportview.py:659
 msgid "Failed to delete {0} documents: {1}"
 msgstr "Falha ao apagar {0} documentos: {1}"
 
@@ -10529,7 +10529,7 @@ msgstr "Descrição do Campo"
 
 #: frappe/core/doctype/doctype/doctype.py:1071
 msgid "Field Missing"
-msgstr "Campo Ausente"
+msgstr "Campo Não Encontrado"
 
 #. Label of a Data field in DocType 'Property Setter'
 #. Label of a Select field in DocType 'Kanban Board'
@@ -10826,7 +10826,7 @@ msgstr "Arquivos"
 #: frappe/desk/doctype/number_card/number_card.js:213
 #: frappe/desk/doctype/number_card/number_card.js:352
 #: frappe/email/doctype/auto_email_report/auto_email_report.js:93
-#: frappe/public/js/frappe/list/base_list.js:886
+#: frappe/public/js/frappe/list/base_list.js:887
 #: frappe/public/js/frappe/ui/filters/filter_list.js:134
 #: frappe/website/doctype/web_form/web_form.js:242
 msgid "Filter"
@@ -11094,7 +11094,7 @@ msgstr "Seguido por"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:132
 msgid "Following Report Filters have missing values:"
-msgstr "Os seguintes Filtros de Relatório estão com valores faltantes:"
+msgstr "Os seguintes Filtros de Relatório não foram preenchidos:"
 
 #: frappe/website/doctype/web_form/web_form.py:113
 msgid "Following fields are missing:"
@@ -11106,11 +11106,11 @@ msgstr "Os seguintes campos estão com valores inválidos:"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:333
 msgid "Following fields have missing values"
-msgstr "Os seguintes campos estão com valores ausentes"
+msgstr "Os seguintes campos não foram preenchidos"
 
 #: frappe/public/js/frappe/ui/field_group.js:166
 msgid "Following fields have missing values:"
-msgstr "Os campos a seguir estão em branco:"
+msgstr "Os seguintes campos não foram preenchidos:"
 
 #: frappe/email/doctype/newsletter/newsletter.js:30
 msgid "Following links are broken in the email content: {0}"
@@ -12717,7 +12717,7 @@ msgstr "Eu imagino que você ainda não tenha acesso a nenhum espaço de trabalh
 msgid "ID"
 msgstr "ID"
 
-#: frappe/desk/reportview.py:507
+#: frappe/desk/reportview.py:509
 #: frappe/public/js/frappe/views/reports/report_view.js:1013
 msgctxt "Label of name column in report"
 msgid "ID"
@@ -13664,7 +13664,7 @@ msgstr "Instruções"
 msgid "Instructions Emailed"
 msgstr "Instruções Enviadas por E-mail"
 
-#: frappe/permissions.py:831
+#: frappe/permissions.py:833
 msgid "Insufficient Permission Level for {0}"
 msgstr "Nível de Permissão Insuficiente para {0}"
 
@@ -16559,7 +16559,7 @@ msgstr "Campos Não Preenchidos"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:131
 msgid "Missing Filters Required"
-msgstr "Filtros Obrigatórios Ausentes"
+msgstr "Filtros Obrigatórios Não Encontrados"
 
 #: frappe/desk/form/assign_to.py:114
 msgid "Missing Permission"
@@ -17683,7 +17683,7 @@ msgstr "Nenhum Campo de Seleção Encontrado"
 msgid "No Suggestions"
 msgstr "Sem Sugestões"
 
-#: frappe/desk/reportview.py:685
+#: frappe/desk/reportview.py:731
 msgid "No Tags"
 msgstr "Sem Tags"
 
@@ -19358,11 +19358,11 @@ msgstr "Pai é o nome do documento ao qual os dados serão adicionados."
 msgid "Parent-to-child or child-to-different-child grouping is not allowed."
 msgstr "Não é permitido o agrupamento hierárquico (pai-filho) ou entre itens do mesmo nível (filho-filho)."
 
-#: frappe/permissions.py:811
+#: frappe/permissions.py:813
 msgid "Parentfield not specified in {0}: {1}"
 msgstr "Campo pai não especificado em {0}: {1}"
 
-#: frappe/client.py:499
+#: frappe/client.py:500
 msgid "Parenttype, Parent and Parentfield are required to insert a child record"
 msgstr "Para inserir um registro filho, é obrigatório definir o tipo, o nome e o campo do documento pai"
 
@@ -19445,7 +19445,7 @@ msgstr "Senha é obrigatória ou selecione Aguardando Senha"
 
 #: frappe/public/js/frappe/desk.js:206
 msgid "Password missing in Email Account"
-msgstr "Senha ausente na Conta de E-mail"
+msgstr "Senha não informada na Conta de E-mail"
 
 #: frappe/utils/password.py:48
 msgid "Password not found for {0} {1} {2}"
@@ -20193,7 +20193,7 @@ msgstr "Por favor, configure a conta de e-mail de saída padrão em Ferramentas 
 msgid "Please specify"
 msgstr "Por favor, especifique"
 
-#: frappe/permissions.py:787
+#: frappe/permissions.py:789
 msgid "Please specify a valid parent DocType for {0}"
 msgstr "Por favor, especifique um Tipo de Documento pai válido para {0}"
 
@@ -21375,7 +21375,7 @@ msgstr "Re: {0}"
 #. Label of a Check field in DocType 'User Document Type'
 #. Label of a Check field in DocType 'Notification Log'
 #. Option for the 'Action' (Select) field in DocType 'Email Flag Queue'
-#: frappe/client.py:481 frappe/core/doctype/communication/communication.json
+#: frappe/client.py:482 frappe/core/doctype/communication/communication.json
 #: frappe/core/doctype/custom_docperm/custom_docperm.json
 #: frappe/core/doctype/docperm/docperm.json
 #: frappe/core/doctype/docshare/docshare.json
@@ -21908,7 +21908,7 @@ msgstr "Cabeçalho de endereço codificado e malformado rejeitado com '@' sintet
 
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:30
 msgid "Relay Server URL missing"
-msgstr "URL do Servidor de Retransmissão ausente"
+msgstr "URL do Servidor de Retransmissão não encontrado"
 
 #. Label of a Section Break field in DocType 'Push Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
@@ -23069,7 +23069,7 @@ msgstr "Condições da Regra"
 msgid "Rule Name"
 msgstr "Nome da Regra"
 
-#: frappe/permissions.py:663
+#: frappe/permissions.py:665
 msgid "Rule for this doctype, role, permlevel and if-owner combination already exists."
 msgstr "Já existe uma regra para esta combinação de tipo de documento, função, nível de permissão e se proprietário."
 
@@ -25630,7 +25630,7 @@ msgstr "Especifique os domínios ou origens permitidos para embarcar este formul
 msgid "Splash Image"
 msgstr "Imagem de Introdução"
 
-#: frappe/desk/reportview.py:436
+#: frappe/desk/reportview.py:438
 #: frappe/public/js/frappe/web_form/web_form_list.js:182
 #: frappe/templates/print_formats/standard_macros.html:44
 msgid "Sr"
@@ -26735,16 +26735,16 @@ msgstr "Quebra de Tabela"
 
 #: frappe/core/doctype/version/version_view.html:136
 msgid "Table Field"
-msgstr "Campo de Tabela"
+msgstr "Campo da Tabela"
 
 #. Label of a Data field in DocType 'DocType Link'
 #: frappe/core/doctype/doctype_link/doctype_link.json
 msgid "Table Fieldname"
-msgstr "Nome de Campo da Tabela"
+msgstr "Nome do Campo da Tabela"
 
 #: frappe/core/doctype/doctype/doctype.py:1181
 msgid "Table Fieldname Missing"
-msgstr "Nome de Campo da Tabela Ausente"
+msgstr "Nome do Campo da Tabela Não Encontrado"
 
 #. Label of a HTML field in DocType 'Version'
 #: frappe/core/doctype/version/version.json
@@ -27027,7 +27027,7 @@ msgstr "A Próxima Data Agendada não pode ser posterior à Data Final."
 
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:29
 msgid "The Push Relay Server URL key (`push_relay_server_url`) is missing in your site config"
-msgstr "A chave da URL do Servidor de Repasse de Push (push_relay_server_url) está ausente na configuração do seu site."
+msgstr "A chave da URL do Servidor de Repasse de Push (push_relay_server_url) não foi encontrada no arquivo de configuração do seu site"
 
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:364
 msgid "The User record for this request has been auto-deleted due to inactivity by system admins."
@@ -27156,7 +27156,7 @@ msgstr "O número de segundos até a solicitação expirar"
 
 #: frappe/www/404.html:18
 msgid "The page you are looking for has gone missing."
-msgstr "A página que você está procurando está ausente."
+msgstr "A página que você está procurando não foi encontrada."
 
 #: frappe/www/update-password.html:86
 msgid "The password of your account has expired."
@@ -27203,7 +27203,7 @@ msgstr "A função {0} deve ser uma função personalizada."
 
 #: frappe/utils/response.py:342
 msgid "The system is being updated. Please refresh again after a few moments."
-msgstr "O sistema está sendo atualizado. Por favor, atualize novamente após alguns momentos."
+msgstr "O sistema está sendo atualizado. Por favor, atualize a página novamente em alguns instantes."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:9
 msgid "The system provides many pre-defined roles. You can add new roles to set finer permissions."
@@ -27506,7 +27506,7 @@ msgid ""
 "This feature can not be used as dependencies are missing.\n"
 "\t\t\t\tPlease contact your system manager to enable this by installing pycups!"
 msgstr ""
-"Este recurso não pode ser usado, pois dependências estão ausentes.\n"
+"Este recurso não pode ser usado, pois dependências não foram encontradas.\n"
 "\t\t\t\tPor favor, entre em contato com o administrador do sistema para habilitar isso instalando o pycups!"
 
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:23
@@ -29754,7 +29754,7 @@ msgstr "O valor deste campo será definido como a data de vencimento das Atribui
 
 #: frappe/model/base_document.py:754
 msgid "Value missing for"
-msgstr "Valor ausente para"
+msgstr "Valor não encontrado para"
 
 #: frappe/core/doctype/data_import/importer.py:707
 msgid "Value must be one of {0}"
@@ -29771,7 +29771,7 @@ msgstr "Valor muito grande"
 
 #: frappe/core/doctype/data_import/importer.py:720
 msgid "Value {0} missing for {1}"
-msgstr "Valor {0} ausente para {1}"
+msgstr "Valor {0} não encontrado para {1}"
 
 #: frappe/core/doctype/data_import/importer.py:754 frappe/utils/data.py:706
 msgid "Value {0} must be in the valid duration format: d h m s"
@@ -30930,7 +30930,7 @@ msgstr "Você não tem permissão para editar o relatório."
 #: frappe/core/doctype/data_import/exporter.py:121
 #: frappe/core/doctype/data_import/exporter.py:125
 #: frappe/desk/reportview.py:425 frappe/desk/reportview.py:428
-#: frappe/permissions.py:615
+#: frappe/permissions.py:617
 msgid "You are not allowed to export {} doctype"
 msgstr "Você não tem permissão para exportar o tipo de documento {}"
 
@@ -31142,7 +31142,7 @@ msgctxt "Form timeline"
 msgid "You created this document {0}"
 msgstr "Você criou este documento {0}"
 
-#: frappe/client.py:452
+#: frappe/client.py:453
 msgid "You do not have Read or Select Permissions for {}"
 msgstr "Você não tem permissões de leitura ou seleção para {}"
 
@@ -31356,7 +31356,7 @@ msgstr "Você precisa de permissão de escrita em {0} {1} para renomear"
 msgid "You need write permissions to add attachments to this record."
 msgstr "Você precisa de permissão de leitura para adicionar anexos a este documento."
 
-#: frappe/client.py:480
+#: frappe/client.py:481
 msgid "You need {0} permission to fetch values from {1} {2}"
 msgstr "Você precisa da permissão {0} para buscar valores de {1} {2}."
 
@@ -33396,11 +33396,11 @@ msgstr "{0} não é um Número de Telefone válido"
 msgid "{0} is not a valid Workflow State. Please update your Workflow and try again."
 msgstr "{0} não é um Estado de Fluxo de Trabalho válido. Por favor, atualize seu Fluxo de Trabalho e tente novamente."
 
-#: frappe/permissions.py:800
+#: frappe/permissions.py:802
 msgid "{0} is not a valid parent DocType for {1}"
 msgstr "{0} não é um Tipo de Documento pai válido para {1}"
 
-#: frappe/permissions.py:820
+#: frappe/permissions.py:822
 msgid "{0} is not a valid parentfield for {1}"
 msgstr "{0} não é um campo pai válido para {1}"
 

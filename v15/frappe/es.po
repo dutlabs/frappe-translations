@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-07-23 23:44+0000\n"
+"POT-Creation-Date: 2026-07-29 13:58+0000\n"
 "PO-Revision-Date: 2026-03-31 07:10+0000\n"
 "Last-Translator: developers@frappe.io\n"
 "Language: es_ES\n"
@@ -4079,11 +4079,11 @@ msgstr "Edición masiva"
 msgid "Bulk Edit {0}"
 msgstr "Editar en masa {0}"
 
-#: frappe/desk/reportview.py:615
+#: frappe/desk/reportview.py:661
 msgid "Bulk Operation Failed"
 msgstr "Operación masiva fallida"
 
-#: frappe/desk/reportview.py:619
+#: frappe/desk/reportview.py:665
 msgid "Bulk Operation Successful"
 msgstr "Operación masiva exitosa"
 
@@ -4458,7 +4458,7 @@ msgstr "Cancelando {0}"
 msgid "Cannot Download Report due to insufficient permissions"
 msgstr "No se puede Descargar el Informe debido a permisos insuficientes"
 
-#: frappe/client.py:483
+#: frappe/client.py:484
 msgid "Cannot Fetch Values"
 msgstr "No se pueden recuperar valores"
 
@@ -5047,7 +5047,7 @@ msgstr "Borrar registros después (días)"
 msgid "Clear User Permissions"
 msgstr "Borrar permisos de usuario"
 
-#: frappe/public/js/frappe/list/base_list.js:889
+#: frappe/public/js/frappe/list/base_list.js:890
 msgid "Clear all filters"
 msgstr ""
 
@@ -7498,7 +7498,7 @@ msgstr ""
 msgid "Deleted Name"
 msgstr "Nombre borrado"
 
-#: frappe/desk/reportview.py:619
+#: frappe/desk/reportview.py:665
 msgid "Deleted all documents successfully"
 msgstr ""
 
@@ -7506,7 +7506,7 @@ msgstr ""
 msgid "Deleted!"
 msgstr "Eliminado!"
 
-#: frappe/desk/reportview.py:597
+#: frappe/desk/reportview.py:643
 msgid "Deleting {0}"
 msgstr "Eliminando {0}"
 
@@ -8454,7 +8454,7 @@ msgstr "Documento {0} ya restaurado"
 msgid "Document {0} has been set to state {1} by {2}"
 msgstr "El documento {0} se ha configurado en estado {1} por {2}"
 
-#: frappe/client.py:465
+#: frappe/client.py:466
 msgid "Document {0} {1} does not exist"
 msgstr "El documento {0} {1} no existe"
 
@@ -10337,7 +10337,7 @@ msgstr "No se pudo decodificar el token, proporcione un token codificado en base
 msgid "Failed to decrypt key {0}"
 msgstr "Fallo al descifrar la clave {0}"
 
-#: frappe/desk/reportview.py:613
+#: frappe/desk/reportview.py:659
 msgid "Failed to delete {0} documents: {1}"
 msgstr "Error al eliminar documentos {0} : {1}"
 
@@ -10818,7 +10818,7 @@ msgstr "Archivos"
 #: frappe/desk/doctype/number_card/number_card.js:213
 #: frappe/desk/doctype/number_card/number_card.js:352
 #: frappe/email/doctype/auto_email_report/auto_email_report.js:93
-#: frappe/public/js/frappe/list/base_list.js:886
+#: frappe/public/js/frappe/list/base_list.js:887
 #: frappe/public/js/frappe/ui/filters/filter_list.js:134
 #: frappe/website/doctype/web_form/web_form.js:242
 msgid "Filter"
@@ -12709,7 +12709,7 @@ msgstr "Supongo que aún no tiene acceso a ningún espacio de trabajo, pero pued
 msgid "ID"
 msgstr "Identificador"
 
-#: frappe/desk/reportview.py:507
+#: frappe/desk/reportview.py:509
 #: frappe/public/js/frappe/views/reports/report_view.js:1013
 msgctxt "Label of name column in report"
 msgid "ID"
@@ -13656,7 +13656,7 @@ msgstr "Instrucciones"
 msgid "Instructions Emailed"
 msgstr "Instrucciones enviadas por correo electrónico"
 
-#: frappe/permissions.py:831
+#: frappe/permissions.py:833
 msgid "Insufficient Permission Level for {0}"
 msgstr "Nivel de permiso insuficiente para {0}"
 
@@ -17675,7 +17675,7 @@ msgstr "No se ha encontrado ningún campo de selección"
 msgid "No Suggestions"
 msgstr "No hay sugerencias"
 
-#: frappe/desk/reportview.py:685
+#: frappe/desk/reportview.py:731
 msgid "No Tags"
 msgstr "Sin Etiquetas"
 
@@ -19350,11 +19350,11 @@ msgstr "Parent es el nombre del documento al que se agregarán los datos."
 msgid "Parent-to-child or child-to-different-child grouping is not allowed."
 msgstr ""
 
-#: frappe/permissions.py:811
+#: frappe/permissions.py:813
 msgid "Parentfield not specified in {0}: {1}"
 msgstr "Campo padre no especificado en {0}: {1}"
 
-#: frappe/client.py:499
+#: frappe/client.py:500
 msgid "Parenttype, Parent and Parentfield are required to insert a child record"
 msgstr "Parenttype, Parent y Parentfield son necesarios para insertar un registro hijo"
 
@@ -20185,7 +20185,7 @@ msgstr "Por favor, configure la cuenta de correo saliente por defecto desde Ajus
 msgid "Please specify"
 msgstr "Por favor, especifique"
 
-#: frappe/permissions.py:787
+#: frappe/permissions.py:789
 msgid "Please specify a valid parent DocType for {0}"
 msgstr "Por favor, especifique un DocType padre válido para {0}"
 
@@ -21367,7 +21367,7 @@ msgstr "Re: {0}"
 #. Label of a Check field in DocType 'User Document Type'
 #. Label of a Check field in DocType 'Notification Log'
 #. Option for the 'Action' (Select) field in DocType 'Email Flag Queue'
-#: frappe/client.py:481 frappe/core/doctype/communication/communication.json
+#: frappe/client.py:482 frappe/core/doctype/communication/communication.json
 #: frappe/core/doctype/custom_docperm/custom_docperm.json
 #: frappe/core/doctype/docperm/docperm.json
 #: frappe/core/doctype/docshare/docshare.json
@@ -23061,7 +23061,7 @@ msgstr "Condiciones de la regla"
 msgid "Rule Name"
 msgstr "Nombre de la regla"
 
-#: frappe/permissions.py:663
+#: frappe/permissions.py:665
 msgid "Rule for this doctype, role, permlevel and if-owner combination already exists."
 msgstr "Ya existe una regla para este DocType, Rol, Permlevel y la combinación if-owner."
 
@@ -25622,7 +25622,7 @@ msgstr "Especifique los dominios u orígenes que tienen permiso para insertar es
 msgid "Splash Image"
 msgstr "Imagen de bienvenida"
 
-#: frappe/desk/reportview.py:436
+#: frappe/desk/reportview.py:438
 #: frappe/public/js/frappe/web_form/web_form_list.js:182
 #: frappe/templates/print_formats/standard_macros.html:44
 msgid "Sr"
@@ -30922,7 +30922,7 @@ msgstr "No tiene permiso para editar el informe."
 #: frappe/core/doctype/data_import/exporter.py:121
 #: frappe/core/doctype/data_import/exporter.py:125
 #: frappe/desk/reportview.py:425 frappe/desk/reportview.py:428
-#: frappe/permissions.py:615
+#: frappe/permissions.py:617
 msgid "You are not allowed to export {} doctype"
 msgstr "No está permitido exportar {} doctype"
 
@@ -31134,7 +31134,7 @@ msgctxt "Form timeline"
 msgid "You created this document {0}"
 msgstr "Tú creaste este documento {0}"
 
-#: frappe/client.py:452
+#: frappe/client.py:453
 msgid "You do not have Read or Select Permissions for {}"
 msgstr ""
 
@@ -31348,7 +31348,7 @@ msgstr "Necesita permiso de escritura en {0} {1} para renombrar"
 msgid "You need write permissions to add attachments to this record."
 msgstr ""
 
-#: frappe/client.py:480
+#: frappe/client.py:481
 msgid "You need {0} permission to fetch values from {1} {2}"
 msgstr "Necesita {0} permiso para recuperar valores de {1} {2}"
 
@@ -33388,11 +33388,11 @@ msgstr "{0} no es un número de teléfono válido"
 msgid "{0} is not a valid Workflow State. Please update your Workflow and try again."
 msgstr "{0} no es un estado de flujo de trabajo válido. Actualice su flujo de trabajo y vuelva a intentarlo."
 
-#: frappe/permissions.py:800
+#: frappe/permissions.py:802
 msgid "{0} is not a valid parent DocType for {1}"
 msgstr "{0} no es un DocType padre válido para {1}"
 
-#: frappe/permissions.py:820
+#: frappe/permissions.py:822
 msgid "{0} is not a valid parentfield for {1}"
 msgstr "{0} no es un campo padre válido para {1}"
 
