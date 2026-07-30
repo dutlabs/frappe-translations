@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2026-07-29 13:58+0000\n"
-"PO-Revision-Date: 2026-04-16 16:01-1254\n"
+"PO-Revision-Date: 2026-07-30 17:20+0000\n"
 "Last-Translator: info@erpnext.com\n"
 "Language-Team: info@erpnext.com\n"
 "MIME-Version: 1.0\n"
@@ -440,7 +440,7 @@ msgstr ""
 "\n"
 "Item é um produto ou serviço oferecido pela sua empresa, ou algo que você compra como parte de seus suprimentos ou matérias-primas.\n"
 "\n"
-"Os itens são essenciais para tudo o que você faz no Dut ERP - de faturamento e compras ao gerenciamento de inventário. Tudo o que você compra ou vende, seja um produto físico ou um serviço, é um item. Itens podem ser de estoque, sem estoque, variantes, seriados, em lotes, ativos, etc.\n"
+"Os itens são essenciais para tudo o que você faz no Dut ERP - de faturamento e compras ao gerenciamento de inventário. Tudo o que você compra ou vende, seja um produto físico ou um serviço, é um item. Itens podem ser de estoque, sem estoque, variações, seriados, em lotes, ativos, etc.\n"
 
 #. Description of the Onboarding Step 'Create an Item'
 #: erpnext/stock/onboarding_step/create_an_item/create_an_item.json
