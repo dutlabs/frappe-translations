@@ -3423,7 +3423,7 @@ msgstr "Data Final Real"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Actual End Date (via Timesheet)"
-msgstr "Data Final Real (via Apontamento de Horas)"
+msgstr "Data Final Real (via Registro de Horas)"
 
 #. Label of the actual_end_time (Datetime) field in DocType 'Work Order
 #. Operation'
@@ -3510,7 +3510,7 @@ msgstr "Data Inicial Real"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Actual Start Date (via Timesheet)"
-msgstr "Data Inicial Real (via Apontamento de Horas)"
+msgstr "Data Inicial Real (via Registro de Horas)"
 
 #. Label of the actual_start_time (Datetime) field in DocType 'Work Order
 #. Operation'
@@ -3534,7 +3534,7 @@ msgstr "Tempo e Custo Real"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Actual Time in Hours (via Timesheet)"
-msgstr "Tempo Real em Horas (via Apontamento de Horas)"
+msgstr "Tempo Real em Horas (via Registro de Horas)"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1554
 #: erpnext/public/js/controllers/accounts.js:178
@@ -3713,7 +3713,7 @@ msgstr "Adicionar Modelo"
 
 #: erpnext/utilities/activation.py:124
 msgid "Add Timesheets"
-msgstr "Adicionar Apontamentos de Horas"
+msgstr "Adicionar Registros de Horas"
 
 #. Label of the add_weekly_holidays (Section Break) field in DocType 'Holiday
 #. List'
@@ -4460,7 +4460,7 @@ msgstr "Contra Nome do Documento"
 #. Label of the prevdoc_doctype (Link) field in DocType 'Quotation Item'
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 msgid "Against Doctype"
-msgstr "Contra Tipo de Documento"
+msgstr "Contra DocType"
 
 #. Label of the prevdoc_detail_docname (Data) field in DocType 'Installation
 #. Note Item'
@@ -5355,7 +5355,7 @@ msgstr "Dimensão Permitida"
 #. Ledger Settings'
 #: erpnext/accounts/doctype/repost_accounting_ledger_settings/repost_accounting_ledger_settings.json
 msgid "Allowed Doctypes"
-msgstr "Tipos de Documento Permitidos"
+msgstr "DocTypes Permitidos"
 
 #. Group in Supplier's connections
 #. Group in Customer's connections
@@ -9761,12 +9761,12 @@ msgstr "Tarefas de Renomeação em Massa"
 #. Name of a DocType
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json
 msgid "Bulk Transaction Log"
-msgstr "Registro de Transações em Massa"
+msgstr "Log de Transações em Massa"
 
 #. Name of a DocType
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
 msgid "Bulk Transaction Log Detail"
-msgstr "Detalhes do Registro de Transações em Massa"
+msgstr "Detalhes do Log de Transações em Massa"
 
 #. Label of a Link in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
@@ -10652,11 +10652,11 @@ msgstr "Não é possível recontabilizar mais que {0} comprovantes de uma vez. D
 
 #: erpnext/accounts/doctype/bank/bank.js:63
 msgid "Cannot retrieve link token for update. Check Error Log for more information"
-msgstr "Não é possível recuperar o token de vínculo para atualização. Verifique o Registro de Erros para mais informações"
+msgstr "Não é possível recuperar o token de vínculo para atualização. Verifique o Log de Erros para mais informações"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:68
 msgid "Cannot retrieve link token. Check Error Log for more information"
-msgstr "Não é possível recuperar o token de vínculo. Verifique o Registro de Erros para mais informações"
+msgstr "Não é possível recuperar o token de vínculo. Verifique o Log de Erros para mais informações"
 
 #: erpnext/selling/doctype/customer/customer.py:341
 msgid "Cannot select a Group type Customer Group. Please select a non-group Customer Group."
@@ -11514,7 +11514,7 @@ msgstr "Clique em Obter Pedidos de Vendas para buscar os pedidos de vendas com b
 #. Supplier Invoice'
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
 msgid "Click on Import Invoices button once the zip file has been attached to the document. Any errors related to processing will be shown in the Error Log."
-msgstr "Clique no botão Importar Faturas assim que o arquivo ZIP estiver anexado ao documento. Quaisquer erros relacionados ao processamento serão exibidos no Registro de Erros."
+msgstr "Clique no botão Importar Faturas assim que o arquivo ZIP estiver anexado ao documento. Quaisquer erros relacionados ao processamento serão exibidos no Log de Erros."
 
 #: erpnext/templates/emails/confirm_appointment.html:3
 msgid "Click on the link below to verify your email and confirm the appointment"
@@ -14441,7 +14441,7 @@ msgstr "Criar Modelo de Imposto"
 
 #: erpnext/utilities/activation.py:128
 msgid "Create Timesheet"
-msgstr "Criar Apontamento de Horas"
+msgstr "Criar Registro de Horas"
 
 #. Label of the create_user (Button) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -16133,7 +16133,7 @@ msgstr "Horário Diário para Envio"
 #: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.json
 #: erpnext/projects/workspace/projects/projects.json
 msgid "Daily Timesheet Summary"
-msgstr "Resumo Diário de Apontamento de Horas"
+msgstr "Resumo Diário de Registro de Horas"
 
 #. Label of a shortcut in the Accounting Workspace
 #. Label of a shortcut in the Assets Workspace
@@ -18376,7 +18376,7 @@ msgstr "Receita Direta"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:333
 msgid "Direct return is not allowed for Timesheet."
-msgstr "Não é permitido o retorno direto para Apontamento de Horas"
+msgstr "Não é permitido o retorno direto para Registro de Horas"
 
 #. Label of the disabled (Check) field in DocType 'Account'
 #. Label of the disabled (Check) field in DocType 'Accounting Dimension'
@@ -19066,15 +19066,15 @@ msgstr "Campo do Documento"
 #: erpnext/accounts/doctype/transaction_deletion_record_details/transaction_deletion_record_details.json
 #: erpnext/setup/doctype/transaction_deletion_record_item/transaction_deletion_record_item.json
 msgid "DocType"
-msgstr "Tipo de Documento"
+msgstr "DocType"
 
 #: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:50
 msgid "DocType can be one of them {0}"
-msgstr "O Tipo de Documento pode ser um destes {0}"
+msgstr "O DocType pode ser um destes {0}"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:77
 msgid "DocTypes should not be added manually to the 'Excluded DocTypes' table. You are only allowed to remove entries from it."
-msgstr "Tipos de Documento não devem ser adicionados manualmente à tabela 'Tipos de Documento Excluídos'. Você só tem permissão para remover registros dela."
+msgstr "DocTypes não devem ser adicionados manualmente à tabela 'DocTypes Excluídos'. Você só tem permissão para remover registros dela."
 
 #: erpnext/templates/pages/search_help.py:22
 msgid "Docs Search"
@@ -19084,7 +19084,7 @@ msgstr "Pesquisar Documentação"
 #: erpnext/accounts/doctype/repost_allowed_types/repost_allowed_types.json
 #: erpnext/selling/report/inactive_customers/inactive_customers.js:14
 msgid "Doctype"
-msgstr "Tipo de Documento"
+msgstr "DocType"
 
 #. Label of the document_name (Dynamic Link) field in DocType 'Contract'
 #. Label of the document_name (Dynamic Link) field in DocType 'Quality Meeting
@@ -20402,7 +20402,7 @@ msgstr "Habilitado"
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Enabling this checkbox will force each Job Card Time Log to have From Time and To Time"
-msgstr "Habilitar esta caixa de seleção forçará cada Registro de Horas da Ficha de Produção a ter um Horário Inicial e um Horário Final"
+msgstr "Habilitar esta caixa de seleção forçará cada Apontamento da Ficha de Produção a ter um Horário Inicial e um Horário Final"
 
 #. Description of the 'Check Supplier Invoice Number Uniqueness' (Check) field
 #. in DocType 'Accounts Settings'
@@ -20527,7 +20527,7 @@ msgstr "Energia"
 #. Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Enforce Time Logs"
-msgstr "Exigir Registros de Horas"
+msgstr "Exigir Apontamentos"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:15
 msgid "Engineer"
@@ -20753,7 +20753,7 @@ msgstr "Descrição de Erro"
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Error Log"
-msgstr "Registro de Erro"
+msgstr "Log de Erro"
 
 #. Label of the error_message (Text) field in DocType 'Period Closing Voucher'
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
@@ -21039,7 +21039,7 @@ msgstr "Excluir Entidades com Saldo Zero"
 #. Deletion Record'
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
 msgid "Excluded DocTypes"
-msgstr "Tipos de Documentos Excluídos"
+msgstr "DocTypes Excluídos"
 
 #. Label of the excluded_fee (Currency) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
@@ -21387,7 +21387,7 @@ msgstr "Exportar Linhas com Erro"
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:549
 msgid "Export Import Log"
-msgstr "Exportar Registro de Importação"
+msgstr "Exportar Log de Importação"
 
 #. Label of the extended_bank_statement_section (Section Break) field in
 #. DocType 'Bank Transaction'
@@ -21527,7 +21527,7 @@ msgstr "Falha na instalação de predefinições"
 #: erpnext/setup/setup_wizard/setup_wizard.py:42
 #: erpnext/setup/setup_wizard/setup_wizard.py:43
 msgid "Failed to login"
-msgstr "Falha ao iniciar sessão"
+msgstr "Falha ao iniciar a sessão"
 
 #: erpnext/assets/doctype/asset/asset.js:235
 msgid "Failed to post depreciation entries"
@@ -21642,13 +21642,13 @@ msgstr "Buscar Atualizações de Assinatura"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:303
 msgid "Fetch Timesheet"
-msgstr "Buscar Apontamento de Horas"
+msgstr "Buscar Registro de Horas"
 
 #. Label of the fetch_timesheet_in_sales_invoice (Check) field in DocType
 #. 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Fetch Timesheet in Sales Invoice"
-msgstr "Buscar Apontamento de Horas na Fatura de Venda"
+msgstr "Buscar Registro de Horas na Fatura de Venda"
 
 #. Label of the fetch_valuation_rate_for_internal_transaction (Check) field in
 #. DocType 'Accounts Settings'
@@ -21926,7 +21926,7 @@ msgstr "Data de Início do Exercício Financeiro"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Financial reports will be generated using GL Entry doctypes (should be enabled if Period Closing Voucher is not posted for all years sequentially or missing) "
-msgstr "Os relatórios financeiros serão gerados usando tipos de documento de Lançamento do Razão. Deve ser habilitado se o Comprovante de Fechamento de Período não for lançado sequencialmente para todos os anos ou estiver ausente"
+msgstr "Os relatórios financeiros serão gerados usando doctypes de Lançamento do Razão (deve ser habilitado se o Comprovante de Fechamento de Período não for lançado sequencialmente para todos os anos ou não for encontrado) "
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:778
 #: erpnext/manufacturing/doctype/work_order/work_order.js:793
@@ -22933,7 +22933,7 @@ msgstr "Via Nota de Entrega"
 #. Detail'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
 msgid "From Doctype"
-msgstr "Do Tipo de Documento"
+msgstr "Do DocType"
 
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:78
 msgid "From Due Date"
@@ -23723,7 +23723,7 @@ msgstr "Obter Fornecedores Por"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:355
 msgid "Get Timesheets"
-msgstr "Obter Apontamentos de Horas"
+msgstr "Obter Registros de Horas"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:84
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:87
@@ -24483,7 +24483,7 @@ msgstr "Ajuda a distribuir o Orçamento ou a Meta ao longo dos meses se o seu ne
 
 #: erpnext/assets/doctype/asset/depreciation.py:374
 msgid "Here are the error logs for the aforementioned failed depreciation entries: {0}"
-msgstr "Aqui estão os registros de erros para os lançamentos de depreciação com falha mencionados anteriormente: {0}"
+msgstr "Aqui estão os logs de erros para os lançamentos de depreciação com falha mencionados anteriormente: {0}"
 
 #: erpnext/stock/stock_ledger.py:2057
 msgid "Here are the options to proceed:"
@@ -24561,7 +24561,7 @@ msgstr "Ocultar Itens Indisponíveis"
 #. Label of the hide_timesheets (Check) field in DocType 'Project User'
 #: erpnext/projects/doctype/project_user/project_user.json
 msgid "Hide timesheets"
-msgstr "Ocultar apontamentos de horas"
+msgstr "Ocultar registros de horas"
 
 #. Option for the 'Priority' (Select) field in DocType 'Project'
 #. Option for the 'Priority' (Select) field in DocType 'Task'
@@ -25519,13 +25519,13 @@ msgstr "Importar Faturas"
 #. Statement Import'
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
 msgid "Import Log"
-msgstr "Registro de Importação"
+msgstr "Log de Importação"
 
 #. Label of the import_log_preview (HTML) field in DocType 'Bank Statement
 #. Import'
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
 msgid "Import Log Preview"
-msgstr "Pré-visualização de Registro de Importação"
+msgstr "Pré-visualização de Log de Importação"
 
 #. Label of the import_preview (HTML) field in DocType 'Bank Statement Import'
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
@@ -26001,7 +26001,7 @@ msgstr "Incluir Itens Subcontratados"
 #: erpnext/projects/report/employee_billing_summary/employee_billing_summary.js:29
 #: erpnext/projects/report/project_billing_summary/project_billing_summary.js:29
 msgid "Include Timesheets in Draft Status"
-msgstr "Incluir Apontamento de Horas em Rascunho"
+msgstr "Incluir Registros de Horas em Rascunho"
 
 #. Label of the include_uom (Link) field in DocType 'Closing Stock Balance'
 #: erpnext/stock/doctype/closing_stock_balance/closing_stock_balance.json
@@ -26949,7 +26949,7 @@ msgstr "Valor inválido {0} para 'Baseado Em'"
 
 #: erpnext/selling/report/inactive_customers/inactive_customers.py:20
 msgid "Invalid value {0} for 'Doctype'"
-msgstr "Valor inválido {0} para 'Tipo de Documento'"
+msgstr "Valor inválido {0} para 'DocType'"
 
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:111
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:121
@@ -29306,7 +29306,7 @@ msgstr "Resumo de Fichas de Produção"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
 msgid "Job Card Time Log"
-msgstr "Registro de Horas da Ficha de Produção"
+msgstr "Apontamento da Ficha de Produção"
 
 #. Label of the job_card_section (Tab Break) field in DocType 'Manufacturing
 #. Settings'
@@ -30623,7 +30623,7 @@ msgstr "Bloqueado"
 #. Label of the log_entries (Int) field in DocType 'Bulk Transaction Log'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json
 msgid "Log Entries"
-msgstr "Entradas de Registro"
+msgstr "Registros de Log"
 
 #. Description of a DocType
 #: erpnext/stock/doctype/item_price/item_price.json
@@ -35041,7 +35041,7 @@ msgstr "Aberto"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "Open Activities HTML"
-msgstr "Atividades Abertas HTML"
+msgstr "HTML de Atividades Abertas"
 
 #: erpnext/manufacturing/doctype/bom/bom_item_preview.html:21
 msgid "Open BOM {0}"
@@ -35049,15 +35049,15 @@ msgstr "Abrir BOM {0}"
 
 #: erpnext/public/js/templates/call_link.html:11
 msgid "Open Call Log"
-msgstr "Registro de Chamadas Abertas"
+msgstr "Abrir Registro de Chamadas"
 
 #: erpnext/public/js/call_popup/call_popup.js:116
 msgid "Open Contact"
-msgstr "Contato Aberto"
+msgstr "Abrir Contato"
 
 #: erpnext/public/js/templates/crm_activities.html:76
 msgid "Open Event"
-msgstr "Evento Aberto"
+msgstr "Abrir Evento"
 
 #: erpnext/public/js/templates/crm_activities.html:63
 msgid "Open Events"
@@ -35065,7 +35065,7 @@ msgstr "Eventos Abertos"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:201
 msgid "Open Form View"
-msgstr "Abra a Visualização do Formulário"
+msgstr "Abrir Visualização de Formulário"
 
 #. Label of the issue (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -35074,7 +35074,7 @@ msgstr "Incidentes Abertos"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:46
 msgid "Open Issues "
-msgstr "Incidentes Em Aberto"
+msgstr "Incidentes Abertos "
 
 #: erpnext/manufacturing/doctype/bom/bom_item_preview.html:25
 #: erpnext/manufacturing/doctype/work_order/work_order_preview.html:28
@@ -35096,7 +35096,7 @@ msgstr "Projetos Abertos"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:70
 msgid "Open Projects "
-msgstr "Abrir Projetos"
+msgstr "Projetos Abertos "
 
 #. Label of the pending_quotations (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -35109,7 +35109,7 @@ msgstr "Pedidos de Venda Abertos"
 
 #: erpnext/public/js/templates/crm_activities.html:33
 msgid "Open Task"
-msgstr "Tarefa Aberta"
+msgstr "Abrir Tarefa"
 
 #: erpnext/public/js/templates/crm_activities.html:21
 msgid "Open Tasks"
@@ -35118,11 +35118,11 @@ msgstr "Tarefas Abertas"
 #. Label of the todo_list (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Open To Do"
-msgstr "Atribuições Em Aberto"
+msgstr "Atribuições Abertas"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:130
 msgid "Open To Do "
-msgstr "Tarefas Abertas"
+msgstr "Tarefas Abertas "
 
 #: erpnext/manufacturing/doctype/work_order/work_order_preview.html:24
 msgid "Open Work Order {0}"
@@ -35135,7 +35135,7 @@ msgstr "Abrir Ordens de Produção"
 
 #: erpnext/templates/pages/help.html:60
 msgid "Open a new ticket"
-msgstr "Abra um novo chamado"
+msgstr "Abrir um novo chamado"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.py:464
 #: erpnext/public/js/stock_analytics.js:97
@@ -35145,7 +35145,7 @@ msgstr "Abertura"
 #. Group in POS Profile's connections
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Opening & Closing"
-msgstr "Abertura e Fechamento"
+msgstr "Abertura & Fechamento"
 
 #: erpnext/accounts/report/trial_balance/trial_balance.py:455
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:198
@@ -38668,7 +38668,7 @@ msgstr "Planeje operações com X dias de antecedência"
 #. Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Plan time logs outside Workstation working hours"
-msgstr "Planeje registros de horas fora do horário de trabalho da Estação de Trabalho"
+msgstr "Planeje apontamentos fora do horário de trabalho da Estação de Trabalho"
 
 #. Label of the quantity (Float) field in DocType 'Material Request Plan Item'
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
@@ -40269,14 +40269,14 @@ msgstr "Presidente"
 #. Label of the prevdoc_doctype (Data) field in DocType 'Packed Item'
 #: erpnext/stock/doctype/packed_item/packed_item.json
 msgid "Prevdoc DocType"
-msgstr "Tipo de Documento Anterior"
+msgstr "DocType Anterior"
 
 #. Label of the prevent_pos (Check) field in DocType 'Supplier'
 #. Label of the prevent_pos (Check) field in DocType 'Supplier Scorecard'
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 msgid "Prevent POs"
-msgstr "Evitar Pedidos de Compra"
+msgstr "Impedir Pedidos de Compra"
 
 #. Label of the prevent_pos (Check) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
@@ -40284,7 +40284,7 @@ msgstr "Evitar Pedidos de Compra"
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
 msgid "Prevent Purchase Orders"
-msgstr "Evitar Pedidos de Compra"
+msgstr "Impedir Pedidos de Compra"
 
 #. Label of the prevent_rfqs (Check) field in DocType 'Supplier'
 #. Label of the prevent_rfqs (Check) field in DocType 'Supplier Scorecard'
@@ -40296,7 +40296,7 @@ msgstr "Evitar Pedidos de Compra"
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
 msgid "Prevent RFQs"
-msgstr "Evitar Requisições de Cotação"
+msgstr "Impedir Requisições de Cotação"
 
 #. Option for the 'Corrective/Preventive' (Select) field in DocType 'Quality
 #. Action'
@@ -41143,12 +41143,12 @@ msgstr "Processamento de Conciliação de Pagamento"
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
 msgid "Process Payment Reconciliation Log"
-msgstr "Processamento de Registro de Conciliação de Pagamento"
+msgstr "Registro de Processamento de Conciliação de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
 msgid "Process Payment Reconciliation Log Allocations"
-msgstr "Processamento de Alocações de Registro de Conciliação de Pagamento"
+msgstr "Alocações de Registro de Processamento de Conciliação de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json
@@ -44654,11 +44654,11 @@ msgstr "Data da Conciliação"
 #. Reconciliation Log'
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
 msgid "Reconciliation Error Log"
-msgstr "Registro de Erros de Conciliação"
+msgstr "Log de Erros de Conciliação"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation_dashboard.py:9
 msgid "Reconciliation Logs"
-msgstr "Registros de Conciliação"
+msgstr "Logs de Conciliação"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.js:13
 msgid "Reconciliation Progress"
@@ -44898,7 +44898,7 @@ msgstr "Nº do Detalhe de Referência"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1766
 msgid "Reference DocType"
-msgstr "Tipo de Documento de Referência"
+msgstr "DocType de Referência"
 
 #. Label of the reference_doctype (Link) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -44907,7 +44907,7 @@ msgstr "DocType de Referência"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:582
 msgid "Reference Doctype must be one of {0}"
-msgstr "O Tipo de Documento de Referência deve ser um de {0}"
+msgstr "O DocType de Referência deve ser um de {0}"
 
 #. Label of the reference_document (Link) field in DocType 'Accounting
 #. Dimension Detail'
@@ -45394,28 +45394,28 @@ msgstr "Renomeie o Valor do Atributo no Atributo do Item."
 #. Label of the rename_log (HTML) field in DocType 'Rename Tool'
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 msgid "Rename Log"
-msgstr "Renomear Registro"
+msgstr "Log de Renomeação"
 
 #: erpnext/accounts/doctype/account/account.py:587
 msgid "Rename Not Allowed"
-msgstr "Renomear Não Permitido"
+msgstr "Renomeação Não Permitida"
 
 #. Name of a DocType
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 msgid "Rename Tool"
-msgstr "Ferramenta de Renomear"
+msgstr "Ferramenta de Renomeação"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:26
 msgid "Rename jobs for doctype {0} have been enqueued."
-msgstr "Tarefas de renomeação para o tipo de documento {0} foi enfileirada."
+msgstr "As tarefas de renomeação para o doctype {0} foram enfileiradas."
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:39
 msgid "Rename jobs for doctype {0} have not been enqueued."
-msgstr "Tarefas de renomeação para o tipo de documento {0} não foi enfileirada."
+msgstr "As tarefas de renomeação para o doctype {0} não foram enfileiradas."
 
 #: erpnext/accounts/doctype/account/account.py:579
 msgid "Renaming it is only allowed via parent company {0}, to avoid mismatch."
-msgstr "Renomear só é permitido por meio da empresa-mãe {0}, para evitar incompatibilidade."
+msgstr "Renomeá-la só é permitido por meio da empresa-mãe {0}, para evitar incompatibilidade."
 
 #. Label of the hour_rate_rent (Currency) field in DocType 'Workstation'
 #. Label of the hour_rate_rent (Currency) field in DocType 'Workstation Type'
@@ -45627,7 +45627,7 @@ msgstr "Reprocessar Tipos Permitidos"
 #. Ledger'
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Repost Error Log"
-msgstr "Registros de Erros de Reprocessamento"
+msgstr "Log de Erros de Reprocessamento"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
@@ -47850,7 +47850,7 @@ msgstr "Linha #{0}: Por favor, defina o código correto na Forma de Pagamento {1
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:216
 msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
-msgstr "Linha #{0}: O Projeto deve ser o mesmo definido no Apontamento de Horas: {1}."
+msgstr "Linha #{0}: O Projeto deve ser o mesmo definido no Registro de Horas: {1}."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:137
 msgid "Row {0}: Purchase Invoice {1} has no stock impact."
@@ -48093,7 +48093,7 @@ msgstr "Centro de SMS"
 #: erpnext/crm/workspace/crm/crm.json
 #: erpnext/utilities/doctype/sms_log/sms_log.json
 msgid "SMS Log"
-msgstr "Registros de SMS"
+msgstr "Registro de SMS"
 
 #. Label of a Link in the CRM Workspace
 #. Label of a Link in the ERPNext Integrations Workspace
@@ -48309,7 +48309,7 @@ msgstr "Pagamento da Fatura de Venda"
 #. Name of a DocType
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 msgid "Sales Invoice Timesheet"
-msgstr "Apontamento de Horas da Fatura de Venda"
+msgstr "Registro de Horas da Fatura de Venda"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -49179,7 +49179,7 @@ msgstr "Horário Agendado"
 #. Label of the scheduled_time_logs (Table) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Scheduled Time Logs"
-msgstr "Registros de Horário Agendado"
+msgstr "Apontamentos Agendados"
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:83
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.py:39
@@ -49545,7 +49545,7 @@ msgstr "Selecione o Endereço de Despacho "
 #. Label of the select_doctype (Link) field in DocType 'Rename Tool'
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 msgid "Select DocType"
-msgstr "Selecionar Tipo de Documento"
+msgstr "Selecionar DocType"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:314
 msgid "Select Employees"
@@ -51521,7 +51521,7 @@ msgstr "Exibir Armazéns Desabilitados"
 #. Import'
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
 msgid "Show Failed Logs"
-msgstr "Exibir Registros de Falha"
+msgstr "Exibir Logs de Falha"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:144
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:161
@@ -56727,7 +56727,7 @@ msgstr "Isto é baseado na movimentação de estoque. Veja {0} para detalhes"
 
 #: erpnext/projects/doctype/project/project_dashboard.py:7
 msgid "This is based on the Time Sheets created against this project"
-msgstr "Isso é baseado nos Apontamentos de Horas criados para este projeto"
+msgstr "Isso é baseado nos Registros de Horas criados para este projeto"
 
 #: erpnext/setup/doctype/sales_person/sales_person_dashboard.py:7
 msgid "This is based on transactions against this Sales Person. See timeline below for details"
@@ -56941,7 +56941,7 @@ msgstr "Tempo Em Minutos"
 #. Label of the time_logs (Table) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Time Logs"
-msgstr "Registros de Horas"
+msgstr "Apontamentos"
 
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:182
 msgid "Time Required (In Mins)"
@@ -56950,7 +56950,7 @@ msgstr "Tempo Necessário (Em Minutos)"
 #. Label of the time_sheet (Link) field in DocType 'Sales Invoice Timesheet'
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 msgid "Time Sheet"
-msgstr "Apontamento de Horas"
+msgstr "Registros de Horas"
 
 #. Label of the time_sheet_list (Section Break) field in DocType 'POS Invoice'
 #. Label of the time_sheet_list (Section Break) field in DocType 'Sales
@@ -56958,7 +56958,7 @@ msgstr "Apontamento de Horas"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Time Sheet List"
-msgstr "Lista de Apontamento de Horas"
+msgstr "Lista de Registro de Horas"
 
 #. Label of the timesheets (Table) field in DocType 'POS Invoice'
 #. Label of the timesheets (Table) field in DocType 'Sales Invoice'
@@ -56967,7 +56967,7 @@ msgstr "Lista de Apontamento de Horas"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/projects/doctype/timesheet/timesheet.json
 msgid "Time Sheets"
-msgstr "Apontamentos de Horas"
+msgstr "Registros de Horas"
 
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:324
 msgid "Time Taken to Deliver"
@@ -56998,7 +56998,7 @@ msgstr "Tempo em minutos"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:701
 msgid "Time logs are required for {0} {1}"
-msgstr "Registro de horas são obrigatórios para {0} {1}"
+msgstr "Apontamentos são obrigatórios para {0} {1}"
 
 #: erpnext/crm/doctype/appointment/appointment.py:134
 msgid "Time slot is not available"
@@ -57038,7 +57038,7 @@ msgstr "O cronômetro excedeu as horas fornecidas."
 #: erpnext/projects/workspace/projects/projects.json
 #: erpnext/templates/pages/projects.html:65
 msgid "Timesheet"
-msgstr "Apontamento de Horas"
+msgstr "Registro de Horas"
 
 #. Label of the timesheet_detail (Data) field in DocType 'Sales Invoice
 #. Timesheet'
@@ -57046,15 +57046,15 @@ msgstr "Apontamento de Horas"
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 msgid "Timesheet Detail"
-msgstr "Detalhe do Apontamento de Horas"
+msgstr "Detalhe do Registro de Horas"
 
 #: erpnext/config/projects.py:55
 msgid "Timesheet for tasks."
-msgstr "Apontamento de Horas para tarefas."
+msgstr "Registro de Horas para tarefas."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:832
 msgid "Timesheet {0} cannot be invoiced in its current state"
-msgstr "O Apontamento de Horas {0} não pode ser faturado em seu estado atual"
+msgstr "O Registro de Horas {0} não pode ser faturado em seu estado atual"
 
 #. Label of the timesheet_sb (Section Break) field in DocType 'Projects
 #. Settings'
@@ -57062,11 +57062,11 @@ msgstr "O Apontamento de Horas {0} não pode ser faturado em seu estado atual"
 #: erpnext/projects/doctype/timesheet/timesheet.py:593
 #: erpnext/templates/pages/projects.html:60
 msgid "Timesheets"
-msgstr "Apontamentos de Horas"
+msgstr "Registros de Horas"
 
 #: erpnext/utilities/activation.py:125
 msgid "Timesheets help keep track of time, cost and billing for activites done by your team"
-msgstr "Os Apontamentos de Horas ajudam a manter o controle do tempo, custo e faturamento das atividades realizadas pela sua equipe."
+msgstr "Os Registros de Horas ajudam a manter o controle do tempo, custo e faturamento das atividades realizadas pela sua equipe."
 
 #. Label of the timeslots_section (Section Break) field in DocType
 #. 'Communication Medium'
@@ -57371,7 +57371,7 @@ msgstr "Data de Entrega Final"
 #. Detail'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
 msgid "To Doctype"
-msgstr "Para o Tipo de Documento"
+msgstr "Para o DocType"
 
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:83
 msgid "To Due Date"
@@ -57882,7 +57882,7 @@ msgstr "Valor Total Faturável"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Total Billable Amount (via Timesheet)"
-msgstr "Valor Total Faturável (via Apontamento de Horas)"
+msgstr "Valor Total Faturável (via Registro de Horas)"
 
 #. Label of the total_billable_hours (Float) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
@@ -57981,7 +57981,7 @@ msgstr "Valor Total de Custeio"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Total Costing Amount (via Timesheet)"
-msgstr "Valor Total de Custeio (via Apontamento de Horas)"
+msgstr "Valor Total de Custeio (via Registro de Horas)"
 
 #. Label of the total_credit (Currency) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
@@ -59062,7 +59062,7 @@ msgstr "Tipo de documento a ser renomeado."
 
 #: erpnext/config/projects.py:61
 msgid "Types of activities for Time Logs"
-msgstr "Tipos de atividades para Registro de Horas"
+msgstr "Tipos de atividades para Apontamentos"
 
 #. Label of a Link in the Financial Reports Workspace
 #. Name of a report
@@ -59816,7 +59816,7 @@ msgstr "Atualizar data e hora em nova comunicação"
 #. Description of the 'Actual Operation Time' (Float) field in DocType 'Work
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Updated via 'Time Log' (In Minutes)"
-msgstr "Atualizado via 'Registro de Horas' (Em Minutos)"
+msgstr "Atualizado via 'Apontamentos' (Em Minutos)"
 
 #: erpnext/projects/doctype/project/project.js:137
 msgid "Updating Costing and Billing fields against this Project..."
