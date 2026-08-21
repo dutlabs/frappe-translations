@@ -4668,7 +4668,7 @@ msgstr "Seguro Saúde do Colaborador"
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Employee Hours Utilization Based On Timesheet"
-msgstr "Utilização de Horas por Colaborador (via Apontamento de Horas)"
+msgstr "Utilização de Horas por Colaborador (via Registro de Horas)"
 
 #. Label of the employee_image (Attach Image) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
@@ -8869,7 +8869,7 @@ msgstr "Os benefícios máximos devem ser maiores que zero para conceder benefí
 #. 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 msgid "Max working hours against Timesheet"
-msgstr "Limite Máximo de Horas por Apontamento de Horas"
+msgstr "Limite Máximo de Horas por Registro de Horas"
 
 #. Label of the maximum_carry_forwarded_leaves (Float) field in DocType 'Leave
 #. Type'
@@ -11672,7 +11672,7 @@ msgstr "Linha #{0}: O Componente {1} possui as opções {2} e {3} ativadas."
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:129
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
-msgstr "Linha #{0}: O valor do Apontamento de Horas irá sobrescrever o valor do provento para o Componente Salarial {1}"
+msgstr "Linha #{0}: O valor do Registro de Horas irá sobrescrever o valor do provento para o Componente Salarial {1}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:692
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
@@ -11769,7 +11769,7 @@ msgstr "Tipo do Componente Salarial"
 #. Structure'
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 msgid "Salary Component for timesheet based payroll."
-msgstr "Componente Salarial para folha de pagamento baseada em apontamento de horas."
+msgstr "Componente Salarial para folha de pagamento baseada em registro de horas."
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:97
 msgid "Salary Component {0} is currently not used in any Salary Structure."
@@ -11865,7 +11865,7 @@ msgstr "Holerite"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 msgid "Salary Slip Based on Timesheet"
-msgstr "Holerite Baseado em Apontamento de Horas"
+msgstr "Holerite Baseado em Registro de Horas"
 
 #: hrms/payroll/report/salary_register/salary_register.py:113
 msgid "Salary Slip ID"
@@ -11886,7 +11886,7 @@ msgstr "Empréstimo do Holerite"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_slip_timesheet/salary_slip_timesheet.json
 msgid "Salary Slip Timesheet"
-msgstr "Apontamento de Horas do Holerite"
+msgstr "Registro de Horas do Holerite"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:87
 msgid "Salary Slip already exists for {0} for the given dates"
@@ -11902,7 +11902,7 @@ msgstr "O Holerite do colaborador {0} já foi criado para este período"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:328
 msgid "Salary Slip of employee {0} already created for time sheet {1}"
-msgstr "O Holerite do colaborador {0} já foi criado para o apontamento de horas {1}"
+msgstr "O Holerite do colaborador {0} já foi criado para o registro de horas {1}"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:322
 msgid "Salary Slip submission is queued. It may take a few minutes"
@@ -13615,7 +13615,7 @@ msgstr "Intervalo de Tempo"
 #. Label of the time_sheet (Link) field in DocType 'Salary Slip Timesheet'
 #: hrms/payroll/doctype/salary_slip_timesheet/salary_slip_timesheet.json
 msgid "Time Sheet"
-msgstr "Apontamento de Horas"
+msgstr "Registro de Horas"
 
 #. Description of the 'Allow check-out after shift end time (in minutes)' (Int)
 #. field in DocType 'Shift Type'
@@ -13644,13 +13644,13 @@ msgstr "Prazos"
 #: hrms/hr/report/project_profitability/project_profitability.py:155
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Timesheet"
-msgstr "Apontamento de Horas"
+msgstr "Registro de Horas"
 
 #. Label of the timesheets_section (Section Break) field in DocType 'Salary
 #. Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 msgid "Timesheet Details"
-msgstr "Detalhes do Apontamento de Horas"
+msgstr "Detalhes do Registro de Horas"
 
 #: hrms/hr/notification/training_scheduled/training_scheduled.html:29
 msgid "Timing"
