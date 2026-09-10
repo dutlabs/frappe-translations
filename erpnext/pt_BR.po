@@ -8615,7 +8615,7 @@ msgstr "O código de barras {0} não é um código {1} válido"
 #. Label of the barcodes (Table) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Barcodes"
-msgstr "Códigos de Barra"
+msgstr "Códigos de Barras"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
