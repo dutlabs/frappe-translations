@@ -29325,7 +29325,7 @@ msgstr "Desconto por Item"
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Itemwise Recommended Reorder Level"
-msgstr "Níves de Reabastecimento Recomendados por Item"
+msgstr "Níveis de Reabastecimento Recomendados por Item"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -64058,4 +64058,3 @@ msgstr "{} {} já está vinculado com {} {}"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:388
 msgid "{} {} is not affecting bank account {}"
 msgstr "{} {} não está afetando a conta bancária {}"
-
