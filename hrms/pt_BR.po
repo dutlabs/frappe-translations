@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-09-09 14:11+0000\n"
-"PO-Revision-Date: 2026-09-09 14:11+0000\n"
+"POT-Creation-Date: 2026-09-18 19:56+0000\n"
+"PO-Revision-Date: 2026-09-18 19:56+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: pt_BR\n"
 "Language-Team: contact@frappe.io\n"
@@ -5097,7 +5097,7 @@ msgstr "Colaborador não encontrado"
 msgid "Employee records are created using the selected option"
 msgstr "Os registros de colaboradores são criados usando a opção selecionada"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:269
+#: hrms/hr/doctype/shift_type/shift_type.py:275
 msgid "Employee was marked Absent due to missing Employee Checkins."
 msgstr "Colaborador foi marcado como Ausente devido à falta de registros de Entrada do Colaborador."
 
@@ -5105,7 +5105,7 @@ msgstr "Colaborador foi marcado como Ausente devido à falta de registros de Ent
 msgid "Employee was marked Absent for not meeting the working hours threshold."
 msgstr "Colaborador foi marcado como Ausente por não ter atingido o limite mínimo de horas trabalhadas"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:403
+#: hrms/hr/doctype/shift_type/shift_type.py:419
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr "Colaborador foi marcado como Ausente na outra metade do dia devido à falta de registros de Entrada do Colaborador."
 
@@ -5908,7 +5908,7 @@ msgstr "Falha ao excluir padrões para o país {0}."
 msgid "Failed to download PDF"
 msgstr "Falha ao baixar PDF"
 
-#: hrms/api/__init__.py:797
+#: hrms/api/__init__.py:798
 msgid "Failed to download Salary Slip PDF"
 msgstr "Falha ao baixar o PDF do Holerite"
 
@@ -7651,8 +7651,8 @@ msgstr "Lançamento de Folha de Licença Inválido"
 msgid "Invalid Payroll Payable Account. The account currency must be {0} or {1}"
 msgstr "Conta de Folha de Pagamento a Pagar Inválida. A moeda da conta deve ser {0} ou {1}"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:48
-#: hrms/hr/doctype/shift_type/shift_type.py:57
+#: hrms/hr/doctype/shift_type/shift_type.py:53
+#: hrms/hr/doctype/shift_type/shift_type.py:62
 msgid "Invalid Shift Times"
 msgstr "Horários de Turno Inválidos"
 
@@ -8801,7 +8801,7 @@ msgstr "Registrar presença como {0} para {1} nas datas selecionadas?"
 msgid "Mark attendance based on 'Employee Checkin' for Employees assigned to this shift."
 msgstr "Registrar presença com base em 'Entrada do Colaborador' para Colaboradores atribuídos a este turno."
 
-#: hrms/hr/doctype/shift_type/shift_type.py:97
+#: hrms/hr/doctype/shift_type/shift_type.py:102
 msgid "Mark attendance for existing check-in/out logs before changing shift settings"
 msgstr "Registrar frequência para registros existentes de entrada/saída antes de alterar as configurações do turno"
 
@@ -10442,7 +10442,7 @@ msgstr "Por favor, insira seu endereço de e-mail"
 msgid "Please fill all fields"
 msgstr "Por favor, preencha todos os campos"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:58
+#: hrms/hr/doctype/shift_type/shift_type.py:63
 msgid "Please reduce {0} to avoid shift time overlapping with itself"
 msgstr "Por favor, reduza {0} para evitar sobreposição de horários da mesma escala"
 
@@ -12975,7 +12975,7 @@ msgstr "A data inicial não pode ser maior que a data final."
 msgid "Start date: {0}"
 msgstr "Data inicial: {0}"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:49
+#: hrms/hr/doctype/shift_type/shift_type.py:54
 msgid "Start time and end time cannot be same."
 msgstr "O horário inicial e final não podem ser iguais."
 
@@ -14428,7 +14428,7 @@ msgstr "Registros não vinculados"
 msgid "Unmarked Attendance for days"
 msgstr "Frequência Não Registrada para os dias"
 
-#: hrms/hr/doctype/shift_type/shift_type.py:96
+#: hrms/hr/doctype/shift_type/shift_type.py:101
 msgid "Unmarked Check-in Logs Found"
 msgstr "Registros de Entrada Não Registrada Encontrados"
 
@@ -15052,7 +15052,7 @@ msgstr "Você só pode planejar até {0} vagas e um orçamento de {1} para {2}, 
 msgid "You can only submit Leave Encashment for a valid encashment amount"
 msgstr "Você só pode enviar o saque de licença para um valor de saque válido"
 
-#: hrms/api/__init__.py:754
+#: hrms/api/__init__.py:755
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr "Você só pode carregar documentos JPG, PNG, PDF, TXT ou Microsoft."
 
@@ -15441,4 +15441,3 @@ msgstr "{} é um Status de Presença inválido."
 #: hrms/hr/doctype/job_requisition/job_requisition.js:22
 msgid "{} {} open for this position."
 msgstr "{} {} aberto para esta posição."
-

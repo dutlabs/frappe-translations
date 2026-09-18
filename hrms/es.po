@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-09-09 14:11+0000\n"
+"POT-Creation-Date: 2026-09-18 19:56+0000\n"
 "PO-Revision-Date: 2026-02-11 15:05+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: es\n"
@@ -5045,7 +5045,7 @@ msgstr ""
 msgid "Employee records are created using the selected option"
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:269
+#: hrms/hr/doctype/shift_type/shift_type.py:275
 msgid "Employee was marked Absent due to missing Employee Checkins."
 msgstr ""
 
@@ -5053,7 +5053,7 @@ msgstr ""
 msgid "Employee was marked Absent for not meeting the working hours threshold."
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:403
+#: hrms/hr/doctype/shift_type/shift_type.py:419
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr ""
 
@@ -5856,7 +5856,7 @@ msgstr ""
 msgid "Failed to download PDF"
 msgstr ""
 
-#: hrms/api/__init__.py:797
+#: hrms/api/__init__.py:798
 msgid "Failed to download Salary Slip PDF"
 msgstr ""
 
@@ -7599,8 +7599,8 @@ msgstr ""
 msgid "Invalid Payroll Payable Account. The account currency must be {0} or {1}"
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:48
-#: hrms/hr/doctype/shift_type/shift_type.py:57
+#: hrms/hr/doctype/shift_type/shift_type.py:53
+#: hrms/hr/doctype/shift_type/shift_type.py:62
 msgid "Invalid Shift Times"
 msgstr ""
 
@@ -8749,7 +8749,7 @@ msgstr ""
 msgid "Mark attendance based on 'Employee Checkin' for Employees assigned to this shift."
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:97
+#: hrms/hr/doctype/shift_type/shift_type.py:102
 msgid "Mark attendance for existing check-in/out logs before changing shift settings"
 msgstr ""
 
@@ -10390,7 +10390,7 @@ msgstr ""
 msgid "Please fill all fields"
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:58
+#: hrms/hr/doctype/shift_type/shift_type.py:63
 msgid "Please reduce {0} to avoid shift time overlapping with itself"
 msgstr ""
 
@@ -12923,7 +12923,7 @@ msgstr ""
 msgid "Start date: {0}"
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:49
+#: hrms/hr/doctype/shift_type/shift_type.py:54
 msgid "Start time and end time cannot be same."
 msgstr ""
 
@@ -14376,7 +14376,7 @@ msgstr ""
 msgid "Unmarked Attendance for days"
 msgstr ""
 
-#: hrms/hr/doctype/shift_type/shift_type.py:96
+#: hrms/hr/doctype/shift_type/shift_type.py:101
 msgid "Unmarked Check-in Logs Found"
 msgstr ""
 
@@ -15000,7 +15000,7 @@ msgstr ""
 msgid "You can only submit Leave Encashment for a valid encashment amount"
 msgstr ""
 
-#: hrms/api/__init__.py:754
+#: hrms/api/__init__.py:755
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr ""
 
@@ -15389,4 +15389,3 @@ msgstr ""
 #: hrms/hr/doctype/job_requisition/job_requisition.js:22
 msgid "{} {} open for this position."
 msgstr ""
-

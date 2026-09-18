@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-09-09 14:10+0000\n"
-"PO-Revision-Date: 2026-09-09 14:10+0000\n"
+"POT-Creation-Date: 2026-09-18 19:55+0000\n"
+"PO-Revision-Date: 2026-09-18 19:55+0000\n"
 "Last-Translator: developers@frappe.io\n"
 "Language: pt_BR\n"
 "Language-Team: developers@frappe.io\n"
@@ -86,7 +86,7 @@ msgstr "'Visualização em Lista' não é permitido para o campo {0} do tipo {1}
 msgid "'In List View' not allowed for type {0} in row {1}"
 msgstr "'Visualização em Lista' não pode ser utilizado para o tipo {0} na linha {1}"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:159
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:170
 msgid "'Recipients' not specified"
 msgstr "'Destinatários' não especificado"
 
@@ -904,7 +904,7 @@ msgstr "Uma lista de recursos aos quais o Aplicativo do Cliente terá acesso ap�
 msgid "A new account has been created for you at {0}"
 msgstr "Uma nova conta foi criada para você no {0}"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:403
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:421
 msgid "A recurring {0} {1} has been created for you via Auto Repeat {2}."
 msgstr "Um {0} {1} recorrente foi criado para você através da Repetição automática {2}."
 
@@ -1385,8 +1385,8 @@ msgid "Add Child"
 msgstr "Adicionar Sub-item"
 
 #: frappe/public/js/frappe/views/kanban/kanban_board.html:4
-#: frappe/public/js/frappe/views/reports/query_report.js:1845
-#: frappe/public/js/frappe/views/reports/query_report.js:1848
+#: frappe/public/js/frappe/views/reports/query_report.js:1850
+#: frappe/public/js/frappe/views/reports/query_report.js:1853
 #: frappe/public/js/frappe/views/reports/report_view.js:381
 #: frappe/public/js/frappe/views/reports/report_view.js:406
 #: frappe/public/js/print_format_builder/Field.vue:112
@@ -2101,7 +2101,7 @@ msgid "Allow Print for Cancelled"
 msgstr "Permitir Impressão para Cancelado"
 
 #. Label of the allow_print_for_draft (Check) field in DocType 'Print Settings'
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:410
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:428
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Allow Print for Draft"
 msgstr "Permitir Impressão para Rascunho"
@@ -3336,11 +3336,11 @@ msgstr "Repetição Automática"
 msgid "Auto Repeat Day"
 msgstr "Dia de Repetição Automática"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:168
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:179
 msgid "Auto Repeat Day{0} {1} has been repeated."
 msgstr "O Dia de Repetição Automática {0} {1} foi repetido."
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:451
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:469
 msgid "Auto Repeat Document Creation Failed"
 msgstr "Falha na Criação de Documentos de Repetição Automática"
 
@@ -3352,7 +3352,7 @@ msgstr "Cronograma de Repetição Automática"
 msgid "Auto Repeat created for this document"
 msgstr "Repetição Automática criada para este documento"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:454
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:472
 msgid "Auto Repeat failed for {0}"
 msgstr "A Repetição Automática falhou para {0}"
 
@@ -3396,9 +3396,13 @@ msgstr "Seguir automaticamente documentos comentados por você"
 msgid "Auto follow documents that you create"
 msgstr "Seguir automaticamente documentos criados por você"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:230
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:247
 msgid "Auto repeat failed. Please enable auto repeat after fixing the issues."
 msgstr "A repetição automática falhou. Por favor, ative a repetição automática após corrigir os problemas."
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:239
+msgid "Auto repeat skipped. The owner cannot access the reference document."
+msgstr "A repetição automática foi ignorada. O proprietário não pode acessar o documento de referência."
 
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
@@ -4572,7 +4576,7 @@ msgstr "Não Foi Possível Remover"
 msgid "Cannot Update After Submit"
 msgstr "Não É Possível Atualizar Após Submeter"
 
-#: frappe/core/doctype/file/file.py:689 frappe/utils/file_manager.py:383
+#: frappe/core/doctype/file/file.py:689 frappe/utils/file_manager.py:388
 msgid "Cannot access file path {0}"
 msgstr "Não foi possível acessar o caminho do arquivo {0}"
 
@@ -4584,7 +4588,7 @@ msgstr "Não é possível anexar uma pasta a um documento"
 msgid "Cannot cancel before submitting while transitioning from <b>{0} State</b> to <b>{1} State</b>"
 msgstr "Não é possível cancelar antes de enviar ao transicionar do estado <b>{0}</b> para o estado <b>{1}</b>"
 
-#: frappe/workflow/doctype/workflow/workflow.py:109
+#: frappe/workflow/doctype/workflow/workflow.py:112
 msgid "Cannot cancel before submitting. See Transition {0}"
 msgstr "Não é possível cancelar antes de submeter. Veja a transição {0}"
 
@@ -4604,7 +4608,7 @@ msgstr "Não é possível alterar o status do documento de 1 (Submetido) para 0 
 msgid "Cannot change state of Cancelled Document <b>({0} State)</b>"
 msgstr "Não é possível alterar o estado do Documento Cancelado <b>({0})</b>."
 
-#: frappe/workflow/doctype/workflow/workflow.py:98
+#: frappe/workflow/doctype/workflow/workflow.py:101
 msgid "Cannot change state of Cancelled Document. Transition row {0}"
 msgstr "Não é possível alterar o estado do Documento Cancelado. Linha de transição {0}"
 
@@ -4704,7 +4708,7 @@ msgstr "Não é possível editar os filtros para os cartões numéricos padrão"
 msgid "Cannot edit standard fields"
 msgstr "Não é possível editar campos padrão"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:126
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:137
 msgid "Cannot enable {0} for a non-submittable doctype"
 msgstr "Não é possível habilitar {0} para um doctype que não permite submissão"
 
@@ -5005,7 +5009,7 @@ msgstr "Verificar links quebrados"
 msgid "Check columns to select, drag to set order."
 msgstr "Verifique colunas para selecionar, arrastar para definir a ordem."
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:457
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:475
 msgid "Check the Error Log for more information: {0}"
 msgstr "Verifique o Log de Erros para mais informações: {0}"
 
@@ -5392,7 +5396,7 @@ msgctxt "Shrink code field."
 msgid "Collapse"
 msgstr "Recolher"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2137
+#: frappe/public/js/frappe/views/reports/query_report.js:2142
 #: frappe/public/js/frappe/views/treeview.js:110
 msgid "Collapse All"
 msgstr "Recolher Tudo"
@@ -5447,7 +5451,7 @@ msgstr "Campo Retrátil Depende De (JS)"
 #: frappe/desk/doctype/number_card/number_card.json
 #: frappe/desk/doctype/todo/todo.json
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
-#: frappe/public/js/frappe/views/reports/query_report.js:1190
+#: frappe/public/js/frappe/views/reports/query_report.js:1195
 #: frappe/public/js/frappe/widgets/widget_dialog.js:523
 #: frappe/public/js/frappe/widgets/widget_dialog.js:675
 #: frappe/website/doctype/color/color.json
@@ -6262,7 +6266,7 @@ msgstr "Cr"
 #: frappe/public/js/frappe/form/reminders.js:49
 #: frappe/public/js/frappe/views/file/file_view.js:106
 #: frappe/public/js/frappe/views/interaction.js:18
-#: frappe/public/js/frappe/views/reports/query_report.js:1222
+#: frappe/public/js/frappe/views/reports/query_report.js:1227
 #: frappe/public/js/frappe/views/workspace/workspace.js:1262
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:46
 msgid "Create"
@@ -6283,7 +6287,7 @@ msgid "Create Card"
 msgstr "Criar Cartão"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:286
-#: frappe/public/js/frappe/views/reports/query_report.js:1149
+#: frappe/public/js/frappe/views/reports/query_report.js:1154
 msgid "Create Chart"
 msgstr "Criar Gráfico"
 
@@ -6413,7 +6417,7 @@ msgstr "Criado Em"
 msgid "Created By"
 msgstr "Criado Por"
 
-#: frappe/workflow/doctype/workflow/workflow.py:64
+#: frappe/workflow/doctype/workflow/workflow.py:67
 msgid "Created Custom Field {0} in {1}"
 msgstr "Campo Personalizado {0} Criado em {1}"
 
@@ -9007,7 +9011,7 @@ msgstr "Cada documento criado no Dut ERP pode ter um ID único gerado para ele, 
 #: frappe/public/js/frappe/form/templates/contact_list.html:7
 #: frappe/public/js/frappe/form/toolbar.js:703
 #: frappe/public/js/frappe/views/reports/query_report.js:830
-#: frappe/public/js/frappe/views/reports/query_report.js:1794
+#: frappe/public/js/frappe/views/reports/query_report.js:1799
 #: frappe/public/js/frappe/views/workspace/workspace.js:111
 #: frappe/public/js/frappe/views/workspace/workspace.js:847
 #: frappe/public/js/frappe/widgets/base_widget.js:65
@@ -9537,7 +9541,7 @@ msgstr "Coluna vazia"
 msgid "Enable"
 msgstr "Habilitar"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:118
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:119
 msgid "Enable Allow Auto Repeat for the doctype {0} in Customize Form"
 msgstr "Habilitar Permitir Repetição Automática para o DocType {0} em Personalizar Formulário"
 
@@ -9827,7 +9831,7 @@ msgstr "Fim"
 #. Label of the end_date (Date) field in DocType 'Auto Repeat'
 #. Label of the end_date (Datetime) field in DocType 'Web Page'
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:145
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:156
 #: frappe/public/js/frappe/utils/common.js:360
 #: frappe/website/doctype/web_page/web_page.json
 msgid "End Date"
@@ -9842,7 +9846,7 @@ msgstr "Campo de Data Final"
 msgid "End Date cannot be before Start Date!"
 msgstr "A Data Final não pode ser anterior à Data Inicial!"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:141
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:152
 msgid "End Date cannot be today."
 msgstr "A Data Final não pode ser hoje."
 
@@ -10254,7 +10258,7 @@ msgstr "Executar script do Console"
 msgid "Executing..."
 msgstr "Executando..."
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2152
+#: frappe/public/js/frappe/views/reports/query_report.js:2157
 msgid "Execution Time: {0} sec"
 msgstr "Tempo de Execução: {0} seg"
 
@@ -10280,7 +10284,7 @@ msgctxt "Enlarge code field."
 msgid "Expand"
 msgstr "Expandir"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2135
+#: frappe/public/js/frappe/views/reports/query_report.js:2140
 #: frappe/public/js/frappe/views/treeview.js:114
 msgid "Expand All"
 msgstr "Expandir Tudo"
@@ -10353,7 +10357,7 @@ msgstr "Tempo de Validade do Código QR"
 #: frappe/core/page/permission_manager/permission_manager_help.html:66
 #: frappe/public/js/frappe/data_import/data_exporter.js:92
 #: frappe/public/js/frappe/data_import/data_exporter.js:246
-#: frappe/public/js/frappe/views/reports/query_report.js:1833
+#: frappe/public/js/frappe/views/reports/query_report.js:1838
 #: frappe/public/js/frappe/views/reports/report_view.js:1649
 msgid "Export"
 msgstr "Exportar"
@@ -10715,7 +10719,7 @@ msgstr "Buscando campos de {0}..."
 #: frappe/public/js/frappe/list/bulk_operations.js:339
 #: frappe/public/js/frappe/list/list_view_permission_restrictions.html:3
 #: frappe/public/js/frappe/views/reports/query_report.js:237
-#: frappe/public/js/frappe/views/reports/query_report.js:1892
+#: frappe/public/js/frappe/views/reports/query_report.js:1897
 #: frappe/website/doctype/web_form_field/web_form_field.json
 #: frappe/website/doctype/web_form_list_column/web_form_list_column.json
 msgid "Field"
@@ -11517,7 +11521,7 @@ msgstr "Valor Aplicável"
 msgid "For a dynamic subject, use Jinja tags like this: <code>{{ doc.name }} Delivered</code>"
 msgstr "Para um assunto dinâmico, use tags Jinja como esta: <code>{{ doc.name }} Entregue</code>"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2149
+#: frappe/public/js/frappe/views/reports/query_report.js:2154
 #: frappe/public/js/frappe/views/reports/report_view.js:108
 msgid "For comparison, use >5, <10 or =324. For ranges, use 5:10 (for values between 5 & 10)."
 msgstr "Para comparação, use >5, <10 ou = 324. Para intervalos, use 5:10 (para valores entre 5 e 10)."
@@ -11796,7 +11800,7 @@ msgstr "Data Inicial"
 msgid "From Date Field"
 msgstr "Campo de Data Inicial"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1853
+#: frappe/public/js/frappe/views/reports/query_report.js:1858
 msgid "From Document Type"
 msgstr "Tipo de Documento de Origem"
 
@@ -12725,7 +12729,7 @@ msgstr "Oculto"
 msgid "Hidden Fields"
 msgstr "Campos Ocultos"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1648
+#: frappe/public/js/frappe/views/reports/query_report.js:1653
 msgid "Hidden columns include: {0}"
 msgstr "Colunas ocultas incluem: {0}"
 
@@ -12913,17 +12917,17 @@ msgstr "Pagina inicial"
 msgid "Home Settings"
 msgstr "Configurações da Página Inicial"
 
-#: frappe/core/doctype/file/test_file.py:365
-#: frappe/core/doctype/file/test_file.py:367
-#: frappe/core/doctype/file/test_file.py:451
+#: frappe/core/doctype/file/test_file.py:402
+#: frappe/core/doctype/file/test_file.py:404
+#: frappe/core/doctype/file/test_file.py:488
 msgid "Home/Test Folder 1"
 msgstr "Início/Pasta Teste 1"
 
-#: frappe/core/doctype/file/test_file.py:420
+#: frappe/core/doctype/file/test_file.py:457
 msgid "Home/Test Folder 1/Test Folder 3"
 msgstr "Início/Pasta Teste 1/Pasta Teste 3"
 
-#: frappe/core/doctype/file/test_file.py:376
+#: frappe/core/doctype/file/test_file.py:413
 msgid "Home/Test Folder 2"
 msgstr "Início/Pasta Teste 2"
 
@@ -13730,15 +13734,15 @@ msgid "Include Web View Link in Email"
 msgstr "Incluir Link de Visualização Web no E-mail"
 
 #: frappe/public/js/frappe/form/print_utils.js:74
-#: frappe/public/js/frappe/views/reports/query_report.js:1626
+#: frappe/public/js/frappe/views/reports/query_report.js:1631
 msgid "Include filters"
 msgstr "Incluir filtros"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1646
+#: frappe/public/js/frappe/views/reports/query_report.js:1651
 msgid "Include hidden columns"
 msgstr "Incluir colunas ocultas"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1618
+#: frappe/public/js/frappe/views/reports/query_report.js:1623
 msgid "Include indentation"
 msgstr "Incluir recuo"
 
@@ -13889,7 +13893,7 @@ msgstr "Inserir Acima"
 
 #. Label of the insert_after (Select) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
-#: frappe/public/js/frappe/views/reports/query_report.js:1898
+#: frappe/public/js/frappe/views/reports/query_report.js:1903
 msgid "Insert After"
 msgstr "Inserir Após"
 
@@ -14259,6 +14263,10 @@ msgstr "Transição Inválida"
 msgid "Invalid URL"
 msgstr "URL Inválida"
 
+#: frappe/utils/file_manager.py:238
+msgid "Invalid Upload"
+msgstr "Upload Inválido"
+
 #: frappe/email/receive.py:160
 msgid "Invalid User Name or Support Password. Please rectify and try again."
 msgstr "Nome de Usuário ou Senha de Suporte inválidos. Por favor, retifique e tente novamente."
@@ -14325,6 +14333,10 @@ msgstr "Nome de campo inválido {0}"
 #: frappe/core/doctype/doctype/doctype.py:1079
 msgid "Invalid fieldname '{0}' in autoname"
 msgstr "Nome de Campo inválido '{0}' em autonomeação."
+
+#: frappe/utils/file_manager.py:238
+msgid "Invalid file name"
+msgstr "Nome de arquivo inválido"
 
 #: frappe/client.py:378
 msgid "Invalid file path: {0}"
@@ -14704,7 +14716,7 @@ msgstr "É Único"
 msgid "Is Virtual"
 msgstr "É Virtual"
 
-#: frappe/core/doctype/file/utils.py:158 frappe/utils/file_manager.py:314
+#: frappe/core/doctype/file/utils.py:158 frappe/utils/file_manager.py:319
 msgid "It is risky to delete this file: {0}. Please contact your System Manager."
 msgstr "É arriscado excluir este arquivo: {0}. Por favor, entre em contato com o Administrador do Sistema."
 
@@ -15943,7 +15955,7 @@ msgstr "Carregar mais"
 #: frappe/public/js/frappe/list/base_list.js:486
 #: frappe/public/js/frappe/list/list_view.js:369
 #: frappe/public/js/frappe/ui/listing.html:16
-#: frappe/public/js/frappe/views/reports/query_report.js:1050
+#: frappe/public/js/frappe/views/reports/query_report.js:1055
 msgid "Loading"
 msgstr "Carregando"
 
@@ -17717,7 +17729,7 @@ msgstr "Novo {0} {1} adicionado ao Painel {2}"
 msgid "New {0} {1} created"
 msgstr "Novo {0} {1} criado"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:388
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:406
 msgid "New {0}: {1}"
 msgstr "Novo {0}: {1}"
 
@@ -18130,7 +18142,7 @@ msgstr "Ainda não há comentários. "
 msgid "No contacts added yet."
 msgstr "Ainda não foi adicionado nenhum contato."
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:441
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:459
 msgid "No contacts linked to document"
 msgstr "Nenhum contato vinculado ao documento"
 
@@ -18492,7 +18504,7 @@ msgstr "Não permitido. {0}."
 
 #. Label of a Link in the Tools Workspace
 #. Name of a DocType
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:410
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:428
 #: frappe/automation/workspace/tools/tools.json
 #: frappe/desk/doctype/note/note.json
 msgid "Note"
@@ -19482,7 +19494,7 @@ msgstr "PATCH"
 
 #: frappe/printing/page/print/print.js:71
 #: frappe/public/js/frappe/form/templates/print_layout.html:44
-#: frappe/public/js/frappe/views/reports/query_report.js:1815
+#: frappe/public/js/frappe/views/reports/query_report.js:1820
 msgid "PDF"
 msgstr "PDF"
 
@@ -20289,7 +20301,7 @@ msgstr "Por favor, defina o Gráfico"
 msgid "Please Update SMS Settings"
 msgstr "Por favor, atualize as Configurações de SMS"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:595
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:613
 msgid "Please add a subject to your email"
 msgstr "Por favor, adicione um assunto ao seu e-mail"
 
@@ -20464,7 +20476,7 @@ msgstr "Por favor, insira sua senha antiga."
 msgid "Please fill the following mandatory fields before saving:"
 msgstr "Por favor, preencha os seguintes campos obrigatórios antes de salvar:"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:416
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:434
 msgid "Please find attached {0}: {1}"
 msgstr "Segue em anexo {0}: {1}"
 
@@ -20532,7 +20544,7 @@ msgstr "Por favor, selecione o Tipo de Entidade primeiro"
 msgid "Please select Minimum Password Score"
 msgstr "Por favor, selecione a Pontuação Mínima da Senha."
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1143
+#: frappe/public/js/frappe/views/reports/query_report.js:1148
 msgid "Please select X and Y fields"
 msgstr "Por favor, selecione os campos X e Y"
 
@@ -20598,7 +20610,7 @@ msgstr "Por favor, defina o Endereço de E-mail"
 msgid "Please set a printer mapping for this print format in the Printer Settings"
 msgstr "Por favor, defina um mapeamento de impressora para este formato de impressão nas Configurações de Impressora."
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1364
+#: frappe/public/js/frappe/views/reports/query_report.js:1369
 msgid "Please set filters"
 msgstr "Por favor, defina filtros"
 
@@ -21022,7 +21034,7 @@ msgstr "Telefone Primário"
 #: frappe/public/js/frappe/form/toolbar.js:359
 #: frappe/public/js/frappe/form/toolbar.js:371
 #: frappe/public/js/frappe/list/bulk_operations.js:95
-#: frappe/public/js/frappe/views/reports/query_report.js:1800
+#: frappe/public/js/frappe/views/reports/query_report.js:1805
 #: frappe/public/js/frappe/views/reports/report_view.js:1558
 #: frappe/public/js/frappe/views/treeview.js:458 frappe/www/printview.html:18
 msgid "Print"
@@ -21101,7 +21113,7 @@ msgstr "Ajuda sobre Formatos de Impressão"
 msgid "Print Format Type"
 msgstr "Tipo de Formato de Impressão"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1556
+#: frappe/public/js/frappe/views/reports/query_report.js:1561
 msgid "Print Format not found"
 msgstr "Formato de Impressão não encontrado"
 
@@ -21289,7 +21301,7 @@ msgstr "Continuar"
 msgid "Proceed Anyway"
 msgstr "Continuar mesmo assim"
 
-#: frappe/public/js/frappe/form/controls/table.js:105
+#: frappe/public/js/frappe/form/controls/table.js:104
 msgid "Processing"
 msgstr "Em processamento"
 
@@ -21915,7 +21927,7 @@ msgstr "Modo de Leitura"
 msgid "Read the documentation to know more"
 msgstr "Leia a documentação para saber mais"
 
-#: frappe/utils/safe_exec.py:743 frappe/utils/safe_exec.py:756
+#: frappe/utils/safe_exec.py:746 frappe/utils/safe_exec.py:759
 msgid "Read-Only queries are allowed"
 msgstr "Consultas somente-leitura são permitidas"
 
@@ -22356,7 +22368,7 @@ msgstr "Referenciador"
 #: frappe/public/js/frappe/form/form.js:1125
 #: frappe/public/js/frappe/form/templates/print_layout.html:6
 #: frappe/public/js/frappe/list/base_list.js:65
-#: frappe/public/js/frappe/views/reports/query_report.js:1789
+#: frappe/public/js/frappe/views/reports/query_report.js:1794
 #: frappe/public/js/frappe/views/treeview.js:464
 #: frappe/public/js/frappe/widgets/chart_widget.js:291
 #: frappe/public/js/frappe/widgets/number_card_widget.js:349
@@ -22791,7 +22803,7 @@ msgstr "Gerenciador de Relatórios"
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:39
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
-#: frappe/public/js/frappe/views/reports/query_report.js:1982
+#: frappe/public/js/frappe/views/reports/query_report.js:1987
 msgid "Report Name"
 msgstr "Nome do Relatório"
 
@@ -22859,7 +22871,7 @@ msgstr "Relatório atualizado com sucesso"
 msgid "Report was not saved (there were errors)"
 msgstr "O relatório não foi salvo (ocorreram erros)"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2020
+#: frappe/public/js/frappe/views/reports/query_report.js:2025
 msgid "Report with more than 10 columns looks better in Landscape mode."
 msgstr "Relatórios com mais de 10 colunas ficam melhores no modo Paisagem."
 
@@ -23827,7 +23839,7 @@ msgstr "Sábado"
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:45
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:189
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:357
-#: frappe/public/js/frappe/views/reports/query_report.js:1974
+#: frappe/public/js/frappe/views/reports/query_report.js:1979
 #: frappe/public/js/frappe/views/reports/report_view.js:1754
 #: frappe/public/js/frappe/views/workspace/workspace.js:532
 #: frappe/public/js/frappe/widgets/base_widget.js:143
@@ -23854,7 +23866,7 @@ msgstr "Salvar Personalizações"
 msgid "Save Filter"
 msgstr "Salvar Filtro"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1977
+#: frappe/public/js/frappe/views/reports/query_report.js:1982
 msgid "Save Report"
 msgstr "Salvar Relatório"
 
@@ -25398,7 +25410,7 @@ msgstr "Configuração > Permissões do Usuário"
 msgid "Setup Approval Workflows"
 msgstr "Configurar fluxos de trabalho de aprovação"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1839
+#: frappe/public/js/frappe/views/reports/query_report.js:1844
 #: frappe/public/js/frappe/views/reports/report_view.js:1732
 msgid "Setup Auto Email"
 msgstr "Configurar E-mail Automático"
@@ -26354,7 +26366,7 @@ msgstr "Iniciar"
 #. Label of the start_date (Date) field in DocType 'Auto Repeat'
 #. Label of the start_date (Datetime) field in DocType 'Web Page'
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:145
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:156
 #: frappe/public/js/frappe/utils/common.js:353
 #: frappe/website/doctype/web_page/web_page.json
 msgid "Start Date"
@@ -26761,7 +26773,7 @@ msgstr "Submeter rótulo de botão"
 
 #. Label of the submit_on_creation (Check) field in DocType 'Auto Repeat'
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:127
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:138
 msgid "Submit on Creation"
 msgstr "Submeter ao Criar"
 
@@ -26788,7 +26800,7 @@ msgstr "Submeter {0} documentos?"
 msgid "Submitted"
 msgstr "Submetido"
 
-#: frappe/workflow/doctype/workflow/workflow.py:103
+#: frappe/workflow/doctype/workflow/workflow.py:106
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
 msgstr "Documento submetido não pode ser convertido de volta para rascunho. Linha de transição {0}"
 
@@ -27531,7 +27543,7 @@ msgstr "Teste Espanhol"
 msgid "Test email sent to {0}"
 msgstr "E-mail de teste enviado para {0}"
 
-#: frappe/core/doctype/file/test_file.py:423
+#: frappe/core/doctype/file/test_file.py:460
 msgid "Test_Folder"
 msgstr "Pasta_Teste"
 
@@ -27637,7 +27649,7 @@ msgstr "A Condição '{0}' é inválida"
 msgid "The File URL you've entered is incorrect"
 msgstr "A URL do arquivo que você inseriu está incorreta."
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:107
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:108
 msgid "The Next Scheduled Date cannot be later than the End Date."
 msgstr "A Próxima Data Agendada não pode ser posterior à Data Final."
 
@@ -27868,7 +27880,7 @@ msgstr "O valor que você colou tem {0} caracteres de comprimento. O número má
 msgid "The webhook will be triggered if this expression is true"
 msgstr "O webhook será acionado se esta expressão for verdadeira"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:178
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:189
 msgid "The {0} is already on auto repeat {1}"
 msgstr "O {0} já está em repetição automática {1}"
 
@@ -27933,7 +27945,7 @@ msgstr "Não há dados a serem exportados"
 msgid "There is nothing new to show you right now."
 msgstr "Não há nada de novo para mostrar no momento."
 
-#: frappe/core/doctype/file/file.py:686 frappe/utils/file_manager.py:379
+#: frappe/core/doctype/file/file.py:686 frappe/utils/file_manager.py:384
 msgid "There is some problem with the file url: {0}"
 msgstr "Há algum problema com a URL do arquivo: {0}"
 
@@ -28177,7 +28189,7 @@ msgstr "Este formato é usado se o formato específico país não é encontrado"
 msgid "This goes above the slideshow."
 msgstr "Isto vai acima da apresentação de slides."
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2180
+#: frappe/public/js/frappe/views/reports/query_report.js:2185
 msgid "This is a background report. Please set the appropriate filters and then generate a new one."
 msgstr "Este é um relatório em segundo plano. Por favor, defina os filtros apropriados e, em seguida, gere um novo."
 
@@ -28889,7 +28901,7 @@ msgstr "Tópico"
 
 #: frappe/desk/query_report.py:680
 #: frappe/public/js/frappe/views/reports/print_grid.html:50
-#: frappe/public/js/frappe/views/reports/query_report.js:1281
+#: frappe/public/js/frappe/views/reports/query_report.js:1286
 #: frappe/public/js/frappe/views/reports/report_view.js:1573
 msgid "Total"
 msgstr "Total"
@@ -29069,7 +29081,7 @@ msgstr "Transições"
 msgid "Translatable"
 msgstr "Traduzível"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:2235
+#: frappe/public/js/frappe/views/reports/query_report.js:2240
 msgid "Translate Data"
 msgstr "Traduzir Dados"
 
@@ -29476,7 +29488,7 @@ msgstr "Não lido"
 msgid "Unread Notification Sent"
 msgstr "Notificação de Leitura Pendente Enviada"
 
-#: frappe/utils/safe_exec.py:744 frappe/utils/safe_exec.py:757
+#: frappe/utils/safe_exec.py:747 frappe/utils/safe_exec.py:760
 msgid "Unsafe SQL query"
 msgstr "Consulta SQL Insegura"
 
@@ -30051,7 +30063,7 @@ msgstr "Permissão de Usuário"
 #. Label of a Link in the Users Workspace
 #: frappe/core/page/permission_manager/permission_manager_help.html:97
 #: frappe/core/workspace/users/users.json
-#: frappe/public/js/frappe/views/reports/query_report.js:1961
+#: frappe/public/js/frappe/views/reports/query_report.js:1966
 #: frappe/public/js/frappe/views/reports/report_view.js:1780
 msgid "User Permissions"
 msgstr "Permissões de Usuário"
@@ -31447,7 +31459,7 @@ msgstr "Campos do Eixo Y"
 
 #. Label of the y_field (Select) field in DocType 'Dashboard Chart Field'
 #: frappe/desk/doctype/dashboard_chart_field/dashboard_chart_field.json
-#: frappe/public/js/frappe/views/reports/query_report.js:1182
+#: frappe/public/js/frappe/views/reports/query_report.js:1187
 msgid "Y Field"
 msgstr "Campo Y"
 
@@ -31863,7 +31875,7 @@ msgstr "Você não tem permissão para acessar um relatório sobre: {0}"
 msgid "You don't have permission to print: {0}"
 msgstr "Você não tem permissão para imprimir: {0}"
 
-#: frappe/utils/file_manager.py:422
+#: frappe/utils/file_manager.py:427
 msgid "You don't have permission to read/attach the file {0}."
 msgstr "Você não tem permissão para ler/anexar o arquivo {0}."
 
@@ -32013,7 +32025,7 @@ msgstr "Você precisa de permissão de escrita em {0} {1} para mergear"
 msgid "You need write permission on {0} {1} to rename"
 msgstr "Você precisa de permissão de escrita em {0} {1} para renomear"
 
-#: frappe/utils/file_manager.py:413
+#: frappe/utils/file_manager.py:418
 msgid "You need write permissions to add attachments to this record."
 msgstr "Você precisa de permissão de leitura para adicionar anexos a este documento."
 
@@ -32884,7 +32896,7 @@ msgstr "versao_tabela"
 msgid "via Assignment Rule"
 msgstr "via Regra de Atribuição"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:245
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:263
 msgid "via Auto Repeat"
 msgstr "via Repetição Automática"
 
@@ -33368,7 +33380,7 @@ msgstr "{0} não é um arquivo ZIP válido"
 msgid "{0} is an invalid Data field."
 msgstr "{0} é um campo do tipo Dados inválido"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:157
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:168
 msgid "{0} is an invalid email address in 'Recipients'"
 msgstr "{0} é um endereço de e-mail inválido em 'Destinatários'"
 
@@ -33603,7 +33615,7 @@ msgstr ""
 msgid "{0} never sends email, so it cannot be enabled for users."
 msgstr "{0} nunca envia e-mails, portanto, não pode ser habilitado para os usuários."
 
-#: frappe/workflow/doctype/workflow/workflow.py:90
+#: frappe/workflow/doctype/workflow/workflow.py:93
 msgid "{0} not a valid State"
 msgstr "{0} não é um status válido"
 
@@ -33726,7 +33738,7 @@ msgstr "{0} compartilhou este documento com {1}"
 msgid "{0} should be indexed because it's referred in dashboard connections"
 msgstr "{0} deve ser indexado porque é referenciado nas conexões do painel"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:144
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:155
 msgid "{0} should not be same as {1}"
 msgstr "{0} não deve ser o mesmo que {1}"
 
@@ -33867,7 +33879,7 @@ msgstr "{0}: Não é possível definir Submeter, Cancelar ou Retificar sem a per
 msgid "{0}: Cannot set import as {1} is not importable"
 msgstr "{0}: Não é possível definir a importação, pois {1} não pode ser importado"
 
-#: frappe/automation/doctype/auto_repeat/auto_repeat.py:408
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:426
 msgid "{0}: Failed to attach new recurring document. To enable attaching document in the auto repeat notification email, enable {1} in Print Settings"
 msgstr "{0}: Falha ao anexar novo documento recorrente. Para permitir anexar um documento no e-mail de notificação de repetição automática, habilite {1} em Configurações de Impressão"
 
@@ -33941,7 +33953,7 @@ msgstr "{0}: {1}"
 msgid "{0}: {1} is set to state {2}"
 msgstr "{0}: {1} está definido para status {2}"
 
-#: frappe/public/js/frappe/views/reports/query_report.js:1240
+#: frappe/public/js/frappe/views/reports/query_report.js:1245
 msgid "{0}: {1} vs {2}"
 msgstr "{0}: {1} vs {2}"
 
@@ -34025,4 +34037,3 @@ msgstr "{} não encontrado no caminho de busca do sistema! Isto é obrigatório 
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:4
 msgid "← Back to upload files"
 msgstr "← Voltar para carregamento de arquivos"
-
