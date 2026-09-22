@@ -39030,7 +39030,7 @@ msgstr "Por favor, cancele a transação relacionada."
 #: erpnext/assets/doctype/asset/asset.js:86
 #: erpnext/assets/doctype/asset/asset.py:163
 msgid "Please capitalize this asset before submitting."
-msgstr "Por favor, capitaliza este ativo antes de submeter."
+msgstr "Por favor, capitalize este ativo antes de submeter."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:891
 msgid "Please check Multi Currency option to allow accounts with other currency"
