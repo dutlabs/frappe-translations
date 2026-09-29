@@ -16776,7 +16776,7 @@ msgstr "Lista de Materiais padrão não encontrada para Item {0} e Projeto {1}"
 #. Label of the default_bank_account (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Default Bank Account"
-msgstr "Conta Contábil de Banco Padrão"
+msgstr "Conta Bancária Padrão"
 
 #. Label of the billing_rate (Currency) field in DocType 'Activity Type'
 #: erpnext/projects/doctype/activity_type/activity_type.json
