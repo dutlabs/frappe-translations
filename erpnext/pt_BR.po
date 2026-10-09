@@ -25346,7 +25346,7 @@ msgstr "Se esta opção for marcada, as novas faturas subsequentes serão criada
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If this is unchecked Journal Entries will be saved in a Draft state and will have to be submitted manually"
-msgstr "Se esta opção estiver desmarcada, os Lançamentos Contábeis serão salvos no status Rascunho e terão que ser submetidos manualmente."
+msgstr "Se esta opção estiver desmarcada, os Lançamentos Contábeis serão salvos no estado de Rascunho e deverão ser submetidos manualmente."
 
 #. Description of the 'Book Deferred Entries Via Journal Entry' (Check) field
 #. in DocType 'Accounts Settings'
