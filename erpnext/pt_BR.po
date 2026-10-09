@@ -25352,7 +25352,7 @@ msgstr "Se esta opção estiver desmarcada, os Lançamentos Contábeis serão sa
 #. in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If this is unchecked, direct GL entries will be created to book deferred revenue or expense"
-msgstr "Se esta opção estiver desmarcada, os lançamentos diretos no razão serão criados para registrar receitas ou despesas diferidas"
+msgstr "Se esta opção estiver desmarcada, serão criados lançamentos diretos no Razão para contabilizar a receita ou despesa diferida"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:682
 msgid "If this is undesirable please cancel the corresponding Payment Entry."
