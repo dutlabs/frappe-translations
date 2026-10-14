@@ -6250,7 +6250,7 @@ msgstr "Nome do País"
 #. Label of the county (Data) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "County"
-msgstr "Distrito"
+msgstr "Bairro/Distrito"
 
 #: frappe/public/js/frappe/utils/number_systems.js:23
 #: frappe/public/js/frappe/utils/number_systems.js:45

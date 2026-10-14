@@ -9231,7 +9231,7 @@ msgstr "País de Faturamento"
 #. Label of the billing_county (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Billing County"
-msgstr "Distrito de Faturamento"
+msgstr "Bairro/Distrito de Faturamento"
 
 #. Label of the default_currency (Link) field in DocType 'Supplier'
 #. Label of the default_currency (Link) field in DocType 'Customer'
@@ -16406,12 +16406,12 @@ msgstr "A data de início deve ser maior que a data de incorporação"
 #. Label of the date_of_establishment (Date) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Date of Establishment"
-msgstr "Data de Estabelecimento"
+msgstr "Data de Início das Atividades"
 
 #. Label of the date_of_incorporation (Date) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Date of Incorporation"
-msgstr "Data de Incorporação"
+msgstr "Data de Abertura"
 
 #. Label of the date_of_issue (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -27957,7 +27957,7 @@ msgstr "É Transportadora"
 
 #: erpnext/setup/install.py:141
 msgid "Is Your Company Address"
-msgstr "É o Endereço da sua Empresa"
+msgstr "É o endereço da sua empresa"
 
 #. Label of the is_a_subscription (Check) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -51963,7 +51963,7 @@ msgstr "País de Entrega"
 #. Label of the shipping_county (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Shipping County"
-msgstr "Distrito de Entrega"
+msgstr "Bairro/Distrito de Entrega"
 
 #. Label of the shipping_rule (Link) field in DocType 'POS Invoice'
 #. Label of the shipping_rule (Link) field in DocType 'Purchase Invoice'
