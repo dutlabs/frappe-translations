@@ -16397,16 +16397,16 @@ msgstr "Data de nascimento não pode ser maior do que hoje."
 #. Label of the date_of_commencement (Date) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Date of Commencement"
-msgstr "Data de Início"
+msgstr "Data de Início das Atividades"
 
 #: erpnext/setup/doctype/company/company.js:91
 msgid "Date of Commencement should be greater than Date of Incorporation"
-msgstr "A data de início deve ser maior que a data de incorporação"
+msgstr "A Data de Início das Atividades deve ser maior que a Data de Abertura"
 
 #. Label of the date_of_establishment (Date) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Date of Establishment"
-msgstr "Data de Início das Atividades"
+msgstr "Data de Fundação"
 
 #. Label of the date_of_incorporation (Date) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
