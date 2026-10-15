@@ -16149,7 +16149,7 @@ msgstr "Acesse para iniciar uma nova discussão"
 
 #: frappe/www/login.html:63
 msgid "Login to {0}"
-msgstr "Acessar {0}"
+msgstr "Acessar o {0}"
 
 #: frappe/templates/includes/login/login.js:317
 msgid "Login token required"
