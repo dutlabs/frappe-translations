@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2026-10-14 23:38+0000\n"
-"PO-Revision-Date: 2026-10-14 23:38+0000\n"
+"PO-Revision-Date: 2026-10-15 11:53+0000\n"
 "Last-Translator: hello@frappe.io\n"
 "Language: pt_BR\n"
 "Language-Team: hello@frappe.io\n"
@@ -17994,7 +17994,7 @@ msgstr "Linha de Depreciação {0}: A Data de Lançamento da Depreciação não 
 
 #: erpnext/assets/doctype/asset/asset.py:623
 msgid "Depreciation Row {0}: Expected value after useful life must be greater than or equal to {1}"
-msgstr "Linha de depreciação {0}: o valor esperado após a vida útil deve ser maior ou igual a {1}"
+msgstr "Linha de depreciação {0}: o valor previsto após a vida útil deve ser maior ou igual a {1}"
 
 #. Label of the depreciation_schedule_sb (Section Break) field in DocType
 #. 'Asset'
@@ -21314,7 +21314,7 @@ msgstr "Quantidade Prevista"
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:424
 msgid "Expected Arrival Date"
-msgstr "Data de Chegada Prevista"
+msgstr "Data Prevista de Chegada"
 
 #: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:119
 msgid "Expected Balance Qty"
@@ -21323,7 +21323,7 @@ msgstr "Qtd. de Saldo Previsto"
 #. Label of the expected_closing (Date) field in DocType 'Opportunity'
 #: erpnext/crm/doctype/opportunity/opportunity.json
 msgid "Expected Closing Date"
-msgstr "Data de Fechamento Prevista"
+msgstr "Data Prevista de Fechamento"
 
 #. Label of the expected_delivery_date (Date) field in DocType 'Purchase Order
 #. Item'
@@ -21340,11 +21340,11 @@ msgstr "Data de Fechamento Prevista"
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.py:60
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 msgid "Expected Delivery Date"
-msgstr "Data de Entrega Prevista"
+msgstr "Data Prevista de Entrega"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:373
 msgid "Expected Delivery Date should be after Sales Order Date"
-msgstr "A Data de Entrega Prevista deve ser posterior à data do Pedido de Venda"
+msgstr "A Data Prevista de Entrega deve ser posterior à data do Pedido de Venda"
 
 #. Label of the expected_end_date (Datetime) field in DocType 'Job Card'
 #. Label of the expected_end_date (Date) field in DocType 'Project'
@@ -21358,11 +21358,11 @@ msgstr "A Data de Entrega Prevista deve ser posterior à data do Pedido de Venda
 #: erpnext/projects/web_form/tasks/tasks.json
 #: erpnext/templates/pages/task_info.html:55
 msgid "Expected End Date"
-msgstr "Data Final Prevista"
+msgstr "Data Prevista de Término"
 
 #: erpnext/projects/doctype/task/task.py:109
 msgid "Expected End Date should be less than or equal to parent task's Expected End Date {0}."
-msgstr "A Data Prevista de Fim deve ser menor ou igual à Data Prevista de Fim da tarefa principal {0}."
+msgstr "A Data Prevista de Término deve ser menor ou igual à Data Prevista de Término da tarefa principal {0}."
 
 #. Label of the expected_hours (Float) field in DocType 'Timesheet Detail'
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
@@ -21382,11 +21382,11 @@ msgstr "Horas Previstas"
 #: erpnext/projects/web_form/tasks/tasks.json
 #: erpnext/templates/pages/task_info.html:50
 msgid "Expected Start Date"
-msgstr "Data Inicial Prevista"
+msgstr "Data Prevista de Início"
 
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:129
 msgid "Expected Stock Value"
-msgstr "Valor de Estoque Previsto"
+msgstr "Valor Previsto do Estoque"
 
 #. Label of the expected_time (Float) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
@@ -48321,11 +48321,11 @@ msgstr "Linha #{0}: Taxa de Câmbio é obrigatória"
 
 #: erpnext/assets/doctype/asset/asset.py:503
 msgid "Row {0}: Expected Value After Useful Life cannot be negative"
-msgstr "Linha #{0}: O Valor Esperado Após Vida Útil não pode ser negativo"
+msgstr "Linha #{0}: O Valor Previsto Após Vida Útil não pode ser negativo"
 
 #: erpnext/assets/doctype/asset/asset.py:507
 msgid "Row {0}: Expected Value After Useful Life must be less than Gross Purchase Amount"
-msgstr "Linha {0}: O Valor Esperado Após Vida Útil deve ser menor que o Valor Bruto da Compra"
+msgstr "Linha {0}: O Valor Previsto Após Vida Útil deve ser menor que o Valor Bruto da Compra"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:172
 msgid "Row {0}: Expense Account {1} is linked to company {2}. Please select an account belonging to company {3}."
@@ -64575,11 +64575,11 @@ msgstr "{0}% do valor total da fatura será concedido como desconto."
 
 #: erpnext/projects/doctype/task/task.py:131
 msgid "{0}'s {1} cannot be after {2}'s Expected End Date."
-msgstr "{1} do {0} não pode ser posterior à Data Final Prevista de {2}"
+msgstr "{1} do {0} não pode ser posterior à Data Prevista de Término de {2}"
 
 #: erpnext/projects/doctype/task/task.py:141
 msgid "{0}'s {1} cannot be before {2}'s Expected Start Date."
-msgstr "A {0} de {1} não pode ser anterior à Data Inicial Prevista."
+msgstr "A {0} de {1} não pode ser anterior à Data Prevista de Início."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1075
 msgid "{0}, complete the operation {1} before the operation {2}."
