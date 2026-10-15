@@ -49029,7 +49029,7 @@ msgstr "Gerente de Vendas"
 #: erpnext/stock/doctype/item_price/item_price.json
 #: erpnext/stock/doctype/price_list/price_list.json
 msgid "Sales Master Manager"
-msgstr "Gestor de Dados de Vendas"
+msgstr "Gestor de Cadastros de Vendas"
 
 #. Label of the sales_monthly_history (Small Text) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
