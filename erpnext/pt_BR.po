@@ -29499,7 +29499,7 @@ msgstr "Itens Necessários"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/report/items_to_be_requested/items_to_be_requested.json
 msgid "Items To Be Requested"
-msgstr "Itens a Requisitar"
+msgstr "Itens a Solicitar"
 
 #. Label of a Card Break in the Selling Workspace
 #: erpnext/selling/workspace/selling/selling.json
@@ -32322,7 +32322,7 @@ msgstr "Requisição de Material {0} submetida."
 #. Option for the 'Status' (Select) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Material Requested"
-msgstr "Material Requisitado"
+msgstr "Material Solicitado"
 
 #. Label of the material_requests (Table) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
@@ -46411,19 +46411,19 @@ msgstr "Requisição de Matérias-Primas"
 #. Option for the 'Status' (Select) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Requested"
-msgstr "Requisitado"
+msgstr "Solicitado"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/requested_items_to_be_transferred/requested_items_to_be_transferred.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Requested Items To Be Transferred"
-msgstr "Itens Requisitados a Transferir"
+msgstr "Itens Solicitados a Transferir"
 
 #. Name of a report
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.json
 msgid "Requested Items to Order and Receive"
-msgstr "Itens Requisitados para Pedir e Receber"
+msgstr "Itens Solicitados para Pedir e Receber"
 
 #. Label of the requested_numbers (Code) field in DocType 'SMS Log'
 #: erpnext/utilities/doctype/sms_log/sms_log.json
@@ -46443,11 +46443,11 @@ msgstr "Números Solicitados"
 #: erpnext/stock/page/stock_balance/stock_balance.js:61
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:156
 msgid "Requested Qty"
-msgstr "Qtd. Requisitada"
+msgstr "Qtd. Solicitada"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:188
 msgid "Requested Qty: Quantity requested for purchase, but not ordered."
-msgstr "Qtd. Requisitada: Quantidade requisitada para compra, mas não pedida."
+msgstr "Qtd. Solicitada: Quantidade solicitada para compra, mas ainda não inclusa em pedido."
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:46
 msgid "Requesting Site"
@@ -46455,7 +46455,7 @@ msgstr "Local Solicitante"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:53
 msgid "Requestor"
-msgstr "Solicitador"
+msgstr "Solicitante"
 
 #. Label of the schedule_date (Date) field in DocType 'Purchase Order'
 #. Label of the schedule_date (Date) field in DocType 'Purchase Order Item'
@@ -46479,7 +46479,7 @@ msgstr "Solicitador"
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Required By"
-msgstr "Requerido Para"
+msgstr "Data de Necessidade"
 
 #. Label of the schedule_date (Date) field in DocType 'Request for Quotation'
 #. Label of the schedule_date (Date) field in DocType 'Request for Quotation
@@ -46487,18 +46487,18 @@ msgstr "Requerido Para"
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
 #: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
 msgid "Required Date"
-msgstr "Data Requerida"
+msgstr "Data Limite"
 
 #. Label of the required_items_section (Section Break) field in DocType 'Work
 #. Order'
 #. Label of the required_items (Table) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Required Items"
-msgstr "Itens Requeridos"
+msgstr "Itens Necessários"
 
 #: erpnext/templates/form_grid/material_request_grid.html:7
 msgid "Required On"
-msgstr "Requerido Em"
+msgstr "Necessário em"
 
 #. Label of the required_qty (Float) field in DocType 'Purchase Order Item
 #. Supplied'
@@ -46525,12 +46525,12 @@ msgstr "Requerido Em"
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Required Qty"
-msgstr "Qtd. Requerida"
+msgstr "Qtd. Necessária"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:44
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:37
 msgid "Required Quantity"
-msgstr "Quantidade Requerida"
+msgstr "Quantidade Necessária"
 
 #. Label of the requirement (Data) field in DocType 'Contract Fulfilment
 #. Checklist'
@@ -46568,7 +46568,7 @@ msgstr "Pesquisador"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Reselect, if the chosen address is edited after save"
-msgstr "Selecione novamente, caso o endereço escolhido seja editado após salvar"
+msgstr "Selecione novamente se o endereço escolhido for editado após salvar"
 
 #. Description of the 'Supplier Primary Contact' (Link) field in DocType
 #. 'Supplier'
@@ -46577,7 +46577,7 @@ msgstr "Selecione novamente, caso o endereço escolhido seja editado após salva
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Reselect, if the chosen contact is edited after save"
-msgstr "Selecione novamente, caso o endereço escolhido seja editado após salvar"
+msgstr "Selecione novamente se o endereço escolhido for editado após salvar"
 
 #: erpnext/setup/setup_wizard/data/sales_partner_type.txt:7
 msgid "Reseller"
@@ -64673,15 +64673,15 @@ msgstr "{} Pendente"
 #. Count format of shortcut in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
 msgid "{} To Bill"
-msgstr "{} A Faturar"
+msgstr "{} a Faturar"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1949
 msgid "{} can't be cancelled since the Loyalty Points earned has been redeemed. First cancel the {} No {}"
-msgstr "{} não pode ser cancelado porque os pontos de fidelidade ganhos foram resgatados. Primeiro cancele o {} Não {}"
+msgstr "A {0} não pode ser cancelada uma vez que os Pontos de Fidelidade acumulados foram resgatados. Primeiro cancele a {1} nº {2}"
 
 #: erpnext/controllers/buying_controller.py:239
 msgid "{} has submitted assets linked to it. You need to cancel the assets to create purchase return."
-msgstr "{} submeteu ativos vinculados a ele. Você precisa cancelar os ativos para criar a devolução da compra."
+msgstr "{} possui ativos vinculados e submetidos. É necessário cancelar os ativos para criar a devolução de compra."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:69
 msgid "{} is a child company."

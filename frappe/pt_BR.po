@@ -11616,7 +11616,7 @@ msgstr "Forçar Modo de Captura Web para Carregamento de Arquivos"
 
 #: frappe/www/login.html:36
 msgid "Forgot Password?"
-msgstr "Esqueceu a Senha?"
+msgstr "Esqueceu a senha?"
 
 #. Label of the form_builder_tab (Tab Break) field in DocType 'DocType'
 #. Option for the 'Apply To' (Select) field in DocType 'Client Script'
@@ -16075,16 +16075,16 @@ msgstr "Login"
 #. Label of the login_after (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Login After"
-msgstr "Acessar Após Às"
+msgstr "Acesso após às"
 
 #. Label of the login_before (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Login Before"
-msgstr "Acessar Antes Das"
+msgstr "Acesso antes das"
 
 #: frappe/public/js/frappe/desk.js:250
 msgid "Login Failed please try again"
-msgstr "Falha de acesso. Por favor, tente novamente"
+msgstr "Tentativa de acesso falhou. Por favor, tente novamente"
 
 #: frappe/email/doctype/email_account/email_account.py:138
 msgid "Login Id is required"
@@ -16094,7 +16094,7 @@ msgstr "ID de Acesso é obrigatório"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Login Methods"
-msgstr "Métodos de Acesso"
+msgstr "Métodos de Autenticação"
 
 #. Label of the misc_section (Section Break) field in DocType 'Website
 #. Settings'
@@ -16157,7 +16157,7 @@ msgstr "Token de acesso obrigatório"
 
 #: frappe/www/login.html:125 frappe/www/login.html:209
 msgid "Login with Email Link"
-msgstr "Entrar via Link por E-mail"
+msgstr "Receber link de acesso por e-mail"
 
 #: frappe/www/login.html:115
 msgid "Login with Frappe Cloud"
@@ -16171,13 +16171,13 @@ msgstr "Entrar com LDAP"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Login with email link"
-msgstr "Acesso via Link por E-mail"
+msgstr "Acesso com link enviado por e-mail"
 
 #. Label of the login_with_email_link_expiry (Int) field in DocType 'System
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Login with email link expiry (in minutes)"
-msgstr "Validade do link de acesso (em minutos)"
+msgstr "Validade do link de acesso por e-mail (em minutos)"
 
 #: frappe/auth.py:132
 msgid "Login with username and password is not allowed."
