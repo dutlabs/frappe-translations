@@ -16070,7 +16070,7 @@ msgstr "Sessão Encerrada"
 #: frappe/website/page_renderers/not_permitted_page.py:24
 #: frappe/www/login.html:44
 msgid "Login"
-msgstr "Login"
+msgstr "Entrar"
 
 #. Label of the login_after (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json

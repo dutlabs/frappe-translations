@@ -8699,7 +8699,7 @@ msgstr "Tipo de Registro: {0}"
 
 #: frontend/src/views/Login.vue:64
 msgid "Login"
-msgstr "Login"
+msgstr "Entrar"
 
 #: frontend/src/views/InvalidEmployee.vue:7
 msgid "Login Failed"
