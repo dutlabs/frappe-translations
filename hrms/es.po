@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-10-14 23:39+0000\n"
+"POT-Creation-Date: 2026-10-16 17:23+0000\n"
 "PO-Revision-Date: 2026-10-14 23:39+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: es\n"
@@ -218,8 +218,8 @@ msgstr ""
 msgid "<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will generate a password like SAL-Jane-1972"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:280
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:288
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:279
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:287
 msgid "<b>Total Leaves Allocated</b> are more than the number of days in the allocation period"
 msgstr ""
 
@@ -1184,7 +1184,7 @@ msgstr ""
 msgid "Annual Allocation"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:372
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
 msgid "Annual Allocation Exceeded"
 msgstr ""
 
@@ -1714,6 +1714,7 @@ msgid "Attendance To Date"
 msgstr ""
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:166
+#: hrms/hr/doctype/attendance_request/attendance_request.py:185
 msgid "Attendance Updated"
 msgstr ""
 
@@ -1765,11 +1766,11 @@ msgstr ""
 msgid "Attendance marked successfully."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:185
+#: hrms/hr/doctype/attendance_request/attendance_request.py:204
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr ""
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:194
+#: hrms/hr/doctype/attendance_request/attendance_request.py:213
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr ""
 
@@ -2207,7 +2208,7 @@ msgstr ""
 msgid "Cannot Modify Time"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:323
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:322
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr ""
 
@@ -2259,7 +2260,7 @@ msgstr ""
 msgid "Cannot submit. Attendance is not marked for some employees."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:140
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:139
 msgid "Cannot update allocation for {0} after submission"
 msgstr ""
 
@@ -2298,6 +2299,10 @@ msgstr ""
 #: frontend/src/views/AppSettings.vue:36
 #: frontend/src/views/ChangePassword.vue:16
 msgid "Change Password"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:171
+msgid "Changed the Status for Other Half from {0} to {1} via Attendance Request as the status is Half Day"
 msgstr ""
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:150
@@ -4119,7 +4124,7 @@ msgstr ""
 msgid "Earned Leave Frequency"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:141
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:140
 msgid "Earned Leaves"
 msgstr ""
 
@@ -4127,7 +4132,7 @@ msgstr ""
 msgid "Earned Leaves are allocated as per the configured frequency via scheduler."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:144
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:143
 msgid "Earned Leaves are auto-allocated via scheduler based on the annual allocation set in the Leave Policy: {0}"
 msgstr ""
 
@@ -5818,7 +5823,7 @@ msgstr ""
 msgid "Expire Carry Forwarded Leaves (Days)"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:493
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:492
 msgid "Expire Leaves"
 msgstr ""
 
@@ -7603,7 +7608,7 @@ msgstr ""
 msgid "Invalid Cost Center"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:326
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:325
 msgid "Invalid Dates"
 msgstr ""
 
@@ -8381,11 +8386,11 @@ msgstr ""
 msgid "Leave Type is mandatory"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:185
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:184
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:482
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:481
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr ""
 
@@ -8426,7 +8431,7 @@ msgstr ""
 msgid "Leave application is linked with leave allocations {0}. Leave application cannot be set as leave without pay"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:225
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:224
 msgid "Leave cannot be allocated before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}"
 msgstr ""
 
@@ -8480,7 +8485,7 @@ msgstr ""
 msgid "Leaves Allocated"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:487
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:486
 msgid "Leaves Expired"
 msgstr ""
 
@@ -9491,7 +9496,7 @@ msgstr ""
 #: hrms/hr/doctype/goal/goal.py:67 hrms/hr/doctype/goal/goal.py:71
 #: hrms/hr/doctype/goal/goal.py:76 hrms/hr/doctype/interview/interview.py:27
 #: hrms/hr/doctype/job_applicant/job_applicant.py:53
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:147
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:146
 #: hrms/hr/doctype/leave_type/leave_type.py:43
 #: hrms/hr/doctype/leave_type/leave_type.py:46
 msgid "Not Allowed"
@@ -9520,7 +9525,7 @@ msgstr ""
 msgid "Note: Shift will not be overwritten in existing attendance records"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:156
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:155
 msgid "Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period"
 msgstr ""
 
@@ -9849,7 +9854,7 @@ msgstr ""
 msgid "Outstanding Amount"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:292
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:291
 msgid "Over Allocation"
 msgstr ""
 
@@ -11111,7 +11116,7 @@ msgstr ""
 #. Label of the reference (Link) field in DocType 'Full and Final Asset'
 #: hrms/hr/doctype/expense_claim/expense_claim_dashboard.py:10
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:209
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:208
 msgid "Reference"
 msgstr ""
 
@@ -11145,7 +11150,7 @@ msgstr ""
 msgid "Reference Document Type"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:370
 #: hrms/hr/doctype/leave_application/leave_application.py:536
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:191
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:91
@@ -13772,7 +13777,7 @@ msgstr ""
 msgid "To date can not greater than employee's relieving date"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:180
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:179
 #: hrms/hr/doctype/leave_application/leave_application.py:194
 msgid "To date cannot be before from date"
 msgstr ""
@@ -14068,11 +14073,11 @@ msgstr ""
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:73
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:72
 msgid "Total allocated leaves are more than maximum allocation allowed for {0} leave type for employee {1} in the period"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:162
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:161
 msgid "Total allocated leaves {0} cannot be less than already approved leaves {1} for the period"
 msgstr ""
 
@@ -14090,11 +14095,11 @@ msgstr ""
 msgid "Total in words (Company Currency)"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:367
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:366
 msgid "Total leaves allocated cannot exceed annual allocation of {0}."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:253
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:252
 msgid "Total leaves allocated is mandatory for Leave Type {0}"
 msgstr ""
 
@@ -14527,6 +14532,10 @@ msgstr ""
 
 #: frontend/src/components/ExpenseTaxesTable.vue:118
 msgid "Update Tax"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:177
+msgid "Updated Status for Other Half from {0} to {1} for date {2} in the attendance record {3}"
 msgstr ""
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:160
@@ -15033,7 +15042,7 @@ msgstr ""
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:505
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:504
 msgid "You do not have permission to complete this action"
 msgstr ""
 
@@ -15238,7 +15247,7 @@ msgstr ""
 msgid "{0} Unread"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:203
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:202
 msgid "{0} already allocated for Employee {1} for period {2} to {3}"
 msgstr ""
 
@@ -15307,15 +15316,15 @@ msgstr ""
 msgid "{0} is required"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:361
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:360
 msgid "{0} leaves allocated successfully"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:488
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:487
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:356
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:355
 msgid "{0} leaves were manually allocated by {1} on {2}"
 msgstr ""
 

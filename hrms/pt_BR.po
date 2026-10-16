@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-10-14 23:39+0000\n"
-"PO-Revision-Date: 2026-10-14 23:39+0000\n"
+"POT-Creation-Date: 2026-10-16 17:23+0000\n"
+"PO-Revision-Date: 2026-10-16 17:23+0000\n"
 "Last-Translator: contact@frappe.io\n"
 "Language: pt_BR\n"
 "Language-Team: contact@frappe.io\n"
@@ -218,8 +218,8 @@ msgstr "O valor <b>Base</b> não foi definido para o(s) seguinte(s) colaborador(
 msgid "<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will generate a password like SAL-Jane-1972"
 msgstr "<b>Exemplo:</b> SAL-{first_name}-{date_of_birth.year} <br>Isso irá gerar uma senha como SAL-Jane-1972"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:280
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:288
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:279
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:287
 msgid "<b>Total Leaves Allocated</b> are more than the number of days in the allocation period"
 msgstr "<b>O Total de Licenças Alocadas</b> é maior que o número de dias no período de alocação"
 
@@ -1236,7 +1236,7 @@ msgstr "Ocorreu um erro ao tentar encerrar a sessão!"
 msgid "Annual Allocation"
 msgstr "Alocação Anual"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:372
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
 msgid "Annual Allocation Exceeded"
 msgstr "Alocação Anual Excedida"
 
@@ -1766,6 +1766,7 @@ msgid "Attendance To Date"
 msgstr "Data Final de Frequência"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:166
+#: hrms/hr/doctype/attendance_request/attendance_request.py:185
 msgid "Attendance Updated"
 msgstr "Frequência Atualizada"
 
@@ -1817,11 +1818,11 @@ msgstr "Frequência registrada com sucesso"
 msgid "Attendance marked successfully."
 msgstr "Frequência registrada com sucesso."
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:185
+#: hrms/hr/doctype/attendance_request/attendance_request.py:204
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr "Frequência não submetida para {0}, pois é Feriado."
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:194
+#: hrms/hr/doctype/attendance_request/attendance_request.py:213
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr "Frequência não submetida para {0}, pois {1} está de licença."
 
@@ -2259,7 +2260,7 @@ msgstr "Cancelado"
 msgid "Cannot Modify Time"
 msgstr "Não é possível modificar o Horário"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:323
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:322
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr "Não é possível alocar licenças fora do período de alocação {0} - {1}"
 
@@ -2311,7 +2312,7 @@ msgstr "Não é possível registras frequência para o colaborador inativo {0}"
 msgid "Cannot submit. Attendance is not marked for some employees."
 msgstr "Não é possível submeter. A frequência não está registrada para alguns colaboradores."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:140
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:139
 msgid "Cannot update allocation for {0} after submission"
 msgstr "Não é possível atualizar a alocação de {0} após o envio"
 
@@ -2351,6 +2352,10 @@ msgstr "Alteração"
 #: frontend/src/views/ChangePassword.vue:16
 msgid "Change Password"
 msgstr "Alterar Senha"
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:171
+msgid "Changed the Status for Other Half from {0} to {1} via Attendance Request as the status is Half Day"
+msgstr "Status da outra metade alterado de {0} para {1} via Solicitação de Presença, pois o status é Meio Dia"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:150
 msgid "Changed the status from {0} to {1} and Status for Other Half to {2} via Attendance Request"
@@ -4171,7 +4176,7 @@ msgstr "Férias"
 msgid "Earned Leave Frequency"
 msgstr "Frequência de Licença Adquirida"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:141
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:140
 msgid "Earned Leaves"
 msgstr "Licenças Adquiridas"
 
@@ -4179,7 +4184,7 @@ msgstr "Licenças Adquiridas"
 msgid "Earned Leaves are allocated as per the configured frequency via scheduler."
 msgstr "As Licenças Adquiridas são alocadas conforme a frequência configurada pelo agendador."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:144
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:143
 msgid "Earned Leaves are auto-allocated via scheduler based on the annual allocation set in the Leave Policy: {0}"
 msgstr "As Licenças Adquiridas são alocadas automaticamente pelo agendador, com base na alocação anual definida na Política de Licença: {0}"
 
@@ -5870,7 +5875,7 @@ msgstr "Expirar Alocação"
 msgid "Expire Carry Forwarded Leaves (Days)"
 msgstr "Expirar Licenças Acumuladas (Dias)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:493
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:492
 msgid "Expire Leaves"
 msgstr "Expirar Licenças"
 
@@ -7655,7 +7660,7 @@ msgstr "Salário Adicional Inválido"
 msgid "Invalid Cost Center"
 msgstr "Centro de Custo Inválido"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:326
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:325
 msgid "Invalid Dates"
 msgstr "Datas Inválidas"
 
@@ -8433,11 +8438,11 @@ msgstr "O Tipo de Licença pode ser não remunerada ou parcialmente remunerada"
 msgid "Leave Type is mandatory"
 msgstr "O Tipo de Licença é obrigatório"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:185
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:184
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr "O Tipo de Licença {0} não pode ser alocado, pois é uma licença não remunerada"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:482
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:481
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr "O Tipo de Licença {0} não pode ser acumulado"
 
@@ -8478,7 +8483,7 @@ msgstr "Configurações de Licença e Reembolso de Despesas"
 msgid "Leave application is linked with leave allocations {0}. Leave application cannot be set as leave without pay"
 msgstr "A solicitação de licença está vinculada às alocações {0}. A solicitação não pode ser definida como licença sem remuneração"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:225
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:224
 msgid "Leave cannot be allocated before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}"
 msgstr "A licença não pode ser alocada antes de {0}, pois o saldo já foi acumulado na alocação futura {1}"
 
@@ -8532,7 +8537,7 @@ msgstr "Licenças & Feriados"
 msgid "Leaves Allocated"
 msgstr "Licenças Alocadas"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:487
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:486
 msgid "Leaves Expired"
 msgstr "Licenças Expiradas"
 
@@ -9543,7 +9548,7 @@ msgstr "Não Vegetariano"
 #: hrms/hr/doctype/goal/goal.py:67 hrms/hr/doctype/goal/goal.py:71
 #: hrms/hr/doctype/goal/goal.py:76 hrms/hr/doctype/interview/interview.py:27
 #: hrms/hr/doctype/job_applicant/job_applicant.py:53
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:147
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:146
 #: hrms/hr/doctype/leave_type/leave_type.py:43
 #: hrms/hr/doctype/leave_type/leave_type.py:46
 msgid "Not Allowed"
@@ -9572,7 +9577,7 @@ msgstr "Nota"
 msgid "Note: Shift will not be overwritten in existing attendance records"
 msgstr "Nota: O Turno não será sobrescrito nos registros de frequência existentes"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:156
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:155
 msgid "Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period"
 msgstr "Nota: O total de licenças alocadas {0} não deve ser menor que as licenças já aprovadas {1} para o período"
 
@@ -9901,7 +9906,7 @@ msgstr "Salário a Pagar"
 msgid "Outstanding Amount"
 msgstr "Valor Pendente"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:292
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:291
 msgid "Over Allocation"
 msgstr "Alocação Excessiva"
 
@@ -11163,7 +11168,7 @@ msgstr "Reduzir o limite máximo de licenças após a alocação pode fazer com 
 #. Label of the reference (Link) field in DocType 'Full and Final Asset'
 #: hrms/hr/doctype/expense_claim/expense_claim_dashboard.py:10
 #: hrms/hr/doctype/full_and_final_asset/full_and_final_asset.json
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:209
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:208
 msgid "Reference"
 msgstr "Referência"
 
@@ -11197,7 +11202,7 @@ msgstr "Nome do Documento de Referência"
 msgid "Reference Document Type"
 msgstr "Tipo de Documento de Referência"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:371
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:370
 #: hrms/hr/doctype/leave_application/leave_application.py:536
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:191
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:91
@@ -13824,7 +13829,7 @@ msgstr "A Data Final não pode ser anterior à Data Inicial"
 msgid "To date can not greater than employee's relieving date"
 msgstr "A Data Final não pode ser posterior à data de desligamento do colaborador"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:180
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:179
 #: hrms/hr/doctype/leave_application/leave_application.py:194
 msgid "To date cannot be before from date"
 msgstr "A Data Final não pode ser anterior à Data Inicial"
@@ -14120,11 +14125,11 @@ msgstr "Total de Horas Trabalhadas"
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "O valor total adiantado não pode ser maior que o valor total sancionado"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:73
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:72
 msgid "Total allocated leaves are more than maximum allocation allowed for {0} leave type for employee {1} in the period"
 msgstr "Total de licenças alocadas excede o máximo permitido para o tipo de licença {0} para o colaborador {1} no período"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:162
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:161
 msgid "Total allocated leaves {0} cannot be less than already approved leaves {1} for the period"
 msgstr "Total de licenças alocadas {0} não pode ser menor do que as licenças já aprovadas {1} para o período"
 
@@ -14142,11 +14147,11 @@ msgstr "Total por extenso"
 msgid "Total in words (Company Currency)"
 msgstr "Total por extenso (Moeda da Empresa)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:367
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:366
 msgid "Total leaves allocated cannot exceed annual allocation of {0}."
 msgstr "O total de licenças alocadas não pode exceder a alocação anual de {0}."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:253
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:252
 msgid "Total leaves allocated is mandatory for Leave Type {0}"
 msgstr "O total de licenças alocadas é obrigatório para o tipo de licença {0}"
 
@@ -14580,6 +14585,10 @@ msgstr "Atualizar Status"
 #: frontend/src/components/ExpenseTaxesTable.vue:118
 msgid "Update Tax"
 msgstr "Atualizar Imposto"
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:177
+msgid "Updated Status for Other Half from {0} to {1} for date {2} in the attendance record {3}"
+msgstr "Status da outra metade alterado de {0} para {1} na data {2} no registro de presença {3}"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:160
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
@@ -15085,7 +15094,7 @@ msgstr "Você só pode enviar o saque de licença para um valor de saque válido
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr "Você só pode carregar documentos JPG, PNG, PDF, TXT ou Microsoft."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:505
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:504
 msgid "You do not have permission to complete this action"
 msgstr "Você não tem permissão para concluir esta ação"
 
@@ -15290,7 +15299,7 @@ msgstr "{0} Linha nº{1}: {2} precisa ser habilitada para que a fórmula seja co
 msgid "{0} Unread"
 msgstr "{0} Não lido"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:203
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:202
 msgid "{0} already allocated for Employee {1} for period {2} to {3}"
 msgstr "{0} já alocado para o Colaborador {1} para o período {2} a {3}"
 
@@ -15359,15 +15368,15 @@ msgstr "{0} não está em um Período de Folha de Pagamento válido"
 msgid "{0} is required"
 msgstr "{0} é obrigatório"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:361
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:360
 msgid "{0} leaves allocated successfully"
 msgstr "{0} folhas alocadas com sucesso"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:488
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:487
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
 msgstr "{0} licenças da alocação para o tipo de licença {1} expiraram e serão processadas durante o próximo trabalho agendado. Recomenda-se expirou-as agora antes de criar novas atribuições de política de licenças."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:356
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:355
 msgid "{0} leaves were manually allocated by {1} on {2}"
 msgstr "{0} folhas foram alocadas manualmente por {1} em {2}"
 
