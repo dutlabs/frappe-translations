@@ -6209,7 +6209,7 @@ msgstr "Para um dia de licença tirado, se você ainda pagar (por exemplo) 50% d
 
 #: frontend/src/views/Login.vue:71
 msgid "Forgot Password?"
-msgstr "Esqueceu a Senha?"
+msgstr "Esqueceu a senha?"
 
 #. Label of the formula (Code) field in DocType 'Salary Component'
 #. Label of the formula (Code) field in DocType 'Salary Detail'
