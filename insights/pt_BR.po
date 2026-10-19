@@ -1237,7 +1237,7 @@ msgstr "Sexta-feira"
 #. Label of the from_template (Data) field in DocType 'Insights Workbook'
 #: insights/insights/doctype/insights_workbook/insights_workbook.json
 msgid "From Template"
-msgstr "A Partir do Modelo"
+msgstr "A Partir de Modelo"
 
 #. Option for the 'Sync Mode' (Select) field in DocType 'Insights Table v3'
 #: insights/insights/doctype/insights_table_v3/insights_table_v3.json

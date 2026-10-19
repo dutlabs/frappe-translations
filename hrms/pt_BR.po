@@ -6354,7 +6354,7 @@ msgstr "Do Colaborador"
 #. Label of the from_time (Time) field in DocType 'Interview'
 #: hrms/hr/doctype/interview/interview.json
 msgid "From Time"
-msgstr "Hora Inicial"
+msgstr "Horário Inicial"
 
 #. Label of the from_user (Link) field in DocType 'PWA Notification'
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json
@@ -6363,15 +6363,15 @@ msgstr "Do Usuário"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:117
 msgid "From and to dates are mandatory for recurring type additional salaries."
-msgstr "As datas inicial e final são obrigatórias para salários adicionais do tipo recorrente."
+msgstr "A data inicial e a data final são obrigatórias para salários adicionais do tipo recorrente."
 
 #: hrms/hr/utils.py:193
 msgid "From date can not be less than employee's joining date"
-msgstr "Data inicial não pode ser anterior à data de admissão do colaborador"
+msgstr "A data inicial não pode ser anterior à data de admissão do colaborador"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:125
 msgid "From date can not be less than employee's joining date."
-msgstr "Data inicial não pode ser anterior à data de admissão do colaborador."
+msgstr "A data inicial não pode ser anterior à data de admissão do colaborador."
 
 #: hrms/hr/doctype/leave_type/leave_type.js:54
 msgid "From here, you can enable encashment for the balance leaves."
@@ -13798,7 +13798,7 @@ msgstr "A Data Final deve ser posterior à Data Inicial"
 #. Label of the to_time (Time) field in DocType 'Interview'
 #: hrms/hr/doctype/interview/interview.json
 msgid "To Time"
-msgstr "Até o Horário"
+msgstr "Horário Final"
 
 #. Label of the to_user (Link) field in DocType 'PWA Notification'
 #: hrms/hr/doctype/pwa_notification/pwa_notification.json

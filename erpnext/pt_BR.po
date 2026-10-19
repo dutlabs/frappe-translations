@@ -3652,7 +3652,7 @@ msgstr "Adicionar Itens na Tabela de Finalidade"
 
 #: erpnext/crm/doctype/lead/lead.js:83
 msgid "Add Lead to Prospect"
-msgstr "Adicionar Lead ao Prospect"
+msgstr "Adicionar Lead ao Prospecto"
 
 #: erpnext/public/js/event.js:16
 msgid "Add Leads"
@@ -3811,7 +3811,7 @@ msgstr "Adicionar aos Feriados"
 
 #: erpnext/crm/doctype/lead/lead.js:37
 msgid "Add to Prospect"
-msgstr "Adicionar ao Prospect"
+msgstr "Adicionar ao Prospecto"
 
 #. Label of the add_to_transit (Check) field in DocType 'Stock Entry'
 #. Label of the add_to_transit (Check) field in DocType 'Stock Entry Type'
@@ -7416,7 +7416,7 @@ msgstr "Criar Automaticamente Ativos na Compra"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Auto Create Exchange Rate Revaluation"
-msgstr "Criar Reavaliação de Taxa de Câmbio Automaticamente"
+msgstr "Criar Reavaliação Cambial Automaticamente"
 
 #. Label of the auto_create_purchase_receipt (Check) field in DocType 'Buying
 #. Settings'
@@ -9981,7 +9981,7 @@ msgstr "CC"
 #. Of Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 msgid "CC To"
-msgstr "CC Para"
+msgstr "CC para"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -14499,7 +14499,7 @@ msgstr "Criar Formato de Impressão"
 
 #: erpnext/crm/doctype/lead/lead_list.js:8
 msgid "Create Prospect"
-msgstr "Criar Prospecção"
+msgstr "Criar Prospecto"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1291
 #: erpnext/utilities/activation.py:106
@@ -21101,12 +21101,12 @@ msgid ""
 "If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank."
 msgstr ""
 "Exemplo: ABCD.#####\n"
-"Se a série estiver definida e o Número de Série não for mencionado nas transações, um número de série automático será criado com base nesta série. Se você sempre quiser mencionar explicitamente os Números de Série para este item, deixe em branco."
+"Se a série de nomenclatura estiver definida e o Número de Série não for mencionado nas transações, um número de série automático será criado com base nesta série. Se você sempre quiser mencionar explicitamente os Números de Série para este item, deixe isto em branco."
 
 #. Description of the 'Batch Number Series' (Data) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings."
-msgstr "Exemplo: ABCD. #####. Se a série estiver configurada e o número de lote não for mencionado nas transações, o número de lote automático será criado com base nessa série. Se você sempre quiser mencionar explicitamente o Lote Não para este item, deixe em branco. Nota: esta configuração terá prioridade sobre o prefixo da nomenclatura em Configurações de estoque."
+msgstr "Exemplo: ABCD. #####. Se a série de nomenclatura estiver configurada e o Nº do Lote não for informado nas transações, um número de lote automático será criado com base nesta série. Se você deseja sempre informar explicitamente o Nº do Lote para este item, deixe em branco. Nota: esta configuração terá prioridade sobre o Prefixo da Série de Nomenclatura nas Configurações de Estoque."
 
 #: erpnext/stock/stock_ledger.py:2707
 msgid "Example: Serial No {0} reserved in {1}."
@@ -21237,20 +21237,20 @@ msgstr "Taxa de Câmbio"
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Exchange Rate Revaluation"
-msgstr "Reavaliação da Taxa de Câmbio"
+msgstr "Reavaliação Cambial"
 
 #. Label of the accounts (Table) field in DocType 'Exchange Rate Revaluation'
 #. Name of a DocType
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "Exchange Rate Revaluation Account"
-msgstr "Conta de Reavaliação da Taxa de Câmbio"
+msgstr "Conta Contábil de Reavaliação Cambial"
 
 #. Label of the exchange_rate_revaluation_settings_section (Section Break)
 #. field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Exchange Rate Revaluation Settings"
-msgstr "Configurações de Reavaliação da Taxa de Câmbio"
+msgstr "Configurações de Reavaliação Cambial"
 
 #: erpnext/controllers/sales_and_purchase_return.py:73
 msgid "Exchange Rate must be same as {0} {1} ({2})"
@@ -23260,7 +23260,7 @@ msgstr "Data de Lançamento Inicial"
 #. Label of the prospect_name (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "From Prospect"
-msgstr "Prospecção de Origem"
+msgstr "Prospecto de Origem"
 
 #. Label of the from_range (Float) field in DocType 'Item Attribute'
 #. Label of the from_range (Float) field in DocType 'Item Variant Attribute'
@@ -23294,7 +23294,7 @@ msgstr "Do Acionista"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/projects/doctype/project/project.json
 msgid "From Template"
-msgstr "Via Modelo"
+msgstr "A Partir de Modelo"
 
 #. Label of the from_time (Time) field in DocType 'Cashier Closing'
 #. Label of the from_time (Datetime) field in DocType 'Sales Invoice Timesheet'
@@ -25541,7 +25541,7 @@ msgstr "Ignorar Estoque Vazio"
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 #: erpnext/accounts/report/general_ledger/general_ledger.js:223
 msgid "Ignore Exchange Rate Revaluation and Gain / Loss Journals"
-msgstr "Ignorar Reavaliação de Taxa de Câmbio e Lançamentos Contábeis de Ganho / Perda"
+msgstr "Ignorar Reavaliação Cambial e Lançamentos Contábeis de Ganho / Perda"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1038
 msgid "Ignore Existing Ordered Qty"
@@ -30237,7 +30237,7 @@ msgstr "Lead"
 
 #: erpnext/crm/doctype/lead/lead.py:549
 msgid "Lead -> Prospect"
-msgstr "Lead -> Prospecção"
+msgstr "Lead -> Prospecto"
 
 #: erpnext/public/js/utils/party.js:180 erpnext/public/js/utils/party.js:230
 msgid "Lead / Customer / Supplier"
@@ -42569,7 +42569,7 @@ msgstr "Pró-Rata"
 #: erpnext/crm/doctype/prospect/prospect.json
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Prospect"
-msgstr "Prospecção"
+msgstr "Prospecto"
 
 #. Name of a DocType
 #: erpnext/crm/doctype/prospect_lead/prospect_lead.json
@@ -47255,7 +47255,7 @@ msgstr "Estorno de"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry_list.js:10
 msgid "Reversal Of Exchange Rate Revaluation"
-msgstr "Estorno da Reavaliação da Taxa de Câmbio"
+msgstr "Estorno da Reavaliação Cambial"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:70
 msgid "Reverse Journal Entry"
@@ -48967,7 +48967,7 @@ msgstr "Padrões de Vendas"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:68
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:92
 msgid "Sales Expenses"
-msgstr "Despesas Com Vendas"
+msgstr "Despesas de Vendas"
 
 #. Label of a Link in the CRM Workspace
 #. Label of a Link in the Selling Workspace
@@ -51113,11 +51113,11 @@ msgstr "Os Números de Série {0} já foram entregues. Você não pode usá-los 
 #. Label of the serial_no_series (Data) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Serial Number Series"
-msgstr "Série de Número de Série"
+msgstr "Série de Nomenclatura do Número de Série"
 
 #: erpnext/stock/doctype/item/item.py:289
 msgid "Serial Number Series is mandatory when entering Opening Stock for a serialized item."
-msgstr "A Série de Número de Série é obrigatória ao lançar o Estoque Inicial de um item com controle de série."
+msgstr "A Série de Nomenclatura do Número de Série é obrigatória ao lançar o Estoque Inicial de um item com controle de série."
 
 #. Label of the item_details_tab (Tab Break) field in DocType 'Serial and Batch
 #. Bundle'
@@ -54258,7 +54258,7 @@ msgstr "Diferença de Valor de Estoque"
 #. Name of a report
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.json
 msgid "Stock and Account Value Comparison"
-msgstr "Comparação de Valor de Estoque e Conta"
+msgstr "Comparação entre Saldo de Estoque e Saldo Contábil"
 
 #. Label of the stock_tab (Tab Break) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
