@@ -25544,16 +25544,16 @@ msgstr "Exibir \"Chamada para Ação\" nas Publicações"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Show Absolute Datetime in Timeline"
-msgstr "Mostrar Data e Hora Absolutas na Linha do Tempo"
+msgstr "Exibir Data e Hora Absolutas na Linha do Tempo"
 
 #. Label of the absolute_value (Check) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Show Absolute Values"
-msgstr "Mostrar Valores Absolutos"
+msgstr "Exibir Valores Absolutos"
 
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:78
 msgid "Show All"
-msgstr "Mostrar Tudo"
+msgstr "Exibir Tudo"
 
 #. Label of the show_attachments (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
