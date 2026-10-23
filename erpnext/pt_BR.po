@@ -1,14 +1,18 @@
-
+# Portuguese (Brazil) translations for ERPNext.
+# Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
+# This file is distributed under the same license as the ERPNext project.
+# Dut Labs <developers@dutlabs.com>, 2026.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version:  frappe\n"
-"Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-02-25 13:15+0000\n"
-"PO-Revision-Date: 2025-12-22 03:07+0000\n"
-"Last-Translator: hello@frappe.io\n"
+"Project-Id-Version: ERPNext VERSION\n"
+"Report-Msgid-Bugs-To: developers@dutlabs.com\n"
+"POT-Creation-Date: 2026-10-23 12:59+0000\n"
+"PO-Revision-Date: 2026-10-23 12:59+0000\n"
+"Last-Translator: developers@dutlabs.com\n"
 "Language: pt_BR\n"
-"Language-Team: Portuguese, Brazilian\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: developers@dutlabs.com\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"

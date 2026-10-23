@@ -1,17 +1,17 @@
 # Portuguese (Brazil) translations for Insights.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Insights project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+# Dut Labs <developers@dutlabs.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Insights VERSION\n"
-"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"Report-Msgid-Bugs-To: developers@dutlabs.com\n"
 "POT-Creation-Date: 2026-08-18 19:48+0000\n"
 "PO-Revision-Date: 2026-08-18 19:48+0000\n"
-"Last-Translator: hello@frappe.io\n"
+"Last-Translator: developers@dutlabs.com\n"
 "Language: pt_BR\n"
-"Language-Team: hello@frappe.io\n"
+"Language-Team: developers@dutlabs.com\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"

@@ -1,13 +1,17 @@
-
+# Spanish translations for Frappe Framework.
+# Copyright (C) 2026 Frappe Technologies
+# This file is distributed under the same license as the Frappe Framework project.
+# Dut Labs <developers@dutlabs.com>, 2026.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version:  frappe\n"
-"Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-02-25 11:42+0000\n"
-"PO-Revision-Date: 2026-01-21 06:48+0000\n"
-"Last-Translator: developers@frappe.io\n"
-"Language: es_ES\n"
-"Language-Team: Spanish\n"
+"Project-Id-Version: Frappe Framework VERSION\n"
+"Report-Msgid-Bugs-To: developers@dutlabs.com\n"
+"POT-Creation-Date: 2026-10-23 12:59+0000\n"
+"PO-Revision-Date: 2026-10-23 12:59+0000\n"
+"Last-Translator: developers@dutlabs.com\n"
+"Language: es\n"
+"Language-Team: developers@dutlabs.com\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
