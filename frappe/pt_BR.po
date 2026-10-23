@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@dutlabs.com\n"
 "POT-Creation-Date: 2026-10-23 20:09+0000\n"
-"PO-Revision-Date: 2026-10-23 12:59+0000\n"
+"PO-Revision-Date: 2026-10-23 21:46+0000\n"
 "Last-Translator: developers@dutlabs.com\n"
 "Language: pt_BR\n"
 "Language-Team: developers@dutlabs.com\n"
@@ -1191,7 +1191,7 @@ msgstr "A9"
 #. Label of the ai_agents_tab (Tab Break) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:866
 msgid "AI Agents"
-msgstr ""
+msgstr "Agentes de IA"
 
 #. Option for the 'Email Sync Option' (Select) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:265
@@ -1281,7 +1281,7 @@ msgstr "Segredo da API"
 
 #: frappe/api/discovery.py:231
 msgid "API discovery cache is being generated. Please try again in a few seconds."
-msgstr ""
+msgstr "O cache de descoberta da API está sendo gerado. Tente novamente em alguns segundos."
 
 #. Option for the 'Default Sort Order' (Select) field in DocType 'DocType'
 #. Option for the 'Sort Order' (Select) field in DocType 'Customize Form'
@@ -1634,7 +1634,7 @@ msgstr "Adicionar uma Nova Regra"
 
 #: ui/src/components/GroupBy/GroupBy.vue:102
 msgid "Add Aggregate"
-msgstr ""
+msgstr "Adicionar Agregação"
 
 #: frappe/public/js/frappe/views/interaction.js:159
 msgid "Add Attachment"
@@ -1715,7 +1715,7 @@ msgstr "Adicionar grupo"
 
 #: ui/src/components/GroupBy/GroupBy.vue:65
 msgid "Add Group By"
-msgstr ""
+msgstr "Adicionar Agrupamento"
 
 #: frappe/core/doctype/recorder/recorder.js:33
 msgid "Add Indexes"
@@ -2319,11 +2319,11 @@ msgstr "Após Submeter"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:889
 msgid "Agent Instructions"
-msgstr ""
+msgstr "Instruções para Agentes"
 
 #: ui/src/components/GroupBy/GroupBy.vue:70
 msgid "Aggregate"
-msgstr ""
+msgstr "Agregação"
 
 #: frappe/desk/doctype/number_card/number_card.py:66
 msgid "Aggregate Field is required to create a number card"
@@ -4535,7 +4535,7 @@ msgstr "Voltar para a página de acesso"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:120
 msgid "Back to the editor"
-msgstr ""
+msgstr "Voltar ao editor"
 
 #: frappe/public/js/print_format_builder/components/inspector/SectionPropertiesPanel.vue:45
 msgid "Background"
@@ -4609,7 +4609,7 @@ msgstr "Cor de Fundo"
 #: frappe/public/js/print_format_builder/utils.js:115
 #: frappe/utils/typst_emitter.py:157
 msgid "Background image loaded from a web address"
-msgstr ""
+msgstr "Imagem de fundo carregada de um endereço da web"
 
 #: frappe/desk/page/backups/backups.js:28
 msgid "Backup Encryption Key"
@@ -5397,7 +5397,7 @@ msgstr "Descrição da Campanha (Opcional)"
 #. Label of the can_create (Check) field in DocType 'Data Import Value Mapping'
 #: frappe/core/doctype/data_import_value_mapping/data_import_value_mapping.json:71
 msgid "Can Create"
-msgstr ""
+msgstr "Pode Criar"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:418
 #, python-brace-format
@@ -6237,7 +6237,7 @@ msgstr "Limpar Filtros"
 
 #: ui/src/components/GroupBy/GroupBy.vue:111
 msgid "Clear Grouping"
-msgstr ""
+msgstr "Limpar Agrupamento"
 
 #: frappe/public/js/frappe/form/controls/link.js:18
 msgid "Clear Link"
@@ -6263,7 +6263,7 @@ msgstr "Limpar cache e recarregar"
 
 #: ui/src/components/GroupBy/GroupBy.vue:29
 msgid "Clear grouping"
-msgstr ""
+msgstr "Limpar agrupamento"
 
 #: frappe/public/js/frappe/views/kanban_v2/kanban_page.js:168
 msgid "Clear selection"
@@ -6466,7 +6466,7 @@ msgstr "Métodos de resolução fornecidos pelo cliente não são permitidos"
 #: frappe/core/doctype/system_settings/system_settings.js:107
 #, python-brace-format
 msgid "Clients sign in with OAuth: they open this site's login and ask you to allow access. Configure this in {0}."
-msgstr ""
+msgstr "Os clientes entram com OAuth: eles abrem o login deste site e pedem que você permita o acesso. Configure isso em {0}."
 
 #: frappe/core/doctype/communication/communication.js:39
 #: frappe/desk/doctype/todo/todo.js:23 frappe/public/js/frappe/dom.js:360
@@ -7236,7 +7236,7 @@ msgstr "Confirmado"
 #: frappe/core/doctype/system_settings/system_settings.js:103
 #, python-brace-format
 msgid "Connect MCP clients to {0}."
-msgstr ""
+msgstr "Conecte clientes MCP a {0}."
 
 #: frappe/integrations/doctype/connected_app/connected_app.js:20
 #, python-brace-format
@@ -7927,7 +7927,7 @@ msgstr "Crie um formato de impressão para personalizar como {0} é impresso."
 #. Mapping'
 #: frappe/core/doctype/data_import_value_mapping/data_import_value_mapping.json:60
 msgid "Create a record named after the file's value when the import runs."
-msgstr ""
+msgstr "Criar um registro com o nome do valor do arquivo quando a importação for executada."
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/email_template.js:73
 #, python-brace-format
@@ -9668,7 +9668,7 @@ msgstr "Obsoleto, removido na versão 17. Renderiza com a folha de estilos da v1
 
 #: frappe/printing/doctype/print_format/print_format.js:139
 msgid "Deprecated, removed in version 17. Switch to Chrome."
-msgstr ""
+msgstr "Obsoleto, removido na versão 17. Altere para o Chrome."
 
 #. Label of the depth (Int) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json:75
@@ -10481,7 +10481,7 @@ msgstr "O DocType {0} não existe."
 #: frappe/api/discovery.py:387
 #, python-brace-format
 msgid "DocType {0} is not available for discovery"
-msgstr ""
+msgstr "O DocType {0} não está disponível para descoberta"
 
 #: frappe/desk/doctype_settings/settings_map.py:42
 #, python-brace-format
@@ -12212,7 +12212,7 @@ msgstr "Habilitar Caixa de Entrada"
 #. Label of the enable_mcp (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:877
 msgid "Enable MCP"
-msgstr ""
+msgstr "Ativar MCP"
 
 #. Label of the enable_onboarding (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:457
@@ -14680,7 +14680,7 @@ msgstr "Para ajus, veja <a href=\"https://frappeframework.com/docs/user/en/guide
 #: frappe/core/doctype/system_settings/system_settings.js:130
 #, python-brace-format
 msgid "For more information, see {0}."
-msgstr ""
+msgstr "Para mais informações, veja {0}."
 
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 #, python-brace-format
@@ -15734,7 +15734,7 @@ msgstr "Agrupado por <span style='font-weight:600;'>{0}</b>"
 #: ui/src/components/GroupBy/GroupBy.vue:22
 #, python-brace-format
 msgid "Grouped by {0}"
-msgstr ""
+msgstr "Agrupado por {0}"
 
 #: frappe/core/page/component_explorer/component_explorer.js:307
 msgid "Groups and submenus"
@@ -17668,7 +17668,7 @@ msgstr "Inserido"
 
 #: frappe/core/doctype/system_settings/system_settings.js:122
 msgid "Install it:"
-msgstr ""
+msgstr "Instale:"
 
 #. Name of a DocType
 #: frappe/core/doctype/installed_application/installed_application.json:62
@@ -20641,7 +20641,7 @@ msgstr "M"
 #. Label of the mcp_section (Section Break) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:871
 msgid "MCP Settings"
-msgstr ""
+msgstr "Configurações do MCP"
 
 #. Option for the 'License Type' (Select) field in DocType 'Package'
 #: frappe/core/doctype/package/package.json:34
@@ -21390,12 +21390,12 @@ msgstr "A Função é obrigatória para criar um cartão numérico"
 #: frappe/api/discovery.py:80 frappe/api/discovery.py:94
 #, python-brace-format
 msgid "Method {0} is not available for discovery"
-msgstr ""
+msgstr "O método {0} não está disponível para descoberta"
 
 #: frappe/api/discovery.py:115
 #, python-brace-format
 msgid "Method {0} is not available for discovery on DocType {1}"
-msgstr ""
+msgstr "O método {0} não está disponível para descoberta no DocType {1}"
 
 #. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json:75
@@ -22096,7 +22096,7 @@ msgstr "Nome de {0} não pode ser {1}"
 #. Description of the 'Server Name' (Data) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:880
 msgid "Name shown to AI clients. Defaults to the site's host name."
-msgstr ""
+msgstr "Nome exibido aos clientes de IA. O padrão é o nome do host do site."
 
 #. Description of the 'Target' (Data) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json:42
@@ -23213,7 +23213,7 @@ msgstr "Nenhum destinatário a notificar"
 
 #: ui/src/components/GroupBy/GroupByTable.vue:105
 msgid "No records"
-msgstr ""
+msgstr "Nenhum registro"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:175
 msgid "No records deleted"
@@ -23430,7 +23430,7 @@ msgstr "Nenhum"
 #: frappe/core/doctype/data_import/data_import.py:124
 #, python-brace-format
 msgid "None of the columns in your file match {0}. Check that it is the right file; if it is, map its columns to {0} fields in the next step."
-msgstr ""
+msgstr "Nenhuma coluna do seu arquivo corresponde a {0}. Verifique se é o arquivo certo; se for, mapeie as colunas dele para campos de {0} na próxima etapa."
 
 #: frappe/public/js/frappe/form/workflow.js:36
 msgid "None: End of Workflow"
@@ -23629,7 +23629,7 @@ msgstr "Não está em nenhum aplicativo"
 #: frappe/public/js/print_format_builder/utils.js:162
 #: frappe/utils/typst_emitter.py:135 frappe/utils/weasyprint_legacy.py:34
 msgid "Not made in the Print Format Editor"
-msgstr ""
+msgstr "Não criado no Editor de Formato de Impressão"
 
 #: frappe/core/doctype/system_settings/system_settings.py:252
 #: frappe/public/js/frappe/data_import/data_import_dialog.js:58
@@ -24499,7 +24499,7 @@ msgstr "Ops! Algo deu errado."
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:78
 msgid "Opacity"
-msgstr ""
+msgstr "Opacidade"
 
 #. Option for the 'Status' (Select) field in DocType 'Contact'
 #. Option for the 'Status' (Select) field in DocType 'Communication'
@@ -25255,7 +25255,7 @@ msgstr "Largura da Página (em mm)"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:71
 msgid "Page background"
-msgstr ""
+msgstr "Fundo da página"
 
 #: frappe/public/js/print_format_builder/components/editor/PrintFormat.vue:187
 msgid "Page break must follow a section"
@@ -25309,11 +25309,11 @@ msgstr "Páginas que esta função pode acessar."
 
 #: frappe/printing/page/print/print.js:214
 msgid "Paper Size"
-msgstr ""
+msgstr "Tamanho do Papel"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:40
 msgid "Paper size"
-msgstr ""
+msgstr "Tamanho do papel"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:244
 msgid "Paragraph"
@@ -26960,7 +26960,7 @@ msgstr "Criar/Editar Formato de Impressão"
 #: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:25
 #: frappe/printing/sidebar/printing/printing.json:66
 msgid "Print Format Editor"
-msgstr ""
+msgstr "Editor de Formato de Impressão"
 
 #: frappe/utils/pdf.py:84
 msgid "Print Format Error"
@@ -27649,7 +27649,7 @@ msgstr "Na fila para cópia de segurança. Você receberá um e-mail com o link 
 #: frappe/core/doctype/submission_queue/submission_queue.py:186
 #, python-brace-format
 msgid "Queued for {0}. You can track the progress over {1}."
-msgstr ""
+msgstr "Na fila para {0}. Você pode acompanhar o progresso em {1}."
 
 #. Label of the queues (Data) field in DocType 'System Health Report Workers'
 #: frappe/desk/doctype/system_health_report_workers/system_health_report_workers.json:18
@@ -29036,12 +29036,12 @@ msgstr "Relatório não pode ser definido para tipos de Instância Única."
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2518
 msgid "Report generation failed"
-msgstr ""
+msgstr "Falha na geração do relatório"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2517
 #, python-brace-format
 msgid "Report generation failed {0}"
-msgstr ""
+msgstr "Falha na geração do relatório {0}"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:208
 #: frappe/desk/doctype/number_card/number_card.js:189
@@ -29091,7 +29091,7 @@ msgstr "Relatório {0} apagado"
 #: frappe/core/doctype/prepared_report/prepared_report.py:157
 #, python-brace-format
 msgid "Report {0} failed to generate."
-msgstr ""
+msgstr "Falha ao gerar o relatório {0}."
 
 #: frappe/desk/query_report.py:61
 #, python-brace-format
@@ -29101,7 +29101,7 @@ msgstr "Relatório {0} está desabilitado"
 #: frappe/core/doctype/prepared_report/prepared_report.py:155
 #, python-brace-format
 msgid "Report {0} is ready."
-msgstr ""
+msgstr "O relatório {0} está pronto."
 
 #: frappe/desk/reportview.py:415
 #, python-brace-format
@@ -31398,7 +31398,7 @@ msgstr "Selecionar formato de data"
 #: ui/src/components/GroupBy/GroupBy.vue:51
 #: ui/src/components/GroupBy/GroupBy.vue:87
 msgid "Select field"
-msgstr ""
+msgstr "Selecionar campo"
 
 #: frappe/public/js/frappe/views/kanban_v2/kanban_settings.bundle.js:205
 msgid "Select field whose options become the board columns."
@@ -31863,7 +31863,7 @@ msgstr "IP do Servidor"
 #. Label of the server_name (Data) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:883
 msgid "Server Name"
-msgstr ""
+msgstr "Nome do Servidor"
 
 #. Label of a Sidebar Item
 #. Label of a Link in the Build Workspace
@@ -32087,7 +32087,7 @@ msgstr "Definir como Padrão"
 
 #: frappe/printing/page/print/print.js:382
 msgid "Set as Default Format"
-msgstr ""
+msgstr "Definir como Formato Padrão"
 
 #: frappe/website/doctype/website_theme/website_theme.js:33
 msgid "Set as Default Theme"
@@ -32155,7 +32155,7 @@ msgstr "Definir tamanho em MB"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2500
 msgid "Set the filters and generate a new one."
-msgstr ""
+msgstr "Defina os filtros e gere um novo."
 
 #. Description of the 'Filters Configuration' (Code) field in DocType 'Number
 #. Card'
@@ -32901,7 +32901,7 @@ msgstr "Exibe o título na janela do navegador como \"Prefixo - título\""
 
 #: ui/src/components/GroupBy/GroupBy.vue:109
 msgid "Show totals"
-msgstr ""
+msgstr "Mostrar totais"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:674
 msgid "Show view switcher"
@@ -33092,7 +33092,7 @@ msgstr "O Cadastro está desabilitado"
 
 #: frappe/core/doctype/system_settings/system_settings.js:124
 msgid "Sign in to this site:"
-msgstr ""
+msgstr "Entre neste site:"
 
 #: frappe/www/login.html:116 frappe/www/login.html:132
 #: frappe/www/login.html:209
@@ -33509,7 +33509,7 @@ msgstr "Algo deu errado."
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2522
 msgid "Something went wrong. Contact your System Manager."
-msgstr ""
+msgstr "Algo deu errado. Entre em contato com o Gerente do Sistema."
 
 #: frappe/public/js/frappe/views/pageview.js:116
 msgid "Sorry! I could not find what you were looking for."
@@ -33798,7 +33798,7 @@ msgstr "Formulários da Web Padrão não podem ser modificados. Em vez disso, du
 
 #: frappe/printing/page/print/print.js:247
 msgid "Standard is used when no default is set"
-msgstr ""
+msgstr "O Padrão é usado quando nenhum padrão é definido"
 
 #: frappe/desk/doctype/list_filter/list_filter.py:101
 #, python-brace-format
@@ -35311,7 +35311,7 @@ msgstr "Telemetria"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:886
 msgid "Tell AI agents what this site is for and how your team uses it. Agents receive this text when they connect."
-msgstr ""
+msgstr "Informe aos agentes de IA para que serve este site e como sua equipe o usa. Os agentes recebem este texto quando se conectam."
 
 #. Label of the template (Link) field in DocType 'Auto Repeat'
 #. Label of the template (Code) field in DocType 'Address Template'
@@ -35522,7 +35522,7 @@ msgstr "A Próxima Data Agendada não pode ser posterior à Data Final."
 
 #: frappe/printing/doctype/print_format/print_format_list.js:63
 msgid "The Print Format Editor is visual. HTML is hand-written."
-msgstr ""
+msgstr "O Editor de Formato de Impressão é visual. HTML é escrito à mão."
 
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:29
 msgid "The Push Relay Server URL key (`push_relay_server_url`) is missing in your site config"
@@ -35546,7 +35546,7 @@ msgstr "O bloco Typst em {0} tem um erro de modelo: {1}"
 #: frappe/utils/typst_emitter.py:626
 #, python-brace-format
 msgid "The Typst renderer cannot embed this background image: {0}"
-msgstr ""
+msgstr "O renderizador Typst não consegue incorporar esta imagem de fundo: {0}"
 
 #: frappe/utils/typst_emitter.py:1060
 #, python-brace-format
@@ -36008,7 +36008,7 @@ msgstr "Temas"
 
 #: frappe/core/doctype/system_settings/system_settings.js:126
 msgid "Then use it:"
-msgstr ""
+msgstr "Depois, use:"
 
 #: frappe/workflow/doctype/workflow/workflow.js:157
 msgid "There are documents which have workflow states that do not exist in this Workflow. It is recommended that you add these states to the Workflow and change their states before removing these states."
@@ -36258,7 +36258,7 @@ msgstr "Este documento não pode ser excluído no momento, pois está sendo modi
 #: frappe/core/doctype/submission_queue/submission_queue.py:171
 #, python-brace-format
 msgid "This document has already been queued for {0}. You can track the progress over {1}."
-msgstr ""
+msgstr "Este documento já está na fila para {0}. Você pode acompanhar o progresso em {1}."
 
 #: frappe/www/confirm_workflow_action.html:8
 msgid "This document has been modified after the email was sent."
@@ -36407,7 +36407,7 @@ msgstr "Este convite expirou"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2499
 msgid "This is a background report"
-msgstr ""
+msgstr "Este é um relatório em segundo plano"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:883
 #, python-brace-format
@@ -39426,7 +39426,7 @@ msgstr "Ver Trilha de Auditoria"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2509
 msgid "View Details"
-msgstr ""
+msgstr "Ver Detalhes"
 
 #. Option for the 'Action' (Select) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json:67
@@ -41732,7 +41732,7 @@ msgstr "Sua senha expirou. Defina uma nova senha."
 #: frappe/core/doctype/user/user.py:414
 #, python-brace-format
 msgid "Your password was changed by {0}"
-msgstr ""
+msgstr "Sua senha foi alterada por {0}"
 
 #: frappe/templates/emails/auto_reply.html:2
 msgid "Your query has been received. We will reply back shortly. If you have any additional information, please reply to this mail."
@@ -41777,11 +41777,11 @@ msgstr "Zoom"
 
 #: frappe/printing/page/print/print.js:73
 msgid "Zoom in"
-msgstr ""
+msgstr "Aumentar zoom"
 
 #: frappe/printing/page/print/print.js:69
 msgid "Zoom out"
-msgstr ""
+msgstr "Diminuir zoom"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:360
 #, python-brace-format
@@ -41831,7 +41831,7 @@ msgstr "o aplicativo fornece isto desativado"
 
 #: frappe/printing/doctype/print_format/print_format.py:589
 msgid "applied the editor draft"
-msgstr ""
+msgstr "aplicou o rascunho do editor"
 
 #: frappe/public/js/frappe/ui/sort_selector.html:5
 #: frappe/public/js/frappe/ui/sort_selector.js:54
@@ -42123,11 +42123,11 @@ msgstr "encontrado(s)"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json:894
 msgid "frappectl"
-msgstr ""
+msgstr "frappectl"
 
 #: frappe/core/doctype/system_settings/system_settings.js:119
 msgid "frappectl is a command-line client for Frappe sites, built for people and AI agents."
-msgstr ""
+msgstr "O frappectl é um cliente de linha de comando para sites Frappe, criado para pessoas e agentes de IA."
 
 #. Option for the 'Indicator Color' (Select) field in DocType 'Custom
 #. Workspace'
@@ -42871,7 +42871,7 @@ msgstr "Painel {0}"
 #, python-brace-format
 msgctxt "Prepared Report Notification"
 msgid "{0} Error: {1}"
-msgstr ""
+msgstr "Erro de {0}: {1}"
 
 #: frappe/public/js/frappe/form/grid_row.js:469
 #: frappe/public/js/frappe/list/list_filter/layout_field_selector.js:248
@@ -43624,7 +43624,7 @@ msgstr "{0} é renderizado a partir de um arquivo HTML e não pode ser convertid
 #: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:78
 #, python-brace-format
 msgid "{0} is rendered from an HTML file and cannot be edited in the Print Format Editor."
-msgstr ""
+msgstr "{0} é renderizado a partir de um arquivo HTML e não pode ser editado no Editor de Formato de Impressão."
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:17
 #, python-brace-format
@@ -44124,7 +44124,7 @@ msgstr "{0} semanas atrás"
 #: frappe/printing/doctype/print_format/print_format.js:132
 #, python-brace-format
 msgid "{0} will be removed in version 17. Switch to Chrome."
-msgstr ""
+msgstr "{0} será removido na versão 17. Altere para o Chrome."
 
 #: frappe/core/page/permission_manager/permission_manager.js:378
 #, python-brace-format
