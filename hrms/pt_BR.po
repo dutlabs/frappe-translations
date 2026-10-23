@@ -6779,9 +6779,8 @@ msgstr "Marcar como {0}"
 
 #. Title of an Onboarding Step
 #: hrms/shift_and_attendance/onboarding_step/create_attendance/create_attendance.json
-#, fuzzy
 msgid "Mark attendance"
-msgstr "Registrar Presença"
+msgstr "Registrar presença"
 
 #: hrms/hr/doctype/attendance/attendance_list.js:108
 msgid "Mark attendance as {0} for {1} on selected dates?"
@@ -7997,9 +7996,8 @@ msgstr "Reembolse o colaborador"
 #. Label of the pay_via_payment_entry (Check) field in DocType 'Leave
 #. Encashment'
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
-#, fuzzy
 msgid "Pay via Payment Entry"
-msgstr "Pagar Via Lançamento de Pagamento"
+msgstr "Pagar via Lançamento de Pagamento"
 
 #. Label of the pay_via_salary_slip (Check) field in DocType 'Gratuity'
 #: hrms/payroll/doctype/gratuity/gratuity.json
@@ -9045,9 +9043,8 @@ msgstr "Solicitar Adiantamento"
 
 #. Title of an Onboarding Step
 #: hrms/shift_and_attendance/onboarding_step/create_attendance_request/create_attendance_request.json
-#, fuzzy
 msgid "Request attendance"
-msgstr "Solicitar Frequência"
+msgstr "Solicitar frequência"
 
 #. Label of the requested_by (Link) field in DocType 'Job Requisition'
 #. Label of the section_break_7 (Section Break) field in DocType 'Job
@@ -12200,9 +12197,8 @@ msgid "or for the Employee's Department: {0}"
 msgstr "ou para o Departamento do Colaborador: {0}"
 
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.py:183
-#, fuzzy
 msgid "payment days"
-msgstr "dias de Pagamento"
+msgstr "dias de pagamento"
 
 #: hrms/public/js/utils/index.js:134
 msgid "process"
@@ -12237,9 +12233,8 @@ msgid "via Salary Component sync"
 msgstr "via sincronização do Componente Salarial"
 
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.py:183
-#, fuzzy
 msgid "working days"
-msgstr "dias de Trabalho"
+msgstr "dias de trabalho"
 
 #: hrms/controllers/employee_reminders.py:259
 msgid "year"
