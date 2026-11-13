@@ -4717,7 +4717,7 @@ msgstr "Agentes"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:4
 msgid "Agriculture"
-msgstr "Agricultura"
+msgstr "Agronegócio"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:5
 msgid "Airline"
@@ -13917,7 +13917,7 @@ msgstr "Concluir Pedido"
 #. Label of the completed_by (Link) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json:375
 msgid "Completed By"
-msgstr "Completado por"
+msgstr "Concluído por"
 
 #. Label of the completed_on (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json:402

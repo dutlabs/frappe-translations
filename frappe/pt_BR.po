@@ -3138,7 +3138,7 @@ msgstr "Análise de Dados"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:35
 msgid "Ancestors Of"
-msgstr "Ancestrais De"
+msgstr "Ancestrais de"
 
 #: frappe/core/page/component_explorer/component_explorer.js:921
 msgid "Animate the first bar above"
@@ -9770,11 +9770,11 @@ msgstr "Profundidade"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:32
 msgid "Descendants Of"
-msgstr "Descendentes De"
+msgstr "Descendentes de"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:33
 msgid "Descendants Of (inclusive)"
-msgstr "Descendentes De (inclusivo)"
+msgstr "Descendentes de (inclusivo)"
 
 #: frappe/public/js/frappe/list/list_filter/layout_dialog.js:87
 msgid "Descending"
@@ -15773,7 +15773,7 @@ msgstr "Maior que"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:25
 msgid "Greater Than Or Equal To"
-msgstr "Maior que ou Igual a"
+msgstr "Maior que ou igual a"
 
 #. Option for the 'Color' (Select) field in DocType 'DocType State'
 #. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
@@ -19521,37 +19521,37 @@ msgstr "Últimos 10 usuários ativos"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:756
 msgid "Last 14 Days"
-msgstr "Últimos 14 Dias"
+msgstr "Últimos 14 dias"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:760
 msgid "Last 30 Days"
-msgstr "Últimos 30 Dias"
+msgstr "Últimos 30 dias"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:780
 msgid "Last 6 Months"
-msgstr "Últimos 6 Meses"
+msgstr "Últimos 6 meses"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:752
 msgid "Last 7 Days"
-msgstr "Últimos 7 Dias"
+msgstr "Últimos 7 dias"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:764
 msgid "Last 90 Days"
-msgstr "Últimos 90 Dias"
+msgstr "Últimos 90 dias"
 
 #. Label of the last_active (Datetime) field in DocType 'User'
 #: frappe/core/doctype/user/user.json:582
 msgid "Last Active"
-msgstr "Visto por Último"
+msgstr "Última atividade"
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:150
 msgid "Last Edited By You"
-msgstr "Editado por Último por Você"
+msgstr "Editado por último por você"
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:151
 #, python-brace-format
 msgid "Last Edited By {0}"
-msgstr "Editado por Último por {0}"
+msgstr "Editado por último por {0}"
 
 #. Label of the last_execution (Datetime) field in DocType 'Scheduled Job Type'
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json:58
@@ -19580,18 +19580,18 @@ msgstr "Último Acesso"
 
 #: frappe/email/doctype/notification/notification.js:32
 msgid "Last Modified Date"
-msgstr "Data da Última Modificação"
+msgstr "Data da última modificação"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:242
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:471
 msgid "Last Modified On"
-msgstr "Última Modificação Em"
+msgstr "Última modificação em"
 
 #. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:106
 #: frappe/public/js/frappe/ui/filters/filter.js:772
 msgid "Last Month"
-msgstr "Mês Passado"
+msgstr "Mês passado"
 
 #. Label of the last_name (Data) field in DocType 'Contact'
 #. Label of the last_name (Data) field in DocType 'User'
@@ -19614,18 +19614,18 @@ msgstr "Data da Última Redefinição de Senha"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:106
 #: frappe/public/js/frappe/ui/filters/filter.js:776
 msgid "Last Quarter"
-msgstr "Último Trimestre"
+msgstr "Último trimestre"
 
 #. Label of the last_received_at (Datetime) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json:719
 msgid "Last Received At"
-msgstr "Recebido por Último em"
+msgstr "Recebido por último em"
 
 #. Label of the last_reset_password_key_generated_on (Datetime) field in
 #. DocType 'User'
 #: frappe/core/doctype/user/user.json:672
 msgid "Last Reset Password Key Generated On"
-msgstr "Última Chave de Redefinição de Senha Gerada Em"
+msgstr "Última Chave de Redefinição de Senha gerada em"
 
 #. Label of the datetime_last_run (Datetime) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json:344
@@ -19634,7 +19634,7 @@ msgstr "Última Execução"
 
 #: frappe/core/doctype/error_log/error_log.js:66
 msgid "Last Seen"
-msgstr "Visto por Último"
+msgstr "Visto por último"
 
 #. Label of the last_sync_on (Datetime) field in DocType 'Google Contacts'
 #: frappe/integrations/doctype/google_contacts/google_contacts.json:45
@@ -19670,13 +19670,13 @@ msgstr "Último Usuário"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:106
 #: frappe/public/js/frappe/ui/filters/filter.js:768
 msgid "Last Week"
-msgstr "Semana Passada"
+msgstr "Semana passada"
 
 #. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:106
 #: frappe/public/js/frappe/ui/filters/filter.js:784
 msgid "Last Year"
-msgstr "Ano Passado"
+msgstr "Ano passado"
 
 #: frappe/core/doctype/data_import/data_import.js:2866
 msgid "Last modified by"
@@ -19886,11 +19886,11 @@ msgstr "Menor"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:24
 msgid "Less Than"
-msgstr "Menor Que"
+msgstr "Menor que"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:26
 msgid "Less Than Or Equal To"
-msgstr "Menor Que ou Igual A"
+msgstr "Menor que ou igual a"
 
 #: frappe/public/js/frappe/views/workspace/blocks/onboarding.js:94
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:549
@@ -22735,19 +22735,19 @@ msgstr "Próximo"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:812
 msgid "Next 14 Days"
-msgstr "Próximos 14 Dias"
+msgstr "Próximos 14 dias"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:816
 msgid "Next 30 Days"
-msgstr "Próximos 30 Dias"
+msgstr "Próximos 30 dias"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:832
 msgid "Next 6 Months"
-msgstr "Próximos 6 Meses"
+msgstr "Próximos 6 meses"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:808
 msgid "Next 7 Days"
-msgstr "Próximos 7 Dias"
+msgstr "Próximos 7 dias"
 
 #. Label of the next_action_email_template (Link) field in DocType 'Workflow
 #. Document State'
@@ -22780,11 +22780,11 @@ msgstr "Próxima Tour de Formulário"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:824
 msgid "Next Month"
-msgstr "Próximo Mês"
+msgstr "Próximo mês"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:828
 msgid "Next Quarter"
-msgstr "Próximo Trimestre"
+msgstr "Próximo trimestre"
 
 #. Label of the next_run (Datetime) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json:153
@@ -22819,11 +22819,11 @@ msgstr "Próximo Token de Sincronização"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:820
 msgid "Next Week"
-msgstr "Próxima Semana"
+msgstr "Próxima semana"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:836
 msgid "Next Year"
-msgstr "Próximo Ano"
+msgstr "Próximo ano"
 
 #: frappe/public/js/frappe/form/workflow.js:48
 msgid "Next actions"
@@ -23640,11 +23640,11 @@ msgstr "Não Permitido"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:36
 msgid "Not Ancestors Of"
-msgstr "Não é Ancestral De"
+msgstr "Não é ancestral de"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:34
 msgid "Not Descendants Of"
-msgstr "Não é Descendente De"
+msgstr "Não é descendente de"
 
 #: frappe/desk/doctype/dock/dock.py:188 frappe/desk/doctype/dock/dock.py:497
 #: frappe/desk/doctype/sidebar/sidebar.py:379
@@ -23668,11 +23668,11 @@ msgstr "Não Útil"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:21
 msgid "Not In"
-msgstr "Não Está Em"
+msgstr "Não está em"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:19
 msgid "Not Like"
-msgstr "Não Semelhante A"
+msgstr "Não parece com"
 
 #: frappe/public/js/frappe/form/linked_with.js:49
 msgid "Not Linked to any record"
@@ -23681,7 +23681,7 @@ msgstr "Não vinculado a nenhum registro"
 #. Label of the not_nullable (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json:616
 msgid "Not Nullable"
-msgstr "Não Anulável"
+msgstr "Não Nulo"
 
 #: frappe/__init__.py:572 frappe/app.py:405 frappe/desk/calendar.py:29
 #: frappe/public/js/frappe/web_form/webform_script.js:15
@@ -23732,7 +23732,7 @@ msgstr "Não Definido"
 #: frappe/public/js/frappe/ui/filters/filter.js:736
 msgctxt "Field value is not set"
 msgid "Not Set"
-msgstr "Não Definido"
+msgstr "Não definido"
 
 #: frappe/website/doctype/web_form_request/web_form_request_list.js:13
 msgid "Not Used"
@@ -24429,12 +24429,12 @@ msgstr "Ao marcar esta opção, a URL será tratada como um texto de modelo Jinj
 #: frappe/public/js/frappe/ui/filters/filter.js:46
 #: frappe/public/js/frappe/ui/filters/filter.js:52
 msgid "On or After"
-msgstr "Durante ou Depois"
+msgstr "Durante ou posterior a"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:45
 #: frappe/public/js/frappe/ui/filters/filter.js:51
 msgid "On or Before"
-msgstr "Durante ou Antes"
+msgstr "Durante ou anterior a"
 
 #: frappe/public/js/frappe/views/communication.js:1954
 #, python-brace-format
@@ -36484,7 +36484,7 @@ msgstr "Este Quadro Kanban será privado"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:794
 msgid "This Month"
-msgstr "Este Mês"
+msgstr "Este mês"
 
 #: frappe/core/doctype/file/file.py:536
 msgid "This PDF cannot be uploaded as it contains unsafe content."
@@ -36492,7 +36492,7 @@ msgstr "Este PDF não pode ser carregado, pois contém conteúdo não seguro."
 
 #: frappe/public/js/frappe/ui/filters/filter.js:798
 msgid "This Quarter"
-msgstr "Este Trimestre"
+msgstr "Este trimestre"
 
 #: frappe/website/doctype/web_form_request/web_form_request.py:59
 msgid "This Web Form Request has already been used"
@@ -36504,11 +36504,11 @@ msgstr "Esta Requisição de Formulário Web expirou"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:790
 msgid "This Week"
-msgstr "Esta Semana"
+msgstr "Esta semana"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:802
 msgid "This Year"
-msgstr "Este Ano"
+msgstr "Este ano"
 
 #: frappe/automation_engine/api.py:159
 msgid "This action does not support the selected trigger"
@@ -37167,7 +37167,7 @@ msgstr "Série Temporal"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json:105
 #: frappe/public/js/frappe/ui/filters/filter.js:28
 msgid "Timespan"
-msgstr "Período de Tempo"
+msgstr "Intervalo de Tempo"
 
 #. Label of the timestamp (Datetime) field in DocType 'Access Log'
 #: frappe/core/doctype/access_log/access_log.json:49
