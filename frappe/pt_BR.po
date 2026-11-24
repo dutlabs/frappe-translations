@@ -6545,7 +6545,7 @@ msgstr "Valor Atual"
 
 #: frappe/public/js/frappe/form/workflow.js:46
 msgid "Current status"
-msgstr "Status atual"
+msgstr "Estado atual"
 
 #: frappe/public/js/frappe/form/form_viewers.js:5
 msgid "Currently Viewing"
@@ -8598,7 +8598,7 @@ msgstr "O documento está em estado de rascunho"
 
 #: frappe/public/js/frappe/form/workflow.js:47
 msgid "Document is only editable by users with role"
-msgstr "O documento só pode ser editado por usuários com função"
+msgstr "Este documento só pode ser editado por usuários com a função"
 
 #: frappe/core/doctype/communication/communication.js:185
 msgid "Document not Relinked"
@@ -32322,7 +32322,7 @@ msgstr "azul"
 
 #: frappe/public/js/frappe/form/workflow.js:35
 msgid "by Role"
-msgstr "por função"
+msgstr "pelo"
 
 #. Label of the profile (Code) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
@@ -33975,7 +33975,7 @@ msgstr "{0}: Opções {1} devem ser as mesmas que o nome do doctype {2} para o c
 
 #: frappe/public/js/frappe/form/workflow.js:49
 msgid "{0}: Other permission rules may also apply"
-msgstr "{0}: Outras regras de permissão também podem se aplicar"
+msgstr "{0}: Outras regras de permissão também podem ser aplicadas"
 
 #: frappe/core/doctype/doctype/doctype.py:1805
 msgid "{0}: Permission at level 0 must be set before higher levels are set"
