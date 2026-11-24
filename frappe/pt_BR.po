@@ -32322,7 +32322,7 @@ msgstr "azul"
 
 #: frappe/public/js/frappe/form/workflow.js:35
 msgid "by Role"
-msgstr "pelo"
+msgstr "por um"
 
 #. Label of the profile (Code) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
