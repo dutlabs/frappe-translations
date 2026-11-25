@@ -20973,7 +20973,7 @@ msgstr "EMU de Corrente"
 #. Label of a Desktop Icon
 #: erpnext/desktop_icon/erpnext.json:9
 msgid "ERPNext"
-msgstr "ERPNext"
+msgstr "Dut ERP"
 
 #. Label of a Desktop Icon
 #. Name of a Workspace
@@ -20992,7 +20992,7 @@ msgstr "ID de Usuário do Dut ERP"
 #. Description of the 'Maintain Stock' (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json:244
 msgid "ERPNext will make a stock ledger entry for each transaction of this item. Keep unchecked for non-stock or service items."
-msgstr "O ERPNext fará um lançamento no razão de estoque para cada transação deste item. Mantenha desmarcado para itens que não são de estoque ou de serviço."
+msgstr "O Dut ERP fará um lançamento no razão de estoque para cada transação deste item. Mantenha desmarcado para itens que não são de estoque ou de serviço."
 
 #. Option for the 'How often should project be updated of Total Purchase Cost
 #. ?' (Select) field in DocType 'Buying Settings'
@@ -25469,7 +25469,7 @@ msgstr "Obter paradas de"
 #. Title of the Module Onboarding 'Organization Onboarding'
 #: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json:55
 msgid "Get to know ERPNext"
-msgstr "Conheça o ERPNext"
+msgstr "Conheça o Dut ERP"
 
 #. Title of the Module Onboarding 'Accounting Onboarding'
 #. Title of an Onboarding Step
@@ -54299,7 +54299,7 @@ msgstr "Arquivo STEP (.step ou .stp) ou arquivo CSV. Um arquivo CSV precisa de u
 #. Description of the '3D Model' (Attach) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json:331
 msgid "STEP, STL or GLB file of a material added in ERPNext, used to place it in the 3D model."
-msgstr "Arquivo STEP, STL ou GLB de um material adicionado no ERPNext, usado para posicioná-lo no modelo 3D."
+msgstr "Arquivo STEP, STL ou GLB de um material adicionado no Dut ERP, usado para posicioná-lo no modelo 3D."
 
 #. Label of the swift_number (Read Only) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json:250
@@ -58564,7 +58564,7 @@ msgstr "Algo deu errado, por favor, tente novamente"
 #. Description of the Onboarding Step 'Record an asset you already own'
 #: erpnext/assets/onboarding_step/create_existing_asset/create_existing_asset.json:5
 msgid "Something you bought before using ERPNext, with what you paid, where it is, and how much has already depreciated. See [Asset](https://docs.frappe.io/erpnext/user/manual/en/asset)."
-msgstr "Algo que você comprou antes de usar o ERPNext, com quanto pagou, onde está e quanto já depreciou. Veja [Ativo](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+msgstr "Algo que você comprou antes de usar o Dut ERP, com quanto pagou, onde está e quanto já depreciou."
 
 #. Description of a DocType
 #: erpnext/quality_management/doctype/quality_goal/quality_goal.json:5
@@ -62932,7 +62932,7 @@ msgstr "Não foi possível carregar o arquivo 3D."
 
 #: erpnext/public/js/bom_creator/model_loaders.js:98
 msgid "The 3D viewer files are missing. Run yarn install for ERPNext."
-msgstr "Os arquivos do visualizador 3D estão ausentes. Execute yarn install para o ERPNext."
+msgstr "Os arquivos do visualizador 3D estão ausentes. Execute yarn install para o Dut ERP."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:437
 msgid "The Access to Request for Quotation From Portal is Disabled. To Allow Access, Enable it in Portal Settings."
